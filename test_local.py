@@ -128,16 +128,15 @@ def print_card(card: dict):
     if type_code in ("ally", "minion", "villain"):
         if card.get("cost") is not None:
             stats.append(f"Kost {card['cost']}")
-        for lbl, key, sk in [("LP", "health", "health_star"),
-                              ("ANG", "attack", "attack_star"),
-                              ("WID", "thwart", "thwart_star")]:
+        for lbl, key, sk, cost_key in [
+            ("LP",  "health", "health_star", None),
+            ("ANG", "attack", "attack_star", "attack_cost"),
+            ("WID", "thwart", "thwart_star", "thwart_cost"),
+        ]:
             if card.get(key) is not None:
                 star = "★" if card.get(sk) else ""
-                stats.append(f"{lbl} {card[key]}{star}")
-        if card.get("attack_cost") is not None:
-            stats.append(f"ANG-AKT {card['attack_cost']}")
-        if card.get("thwart_cost") is not None:
-            stats.append(f"WID-AKT {card['thwart_cost']}")
+                act = "⟳" * (card.get(cost_key) or 0) if cost_key else ""
+                stats.append(f"{lbl} {card[key]}{star}{act}")
     if type_code in ("event", "support", "upgrade", "resource", "obligation"):
         if card.get("cost") is not None:
             stats.append(f"Kost {card['cost']}")

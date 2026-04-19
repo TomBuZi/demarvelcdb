@@ -146,18 +146,17 @@ def build_embed(card: dict) -> discord.Embed:
         cost = card.get("cost")
         if cost is not None:
             stats.append(f"**Kosten:** {cost}")
-        for label, key, sk in [
-            ("LP",         "health",  "health_star"),
-            ("ANG", "attack", "attack_star"),
-            ("WID", "thwart", "thwart_star"),
+        for label, key, sk, cost_key in [
+            ("LP",  "health",  "health_star",  None),
+            ("ANG", "attack",  "attack_star",  "attack_cost"),
+            ("WID", "thwart",  "thwart_star",  "thwart_cost"),
         ]:
-            s = _stat(label, card.get(key), card.get(sk, False))
-            if s:
-                stats.append(s)
-        if card.get("attack_cost") is not None:
-            stats.append(f"**ANG-AKT:** {card['attack_cost']}")
-        if card.get("thwart_cost") is not None:
-            stats.append(f"**WID-AKT:** {card['thwart_cost']}")
+            val = card.get(key)
+            if val is None:
+                continue
+            star = "★" if card.get(sk) else ""
+            act = "⟳" * (card.get(cost_key) or 0) if cost_key else ""
+            stats.append(f"**{label}:** {val}{star}{act}")
 
     if type_code in ("event", "support", "upgrade", "resource", "obligation"):
         cost = card.get("cost")

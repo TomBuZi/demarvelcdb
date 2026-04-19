@@ -16,7 +16,51 @@ import urllib.request
 import json
 from card_search import search_cards
 
-DE_API_URL = "https://de.marvelcdb.com/api/public/cards/"
+DE_API_URL    = "https://de.marvelcdb.com/api/public/cards/"
+DE_PACKS_URL  = "https://de.marvelcdb.com/api/public/packs/"
+GITHUB_RAW    = "https://raw.githubusercontent.com/zzorba/marvelsdb-json-data/master"
+DE_TRANS_BASE = f"{GITHUB_RAW}/translations/de/pack"
+EN_PACK_BASE  = f"{GITHUB_RAW}/pack"
+DE_OVERLAY    = ("name", "text", "traits", "flavor", "subname")
+
+
+def _fetch_json(url: str) -> list | dict | None:
+    try:
+        with urllib.request.urlopen(url) as resp:
+            return json.loads(resp.read().decode("utf-8"))
+    except Exception:
+        return None
+
+
+def load_encounter_cards() -> list:
+    packs_data = _fetch_json(DE_PACKS_URL) or []
+    pack_map   = {p["code"]: p["name"] for p in packs_data}
+
+    result = []
+    for pack_code, pack_name in pack_map.items():
+        en_cards = _fetch_json(f"{EN_PACK_BASE}/{pack_code}_encounter.json")
+        if not en_cards:
+            continue
+
+        de_entries = _fetch_json(f"{DE_TRANS_BASE}/{pack_code}_encounter.json") or []
+        de_map = {c["code"]: c for c in de_entries}
+
+        for card in en_cards:
+            card = dict(card)
+            card.setdefault("pack_code",    pack_code)
+            card.setdefault("pack_name",    pack_name)
+            card.setdefault("faction_code", "encounter")
+            card.setdefault("faction_name", "Encounter")
+            card["real_name"]   = card.get("name", "")
+            card["real_text"]   = card.get("text", "")
+            card["real_traits"] = card.get("traits", "")
+            if card["code"] in de_map:
+                for field in DE_OVERLAY:
+                    if field in de_map[card["code"]]:
+                        card[field] = de_map[card["code"]][field]
+            result.append(card)
+
+    return result
 
 ICON_MAP = {
     r"\[energy\]":     "⚡",
@@ -241,10 +285,15 @@ def main():
     # [[...]] Syntax unterstützen, sonst als direkter Suchbegriff behandeln
     queries = re.findall(r'\[\[(.+?)]]', raw_input) or [raw_input]
 
-    print("Lade Karten von MarvelCDB (de) …")
+    print("Lade Spielerkarten von MarvelCDB (de) …")
     with urllib.request.urlopen(DE_API_URL) as resp:
         cards = json.loads(resp.read().decode("utf-8"))
-    print(f"{len(cards)} Karten geladen.")
+    print(f"{len(cards)} Spielerkarten geladen.")
+
+    print("Lade Encounter-Karten von GitHub …")
+    encounter_cards = load_encounter_cards()
+    print(f"{len(encounter_cards)} Encounter-Karten geladen.")
+    cards = cards + encounter_cards
 
     for query in queries:
         query = query.strip()

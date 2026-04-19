@@ -33,7 +33,7 @@ ICON_MAP = {
     r"\[per_player\]": "/Spieler",
 }
 
-MAX_SELECT = 25  # wie im Discord-Bot
+PAGE_SIZE = 20
 
 TYPE_LABELS = {
     "hero":        "Held",
@@ -195,23 +195,39 @@ def card_menu_line(i: int, card: dict) -> str:
 
 
 def pick_card(matches: list) -> dict | None:
-    """Interactive selection when multiple cards match."""
-    if len(matches) > MAX_SELECT:
-        print(f"\n{len(matches)} Treffer – bitte den Namen genauer angeben.")
-        return None
-
-    print(f"\n{len(matches)} Treffer – bitte eine Karte wählen:\n")
-    for i, c in enumerate(matches, 1):
-        print(card_menu_line(i, c))
-    print()
+    total   = len(matches)
+    offset  = 0
 
     while True:
-        raw = input(f"Nummer (1–{len(matches)}) oder Enter zum Abbrechen: ").strip()
+        page  = matches[offset:offset + PAGE_SIZE]
+        start = offset + 1
+        end   = offset + len(page)
+
+        print(f"\n{total} Treffer – Ergebnisse {start}–{end} von {total}:\n")
+        for i, c in enumerate(page):
+            print(card_menu_line(offset + i + 1, c))
+        print()
+
+        nav = []
+        if offset > 0:
+            nav.append("v = vorherige Seite")
+        if offset + PAGE_SIZE < total:
+            nav.append("n = nächste Seite")
+        nav.append("Enter = Abbrechen")
+
+        prompt = f"Nummer (1–{total}), {', '.join(nav)}: "
+        raw = input(prompt).strip().lower()
+
         if not raw:
             return None
-        if raw.isdigit() and 1 <= int(raw) <= len(matches):
+        if raw == "n" and offset + PAGE_SIZE < total:
+            offset += PAGE_SIZE
+        elif raw == "v" and offset > 0:
+            offset -= PAGE_SIZE
+        elif raw.isdigit() and 1 <= int(raw) <= total:
             return matches[int(raw) - 1]
-        print("Ungültige Eingabe.")
+        else:
+            print("Ungültige Eingabe.")
 
 
 def main():

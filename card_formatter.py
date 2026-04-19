@@ -108,7 +108,7 @@ def build_embed(card: dict) -> discord.Embed:
     desc = f"{faction_name}\n**{type_label}**" if show_faction else f"**{type_label}**"
     traits = card.get("traits") or card.get("real_traits")
     if traits:
-        desc += f"\n*{traits}*"
+        desc += f"\n***{traits}***"
 
     # Zeile 2+: Werte
     stats = []

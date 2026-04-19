@@ -115,9 +115,9 @@ def print_card(card: dict):
         if card.get("hand_size") is not None:
             stats.append(f"Hand {card['hand_size']}")
     if type_code == "hero":
-        for lbl, key, sk in [("ATK", "attack", "attack_star"),
-                              ("THW", "thwart", "thwart_star"),
-                              ("DEF", "defense", "defense_star")]:
+        for lbl, key, sk in [("ANG", "attack",  "attack_star"),
+                              ("WID", "thwart",  "thwart_star"),
+                              ("VER", "defense", "defense_star")]:
             if card.get(key) is not None:
                 star = "★" if card.get(sk) else ""
                 stats.append(f"{lbl} {card[key]}{star}")
@@ -129,15 +129,15 @@ def print_card(card: dict):
         if card.get("cost") is not None:
             stats.append(f"Kost {card['cost']}")
         for lbl, key, sk in [("LP", "health", "health_star"),
-                              ("ATK", "attack", "attack_star"),
-                              ("THW", "thwart", "thwart_star")]:
+                              ("ANG", "attack", "attack_star"),
+                              ("WID", "thwart", "thwart_star")]:
             if card.get(key) is not None:
                 star = "★" if card.get(sk) else ""
                 stats.append(f"{lbl} {card[key]}{star}")
         if card.get("attack_cost") is not None:
-            stats.append(f"ATK-AKT {card['attack_cost']}")
+            stats.append(f"ANG-AKT {card['attack_cost']}")
         if card.get("thwart_cost") is not None:
-            stats.append(f"THW-AKT {card['thwart_cost']}")
+            stats.append(f"WID-AKT {card['thwart_cost']}")
     if type_code in ("event", "support", "upgrade", "resource", "obligation"):
         if card.get("cost") is not None:
             stats.append(f"Kost {card['cost']}")

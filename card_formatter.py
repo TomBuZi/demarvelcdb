@@ -129,16 +129,16 @@ def build_embed(card: dict) -> discord.Embed:
 
     if type_code == "hero":
         for label, key, sk in [
-            ("Angriff",     "attack",   "attack_star"),
-            ("Vereitlung",  "thwart",   "thwart_star"),
-            ("Verteidigung","defense",  "defense_star"),
+            ("ANG", "attack",  "attack_star"),
+            ("WID", "thwart",  "thwart_star"),
+            ("VER", "defense", "defense_star"),
         ]:
             s = _stat(label, card.get(key), card.get(sk, False))
             if s:
                 stats.append(s)
 
     if type_code == "alter_ego":
-        s = _stat("Erholung", card.get("recover"), card.get("recover_star", False))
+        s = _stat("ERH", card.get("recover"), card.get("recover_star", False))
         if s:
             stats.append(s)
 
@@ -148,16 +148,16 @@ def build_embed(card: dict) -> discord.Embed:
             stats.append(f"**Kosten:** {cost}")
         for label, key, sk in [
             ("LP",         "health",  "health_star"),
-            ("Angriff",    "attack",  "attack_star"),
-            ("Vereitlung", "thwart",  "thwart_star"),
+            ("ANG", "attack", "attack_star"),
+            ("WID", "thwart", "thwart_star"),
         ]:
             s = _stat(label, card.get(key), card.get(sk, False))
             if s:
                 stats.append(s)
         if card.get("attack_cost") is not None:
-            stats.append(f"**Angriffs-AKT:** {card['attack_cost']}")
+            stats.append(f"**ANG-AKT:** {card['attack_cost']}")
         if card.get("thwart_cost") is not None:
-            stats.append(f"**Vereitlungs-AKT:** {card['thwart_cost']}")
+            stats.append(f"**WID-AKT:** {card['thwart_cost']}")
 
     if type_code in ("event", "support", "upgrade", "resource", "obligation"):
         cost = card.get("cost")

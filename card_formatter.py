@@ -100,19 +100,17 @@ def build_embed(card: dict) -> discord.Embed:
     if imagesrc:
         embed.set_thumbnail(url=IMAGE_BASE + imagesrc)
 
-    # Zeile 1: Typ · Fraktion · Pack · Merkmale
+    # Zeile 1: Typ · Fraktion  /  Zeile 2: Merkmale  /  Pack ganz unten
     type_label   = TYPE_LABELS.get(type_code, type_code)
     faction_name = card.get("faction_name", "")
     pack_name    = card.get("pack_name", "")
     meta_parts   = [type_label]
     if faction_name and faction_name.lower() not in (type_code, "hero", "villain", "encounter"):
         meta_parts.append(faction_name)
-    if pack_name:
-        meta_parts.append(f"*{pack_name}*")
     desc = " · ".join(meta_parts)
     traits = card.get("traits") or card.get("real_traits")
     if traits:
-        desc += f"  ·  *{traits}*"
+        desc += f"\n*{traits}*"
 
     # Zeile 2+: Werte
     stats = []
@@ -188,6 +186,8 @@ def build_embed(card: dict) -> discord.Embed:
         desc += f"\n\n{text}"
     if flavor:
         desc += f"\n*{flavor}*"
+    if pack_name:
+        desc += f"\n\n*{pack_name}*"
 
     embed.description = desc
     return embed

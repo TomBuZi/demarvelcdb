@@ -179,7 +179,7 @@ def print_card(card: dict):
         ]:
             if card.get(key) is not None:
                 star = "★" if card.get(sk) else ""
-                act = "🎯" * (card.get(cost_key) or 0) if cost_key else ""
+                act = "💥" * (card.get(cost_key) or 0) if cost_key else ""
                 stats.append(f"{lbl} {card[key]}{star}{' ' + act if act else ''}")
     if type_code in ("event", "support", "upgrade", "resource", "obligation"):
         if card.get("cost") is not None:

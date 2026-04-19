@@ -1,3 +1,4 @@
+import re
 import discord
 from discord.ext import commands
 from card_formatter import build_embed, TYPE_LABELS, search_cards
@@ -111,15 +112,9 @@ class Marvel(commands.Cog):
     async def on_message(self, message: discord.Message):
         if message.author.bot:
             return
-        content = message.content.strip()
-        if not content.lower().startswith("!de:"):
-            return
 
-        query = content[4:].strip()
-        if len(query) < 3:
-            await message.channel.send(
-                "Bitte mindestens 3 Buchstaben angeben, z.B. `!de:Tigra`"
-            )
+        queries = re.findall(r'\[\[(.+?)]]', message.content)
+        if not queries:
             return
 
         async with message.channel.typing():
@@ -129,23 +124,31 @@ class Marvel(commands.Cog):
                 await message.channel.send(f"Fehler beim Laden der Karten: {e}")
                 return
 
-            matches = search_cards(cards, query)
+            for query in queries:
+                query = query.strip()
+                if len(query) < 3:
+                    await message.channel.send(
+                        f'"{query}": Bitte mindestens 3 Buchstaben angeben.'
+                    )
+                    continue
 
-        if not matches:
-            await message.channel.send(
-                f'Keine deutsche Karte gefunden, die "{query}" enthält.'
-            )
-            return
+                matches = search_cards(cards, query)
 
-        if len(matches) == 1:
-            await message.channel.send(embed=build_embed(matches[0]))
-            return
+                if not matches:
+                    await message.channel.send(
+                        f'Keine deutsche Karte gefunden für "{query}".'
+                    )
+                    continue
 
-        view = CardSelectView(matches, offset=0, requester_id=message.author.id)
-        await message.channel.send(
-            f'**{len(matches)} Treffer** für "{query}" – bitte eine Karte wählen:',
-            view=view,
-        )
+                if len(matches) == 1:
+                    await message.channel.send(embed=build_embed(matches[0]))
+                    continue
+
+                view = CardSelectView(matches, offset=0, requester_id=message.author.id)
+                await message.channel.send(
+                    f'**{len(matches)} Treffer** für "{query}" – bitte eine Karte wählen:',
+                    view=view,
+                )
 
 
 async def setup(bot):

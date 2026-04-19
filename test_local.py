@@ -2,6 +2,8 @@
 Lokaler Test ohne Discord. Aufruf:
     python test_local.py Tigra
     python test_local.py "Spider-Man"
+    python test_local.py "[[Tigra]]"
+    python test_local.py "Ich such [[Tigra]] und [[Nick Fury]]"
 """
 import sys
 import io
@@ -231,34 +233,40 @@ def pick_card(matches: list) -> dict | None:
 
 
 def main():
-    query = " ".join(sys.argv[1:]).strip() if len(sys.argv) > 1 else ""
-    if not query:
-        query = input("Kartenname suchen: ").strip()
-    if len(query) < 3:
-        print("Bitte mindestens 3 Buchstaben angeben.")
-        sys.exit(1)
+    raw_input = " ".join(sys.argv[1:]).strip() if len(sys.argv) > 1 else ""
+    if not raw_input:
+        raw_input = input("Nachricht oder Kartenname: ").strip()
+
+    # [[...]] Syntax unterstützen, sonst als direkter Suchbegriff behandeln
+    queries = re.findall(r'\[\[(.+?)]]', raw_input) or [raw_input]
 
     print("Lade Karten von MarvelCDB (de) …")
     with urllib.request.urlopen(DE_API_URL) as resp:
         cards = json.loads(resp.read().decode("utf-8"))
     print(f"{len(cards)} Karten geladen.")
 
-    matches = search_cards(cards, query)
+    for query in queries:
+        query = query.strip()
+        if len(query) < 3:
+            print(f'"{query}": Bitte mindestens 3 Buchstaben angeben.')
+            continue
 
-    if not matches:
-        print(f'\nKeine Karte gefunden, die „{query}" enthält.')
-        sys.exit(0)
+        matches = search_cards(cards, query)
 
-    if len(matches) == 1:
-        print_card(matches[0])
-        return
+        if not matches:
+            print(f'\nKeine Karte gefunden für „{query}".')
+            continue
 
-    card = pick_card(matches)
-    if card is None:
-        print("Abgebrochen.")
-        sys.exit(0)
+        if len(matches) == 1:
+            print_card(matches[0])
+            continue
 
-    print_card(card)
+        card = pick_card(matches)
+        if card is None:
+            print("Abgebrochen.")
+            continue
+
+        print_card(card)
 
 
 if __name__ == "__main__":

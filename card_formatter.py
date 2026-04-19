@@ -31,6 +31,8 @@ FACTION_COLORS = {
     "encounter":  0x804010,
 }
 
+from card_search import search_cards  # noqa: F401 – re-exported for convenience
+
 TYPE_LABELS = {
     "hero":        "Held",
     "alter_ego":   "Alter Ego",

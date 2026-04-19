@@ -12,6 +12,7 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="repla
 sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding="utf-8", errors="replace")
 import urllib.request
 import json
+from card_search import search_cards
 
 DE_API_URL = "https://de.marvelcdb.com/api/public/cards/"
 
@@ -226,20 +227,7 @@ def main():
         cards = json.loads(resp.read().decode("utf-8"))
     print(f"{len(cards)} Karten geladen.")
 
-    q = query.lower()
-
-    def is_match(c: dict, exact: bool) -> bool:
-        if c.get("duplicate_of"):
-            return False
-        name = (c.get("name") or "").lower()
-        real = (c.get("real_name") or "").lower()
-        if exact:
-            return name == q or real == q
-        return q in name or q in real
-
-    matches = [c for c in cards if is_match(c, exact=True)]
-    if not matches:
-        matches = [c for c in cards if is_match(c, exact=False)]
+    matches = search_cards(cards, query)
 
     if not matches:
         print(f'\nKeine Karte gefunden, die „{query}" enthält.')

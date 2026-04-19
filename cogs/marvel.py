@@ -1,6 +1,6 @@
 import discord
 from discord.ext import commands
-from card_formatter import build_embed, TYPE_LABELS
+from card_formatter import build_embed, TYPE_LABELS, search_cards
 
 MAX_SELECT = 25  # Discord-Limit für Select-Menüs
 
@@ -106,18 +106,7 @@ class Marvel(commands.Cog):
                 return
 
             query_lower = query.lower()
-            def is_match(c: dict, exact: bool) -> bool:
-                if c.get("duplicate_of"):
-                    return False
-                name = (c.get("name") or "").lower()
-                real = (c.get("real_name") or "").lower()
-                if exact:
-                    return name == query_lower or real == query_lower
-                return query_lower in name or query_lower in real
-
-            matches = [c for c in cards if is_match(c, exact=True)]
-            if not matches:
-                matches = [c for c in cards if is_match(c, exact=False)]
+            matches = search_cards(cards, query)
 
         if not matches:
             await message.channel.send(

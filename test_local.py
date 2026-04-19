@@ -26,6 +26,7 @@ ICON_MAP = {
     r"\[hero\]":       "🦸",
     r"\[villain\]":    "💀",
     r"\[unique\]":     "★",
+    r"\[star\]":       "★",
     r"\[boost\]":      "▲",
     r"\[attack\]":     "⚔️",
     r"\[thwart\]":     "🛡️",
@@ -62,6 +63,7 @@ def html_to_text(text: str) -> str:
     text = re.sub(r"<strong>(.*?)</strong>", r"[\1]", text, flags=re.DOTALL)
     text = re.sub(r"<br\s*/?>", "\n        ", text)
     text = re.sub(r"<[^>]+>", "", text)
+    text = re.sub(r"\[\[(.+?)]]", r"*\1*", text)
     return text
 
 

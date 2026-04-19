@@ -106,12 +106,18 @@ class Marvel(commands.Cog):
                 return
 
             query_lower = query.lower()
-            matches = [
-                c for c in cards
-                if (query_lower in (c.get("name") or "").lower()
-                or query_lower in (c.get("real_name") or "").lower())
-                and not c.get("duplicate_of")
-            ]
+            def is_match(c: dict, exact: bool) -> bool:
+                if c.get("duplicate_of"):
+                    return False
+                name = (c.get("name") or "").lower()
+                real = (c.get("real_name") or "").lower()
+                if exact:
+                    return name == query_lower or real == query_lower
+                return query_lower in name or query_lower in real
+
+            matches = [c for c in cards if is_match(c, exact=True)]
+            if not matches:
+                matches = [c for c in cards if is_match(c, exact=False)]
 
         if not matches:
             await message.channel.send(

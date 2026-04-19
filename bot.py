@@ -50,17 +50,16 @@ class MarvelBot(commands.Bot):
                     resp.raise_for_status()
                     player_cards = await resp.json(content_type=None)
 
-                # Pack-Liste für Encounter-Laden
-                packs_data = await _fetch_json(session, f"{DE_API_BASE}/packs/") or []
-                pack_map = {p["code"]: p["name"] for p in packs_data}
-
-                # Alle Encounter-Packs parallel laden
-                encounter_tasks = [
-                    self._load_encounter_pack(session, code, name)
-                    for code, name in pack_map.items()
-                ]
-                encounter_results = await asyncio.gather(*encounter_tasks)
-                encounter_cards = [c for pack in encounter_results for c in pack]
+                # Encounter-Karten deaktiviert (zu langsam beim Start)
+                # packs_data = await _fetch_json(session, f"{DE_API_BASE}/packs/") or []
+                # pack_map = {p["code"]: p["name"] for p in packs_data}
+                # encounter_tasks = [
+                #     self._load_encounter_pack(session, code, name)
+                #     for code, name in pack_map.items()
+                # ]
+                # encounter_results = await asyncio.gather(*encounter_tasks)
+                # encounter_cards = [c for pack in encounter_results for c in pack]
+                encounter_cards = []
 
             self._cards_cache = player_cards + encounter_cards
             return self._cards_cache

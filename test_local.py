@@ -290,10 +290,11 @@ def main():
         cards = json.loads(resp.read().decode("utf-8"))
     print(f"{len(cards)} Spielerkarten geladen.")
 
-    print("Lade Encounter-Karten von GitHub …")
-    encounter_cards = load_encounter_cards()
-    print(f"{len(encounter_cards)} Encounter-Karten geladen.")
-    cards = cards + encounter_cards
+    # Encounter-Karten deaktiviert (zu langsam beim Start)
+    # print("Lade Encounter-Karten von GitHub …")
+    # encounter_cards = load_encounter_cards()
+    # print(f"{len(encounter_cards)} Encounter-Karten geladen.")
+    # cards = cards + encounter_cards
 
     for query in queries:
         query = query.strip()

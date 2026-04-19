@@ -91,7 +91,8 @@ def build_embed(card: dict) -> discord.Embed:
     if card.get("is_unique"):
         title = f"★ {title}"
 
-    embed = discord.Embed(title=title, color=color)
+    url = card.get("url") or ""
+    embed = discord.Embed(title=title, color=color, url=url)
 
     imagesrc = card.get("imagesrc")
     if imagesrc:
@@ -194,9 +195,5 @@ def build_embed(card: dict) -> discord.Embed:
     flavor = card.get("flavor")
     if flavor:
         embed.add_field(name="\u200b", value=f"*{flavor}*", inline=False)
-
-    url = card.get("url")
-    if url:
-        embed.set_footer(text=url)
 
     return embed

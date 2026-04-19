@@ -92,9 +92,9 @@ class Marvel(commands.Cog):
             return
 
         query = content[4:].strip()
-        if not query:
+        if len(query) < 3:
             await message.channel.send(
-                "Bitte einen Kartennamen angeben, z.B. `!de:Tigra`"
+                "Bitte mindestens 3 Buchstaben angeben, z.B. `!de:Tigra`"
             )
             return
 

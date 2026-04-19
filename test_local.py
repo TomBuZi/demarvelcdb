@@ -218,8 +218,8 @@ def main():
     query = " ".join(sys.argv[1:]).strip() if len(sys.argv) > 1 else ""
     if not query:
         query = input("Kartenname suchen: ").strip()
-    if not query:
-        print("Kein Suchbegriff angegeben.")
+    if len(query) < 3:
+        print("Bitte mindestens 3 Buchstaben angeben.")
         sys.exit(1)
 
     print("Lade Karten von MarvelCDB (de) …")

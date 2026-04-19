@@ -135,9 +135,9 @@ def build_embed(card: dict) -> discord.Embed:
         if cost is not None:
             stats.append(f"**Kosten:** {cost}")
         for label, key, sk, cost_key in [
-            ("LP",  "health",  "health_star",  None),
             ("ANG", "attack",  "attack_star",  "attack_cost"),
             ("WID", "thwart",  "thwart_star",  "thwart_cost"),
+            ("LP",  "health",  "health_star",  None),
         ]:
             val = card.get(key)
             if val is None:

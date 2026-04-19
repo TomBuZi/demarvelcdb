@@ -100,17 +100,15 @@ def build_embed(card: dict) -> discord.Embed:
     if imagesrc:
         embed.set_thumbnail(url=IMAGE_BASE + imagesrc)
 
-    # Zeile 1: Typ · Fraktion  /  Zeile 2: Merkmale  /  Pack ganz unten
     type_label   = TYPE_LABELS.get(type_code, type_code)
     faction_name = card.get("faction_name", "")
     pack_name    = card.get("pack_name", "")
+    traits       = card.get("traits") or card.get("real_traits")
+
     show_faction = faction_name and faction_name.lower() not in (type_code, "hero", "villain", "encounter")
     desc = f"{faction_name}\n**{type_label}**" if show_faction else f"**{type_label}**"
-    traits = card.get("traits") or card.get("real_traits")
-    if traits:
-        desc += f"\n***{traits}***"
 
-    # Zeile 2+: Werte
+    # Werte
     stats = []
 
     if type_code in ("hero", "alter_ego"):
@@ -163,6 +161,20 @@ def build_embed(card: dict) -> discord.Embed:
             per = " pro Held" if card.get("escalation_threat_per_group") else ""
             stats.append(f"**Eskalation:** {et}{per}")
 
+    if stats:
+        desc += "\n" + "\n".join(stats)
+
+    # Traits · Kartentext · Flavor · Ressourcen · Pack
+    text = _fmt(card.get("text") or "")
+    flavor = card.get("flavor")
+
+    if traits:
+        desc += f"\n***{traits}***"
+    if text:
+        desc += f"\n\n{text}"
+    if flavor:
+        desc += f"\n*{flavor}*"
+
     resources = []
     for res, icon in [
         ("resource_energy", "⚡"), ("resource_physical", "👊"),
@@ -172,18 +184,8 @@ def build_embed(card: dict) -> discord.Embed:
         if val:
             resources.append(icon * val)
     if resources:
-        stats.append(f"**Ressourcen:** {'  '.join(resources)}")
+        desc += f"\n**Ressourcen:** {'  '.join(resources)}"
 
-    if stats:
-        desc += "\n" + "\n".join(stats)
-
-    # Kartentext + Flavor
-    text = _fmt(card.get("text") or "")
-    flavor = card.get("flavor")
-    if text:
-        desc += f"\n\n{text}"
-    if flavor:
-        desc += f"\n*{flavor}*"
     if pack_name:
         desc += f"\n\n*{pack_name}*"
 

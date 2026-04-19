@@ -100,7 +100,7 @@ def build_embed(card: dict) -> discord.Embed:
     if imagesrc:
         embed.set_thumbnail(url=IMAGE_BASE + imagesrc)
 
-    # Type / Faction / Pack
+    # Zeile 1: Typ · Fraktion · Pack · Merkmale
     type_label   = TYPE_LABELS.get(type_code, type_code)
     faction_name = card.get("faction_name", "")
     pack_name    = card.get("pack_name", "")
@@ -109,22 +109,19 @@ def build_embed(card: dict) -> discord.Embed:
         meta_parts.append(faction_name)
     if pack_name:
         meta_parts.append(f"*{pack_name}*")
-    meta = " · ".join(meta_parts)
+    desc = " · ".join(meta_parts)
     traits = card.get("traits") or card.get("real_traits")
     if traits:
-        meta = f"{meta}  ·  *{traits}*"
-    embed.add_field(name="\u200b", value=meta, inline=False)
+        desc += f"  ·  *{traits}*"
 
-    # Stats
+    # Zeile 2+: Werte
     stats = []
 
     if type_code in ("hero", "alter_ego"):
         s = _stat("LP", card.get("health"), card.get("health_star", False))
-        if s:
-            stats.append(s)
+        if s: stats.append(s)
         s = _stat("Handkarten", card.get("hand_size"))
-        if s:
-            stats.append(s)
+        if s: stats.append(s)
 
     if type_code == "hero":
         for label, key, sk in [
@@ -133,13 +130,11 @@ def build_embed(card: dict) -> discord.Embed:
             ("VER", "defense", "defense_star"),
         ]:
             s = _stat(label, card.get(key), card.get(sk, False))
-            if s:
-                stats.append(s)
+            if s: stats.append(s)
 
     if type_code == "alter_ego":
         s = _stat("ERH", card.get("recover"), card.get("recover_star", False))
-        if s:
-            stats.append(s)
+        if s: stats.append(s)
 
     if type_code in ("ally", "minion", "villain"):
         cost = card.get("cost")
@@ -184,16 +179,15 @@ def build_embed(card: dict) -> discord.Embed:
         stats.append(f"**Ressourcen:** {'  '.join(resources)}")
 
     if stats:
-        embed.add_field(name="\u200b", value="\n".join(stats), inline=True)
+        desc += "\n" + "  ·  ".join(stats)
 
-    # Card text (German)
+    # Kartentext + Flavor
     text = _fmt(card.get("text") or "")
     flavor = card.get("flavor")
-    if text and flavor:
-        embed.add_field(name="\u200b", value=f"{text}\n*{flavor}*", inline=False)
-    elif text:
-        embed.add_field(name="\u200b", value=text, inline=False)
-    elif flavor:
-        embed.add_field(name="\u200b", value=f"*{flavor}*", inline=False)
+    if text:
+        desc += f"\n\n{text}"
+    if flavor:
+        desc += f"\n*{flavor}*"
 
+    embed.description = desc
     return embed

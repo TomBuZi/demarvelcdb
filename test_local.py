@@ -227,11 +227,18 @@ def main():
     print(f"{len(cards)} Karten geladen.")
 
     q = query.lower()
-    matches = [
+    candidates = [
         c for c in cards
-        if q in (c.get("name") or "").lower()
-        or q in (c.get("real_name") or "").lower()
+        if (q in (c.get("name") or "").lower()
+        or q in (c.get("real_name") or "").lower())
+        and not c.get("duplicate_of")
     ]
+    seen_names: dict[str, dict] = {}
+    for c in candidates:
+        key = (c.get("name") or c.get("real_name", "")).lower()
+        if key not in seen_names or c["code"] < seen_names[key]["code"]:
+            seen_names[key] = c
+    matches = list(seen_names.values())
 
     if not matches:
         print(f'\nKeine Karte gefunden, die „{query}" enthält.')

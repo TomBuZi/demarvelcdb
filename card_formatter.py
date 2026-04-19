@@ -109,12 +109,11 @@ def build_embed(card: dict) -> discord.Embed:
         meta_parts.append(faction_name)
     if pack_name:
         meta_parts.append(f"*{pack_name}*")
-    embed.add_field(name="Typ / Set", value=" · ".join(meta_parts), inline=False)
-
-    # Traits
+    meta = " · ".join(meta_parts)
     traits = card.get("traits") or card.get("real_traits")
     if traits:
-        embed.add_field(name="Merkmale", value=traits, inline=False)
+        meta = f"{meta}  ·  *{traits}*"
+    embed.add_field(name="\u200b", value=meta, inline=False)
 
     # Stats
     stats = []
@@ -185,16 +184,16 @@ def build_embed(card: dict) -> discord.Embed:
         stats.append(f"**Ressourcen:** {'  '.join(resources)}")
 
     if stats:
-        embed.add_field(name="Werte", value="\n".join(stats), inline=True)
+        embed.add_field(name="\u200b", value="\n".join(stats), inline=True)
 
     # Card text (German)
     text = _fmt(card.get("text") or "")
-    if text:
-        embed.add_field(name="Kartentext", value=text, inline=False)
-
-    # Flavor
     flavor = card.get("flavor")
-    if flavor:
+    if text and flavor:
+        embed.add_field(name="\u200b", value=f"{text}\n*{flavor}*", inline=False)
+    elif text:
+        embed.add_field(name="\u200b", value=text, inline=False)
+    elif flavor:
         embed.add_field(name="\u200b", value=f"*{flavor}*", inline=False)
 
     return embed

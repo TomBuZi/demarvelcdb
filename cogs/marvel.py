@@ -106,12 +106,19 @@ class Marvel(commands.Cog):
                 return
 
             query_lower = query.lower()
-            matches = [
+            candidates = [
                 c for c in cards
                 if (query_lower in (c.get("name") or "").lower()
                 or query_lower in (c.get("real_name") or "").lower())
                 and not c.get("duplicate_of")
             ]
+            # Deduplizieren nach Name: bei gleichem Namen nur die kleinste ID behalten
+            seen_names: dict[str, dict] = {}
+            for c in candidates:
+                key = (c.get("name") or c.get("real_name", "")).lower()
+                if key not in seen_names or c["code"] < seen_names[key]["code"]:
+                    seen_names[key] = c
+            matches = list(seen_names.values())
 
         if not matches:
             await message.channel.send(

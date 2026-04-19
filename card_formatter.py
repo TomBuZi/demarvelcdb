@@ -104,10 +104,8 @@ def build_embed(card: dict) -> discord.Embed:
     type_label   = TYPE_LABELS.get(type_code, type_code)
     faction_name = card.get("faction_name", "")
     pack_name    = card.get("pack_name", "")
-    meta_parts   = [type_label]
-    if faction_name and faction_name.lower() not in (type_code, "hero", "villain", "encounter"):
-        meta_parts.append(faction_name)
-    desc = " · ".join(meta_parts)
+    show_faction = faction_name and faction_name.lower() not in (type_code, "hero", "villain", "encounter")
+    desc = f"{faction_name}\n**{type_label}**" if show_faction else f"**{type_label}**"
     traits = card.get("traits") or card.get("real_traits")
     if traits:
         desc += f"\n*{traits}*"

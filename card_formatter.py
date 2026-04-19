@@ -179,7 +179,7 @@ def build_embed(card: dict) -> discord.Embed:
         stats.append(f"**Ressourcen:** {'  '.join(resources)}")
 
     if stats:
-        desc += "\n" + "  ·  ".join(stats)
+        desc += "\n" + "\n".join(stats)
 
     # Kartentext + Flavor
     text = _fmt(card.get("text") or "")

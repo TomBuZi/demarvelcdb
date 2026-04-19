@@ -108,8 +108,9 @@ class Marvel(commands.Cog):
             query_lower = query.lower()
             matches = [
                 c for c in cards
-                if query_lower in (c.get("name") or "").lower()
-                or query_lower in (c.get("real_name") or "").lower()
+                if (query_lower in (c.get("name") or "").lower()
+                or query_lower in (c.get("real_name") or "").lower())
+                and not c.get("duplicate_of")
             ]
 
         if not matches:

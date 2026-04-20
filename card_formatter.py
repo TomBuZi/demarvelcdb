@@ -32,6 +32,7 @@ def _build_icon_map(custom: dict) -> dict:
     result = {}
     for key, default in _ICON_DEFAULTS.items():
         result[key] = custom.get(f"cardicon_{key}") or default
+    result["per_hero"] = custom.get("cardicon_per_player") or result["per_hero"]
     return result
 
 FACTION_COLORS = {

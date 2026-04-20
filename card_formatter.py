@@ -137,6 +137,7 @@ def build_embed(card: dict) -> discord.Embed:
         for label, key, sk, cost_key in [
             ("ANG", "attack",  "attack_star",  "attack_cost"),
             ("WID", "thwart",  "thwart_star",  "thwart_cost"),
+            ("PLA", "scheme",  "scheme_star",  None),
             ("LP",  "health",  "health_star",  None),
         ]:
             val = card.get(key)

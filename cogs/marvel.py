@@ -13,19 +13,42 @@ def _rule_text(raw: str) -> str:
     return raw.replace(" •• ", "\n").replace("••", "\n")
 
 
-def build_rule_embed(entry: dict) -> discord.Embed:
+def _split_text(text: str, limit: int) -> list[str]:
+    parts = []
+    while len(text) > limit:
+        cut = text.rfind("\n", 0, limit)
+        if cut == -1:
+            cut = limit
+        parts.append(text[:cut].rstrip())
+        text = text[cut:].lstrip()
+    parts.append(text)
+    return parts
+
+
+def build_rule_embeds(entry: dict) -> list[discord.Embed]:
     title = entry["title"].title()
     text = _rule_text(entry.get("text", ""))
     refs = entry.get("references") or []
+    siehe = "\n\n**Siehe auch:** " + " · ".join(refs) if refs else ""
 
-    description = text
-    if refs:
-        description += "\n\n**Siehe auch:** " + " · ".join(refs)
+    # Try to fit everything in one embed
+    if len(text + siehe) <= 4096:
+        return [discord.Embed(title=title, description=text + siehe, color=RULE_COLOR)]
 
-    if len(description) > 4096:
-        description = description[:4093] + "…"
+    # Split text into pages, attach "Siehe auch" to the last
+    pages = _split_text(text, 4096)
+    # If "Siehe auch" fits on the last page, append it there
+    if len(pages[-1] + siehe) <= 4096:
+        pages[-1] += siehe
+    else:
+        pages.append(siehe.lstrip())
 
-    return discord.Embed(title=title, description=description, color=RULE_COLOR)
+    total = len(pages)
+    embeds = []
+    for i, page in enumerate(pages):
+        t = title if total == 1 else f"{title} ({i + 1}/{total})"
+        embeds.append(discord.Embed(title=t, description=page, color=RULE_COLOR))
+    return embeds
 
 
 def _card_label(card: dict) -> str:
@@ -171,7 +194,8 @@ class RuleSelectView(discord.ui.View):
         entry = self.matches[int(self.select.values[0])]
         self.select.disabled = True
         await interaction.response.edit_message(content=None, view=self)
-        await interaction.followup.send(embed=build_rule_embed(entry))
+        for embed in build_rule_embeds(entry):
+            await interaction.followup.send(embed=embed)
         self.stop()
 
     async def on_timeout(self):
@@ -226,7 +250,8 @@ class Marvel(commands.Cog):
             return
 
         if len(matches) == 1:
-            await message.channel.send(embed=build_rule_embed(matches[0]))
+            for embed in build_rule_embeds(matches[0]):
+                await message.channel.send(embed=embed)
             return
 
         view = RuleSelectView(matches, requester_id=message.author.id)

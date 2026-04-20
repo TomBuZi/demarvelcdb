@@ -102,7 +102,7 @@ def build_embed(card: dict) -> discord.Embed:
 
     type_label   = TYPE_LABELS.get(type_code, type_code)
     faction_name = card.get("faction_name", "")
-    pack_name    = card.get("pack_name", "")
+    all_packs    = card.get("all_packs") or [{"pack_name": card.get("pack_name", ""), "position": card.get("position"), "quantity": card.get("quantity")}]
     traits       = card.get("traits") or card.get("real_traits")
 
     show_faction = faction_name and faction_name.lower() not in (type_code, "hero", "villain", "encounter")
@@ -186,8 +186,18 @@ def build_embed(card: dict) -> discord.Embed:
     if resources:
         desc += f"\n**Ressourcen:** {'  '.join(resources)}"
 
-    if pack_name:
-        desc += f"\n\n*{pack_name}*"
+    pack_lines = []
+    for p in all_packs:
+        if not p.get("pack_name"):
+            continue
+        line = p["pack_name"]
+        if p.get("position"):
+            line += f" #{p['position']}"
+        if p.get("quantity"):
+            line += f" ({p['quantity']})"
+        pack_lines.append(line)
+    if pack_lines:
+        desc += "\n\n*" + "\n".join(pack_lines) + "*"
 
     embed.description = desc
     return embed

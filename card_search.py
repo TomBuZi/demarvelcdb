@@ -38,9 +38,22 @@ def search_cards(cards: list[dict], query: str) -> list[dict]:
     if not hits:
         hits = [c for c in cards if matches(c, exact=False)]
 
-    seen: dict[tuple, dict] = {}
+    seen:      dict[tuple, dict]       = {}
+    all_packs: dict[tuple, list[dict]] = {}
     for c in hits:
         fp = _fingerprint(c)
         if fp not in seen or c["code"] < seen[fp]["code"]:
             seen[fp] = c
-    return list(seen.values())
+        pack_entry = {
+            "pack_name": c.get("pack_name", ""),
+            "position":  c.get("position"),
+            "quantity":  c.get("quantity"),
+        }
+        all_packs.setdefault(fp, []).append(pack_entry)
+
+    result = []
+    for fp, card in seen.items():
+        card = dict(card)
+        card["all_packs"] = all_packs[fp]
+        result.append(card)
+    return result

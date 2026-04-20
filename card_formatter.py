@@ -149,7 +149,8 @@ def build_embed(card: dict, custom_emojis: dict | None = None) -> discord.Embed:
     if type_code in ("ally", "minion", "villain"):
         cost = card.get("cost")
         if cost is not None:
-            stats.append(f"**Kosten:** {cost}")
+            per = icons["per_hero"] if card.get("cost_per_hero") else ""
+            stats.append(f"**Kosten:** {cost}{per}")
         for label, key, sk, cost_key in [
             ("WID", "thwart",  "thwart_star",  "thwart_cost"),
             ("PLA", "scheme",  "scheme_star",  None),
@@ -169,7 +170,8 @@ def build_embed(card: dict, custom_emojis: dict | None = None) -> discord.Embed:
     if type_code in ("event", "support", "upgrade", "resource", "obligation"):
         cost = card.get("cost")
         if cost is not None:
-            stats.append(f"**Kosten:** {cost}")
+            per = icons["per_hero"] if card.get("cost_per_hero") else ""
+            stats.append(f"**Kosten:** {cost}{per}")
 
     if type_code in ("main_scheme", "side_scheme"):
         bt = card.get("base_threat")

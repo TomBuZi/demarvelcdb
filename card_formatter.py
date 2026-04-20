@@ -87,6 +87,8 @@ def build_embed(card: dict) -> discord.Embed:
 
     # Title
     title = card.get("name") or card.get("real_name", "Unbekannt")
+    if card.get("stage"):
+        title = f"{title} ({card['stage']})"
     subname = card.get("subname")
     if subname:
         title = f"{title} – {subname}"
@@ -104,11 +106,6 @@ def build_embed(card: dict) -> discord.Embed:
     faction_name = card.get("faction_name", "")
     all_packs    = card.get("all_packs") or [{"pack_name": card.get("pack_name", ""), "position": card.get("position"), "quantity": card.get("quantity")}]
     traits       = card.get("traits") or card.get("real_traits")
-    stage        = card.get("stage")
-
-    if stage:
-        type_label += f" · Stufe {stage}"
-
     show_faction = faction_name and faction_name.lower() not in (type_code, "hero", "villain", "encounter")
     desc = f"{faction_name}\n**{type_label}**" if show_faction else f"**{type_label}**"
 

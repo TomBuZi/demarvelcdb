@@ -127,8 +127,9 @@ def build_embed(card: dict, custom_emojis: dict | None = None) -> discord.Embed:
     stats = []
 
     if type_code in ("hero", "alter_ego"):
+        per = icons["per_hero"] if card.get("health_per_hero") else ""
         s = _stat("LP", card.get("health"), card.get("health_star", False))
-        if s: stats.append(s)
+        if s: stats.append(s + per)
         s = _stat("Handkarten", card.get("hand_size"))
         if s: stats.append(s)
 
@@ -165,7 +166,8 @@ def build_embed(card: dict, custom_emojis: dict | None = None) -> discord.Embed:
             star = "★" if card.get(sk) else ""
             cd = icons.get("consequential_damage", "💥")
             act = cd * (card.get(cost_key) or 0) if cost_key else ""
-            stats.append(f"**{label}:** {val}{star}{' ' + act if act else ''}")
+            per = icons["per_hero"] if key == "health" and card.get("health_per_hero") else ""
+            stats.append(f"**{label}:** {val}{star}{per}{' ' + act if act else ''}")
 
     if type_code in ("event", "support", "upgrade", "resource", "obligation"):
         cost = card.get("cost")

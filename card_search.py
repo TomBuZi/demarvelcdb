@@ -21,7 +21,9 @@ _FINGERPRINT_FIELDS = (
 
 
 def _fingerprint(card: dict) -> tuple:
-    return tuple(card.get(f) for f in _FINGERPRINT_FIELDS)
+    def norm(v):
+        return None if v == "" else v
+    return tuple(norm(card.get(f)) for f in _FINGERPRINT_FIELDS)
 
 
 def search_cards(cards: list[dict], query: str) -> list[dict]:

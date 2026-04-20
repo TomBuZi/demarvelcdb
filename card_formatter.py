@@ -41,7 +41,7 @@ TYPE_LABELS = {
     "event":       "Ereignis",
     "resource":    "Ressource",
     "support":     "Unterstützung",
-    "upgrade":     "Verbesserung",
+    "upgrade":     "Upgrade",
     "villain":     "Schurke",
     "main_scheme": "Hauptplan",
     "side_scheme": "Nebenplan",

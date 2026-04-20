@@ -158,7 +158,8 @@ def build_embed(card: dict, custom_emojis: dict | None = None) -> discord.Embed:
             if val is None:
                 continue
             star = "★" if card.get(sk) else ""
-            act = "💥" * (card.get(cost_key) or 0) if cost_key else ""
+            cd = icons.get("consequential_damage", "💥")
+            act = cd * (card.get(cost_key) or 0) if cost_key else ""
             stats.append(f"**{label}:** {val}{star}{' ' + act if act else ''}")
 
     if type_code in ("event", "support", "upgrade", "resource", "obligation"):

@@ -133,9 +133,10 @@ def build_embed(card: dict, custom_emojis: dict | None = None) -> discord.Embed:
 
     if type_code == "hero":
         for label, key, sk in [
-            ("ANG", "attack",  "attack_star"),
             ("WID", "thwart",  "thwart_star"),
+            ("ANG", "attack",  "attack_star"),
             ("VER", "defense", "defense_star"),
+            ("ERH", "recover", "recover_star"),
         ]:
             s = _stat(label, card.get(key), card.get(sk, False))
             if s: stats.append(s)
@@ -149,9 +150,11 @@ def build_embed(card: dict, custom_emojis: dict | None = None) -> discord.Embed:
         if cost is not None:
             stats.append(f"**Kosten:** {cost}")
         for label, key, sk, cost_key in [
-            ("ANG", "attack",  "attack_star",  "attack_cost"),
             ("WID", "thwart",  "thwart_star",  "thwart_cost"),
             ("PLA", "scheme",  "scheme_star",  None),
+            ("ANG", "attack",  "attack_star",  "attack_cost"),
+            ("VER", "defense", "defense_star", None),
+            ("ERH", "recover", "recover_star", None),
             ("LP",  "health",  "health_star",  None),
         ]:
             val = card.get(key)

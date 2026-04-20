@@ -106,7 +106,7 @@ def build_embed(card: dict, custom_emojis: dict | None = None) -> discord.Embed:
     if subname:
         title = f"{title} – {subname}"
     if card.get("is_unique"):
-        title = f"★ {title}"
+        title = f"{icons['unique']} {title}"
 
     url = card.get("url") or ""
     embed = discord.Embed(title=title, color=color, url=url)

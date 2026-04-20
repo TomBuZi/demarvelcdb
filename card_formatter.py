@@ -87,10 +87,10 @@ def _fmt(text: str, icons: dict) -> str:
     return text
 
 
-def _stat(label: str, value, star: bool = False):
+def _stat(label: str, value, star: bool = False, star_icon: str = "★"):
     if value is None:
         return None
-    return f"**{label}:** {value}{'★' if star else ''}"
+    return f"**{label}:** {value}{star_icon if star else ''}"
 
 
 def build_embed(card: dict, custom_emojis: dict | None = None) -> discord.Embed:
@@ -128,7 +128,7 @@ def build_embed(card: dict, custom_emojis: dict | None = None) -> discord.Embed:
 
     if type_code in ("hero", "alter_ego"):
         per = icons["per_hero"] if card.get("health_per_hero") else ""
-        s = _stat("LP", card.get("health"), card.get("health_star", False))
+        s = _stat("LP", card.get("health"), card.get("health_star", False), icons["star"])
         if s: stats.append(s + per)
         s = _stat("Handkarten", card.get("hand_size"))
         if s: stats.append(s)
@@ -140,11 +140,11 @@ def build_embed(card: dict, custom_emojis: dict | None = None) -> discord.Embed:
             ("VER", "defense", "defense_star"),
             ("ERH", "recover", "recover_star"),
         ]:
-            s = _stat(label, card.get(key), card.get(sk, False))
+            s = _stat(label, card.get(key), card.get(sk, False), icons["star"])
             if s: stats.append(s)
 
     if type_code == "alter_ego":
-        s = _stat("ERH", card.get("recover"), card.get("recover_star", False))
+        s = _stat("ERH", card.get("recover"), card.get("recover_star", False), icons["star"])
         if s: stats.append(s)
 
     if type_code in ("ally", "minion", "villain"):
@@ -163,7 +163,7 @@ def build_embed(card: dict, custom_emojis: dict | None = None) -> discord.Embed:
             val = card.get(key)
             if val is None:
                 continue
-            star = "★" if card.get(sk) else ""
+            star = icons["star"] if card.get(sk) else ""
             cd = icons.get("consequential_damage", "💥")
             act = cd * (card.get(cost_key) or 0) if cost_key else ""
             per = icons["per_hero"] if key == "health" and card.get("health_per_hero") else ""

@@ -3,8 +3,29 @@ import asyncio
 import discord
 from discord.ext import commands
 from card_formatter import build_embed, TYPE_LABELS, search_cards
+from rulebook_search import search_rules
 
 PAGE_SIZE = 20
+RULE_COLOR = 0x8B0000
+
+
+def _rule_text(raw: str) -> str:
+    return raw.replace(" •• ", "\n").replace("••", "\n")
+
+
+def build_rule_embed(entry: dict) -> discord.Embed:
+    title = entry["title"].title()
+    text = _rule_text(entry.get("text", ""))
+    refs = entry.get("references") or []
+
+    description = text
+    if refs:
+        description += "\n\n**Siehe auch:** " + " · ".join(refs)
+
+    if len(description) > 4096:
+        description = description[:4093] + "…"
+
+    return discord.Embed(title=title, description=description, color=RULE_COLOR)
 
 
 def _card_label(card: dict) -> str:
@@ -124,6 +145,39 @@ class CardSelectView(discord.ui.View):
             self.future.cancel()
 
 
+class RuleSelectView(discord.ui.View):
+    def __init__(self, matches: list[dict], requester_id: int):
+        super().__init__(timeout=60)
+        self.matches      = matches
+        self.requester_id = requester_id
+
+        options = [
+            discord.SelectOption(label=e["title"].title()[:100], value=str(i))
+            for i, e in enumerate(matches[:25])
+        ]
+        select = discord.ui.Select(placeholder="Regel auswählen …", options=options)
+        select.callback = self._on_select
+        self.select = select
+        self.add_item(select)
+
+    async def _on_select(self, interaction: discord.Interaction):
+        if interaction.user.id != self.requester_id:
+            await interaction.response.send_message(
+                "Nur die Person, die gesucht hat, darf eine Regel auswählen.",
+                ephemeral=True,
+            )
+            return
+
+        entry = self.matches[int(self.select.values[0])]
+        self.select.disabled = True
+        await interaction.response.edit_message(content=None, view=self)
+        await interaction.followup.send(embed=build_rule_embed(entry))
+        self.stop()
+
+    async def on_timeout(self):
+        self.select.disabled = True
+
+
 class Marvel(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
@@ -134,6 +188,12 @@ class Marvel(commands.Cog):
     @commands.Cog.listener()
     async def on_message(self, message: discord.Message):
         if message.author.bot:
+            return
+
+        rule_queries = re.findall(r'\[\((.+?)\)\]', message.content)
+        if rule_queries:
+            for query in rule_queries:
+                await self._handle_rule(message, query.strip())
             return
 
         queries = re.findall(r'\[\[(.+?)]]', message.content)
@@ -154,6 +214,26 @@ class Marvel(commands.Cog):
 
         # Mehrere Abfragen: erst alle lösen, dann gemeinsam anzeigen
         await self._handle_multi(message, cards, [q.strip() for q in queries])
+
+    async def _handle_rule(self, message: discord.Message, query: str):
+        if len(query) < 2:
+            await message.channel.send(f'"{query}": Bitte mindestens 2 Buchstaben angeben.')
+            return
+
+        matches = search_rules(query)
+        if not matches:
+            await message.channel.send(f'Keine Regel gefunden für „{query}".')
+            return
+
+        if len(matches) == 1:
+            await message.channel.send(embed=build_rule_embed(matches[0]))
+            return
+
+        view = RuleSelectView(matches, requester_id=message.author.id)
+        await message.channel.send(
+            f'**{len(matches)} Treffer** für „{query}" – bitte eine Regel wählen:',
+            view=view,
+        )
 
     async def _handle_single(self, message: discord.Message, cards: list, query: str):
         if len(query) < 3:

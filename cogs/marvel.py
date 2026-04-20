@@ -39,12 +39,14 @@ class CardSelectView(discord.ui.View):
         offset: int,
         requester_id: int,
         future: asyncio.Future | None = None,
+        custom_emojis: dict | None = None,
     ):
         super().__init__(timeout=60)
-        self.matches      = matches
-        self.offset       = offset
-        self.requester_id = requester_id
-        self.future       = future
+        self.matches       = matches
+        self.offset        = offset
+        self.requester_id  = requester_id
+        self.future        = future
+        self.custom_emojis = custom_emojis or {}
 
         page    = matches[offset:offset + PAGE_SIZE]
         total   = len(matches)
@@ -89,13 +91,13 @@ class CardSelectView(discord.ui.View):
 
         if value == "__prev__":
             new_view = CardSelectView(self.matches, max(0, self.offset - PAGE_SIZE),
-                                      self.requester_id, self.future)
+                                      self.requester_id, self.future, self.custom_emojis)
             await interaction.response.edit_message(view=new_view)
             return
 
         if value == "__next__":
             new_view = CardSelectView(self.matches, self.offset + PAGE_SIZE,
-                                      self.requester_id, self.future)
+                                      self.requester_id, self.future, self.custom_emojis)
             await interaction.response.edit_message(view=new_view)
             return
 
@@ -112,7 +114,7 @@ class CardSelectView(discord.ui.View):
         else:
             # Einzel-Modus: Embed direkt senden
             await interaction.response.edit_message(content=None, view=self)
-            await interaction.followup.send(embed=build_embed(card))
+            await interaction.followup.send(embed=build_embed(card, self.custom_emojis))
 
         self.stop()
 
@@ -125,6 +127,9 @@ class CardSelectView(discord.ui.View):
 class Marvel(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
+
+    def _custom_emojis(self) -> dict:
+        return {e.name: str(e) for e in self.bot.emojis}
 
     @commands.Cog.listener()
     async def on_message(self, message: discord.Message):
@@ -160,11 +165,13 @@ class Marvel(commands.Cog):
             await message.channel.send(f'Keine deutsche Karte gefunden für "{query}".')
             return
 
+        emojis = self._custom_emojis()
         if len(matches) == 1:
-            await message.channel.send(embed=build_embed(matches[0]))
+            await message.channel.send(embed=build_embed(matches[0], emojis))
             return
 
-        view = CardSelectView(matches, offset=0, requester_id=message.author.id)
+        view = CardSelectView(matches, offset=0, requester_id=message.author.id,
+                              custom_emojis=emojis)
         await message.channel.send(
             f'**{len(matches)} Treffer** für "{query}" – bitte eine Karte wählen:',
             view=view,
@@ -172,6 +179,7 @@ class Marvel(commands.Cog):
 
     async def _handle_multi(self, message: discord.Message, cards: list, queries: list[str]):
         loop = asyncio.get_event_loop()
+        emojis = self._custom_emojis()
 
         # Slot: resolved card | None (error/timeout) | asyncio.Future (pending)
         slots: list[dict | None | asyncio.Future] = []
@@ -194,7 +202,7 @@ class Marvel(commands.Cog):
 
             future: asyncio.Future = loop.create_future()
             view = CardSelectView(matches, offset=0, requester_id=message.author.id,
-                                  future=future)
+                                  future=future, custom_emojis=emojis)
             await message.channel.send(
                 f'**{len(matches)} Treffer** für "{query}" – bitte eine Karte wählen:',
                 view=view,
@@ -215,7 +223,7 @@ class Marvel(commands.Cog):
         # Alle gefundenen Karten in Originalreihenfolge anzeigen
         for card in slots:
             if card is not None:
-                await message.channel.send(embed=build_embed(card))
+                await message.channel.send(embed=build_embed(card, emojis))
 
 
 async def setup(bot):

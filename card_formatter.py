@@ -4,23 +4,35 @@ Converts MarvelCDB card dicts (German locale) into Discord embeds.
 import re
 import discord
 
-ICON_MAP = {
-    r"\[energy\]":     "⚡",
-    r"\[physical\]":   "👊",
-    r"\[mental\]":     "🧠",
-    r"\[wild\]":       "🌟",
-    r"\[hero\]":       "🦸",
-    r"\[villain\]":    "💀",
-    r"\[unique\]":     "★",
-    r"\[star\]":       "★",
-    r"\[boost\]":      "▲",
-    r"\[attack\]":     "⚔️",
-    r"\[thwart\]":     "🛡️",
-    r"\[defense\]":    "🛡️",
-    r"\[recover\]":    "❤️‍🩹",
-    r"\[per_hero\]":   "/Held",
-    r"\[per_player\]": "/Spieler",
+_ICON_DEFAULTS = {
+    "energy":       "⚡",
+    "physical":     "👊",
+    "mental":       "🧠",
+    "wild":         "🌟",
+    "hero":         "🦸",
+    "villain":      "💀",
+    "unique":       "★",
+    "star":         "★",
+    "boost":        "▲",
+    "attack":       "⚔️",
+    "thwart":       "🛡️",
+    "defense":      "🛡️",
+    "recover":      "❤️‍🩹",
+    "per_hero":     "/Held",
+    "per_player":   "/Spieler",
+    "acceleration": "",
+    "amplify":      "",
+    "crisis":       "",
+    "hazard":       "",
+    "consequential_damage": "",
+    "infinite":     "",
 }
+
+def _build_icon_map(custom: dict) -> dict:
+    result = {}
+    for key, default in _ICON_DEFAULTS.items():
+        result[key] = custom.get(f"cardicon_{key}") or default
+    return result
 
 FACTION_COLORS = {
     "aggression": 0xE03030,
@@ -65,12 +77,12 @@ def _html_to_discord(text: str) -> str:
     return text
 
 
-def _fmt(text: str) -> str:
+def _fmt(text: str, icons: dict) -> str:
     if not text:
         return ""
     text = _html_to_discord(text)
-    for pattern, replacement in ICON_MAP.items():
-        text = re.sub(pattern, replacement, text, flags=re.IGNORECASE)
+    for key, symbol in icons.items():
+        text = re.sub(r"\[" + key + r"\]", symbol, text, flags=re.IGNORECASE)
     return text
 
 
@@ -80,7 +92,8 @@ def _stat(label: str, value, star: bool = False):
     return f"**{label}:** {value}{'★' if star else ''}"
 
 
-def build_embed(card: dict) -> discord.Embed:
+def build_embed(card: dict, custom_emojis: dict | None = None) -> discord.Embed:
+    icons     = _build_icon_map(custom_emojis or {})
     type_code = card.get("type_code", "")
     faction   = card.get("faction_code", "")
     color     = FACTION_COLORS.get(faction, FACTION_COLORS.get(type_code, 0x888888))
@@ -167,7 +180,7 @@ def build_embed(card: dict) -> discord.Embed:
         desc += "\n" + "\n".join(stats)
 
     # Traits · Kartentext · Flavor · Ressourcen · Pack
-    text = _fmt(card.get("text") or "")
+    text = _fmt(card.get("text") or "", icons)
     flavor = card.get("flavor")
 
     if traits:
@@ -178,13 +191,13 @@ def build_embed(card: dict) -> discord.Embed:
         desc += f"\n*{flavor}*"
 
     resources = []
-    for res, icon in [
-        ("resource_energy", "⚡"), ("resource_physical", "👊"),
-        ("resource_mental", "🧠"), ("resource_wild", "🌟"),
+    for res, key in [
+        ("resource_energy", "energy"), ("resource_physical", "physical"),
+        ("resource_mental", "mental"), ("resource_wild", "wild"),
     ]:
         val = card.get(res)
         if val:
-            resources.append(icon * val)
+            resources.append(icons[key] * val)
     if resources:
         desc += f"\n**Ressourcen:** {'  '.join(resources)}"
 

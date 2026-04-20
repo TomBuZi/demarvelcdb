@@ -191,6 +191,17 @@ def build_embed(card: dict, custom_emojis: dict | None = None) -> discord.Embed:
     if flavor:
         desc += f"\n*{flavor}*"
 
+    scheme_icons = []
+    for field, key in [
+        ("scheme_hazard", "hazard"), ("scheme_crisis", "crisis"),
+        ("scheme_acceleration", "acceleration"), ("scheme_amplify", "amplify"),
+    ]:
+        val = card.get(field)
+        if val:
+            scheme_icons.append(icons[key] * val)
+    if scheme_icons:
+        desc += f"\n{'  '.join(scheme_icons)}"
+
     resources = []
     for res, key in [
         ("resource_energy", "energy"), ("resource_physical", "physical"),

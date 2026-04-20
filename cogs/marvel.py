@@ -12,6 +12,8 @@ def _card_label(card: dict) -> str:
     subname = card.get("subname")
     unique = "★ " if card.get("is_unique") else ""
     label = f"{unique}{name}"
+    if card.get("stage"):
+        label += f" ({card['stage']})"
     if subname:
         label += f" - {subname}"
     return label[:100]

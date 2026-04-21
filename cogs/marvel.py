@@ -22,9 +22,19 @@ def _split_text(text: str, limit: int) -> list[str]:
     return parts
 
 
-def build_rule_embeds(entry: dict) -> list[discord.Embed]:
+def _apply_custom_emojis(text: str, custom_emojis: dict) -> str:
+    return re.sub(
+        r":(\w+):",
+        lambda m: custom_emojis.get(m.group(1), m.group(0)),
+        text,
+    )
+
+
+def build_rule_embeds(entry: dict, custom_emojis: dict | None = None) -> list[discord.Embed]:
     title = entry["title"].title()
     text = entry.get("text", "")
+    if custom_emojis:
+        text = _apply_custom_emojis(text, custom_emojis)
     refs = entry.get("references") or []
     siehe = "\n\n**Siehe auch:** " + " · ".join(refs) if refs else ""
 
@@ -170,10 +180,11 @@ class CardSelectView(discord.ui.View):
 
 
 class RuleSelectView(discord.ui.View):
-    def __init__(self, matches: list[dict], requester_id: int):
+    def __init__(self, matches: list[dict], requester_id: int, custom_emojis: dict | None = None):
         super().__init__(timeout=60)
-        self.matches      = matches
-        self.requester_id = requester_id
+        self.matches       = matches
+        self.requester_id  = requester_id
+        self.custom_emojis = custom_emojis or {}
 
         options = [
             discord.SelectOption(label=e["title"].title()[:100], value=str(i))
@@ -195,7 +206,7 @@ class RuleSelectView(discord.ui.View):
         entry = self.matches[int(self.select.values[0])]
         self.select.disabled = True
         await interaction.response.edit_message(content=None, view=self)
-        for embed in build_rule_embeds(entry):
+        for embed in build_rule_embeds(entry, self.custom_emojis):
             await interaction.followup.send(embed=embed)
         self.stop()
 
@@ -250,12 +261,13 @@ class Marvel(commands.Cog):
             await message.channel.send(f'Keine Regel gefunden für „{query}".')
             return
 
+        emojis = self._custom_emojis()
         if len(matches) == 1:
-            for embed in build_rule_embeds(matches[0]):
+            for embed in build_rule_embeds(matches[0], emojis):
                 await message.channel.send(embed=embed)
             return
 
-        view = RuleSelectView(matches, requester_id=message.author.id)
+        view = RuleSelectView(matches, requester_id=message.author.id, custom_emojis=emojis)
         await message.channel.send(
             f'**{len(matches)} Treffer** für „{query}" – bitte eine Regel wählen:',
             view=view,

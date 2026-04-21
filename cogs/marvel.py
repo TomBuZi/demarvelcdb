@@ -7,10 +7,7 @@ from rulebook_search import search_rules
 
 PAGE_SIZE = 20
 RULE_COLOR = 0x8B0000
-
-
-def _rule_text(raw: str) -> str:
-    return raw.replace(" •• ", "\n").replace("••", "\n")
+RULEBOOK_URL = "https://asmodee-resources.azureedge.net/media/germanyprod/Regeln/marvel-champions-lcg-4015566029613-referenzhandbuch-v1-7de.pdf"
 
 
 def _split_text(text: str, limit: int) -> list[str]:
@@ -27,21 +24,25 @@ def _split_text(text: str, limit: int) -> list[str]:
 
 def build_rule_embeds(entry: dict) -> list[discord.Embed]:
     title = entry["title"].title()
-    text = _rule_text(entry.get("text", ""))
+    text = entry.get("text", "")
     refs = entry.get("references") or []
     siehe = "\n\n**Siehe auch:** " + " · ".join(refs) if refs else ""
 
-    # Try to fit everything in one embed
-    if len(text + siehe) <= 4096:
-        return [discord.Embed(title=title, description=text + siehe, color=RULE_COLOR)]
+    page = entry.get("page")
+    url = RULEBOOK_URL + (f"#page={page}" if page else "")
+    footer = f"\n\n[Quelle: Online-Referenzhandbuch v1.7de]({url})" + (f" · Seite {page}" if page else "")
 
-    # Split text into pages, attach "Siehe auch" to the last
+    # Try to fit everything in one embed
+    if len(text + siehe + footer) <= 4096:
+        return [discord.Embed(title=title, description=text + siehe + footer, color=RULE_COLOR)]
+
+    # Split text into pages, attach "Siehe auch" and footer to the last
     pages = _split_text(text, 4096)
-    # If "Siehe auch" fits on the last page, append it there
-    if len(pages[-1] + siehe) <= 4096:
-        pages[-1] += siehe
+    last_suffix = siehe + footer
+    if len(pages[-1] + last_suffix) <= 4096:
+        pages[-1] += last_suffix
     else:
-        pages.append(siehe.lstrip())
+        pages.append(last_suffix.lstrip())
 
     total = len(pages)
     embeds = []

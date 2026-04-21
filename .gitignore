@@ -4,3 +4,7 @@ __pycache__/
 .env
 .env.local
 .claude/settings.local.json
+discloud.config
+Error.txt
+Procfile
+runtime.txt

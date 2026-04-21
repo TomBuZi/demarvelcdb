@@ -25,7 +25,7 @@ def _split_text(text: str, limit: int) -> list[str]:
 def _apply_custom_emojis(text: str, custom_emojis: dict) -> str:
     return re.sub(
         r":(\w+):",
-        lambda m: custom_emojis.get(m.group(1), m.group(0)),
+        lambda m: custom_emojis.get(m.group(1).lower(), m.group(0)),
         text,
     )
 

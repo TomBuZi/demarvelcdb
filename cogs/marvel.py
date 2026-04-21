@@ -34,6 +34,7 @@ def build_rule_embeds(entry: dict, custom_emojis: dict | None = None) -> list[di
     title = entry["title"].title()
     text = entry.get("text", "")
     if custom_emojis:
+        title = _apply_custom_emojis(title, custom_emojis)
         text = _apply_custom_emojis(text, custom_emojis)
     refs = entry.get("references") or []
     siehe = "\n\n**Siehe auch:** " + " · ".join(refs) if refs else ""

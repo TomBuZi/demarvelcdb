@@ -36,24 +36,20 @@ def build_rule_embeds(entry: dict, custom_emojis: dict | None = None) -> list[di
     if custom_emojis:
         title = _apply_custom_emojis(title, custom_emojis)
         text = _apply_custom_emojis(text, custom_emojis)
-    refs = entry.get("references") or []
-    siehe = "\n\n**Siehe auch:** " + " · ".join(refs) if refs else ""
-
     page = entry.get("page")
     url = RULEBOOK_URL + (f"#page={page}" if page else "")
     footer = f"\n\n[Quelle: Online-Referenzhandbuch v1.7de]({url})" + (f" · Seite {page}" if page else "")
 
     # Try to fit everything in one embed
-    if len(text + siehe + footer) <= 4096:
-        return [discord.Embed(title=title, description=text + siehe + footer, color=RULE_COLOR)]
+    if len(text + footer) <= 4096:
+        return [discord.Embed(title=title, description=text + footer, color=RULE_COLOR)]
 
-    # Split text into pages, attach "Siehe auch" and footer to the last
+    # Split text into pages, attach footer to the last
     pages = _split_text(text, 4096)
-    last_suffix = siehe + footer
-    if len(pages[-1] + last_suffix) <= 4096:
-        pages[-1] += last_suffix
+    if len(pages[-1] + footer) <= 4096:
+        pages[-1] += footer
     else:
-        pages.append(last_suffix.lstrip())
+        pages.append(footer.lstrip())
 
     total = len(pages)
     embeds = []
@@ -180,6 +176,56 @@ class CardSelectView(discord.ui.View):
             self.future.cancel()
 
 
+class RuleRefView(discord.ui.View):
+    def __init__(self, refs: list[str], custom_emojis: dict):
+        super().__init__(timeout=300)
+        self.custom_emojis = custom_emojis
+        self.message: discord.Message | None = None
+
+        for ref in refs[:25]:
+            btn = discord.ui.Button(label=ref.title()[:80], style=discord.ButtonStyle.secondary)
+            btn.callback = self._make_callback(ref)
+            self.add_item(btn)
+
+    def _make_callback(self, ref: str):
+        async def callback(interaction: discord.Interaction):
+            await interaction.response.defer()
+            matches = search_rules(ref)
+            if not matches:
+                await interaction.followup.send(f'Keine Regel gefunden für „{ref}".', ephemeral=True)
+                return
+            entry = matches[0] if len(matches) == 1 else None
+            if entry is None:
+                view = RuleSelectView(matches, interaction.user.id, self.custom_emojis)
+                await interaction.followup.send(
+                    f'**{len(matches)} Treffer** für „{ref}" – bitte eine Regel wählen:',
+                    view=view,
+                )
+                return
+            await _send_rule(interaction.followup.send, entry, self.custom_emojis)
+        return callback
+
+    async def on_timeout(self):
+        for item in self.children:
+            item.disabled = True
+        if self.message:
+            try:
+                await self.message.edit(view=self)
+            except discord.HTTPException:
+                pass
+
+
+async def _send_rule(send_fn, entry: dict, custom_emojis: dict):
+    embeds = build_rule_embeds(entry, custom_emojis)
+    refs = entry.get("references") or []
+    ref_view = RuleRefView(refs, custom_emojis) if refs else None
+    for embed in embeds[:-1]:
+        await send_fn(embed=embed)
+    msg = await send_fn(embed=embeds[-1], view=ref_view)
+    if ref_view and msg:
+        ref_view.message = msg
+
+
 class RuleSelectView(discord.ui.View):
     def __init__(self, matches: list[dict], requester_id: int, custom_emojis: dict | None = None):
         super().__init__(timeout=60)
@@ -207,8 +253,7 @@ class RuleSelectView(discord.ui.View):
         entry = self.matches[int(self.select.values[0])]
         self.select.disabled = True
         await interaction.response.edit_message(content=None, view=self)
-        for embed in build_rule_embeds(entry, self.custom_emojis):
-            await interaction.followup.send(embed=embed)
+        await _send_rule(interaction.followup.send, entry, self.custom_emojis)
         self.stop()
 
     async def on_timeout(self):
@@ -264,8 +309,7 @@ class Marvel(commands.Cog):
 
         emojis = self._custom_emojis()
         if len(matches) == 1:
-            for embed in build_rule_embeds(matches[0], emojis):
-                await message.channel.send(embed=embed)
+            await _send_rule(message.channel.send, matches[0], emojis)
             return
 
         view = RuleSelectView(matches, requester_id=message.author.id, custom_emojis=emojis)

@@ -2552,7 +2552,7 @@
     "text": "Nachdem ein Charakter mit dem Schlüsselwort Vergeltung X angegriffen worden ist, füge dem angreifenden Charakter X Schaden zu. *(X ist der Wert, der hinter dem Schlüsselwort angegeben ist.)*\n\n- Der Charakter mit dem Schlüsselwort X muss im Spiel sein, nachdem der Angriff abgehandelt worden ist, um diesen Schaden zufügen zu können.\n- Die Reihenfolge der Abhandlung von Fähigkeiten, die das Schlüsselwort X betreffen, ist wie folgt:\n\n**1.** Fähigkeiten, die ausgelöst werden, „nachdem [ein Charakter] eine beliebige Menge an Schaden nimmt”\n\n**2.** Vergeltung X\n\n**3.** Fähigkeiten, die ausgelöst werden, „nachdem [ein Charakter] angegriffen hat” oder „nachdem [ein Charakter] [einen Charakter] angegriffen [und ihm Schaden zugefügt / und ihn besiegt] hat”)",
     "references": [
       "Angriff (Gegner-Aktivierung)",
-      "Angriff (Spieler aktion)",
+      "Angriff (Spieleraktion)",
       "Erinnerungstext",
       "Identität",
       "Schaden",

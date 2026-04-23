@@ -7,6 +7,18 @@ from rulebook_search import search_rules
 
 PAGE_SIZE = 20
 RULE_COLOR = 0x8B0000
+
+
+def _apply_errata(card: dict, errata: dict) -> dict:
+    patch = errata.get(card.get("code", ""))
+    if not patch:
+        return card
+    card = dict(card)
+    card.update({k: v for k, v in patch.items() if not k.startswith("_")})
+    card["has_errata"] = True
+    return card
+
+
 RULEBOOK_URL = "https://asmodee-resources.azureedge.net/media/germanyprod/Regeln/marvel-champions-lcg-4015566029613-referenzhandbuch-v1-7de.pdf"
 
 
@@ -96,6 +108,7 @@ class CardSelectView(discord.ui.View):
         requester_id: int,
         future: asyncio.Future | None = None,
         custom_emojis: dict | None = None,
+        errata: dict | None = None,
     ):
         super().__init__(timeout=60)
         self.matches       = matches
@@ -103,6 +116,7 @@ class CardSelectView(discord.ui.View):
         self.requester_id  = requester_id
         self.future        = future
         self.custom_emojis = custom_emojis or {}
+        self.errata        = errata or {}
 
         page    = matches[offset:offset + PAGE_SIZE]
         total   = len(matches)
@@ -147,13 +161,13 @@ class CardSelectView(discord.ui.View):
 
         if value == "__prev__":
             new_view = CardSelectView(self.matches, max(0, self.offset - PAGE_SIZE),
-                                      self.requester_id, self.future, self.custom_emojis)
+                                      self.requester_id, self.future, self.custom_emojis, self.errata)
             await interaction.response.edit_message(view=new_view)
             return
 
         if value == "__next__":
             new_view = CardSelectView(self.matches, self.offset + PAGE_SIZE,
-                                      self.requester_id, self.future, self.custom_emojis)
+                                      self.requester_id, self.future, self.custom_emojis, self.errata)
             await interaction.response.edit_message(view=new_view)
             return
 
@@ -170,7 +184,7 @@ class CardSelectView(discord.ui.View):
         else:
             # Einzel-Modus: Embed direkt senden
             await interaction.response.edit_message(content=None, view=self)
-            await interaction.followup.send(embed=build_embed(card, self.custom_emojis))
+            await interaction.followup.send(embed=build_embed(_apply_errata(card, self.errata), self.custom_emojis))
 
         self.stop()
 
@@ -289,11 +303,11 @@ class Marvel(commands.Cog):
 
         emojis = self._custom_emojis()
         if len(matches) == 1:
-            await message.channel.send(embed=build_embed(matches[0], emojis))
+            await message.channel.send(embed=build_embed(_apply_errata(matches[0], self.bot.errata), emojis))
             return
 
         view = CardSelectView(matches, offset=0, requester_id=message.author.id,
-                              custom_emojis=emojis)
+                              custom_emojis=emojis, errata=self.bot.errata)
         await message.channel.send(
             f'**{len(matches)} Treffer** für "{query}" – bitte eine Karte wählen:',
             view=view,
@@ -324,7 +338,7 @@ class Marvel(commands.Cog):
 
             future: asyncio.Future = loop.create_future()
             view = CardSelectView(matches, offset=0, requester_id=message.author.id,
-                                  future=future, custom_emojis=emojis)
+                                  future=future, custom_emojis=emojis, errata=self.bot.errata)
             await message.channel.send(
                 f'**{len(matches)} Treffer** für "{query}" – bitte eine Karte wählen:',
                 view=view,
@@ -345,7 +359,7 @@ class Marvel(commands.Cog):
         # Alle gefundenen Karten in Originalreihenfolge anzeigen
         for card in slots:
             if card is not None:
-                await message.channel.send(embed=build_embed(card, emojis))
+                await message.channel.send(embed=build_embed(_apply_errata(card, self.bot.errata), emojis))
 
 
 async def setup(bot):

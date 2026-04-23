@@ -1,4 +1,5 @@
 import os
+import json
 import asyncio
 import aiohttp
 import discord
@@ -35,6 +36,12 @@ class MarvelBot(commands.Bot):
         super().__init__(command_prefix="!", intents=intents)
         self._cards_cache: list | None = None
         self._cache_lock = asyncio.Lock()
+        errata_path = os.path.join(os.path.dirname(__file__), "errata.json")
+        try:
+            with open(errata_path, encoding="utf-8") as f:
+                self.errata: dict = json.load(f)
+        except FileNotFoundError:
+            self.errata: dict = {}
 
     async def setup_hook(self):
         await self.load_extension("cogs.marvel")

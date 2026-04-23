@@ -1,0 +1,64 @@
+{
+  "01026": {
+    "_note": "Widerstand-Kennzeichnung entfernt (RRG 1.5) – Entfernung kann nicht unterstrichen werden",
+    "text": "<b>Alter-Ego – Aktion<\/b>: Erschöpfe Abteilung für übermenschliches Recht und gib eine [mental]-Ressource aus → entferne 2 Bedrohung von einem Plan."
+  },
+  "01183": {
+    "_note": "Punkte in M.O.D.O.K. eingefügt (Encounter-Karte, Grundspiel/Ultron)",
+    "text": "Sobald aufgedeckt: Falls __M.O.D.O.K.__ nicht im Spiel ist, durchsuche das Begegnungsdeck und den Ablagestapel nach __M.O.D.O.K.__ und bringe ihn mit dir im Kampf ins Spiel. Mische dann das Begegnungsdeck."
+  },
+  "01184": {
+    "_note": "Kartenname: Punkte eingefügt (Encounter-Karte, Grundspiel/Ultron) – Titelfeld unterstützt kein Markdown",
+    "name": "M.O.D.O.K.",
+    "real_name": "M.O.D.O.K."
+  },
+  "03025": {
+    "_note": "Max. 1 pro Charakter. in zweiten Absatz integriert (RRG 1.4)",
+    "text": "Spiele diese Karte nur, falls deine Identität das Merkmal [[Avenger]] hat.\nHänge diese Karte an einen befreundeten Charakter an. __Max. 1 pro Charakter.__\nDer Charakter mit diesem Upgrade bekommt +1 Lebenspunkt und erhält das Merkmal [[Avenger]]."
+  },
+  "03034": {
+    "_note": "Selbstreferenz durch Kartenname ersetzt",
+    "text": "Anwendungen (3 Geistige Wahrnehmung).\n<b>Held Ressource<\/b>: Erschöpfe __Gesteigerte Wahrnehmung__ und entferne 1 Geistmarker von dieser Karte → erzeuge eine [mental] Ressource."
+  },
+  "06006": {
+    "_note": "Angriff → Schaden im letzten Satz",
+    "text": "<b>Held Aktion<\/b>: Gib X [energy] Ressourcen aus → füge dem Schurken und jedem Schergen im Kampf mit dir X Schaden zu. Dieser __Schaden__ ignoriert Zäh-Statuskarten, falls du das Merkmal [[Fliegend]] hast."
+  },
+  "08001a": {
+    "_note": "ausgelöst → abgehandelt im Witwenmacher-Text (Black Widow Hero)",
+    "text": "\"Witwenmacher\" — <b>Reaktion<\/b>: Nachdem du die Fähigkeit einer [[Vorbereitung]]-Karte unter deiner Kontrolle __abgehandelt__ hast, füge einem Gegner 1 Schaden zu."
+  },
+  "04028": {
+    "_note": "Abschnitt → Plan (RRG 1.4); in GitHub-Übersetzung bereits korrekt",
+    "text": "<b>Sobald aufgedeckt:<\/b> Der Spieler von Clint Barton durchsucht seine Hand, sein Deck, seinen Ablagestapel und seine Spielzone nach Mockingbird und platziert sie offen unter dieser Karte. Sobald dieser __Plan__ besiegt wird, schicke Mockingbird zurück auf die Hand ihres Besitzers."
+  },
+  "04061": {
+    "_note": "Hydra-Patrouille → Hydra-Angriff (erster Absatz); keine dt. Übersetzung in GitHub vorhanden – Aufbau-Paragraph ist Übersetzung",
+    "text": "<b>Inhalt:<\/b> Crossbones (I) und Crossbones (II). Crossbones-, „Experimentelle Waffen"- und Standard-Begegnungssets. Drei modulare Begegnungssets <i>(__Hydra-Angriff__, Waffenmeister und Hydras Legionen).<\/i>\n<b>Aufbau:<\/b> Erstelle das Experimentelle-Waffen-Deck und lege es neben das Hauptplandeck. <i>(Siehe Regelheft, Seite 5.)<\/i>"
+  },
+  "04128a": {
+    "_note": "jeden anderen Nebenplan → jeden anderen Begegnungs-Nebenplan; keine dt. Übersetzung in GitHub – Inhalt-Paragraph ist Übersetzung",
+    "text": "<b>Inhalt:<\/b> Red Skull (I) und Red Skull (II). Red-Skull- und Standard-Begegnungssets. Zwei modulare Begegnungssets <i>(Hydra-Angriff und Hydra-Patrouille).<\/i>\n<b>Spielaufbau:<\/b> Bringe den Nebenplan Das Rote Haus ins Spiel. Mische __jeden anderen Begegnungs-Nebenplan__ in das Nebenplandeck und lege es neben das Begegnungsdeck (siehe Regelheft). Lege den Schergen Der Schläfer als nicht im Spiel befindlich beiseite."
+  },
+  "04135": {
+    "_note": "Erzwungene Reaktion → Erzwungene Unterbrechung (RRG 1.6); keine dt. Übersetzung in GitHub",
+    "text": "Aufstacheln 1.\nHänge dies an einen Nebenplan an.\n<b>Erzwungene __Unterbrechung__<\/b>: Sobald der Nebenplan mit diesem Anhang besiegt wird, teile dem Startspieler eine Begegnungskarte zu."
+  },
+  "04136": {
+    "_note": "Wählen-Formulierung angepasst (für jede/jeden/jedes, RRG); keine dt. Übersetzung in GitHub",
+    "text": "<b>Sobald aufgedeckt:<\/b> __Wähle für jeden Nebenplan im Spiel einen Charakter unter deiner Kontrolle und erschöpfe ihn.__\n<hr \/>\n[boost] <b>Stärke<\/b>: Erschöpfe einen Charakter unter deiner Kontrolle."
+  },
+  "09014": {
+    "_note": "Reaktion → Unterbrechung (RRG 1.4); in de.marvelcdb.com bereits korrekt; Tippfehler Iron First→Iron Fist nebenbei behoben",
+    "text": "Iron Fist kommt mit 2 Mystikmarkern auf ihm ins Spiel.\n<b>__Unterbrechung__<\/b>: Sobald Iron Fist einen Gegner angreift, entferne 1 Mystikmarker von ihm → betäube den Gegner und füge ihm 1 Schaden zu."
+  },
+  "09021": {
+    "_note": "Merkmal Verteidigung und (Verteidigung)-Kennzeichnung entfernt (RRG 1.4); Entfernungen können nicht unterstrichen werden",
+    "text": "<b>Unterbrechung<\/b>: Sobald ein Held eine beliebige Menge an Schaden nehmen würde, senke diese Menge um 1.",
+    "traits": ""
+  },
+  "10025": {
+    "_note": "Dann: entfernt (erster Absatz, RRG 1.4); Entfernung kann nicht unterstrichen werden",
+    "text": "<b><i>Gib dies dem Spieler von Bruce Banner.<\/i><\/b>\nWechsle deine Gestalt (drehe deine Identitätskarte um).\n• Falls du Bruce Banner bist, lege 2 Karten von deiner Hand ab. Lege diese Verpflichtung ab.\n• Falls du Hulk bist, erschöpfe deinen Helden. Lege diese Verpflichtung ab."
+  }
+}

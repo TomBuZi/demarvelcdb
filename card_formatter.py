@@ -98,6 +98,8 @@ def build_embed(card: dict, custom_emojis: dict | None = None) -> discord.Embed:
     type_code = card.get("type_code", "")
     faction   = card.get("faction_code", "")
     color     = FACTION_COLORS.get(faction, FACTION_COLORS.get(type_code, 0x888888))
+    if card.get("has_errata"):
+        color = 0xCC0000
 
     # Title
     title = card.get("name") or card.get("real_name", "Unbekannt")
@@ -231,6 +233,8 @@ def build_embed(card: dict, custom_emojis: dict | None = None) -> discord.Embed:
         if p.get("quantity"):
             line += f" ({p['quantity']})"
         pack_lines.append(line)
+    if card.get("has_errata"):
+        desc += "\n\n***ERRATA***"
     if pack_lines:
         desc += "\n\n*" + "\n".join(pack_lines) + "*"
 

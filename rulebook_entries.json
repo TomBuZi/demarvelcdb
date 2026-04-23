@@ -830,7 +830,7 @@
   {
     "title": "ERLITTENER SCHADEN",
     "page": 15,
-    "text": "Erlittener Schaden bezieht sich auf die Differenz zwischen den maximalen Lebenspunkten eines Charakters und seinen verbleibenden Lebenspunkten.\n\n- Der erlittene Schaden einer Identität oder eines Schurken wird folgendermaßen berechnet *(unter Verwendung eines Lebenspunktezählers)* : Von den maximalen Lebens punkten des Charakters *(der aufgedruckte Wert, modifiziert durch Kartenfähigkeiten oder Spieleffekte)* werden seine verbleibenden Lebenspunkte *(wie durch den Zähler angezeigt)* abgezogen.\n- Der erlittene Schaden auf einem Verbündeten oder Schergen ist gleich dem Gesamtwert aller Schadens marker auf der Karte.",
+    "text": "Erlittener Schaden bezieht sich auf die Differenz zwischen den maximalen Lebenspunkten eines Charakters und seinen verbleibenden Lebenspunkten.\n\n- Der erlittene Schaden einer Identität oder eines Schurken wird folgendermaßen berechnet *(unter Verwendung eines Lebenspunktezählers)*: Von den maximalen Lebenspunkten des Charakters *(der aufgedruckte Wert, modifiziert durch Kartenfähigkeiten oder Spieleffekte)* werden seine verbleibenden Lebenspunkte *(wie durch den Zähler angezeigt)* abgezogen.\n- Der erlittene Schaden auf einem Verbündeten oder Schergen ist gleich dem Gesamtwert aller Schadensmarker auf der Karte.",
     "references": [
       "Identität",
       "Lebenspunkte",
@@ -845,7 +845,7 @@
   {
     "title": "ERSATZEFFEKTE",
     "page": 15,
-    "text": "Ein Ersatzeffekt ersetzt einen bestimmten Effekt durch einen anderen Effekt. Die meisten Ersatzeffekte sind Unterbrechungsfähigkeiten in der Form: „Sobald [Auslöse bedingung] eintreten würde, tue stattdessen [Ersatzeffekt].“\n\n- Wird ein Effekt ersetzt, gilt er nicht länger als bevor stehend und keine weiteren Unterbrechungen oder Reaktionen auf diesen Effekt können ausgelöst werden.",
+    "text": "Ein Ersatzeffekt ersetzt einen bestimmten Effekt durch einen anderen Effekt. Die meisten Ersatzeffekte sind Unterbrechungsfähigkeiten in der Form: „Sobald [Auslösebedingung] eintreten würde, tue stattdessen [Ersatzeffekt].“\n\n- Wird ein Effekt ersetzt, gilt er nicht länger als bevorstehend und keine weiteren Unterbrechungen oder Reaktionen auf diesen Effekt können ausgelöst werden.",
     "references": [
       "„Ansonsten“",
       "Aufheben",
@@ -889,7 +889,7 @@
   {
     "title": "ERZFEIND-BEGEGNUNGSSET",
     "page": 15,
-    "text": "Für jede Identität im Spiel gibt es ein zugehöriges Erzfeind Begegnungsset. Zu Spielbeginn legt jeder Spieler die Karten seines zugehörigen ErzfeindSets als nicht im Spiel befindlich beiseite. Vom Begegnungsdeck gezogene Karten können einen Spieler dazu anweisen, wie sein ErzfeindSet ins Spiel gebracht wird.\n\n- Ein ErzfeindBegegnungsset ist eine Unterkategorie der identitätsspezifischen Sets.\n- Karten des ErzfeindBegegnungssets dürfen nur zusammen mit der Identität verwendet werden, die das gleiche SetSymbol hat.\n- Der „ErzfeindScherge“ einer bestimmten Identität ist der Scherge, der zum ErzfeindBegegnungsset dieser Identität gehört. Falls eine ErzfeindBegegnungsset mehrere Schergen hat, wird der „ErzfeindScherge“ mit einem aufgedruckten kursiven Text auf 1 oder mehreren Schergen angezeigt.\n- Der „ErzfeindNebenplan“ einer Identität ist der Neben plan, der zum ErzfeindBegegnungsset dieser Identität gehört.",
+    "text": "Für jede Identität im Spiel gibt es ein zugehöriges Erzfeind-Begegnungsset. Zu Spielbeginn legt jeder Spieler die Karten seines zugehörigen Erzfeind-Sets als nicht im Spiel befindlich beiseite. Vom Begegnungsdeck gezogene Karten können einen Spieler dazu anweisen, wie sein Erzfeind-Set ins Spiel gebracht wird.\n\n- Ein Erzfeind-Begegnungsset ist eine Unterkategorie der identitätsspezifischen Sets.\n- Karten des Erzfeind-Begegnungssets dürfen nur zusammen mit der Identität verwendet werden, die das gleiche Set-Symbol hat.\n- Der „Erzfeind-Scherge“ einer bestimmten Identität ist der Scherge, der zum Erzfeind-Begegnungsset dieser Identität gehört. Falls eine Erzfeind-Begegnungsset mehrere Schergen hat, wird der „Erzfeind-Scherge“ mit einem aufgedruckten kursiven Text auf 1 oder mehreren Schergen angezeigt.\n- Der „Erzfeind-Nebenplan“ einer Identität ist der Nebenplan, der zum Erzfeind-Begegnungsset dieser Identität gehört.",
     "references": [
       "Identität",
       "Identitätsspezifische Karte",
@@ -900,7 +900,7 @@
   {
     "title": "ERZWUNGEN",
     "page": 15,
-    "text": "„ **Erzwungen** “ ist ein fett gedruckter Auslöser. Falls er einer fett gedruckten ausgelösten Fähigkeit vorangestellt ist, ist die Einleitung dieser Fähigkeit verpflichtend.\n\n- „ **Erzwungene Unterbrechung** “und „ **Erzwungene Reaktion** “Fähigkeiten müssen abgehandelt werden, sobald ihre Auslösebedingung eintritt.\n- „ **Erzwungene Aktion** “Fähigkeiten können zu einem beliebigen Zeitpunkt ausgelöst werden, zu dem auch eine nichterzwungene Aktionsfähigkeit ausgelöst werden kann. Sie müssen jedoch abgehandelt sein, bevor die Spielerphase enden kann.\n- Falls eine erzwungene Fähigkeit 1 oder mehr Ziele erfordert, und es nicht mindestens 1 gültiges Ziel gibt, wird sie nicht eingeleitet. Sämtliche Kosten, die hätten bezahlt werden müssen, um die Fähigkeit einzuleiten, werden nicht bezahlt.\n- Bei jeder Auslösebedingung haben erzwungene Unter brechungen Vorrang und werden vor nichterzwungenen Unterbrechungen eingeleitet. Erzwungene Reaktionen haben Vorrang und werden vor nichterzwungenen Reaktionen eingeleitet.\n- Falls zwei oder mehr erzwungene Fähigkeiten im selben Moment eingeleitet werden würden, bestimmt der Start spieler die Reihenfolge, in der die Fähigkeiten eingeleitet werden, unabhängig davon, wer die Karten mit diesen Fähigkeiten kontrolliert.\n- Jede erzwungene Fähigkeit muss so vollständig wie mög lich abgehandelt werden, bevor die nächste erzwungene Fähigkeit, die durch dieselbe Auslösebedingung ausgelöst wird, eingeleitet werden kann.",
+    "text": "„**Erzwungen**“ ist ein fett gedruckter Auslöser. Falls er einer fett gedruckten ausgelösten Fähigkeit vorangestellt ist, ist die Einleitung dieser Fähigkeit verpflichtend.\n\n- „**Erzwungene Unterbrechung**“- und „**Erzwungene Reaktion**“-Fähigkeiten müssen abgehandelt werden, sobald ihre Auslösebedingung eintritt.\n- „**Erzwungene Aktion**“-Fähigkeiten können zu einem beliebigen Zeitpunkt ausgelöst werden, zu dem auch eine nicht-erzwungene Aktionsfähigkeit ausgelöst werden kann. Sie müssen jedoch abgehandelt sein, bevor die Spielerphase enden kann.\n- Falls eine erzwungene Fähigkeit 1 oder mehr Ziele erfordert, und es nicht mindestens 1 gültiges Ziel gibt, wird sie nicht eingeleitet. Sämtliche Kosten, die hätten bezahlt werden müssen, um die Fähigkeit einzuleiten, werden nicht bezahlt.\n- Bei jeder Auslösebedingung haben erzwungene Unterbrechungen Vorrang und werden vor nicht-erzwungenen Unterbrechungen eingeleitet. Erzwungene Reaktionen haben Vorrang und werden vor nicht-erzwungenen Reaktionen eingeleitet.\n- Falls zwei oder mehr erzwungene Fähigkeiten im selben Moment eingeleitet werden würden, bestimmt der Startspieler die Reihenfolge, in der die Fähigkeiten eingeleitet werden, unabhängig davon, wer die Karten mit diesen Fähigkeiten kontrolliert.\n- Jede erzwungene Fähigkeit muss so vollständig wie möglich abgehandelt werden, bevor die nächste erzwungene Fähigkeit, die durch dieselbe Auslösebedingung ausgelöst wird, eingeleitet werden kann.",
     "references": [
       "Aktion",
       "Ausgelöste Fähigkeit",
@@ -910,7 +910,7 @@
   {
     "title": "EXEMPLAR",
     "page": 15,
-    "text": "Ein Exemplar einer Karte wird durch ihren Namen definiert. Ein zweites Exemplar einer Karte ist jede andere Karte, die den gleichen Namen und Untertitel *(falls es einen gibt* ) trägt, auch wenn sich Kartentyp, Text, Illustration oder andere Charakteristiken voneinander unterscheiden.",
+    "text": "Ein Exemplar einer Karte wird durch ihren Namen definiert. Ein zweites Exemplar einer Karte ist jede andere Karte, die den gleichen Namen und Untertitel *(falls es einen gibt)* trägt, auch wenn sich Kartentyp, Text, Illustration oder andere Charakteristiken voneinander unterscheiden.",
     "references": [
       "Kartentypen",
       "Untertitel"
@@ -927,7 +927,7 @@
   {
     "title": "EXPERTEN-SET",
     "page": 16,
-    "text": "Das ExpertenSet ist ein Begegnungsset, das beim Spielen im Expertenmodus verwendet wird.\n\n- Das ExpertenSet ist kein modulares Begegnungsset und kann nicht gewählt werden *(per Zufall oder von den Spielern)* , wenn ein Szenario verlangt, ein modulares Begegnungsset für das Szenario zu wählen.\n- Karten mit der Klassifizierung „Experte“ sind Karten, die das Wort „Experte“ im Feld BegegnungssetInformation aufgedruckt haben.",
+    "text": "Das Experten-Set ist ein Begegnungsset, das beim Spielen im Expertenmodus verwendet wird.\n\n- Das Experten-Set ist kein modulares Begegnungsset und kann nicht gewählt werden *(per Zufall oder von den Spielern)* , wenn ein Szenario verlangt, ein modulares Begegnungsset für das Szenario zu wählen.\n- Karten mit der Klassifizierung „Experte“ sind Karten, die das Wort „Experte“ im Feld Begegnungsset-Information aufgedruckt haben.",
     "references": [
       "Anhang I: Deckbau",
       "Klassifizierung",
@@ -938,23 +938,42 @@
   {
     "title": "FÄHIGKEIT, KARTENFÄHIGKEIT",
     "page": 16,
-    "text": "Eine Fähigkeit ist der Spieltext auf der Karte, der beschreibt, was die Karte macht ( *oder tun kann* ). Mehrere Beispiele dafür\n\n- Kartenfähigkeiten interagieren nur mit Karten, die im Spiel sind, es sei denn, die Fähigkeit bezieht sich ausdrücklich auf eine nicht im Spiel befindliche Zone oder ein nicht im Spiel befindliches Element.\n- Kartenfähigkeiten auf Helden, AlterEgo, Verbündeten, Upgradeund Vorteilskarten dürfen nur verwendet wer den, falls die Karte im Spiel ist, es sei denn, die Fähigkeit bezieht sich ausdrücklich auf die Verwendung aus einem nicht im Spiel befindlichen Zustand heraus. Ereigniskarten hingegen interagieren immer, gemäß den Regeln ihres Kartentyps, aus einer nicht im Spiel befindlichen Zone heraus mit dem Spiel.\n- Gibt eine Fähigkeit 1 oder mehr Ziele an, kann die Fähig keit nur eingeleitet werden, falls sie mindestens 1 gültiges Ziel hat. *(Beispiel: Eine Fähigkeit mit dem Text „Füge einem Schergen 5 Schaden zu“ kann nicht eingeleitet werden, falls keine Schergen im Spiel sind.) Beispiele für mögliche Ziele können unter anderem sein: „der Schurke“, „ein Scherge“, „ein Gegner“, „ein Plan“, „ein Held“, „ein Verbündeter“, „ein Charakter“, „ein Spieler“, „du“, „eine Karte“.*\n- Hat eine Fähigkeit mehr als einen Satz an Text, sollte die Fähigkeit erst ganz gelesen werden, um zu überprüfen, ob es Veränderungseffekte gibt, die dazu führen könnten, dass die Fähigkeit verändert abgehandelt wird. Dann wird die Fähigkeit Satz für Satz abgehandelt.\n- Eine Fähigkeit, der ein fett gedruckter TimingAuslöser, gefolgt von einem Doppelpunkt, vorangestellt ist, wird als ausgelöste Fähigkeit bezeichnet. Eine Fähigkeit ohne einen fett gedruckten TimingAuslöser wird als konstante Fähigkeit bezeichnet (siehe unten).\n- Kartenfähigkeiten können während des Spielaufbaus nicht abgehandelt werden, es sei denn, die Fähigkeit wird mit TimingAuslöser „ **Spielaufbau** “ eingeleitet.\n- Das Abhandeln der folgenden Fähigkeits typen ist verpflichtend: konstante Fähigkeiten, „ **Spielaufbau** “ Fähigkeiten, „ **Sobald aufgedeckt** ”Fähigkeiten, „ **Sobald besiegt** ”Fähigkeiten, „ **Erzwungene Unterbrechung** “ Fähigkeiten, „ **Erzwungene Aktion** “Fähigkeiten, „ **Erzwungene Reaktion** “Fähigkeiten, „ **Boost** “Fähig keiten und Schlüsselwörter. Falls einer dieser Fähigkeits typen eine Form von „dürfen“ verwendet, ist der Teil der Fähigkeit, der auf das Wort „dürfen“ folgt, freiwillig.\n- Das Abhandeln der folgenden Fähigkeits typen ist frei willig: „ **Aktion** “, „ **Reaktion** “, „ **Ressource** “ und „ **Unter-** **brechung** “. Der Spieler, der die Karte mit einer freiwilligen Fähigkeit kontrolliert, bestimmt, ob er die Fähigkeit zum entsprechenden Zeitpunkt verwenden will oder nicht. Auf Begegnungskarten kann eine solche Fähigkeit jeder Spieler verwenden, mit folgenden Ausnahmen: Nur der Spieler, der eine Spielerkarte kontrolliert, an den ein Anhang mit dem Wort „du“ oder „dein“ angehängt ist, kann Fähigkeiten auf dem Anhang aus lösen oder Kosten darauf bezahlen. Nur der Spieler mit einer Verpflichtung in seiner Spiel zone kann Fähigkeiten auf der Verpflichtung auslösen oder Kosten darauf bezahlen. **Konstante Fähigkeit** – Eine konstante Fähigkeit ist jede NichtSchlüsselwortFähigkeit, deren Text keinen fett gedruckten TimingAuslöser enthält, der ihren Fähigkeitstyp definiert. Eine konstante Fähigkeit wird zu dem Zeitpunkt aktiv, wenn ihre Karte ins Spiel kommt, und bleibt aktiv, solange die Karte im Spiel ist.\n\n- Einige konstante Fähigkeiten überprüfen ständig eine bestimmte Bedingung (bezeichnet durch Wörter wie „ *in* “, „falls“ oder „ *solange* “). Die Effekte solcher Fähigkeiten sind immer dann aktiv, wenn die bestimmte Bedingung erfüllt ist.\n- Falls mehrere Instanzen der gleichen konstanten Fähigkeit im Spiel sind, wirkt sich jede Instanz unabhängig von den anderen auf das Spiel aus.\n\n**Ausgelöste Fähigkeit** – Eine ausgelöste Fähigkeit wird durch einen fett gedruckten TimingAuslöser angezeigt, gefolgt von einem Doppelpunkt und dem Rest des Fähigkeitstextes.\n\n- Sofern das Wort „ **Erzwungen** “ nicht vorangestellt ist, sind alle Aktionen und Reaktionsfähigkeiten freiwillig.\n- „ **Erzwungen** “Fähigkeiten, „ **Sobald aufgedeckt** ”Fähig keiten und „ **Sobald besiegt** ”Fähigkeiten werden vom Spiel zum entsprechenden Auslösezeitpunkt der Fähigkeit ausgelöst.\n- Falls der fett gedruckte TimingAuslöser einer Fähigkeit das Wort „ **Held** “ oder „ **Alter Ego** “ enthält, kann die Fähigkeit nur verwendet werden, falls sich der Spieler, der die Fähigkeit auslöst, in der angegebenen Gestalt befindet.\n- Falls ein TimingAuslöser mit Doppelpunkt in Anführungs zeichen steht, ist der Text in Anführungszeichen selbst kein TimingAuslöser, sondern bezieht sich stattdessen auf andere Fähigkeiten mit diesem Auslöser.\n\n**Gleichzeitiger Timing-Vorrang** – Manche Fähigkeiten haben zeitlichen Vorrang vor anderen Fähigkeiten. Der zeitliche Vorrang von Fähigkeiten mit derselben Auslösebedingung hat folgende Reihenfolge:\n\n**1.** Konstante Fähigkeiten, verzögerte Effekte, andauernde Effekte, Schlüsselwörter und , , und Symbole\n\n**2.** Statuskarten\n\n**3.** „ **Erzwungene Unterbrechung** “-Fähigkeiten\n\n**4.** „ **Unterbrechung** “-Fähigkeiten\n\n**5.** „ **Boost** “-, „ **Sobald besiegt** “- und „ **Sobald aufgedeckt** “-Fähigkeiten\n\n**6.** „ **Erzwungene Reaktion** “-Fähigkeiten\n\n**7.** „ **Reaktion** “-Fähigkeiten\n\n**8.** Folgeschaden",
-    "references": []
+    "text": "Eine Fähigkeit ist der Spieltext auf der Karte, der beschreibt, was die Karte macht (*oder tun kann*). Mehrere Beispiele dafür befinden sich im Anhang III des Referenzhandbuchs.\n\n- Kartenfähigkeiten interagieren nur mit Karten, die im Spiel sind, es sei denn, die Fähigkeit bezieht sich ausdrücklich auf eine nicht im Spiel befindliche Zone oder ein nicht im Spiel befindliches Element.\n- Kartenfähigkeiten auf Helden-, Alter-Ego-, Verbündeten-, Upgrade- und Vorteilskarten dürfen nur verwendet werden, falls die Karte im Spiel ist, es sei denn, die Fähigkeit bezieht sich ausdrücklich auf die Verwendung aus einem nicht im Spiel befindlichen Zustand heraus. Ereigniskarten hingegen interagieren immer, gemäß den Regeln ihres Kartentyps, aus einer nicht im Spiel befindlichen Zone heraus mit dem Spiel.\n- Gibt eine Fähigkeit 1 oder mehr Ziele an, kann die Fähigkeit nur eingeleitet werden, falls sie mindestens 1 gültiges Ziel hat. *(Beispiel: Eine Fähigkeit mit dem Text „Füge einem Schergen 5 Schaden zu“ kann nicht eingeleitet werden, falls keine Schergen im Spiel sind.) Beispiele für mögliche Ziele können unter anderem sein: „der Schurke“, „ein Scherge“, „ein Gegner“, „ein Plan“, „ein Held“, „ein Verbündeter“, „ein Charakter“, „ein Spieler“, „du“, „eine Karte“.*\n- Hat eine Fähigkeit mehr als einen Satz an Text, sollte die Fähigkeit erst ganz gelesen werden, um zu überprüfen, ob es Veränderungseffekte gibt, die dazu führen könnten, dass die Fähigkeit verändert abgehandelt wird. Dann wird die Fähigkeit Satz für Satz abgehandelt.\n- Eine Fähigkeit, der ein fett gedruckter Timing-Auslöser, gefolgt von einem Doppelpunkt, vorangestellt ist, wird als ausgelöste Fähigkeit bezeichnet. Eine Fähigkeit ohne einen fett gedruckten Timing-Auslöser wird als konstante Fähigkeit bezeichnet (siehe unten).\n- Kartenfähigkeiten können während des Spielaufbaus nicht abgehandelt werden, es sei denn, die Fähigkeit wird mit Timing-Auslöser „**Spielaufbau**“ eingeleitet.\n- Das Abhandeln der folgenden Fähigkeitstypen ist verpflichtend: konstante Fähigkeiten, „**Spielaufbau**“-Fähigkeiten, „**Sobald aufgedeckt**”-Fähigkeiten, „**Sobald besiegt**”-Fähigkeiten, „**Erzwungene Unterbrechung**“-Fähigkeiten, „**Erzwungene Aktion**“-Fähigkeiten, „**Erzwungene Reaktion**“-Fähigkeiten, „**Boost**“-Fähigkeiten und Schlüsselwörter. Falls einer dieser Fähigkeitstypen eine Form von „dürfen“ verwendet, ist der Teil der Fähigkeit, der auf das Wort „dürfen“ folgt, freiwillig.\n- Das Abhandeln der folgenden Fähigkeitstypen ist freiwillig: „**Aktion**“, „**Reaktion**“, „**Ressource**“ und „**Unterbrechung**“. Der Spieler, der die Karte mit einer freiwilligen Fähigkeit kontrolliert, bestimmt, ob er die Fähigkeit zum entsprechenden Zeitpunkt verwenden will oder nicht. Auf Begegnungskarten kann eine solche Fähigkeit jeder Spieler verwenden, mit folgenden Ausnahmen: Nur der Spieler, der eine Spielerkarte kontrolliert, an den ein Anhang mit dem Wort „du“ oder „dein“ angehängt ist, kann Fähigkeiten auf dem Anhang auslösen oder Kosten darauf bezahlen. Nur der Spieler mit einer Verpflichtung in seiner Spielzone kann Fähigkeiten auf der Verpflichtung auslösen oder Kosten darauf bezahlen. **Konstante Fähigkeit** – Eine konstante Fähigkeit ist jede Nicht-Schlüsselwort-Fähigkeit, deren Text keinen fett gedruckten Timing-Auslöser enthält, der ihren Fähigkeitstyp definiert. Eine konstante Fähigkeit wird zu dem Zeitpunkt aktiv, wenn ihre Karte ins Spiel kommt, und bleibt aktiv, solange die Karte im Spiel ist.\n\n- Einige konstante Fähigkeiten überprüfen ständig eine bestimmte Bedingung (bezeichnet durch Wörter wie „*in*“, „falls“ oder „*solange*“). Die Effekte solcher Fähigkeiten sind immer dann aktiv, wenn die bestimmte Bedingung erfüllt ist.\n- Falls mehrere Instanzen der gleichen konstanten Fähigkeit im Spiel sind, wirkt sich jede Instanz unabhängig von den anderen auf das Spiel aus.\n\n**Ausgelöste Fähigkeit** – Eine ausgelöste Fähigkeit wird durch einen fett gedruckten Timing-Auslöser angezeigt, gefolgt von einem Doppelpunkt und dem Rest des Fähigkeitstextes.\n\n- Sofern das Wort „**Erzwungen**“ nicht vorangestellt ist, sind alle Aktionen und Reaktionsfähigkeiten freiwillig.\n- „**Erzwungen**“-Fähigkeiten, „**Sobald aufgedeckt**”-Fähigkeiten und „**Sobald besiegt**”-Fähigkeiten werden vom Spiel zum entsprechenden Auslösezeitpunkt der Fähigkeit ausgelöst.\n- Falls der fett gedruckte Timing-Auslöser einer Fähigkeit das Wort „**Held**“ oder „**Alter Ego**“ enthält, kann die Fähigkeit nur verwendet werden, falls sich der Spieler, der die Fähigkeit auslöst, in der angegebenen Gestalt befindet.\n- Falls ein Timing-Auslöser mit Doppelpunkt in Anführungszeichen steht, ist der Text in Anführungszeichen selbst kein Timing-Auslöser, sondern bezieht sich stattdessen auf andere Fähigkeiten mit diesem Auslöser.\n\n**Gleichzeitiger Timing-Vorrang** – Manche Fähigkeiten haben zeitlichen Vorrang vor anderen Fähigkeiten. Der zeitliche Vorrang von Fähigkeiten mit derselben Auslösebedingung hat folgende Reihenfolge:\n\n**1.** Konstante Fähigkeiten, verzögerte Effekte, andauernde Effekte, Schlüsselwörter und (:cardicon_accelerate:)-, (:cardicon_amplify:)-, (:cardicon_crisis:)- und (:cardicon_hazard:)-Symbole\n\n**2.** Statuskarten\n\n**3.** „**Erzwungene Unterbrechung** “-Fähigkeiten\n\n**4.** „**Unterbrechung**“-Fähigkeiten\n\n**5.** „**Boost**“-, „**Sobald besiegt**“- und „**Sobald aufgedeckt**“-Fähigkeiten\n\n**6.** „**Erzwungene Reaktion**“-Fähigkeiten\n\n**7.** „**Reaktion**“-Fähigkeiten\n\n**8.** Folgeschaden",
+    "references": [
+      "Adjektive",
+      "Aktion",
+      "Andauernde Effekte",
+      "Aufheben",
+      "Ausgelöste Fähigkeit",
+      "Dann",
+      "Ersatzeffekte",
+      "Erzwungen",
+      "Fähigkeiten einleiten",
+      "Gekennzeichnete Fähigkeit",
+      "Gleichzeitige Abhandlung",
+      "Im Spiel und nicht im Spiel",
+      "Konstante Fähigkeit",
+      "Reaktion",
+      "Ressource",
+      "„Sobald aufgedeckt“-Fähigkeiten",
+      "„Sobald besiegt“-Fähigkeiten",
+      "Spezial",
+      "„Und“",
+      "Unterbrechung",
+      "Veränderungseffekte",
+      "Verzögerte Effekte",
+      "„Würden“",
+      "Ziel"
+    ]
   },
   {
-    "title": "FÄHIGKEITEN EINLEITEN,",
+    "title": "FÄHIGKEITEN EINLEITEN, KARTEN SPIELEN",
     "page": 17,
-    "text": "",
-    "references": []
-  },
-  {
-    "title": "KARTEN SPIELEN",
-    "page": 17,
-    "text": "Sobald ein Spieler eine Karte spielen oder eine ausgelöste Fähigkeit einleiten möchte, muss er zunächst seine Absicht erklären. Dann müssen in der angegebenen Reihenfolge zwei Fragen beantwortet werden:\n\n**1.** Spieleinschränkungen überprüfen: Kann die Karte zu diesem Zeitpunkt gespielt bzw. die Fähigkeit eingeleitet werden? Falls die Karte 1 oder mehr Ziele angibt, wird überprüft, dass es mindestens 1 gültiges Ziel gibt. Falls es für die Karte oder die Fähigkeit nicht mindestens 1 gültiges Ziel gibt, kann die Karte nicht gespielt oder die Fähigkeit nicht eingeleitet werden.\n\n**2.** Kosten bestimmen: Können die Kosten zum Spielen der Karte bzw. zum Einleiten der Fähigkeit unter Berücksichtigung von Modifikatoren bezahlt werden? Falls eine Karte Ressourcenkosten von X hat, wählt der Spieler, der die Karte spielt, in diesem Schritt den Wert von X.\n\nFalls beide Fragen mit Ja beantwortet werden können, werden der Reihe nach die folgenden Schritte durchgeführt:\n\n**3.** Falls eine Karte gespielt wird, legt der Spieler die Karte offen für alle sichtbar auf den Tisch. *(Diese Karte ist nicht im Spiel.)*\n\n**4.** Alle Modifikatoren auf die Kosten werden angewendet.\n\n**5.** Die Kosten werden bezahlt. Falls dieser Schritt erreicht wird und die Kosten nicht bezahlt werden können, wird dieser Prozess ohne Bezahlung irgendwelcher Kosten abgebrochen.\n\n**6.** Das Spielen der Karte beginnt bzw. es wird versucht, die Effekte der Fähigkeit einzuleiten.\n\n**7.** Die Karte wird gespielt bzw. die Fähigkeit *(falls sie im vorherigen Schritt nicht aufgehoben wurde)* wird abgehandelt. Die Karte kommt ins Spiel oder, falls es sich um eine Ereigniskarte handelt, ihre Effekte werden abgehandelt und sie wird dann auf den Ablagestapel ihres Besitzers gelegt.\n\n- Falls einer der obigen Schritte die Auslösebedingung einer Unterbrechungsfähigkeit eintreten lassen würde, darf die Fähigkeit – kurz bevor diese Auslösebedingung eintritt – eingeleitet werden.\n- Falls einer der obigen Schritte die Auslösebedingung einer Reaktionsfähigkeit eintreten lassen würde, darf die Fähigkeit sofort eingeleitet werden, nachdem diese Auslösebedingung eingetreten ist.\n- Falls sich die eingeleitete Fähigkeit auf einer Karte im Spiel befindet und diese Karte während des hier beschriebenen Prozesses das Spiel verlässt, wird der Pro zess dadurch nicht gestoppt. Das geschieht nur, falls die Kosten der Fähigkeit nicht mehr bezahlt werden können, weil die Karte das Spiel verlassen hat.",
+    "text": "Sobald ein Spieler eine Karte spielen oder eine ausgelöste Fähigkeit einleiten möchte, muss er zunächst seine Absicht erklären. Dann müssen in der angegebenen Reihenfolge zwei Fragen beantwortet werden:\n\n**1.** Spieleinschränkungen überprüfen: Kann die Karte zu diesem Zeitpunkt gespielt bzw. die Fähigkeit eingeleitet werden? Falls die Karte 1 oder mehr Ziele angibt, wird überprüft, dass es mindestens 1 gültiges Ziel gibt. Falls es für die Karte oder die Fähigkeit nicht mindestens 1 gültiges Ziel gibt, kann die Karte nicht gespielt oder die Fähigkeit nicht eingeleitet werden.\n\n**2.** Kosten bestimmen: Können die Kosten zum Spielen der Karte bzw. zum Einleiten der Fähigkeit unter Berücksichtigung von Modifikatoren bezahlt werden? Falls eine Karte Ressourcenkosten von X hat, wählt der Spieler, der die Karte spielt, in diesem Schritt den Wert von X.\n\nFalls beide Fragen mit Ja beantwortet werden können, werden der Reihe nach die folgenden Schritte durchgeführt:\n\n**3.** Falls eine Karte gespielt wird, legt der Spieler die Karte offen für alle sichtbar auf den Tisch. *(Diese Karte ist nicht im Spiel.)*\n\n**4.** Alle Modifikatoren auf die Kosten werden angewendet.\n\n**5.** Die Kosten werden bezahlt. Falls dieser Schritt erreicht wird und die Kosten nicht bezahlt werden können, wird dieser Prozess ohne Bezahlung irgendwelcher Kosten abgebrochen.\n\n**6.** Das Spielen der Karte beginnt bzw. es wird versucht, die Effekte der Fähigkeit einzuleiten.\n\n**7.** Die Karte wird gespielt bzw. die Fähigkeit *(falls sie im vorherigen Schritt nicht aufgehoben wurde)* wird abgehandelt. Die Karte kommt ins Spiel oder, falls es sich um eine Ereigniskarte handelt, ihre Effekte werden abgehandelt und sie wird dann auf den Ablagestapel ihres Besitzers gelegt.\n\n- Falls einer der obigen Schritte die Auslösebedingung einer Unterbrechungsfähigkeit eintreten lassen würde, darf die Fähigkeit – kurz bevor diese Auslösebedingung eintritt – eingeleitet werden.\n- Falls einer der obigen Schritte die Auslösebedingung einer Reaktionsfähigkeit eintreten lassen würde, darf die Fähigkeit sofort eingeleitet werden, nachdem diese Auslösebedingung eingetreten ist.\n- Falls sich die eingeleitete Fähigkeit auf einer Karte im Spiel befindet und diese Karte während des hier beschriebenen Prozesses das Spiel verlässt, wird der Prozess dadurch nicht gestoppt. Das geschieht nur, falls die Kosten der Fähigkeit nicht mehr bezahlt werden können, weil die Karte das Spiel verlassen hat.",
     "references": [
       "Fähigkeit",
       "Kosten",
-      "Spieleinschränkungen und berechtigungen",
+      "Spieleinschränkungen und -berechtigungen",
       "Ziel"
     ]
   },
@@ -964,7 +983,7 @@
     "text": "Ein Angriff mit dem Schlüsselwort Fernkampf ignoriert das Schlüsselwort Vergeltung.",
     "references": [
       "Angriff (Gegner-Aktivierung)",
-      "Angriff (Spieler aktion)",
+      "Angriff (Spieleraktion)",
       "Erinnerungstext",
       "Schlüsselwörter",
       "Vergeltung X"
@@ -973,7 +992,7 @@
   {
     "title": "FINDEN",
     "page": 17,
-    "text": "Sobald ein Spieler angewiesen wird, eine Karte zu finden, durchsucht er jede Spielzone, in der er diese Karte finden könnte *(Spielbereich, Zone beiseitegelegter Karten, Spielerdeck, Ablagestapel, Begegnungsdeck usw.)* .\n\n- Die Spieler sollten nicht unnötigerweise Spielzonen durchsuchen, wenn sie wissen, wo sie die gesuchte Karte finden können.\n- Alle Spielzonen dürfen durchsucht werden, wenn eine „Finden“Anweisung abgehandelt wird, mit folgenden Ausnahmen: Verdeckte Begegnungskarten in Spielzonen die sich im Spiel befinden *(unabhängig davon, ob sich diese Karte selbst im Spiel befindet)* . *(Dazu gehören beispielsweise Begegnungskarten, die Spielern zugeteilt sind oder Boost-Karten, die Charakteren gegeben wurden.)* Siegpunktestapel Karten, die aus dem Spiel entfernt wurden\n- Falls ein Spieler angewiesen wird, einen Schergen zu „fin den und aufzudecken“, der sich schon im Spiel befindet, verwickelt der Spieler ihn in einen Kampf und handelt jedes Schlüsselwort bzw. jede ausgelöste Fähigkeit ab, das/die daraus resultiert, dass der Scherge aufgedeckt wird *(wie z. B: die „ Sobald aufgedeckt “-Fähigkeit des Schergen)* . Der Scherge behält alle Anhänge und Marker auf sich. Der Scherge gilt **nicht** , als wäre er ins Spiel gekommen. Der Scherge gilt, als hätte er den Spieler in einen Kampf verwickelt, außer er war schon zuvor im Kampf mit dem Spieler.",
+    "text": "Sobald ein Spieler angewiesen wird, eine Karte zu finden, durchsucht er jede Spielzone, in der er diese Karte finden könnte *(Spielbereich, Zone beiseitegelegter Karten, Spielerdeck, Ablagestapel, Begegnungsdeck usw.)* .\n\n- Die Spieler sollten nicht unnötigerweise Spielzonen durchsuchen, wenn sie wissen, wo sie die gesuchte Karte finden können.\n- Alle Spielzonen dürfen durchsucht werden, wenn eine „Finden“-Anweisung abgehandelt wird, mit folgenden Ausnahmen: Verdeckte Begegnungskarten in Spielzonen die sich im Spiel befinden *(unabhängig davon, ob sich diese Karte selbst im Spiel befindet)* . *(Dazu gehören beispielsweise Begegnungskarten, die Spielern zugeteilt sind oder Boost-Karten, die Charakteren gegeben wurden.)* Siegpunktestapel Karten, die aus dem Spiel entfernt wurden\n- Falls ein Spieler angewiesen wird, einen Schergen zu „finden und aufzudecken“, der sich schon im Spiel befindet, verwickelt der Spieler ihn in einen Kampf und handelt jedes Schlüsselwort bzw. jede ausgelöste Fähigkeit ab, das/die daraus resultiert, dass der Scherge aufgedeckt wird *(wie z. B: die „Sobald aufgedeckt“-Fähigkeit des Schergen)* . Der Scherge behält alle Anhänge und Marker auf sich. Der Scherge gilt **nicht** , als wäre er ins Spiel gekommen. Der Scherge gilt, als hätte er den Spieler in einen Kampf verwickelt, außer er war schon zuvor im Kampf mit dem Spieler.",
     "references": [
       "Aus dem Spiel entfernt",
       "Durchsuchen",
@@ -983,7 +1002,7 @@
   {
     "title": "FOLGESCHADEN (:cardicon_consequential_damage:)",
     "page": 17,
-    "text": "Nachdem ein Verbündeter angegriffen hat, nimmt er Folge schaden in Höhe der Anzahl der FolgeschadenSymbole (:cardicon_consequential_damage:) unter seinem ANGFeld. Nachdem ein Verbündeter Widerstand geleistet hat, nimmt er Folge schaden in Höhe der Anzahl der Folgeschaden Symbole (:cardicon_consequential_damage:) unter seinem WIDFeld.\n\n- Folgeschaden wird einem Verbündeten zugefügt, nachdem die Fähigkeiten, die durch den Angriff oder das Wider standleisten ausgelöst wurden, abgehandelt worden sind.\n- Falls das Ziel einer Basiskraft eines Verbündeten das Spiel verlässt, bevor der Verbündete Schaden in Höhe seines ANG zufügen konnte oder bevor er Bedrohung in Höhe seines WID entfernen konnte, nimmt der Verbündete keinen Folgeschaden ( *aber er wird dennoch erschöpft* ). Der Verbündete gilt im Bezug auf andere Fähigkeiten nicht, als hätte er angegriffen oder Widerstand geleistet. *Beispiel: Iron Fists (Doctor Strange, 14) Fähigkeit lautet: „ Unterbrechung: Sobald Iron Fist einen Gegner angreift, entferne 1 Mystikmarker von ihm → betäube den Gegner und füge ihm 1 Schaden zu.“ Falls dieser* *Effekt den Gegner, den Iron Fist angreift, besiegt, hört der Basisangriff genau dann auf, wenn das Ziel das Spiel verlässt. Deshalb nimmt Iron Fist keinen Folgeschaden.",
+    "text": "Nachdem ein Verbündeter angegriffen hat, nimmt er Folgeschaden in Höhe der Anzahl der Folgeschaden-Symbole (:cardicon_consequential_damage:) unter seinem ANG-Feld. Nachdem ein Verbündeter Widerstand geleistet hat, nimmt er Folgeschaden in Höhe der Anzahl der Folgeschaden-Symbole (:cardicon_consequential_damage:) unter seinem WID-Feld.\n\n- Folgeschaden wird einem Verbündeten zugefügt, nachdem die Fähigkeiten, die durch den Angriff oder das Widerstandleisten ausgelöst wurden, abgehandelt worden sind.\n- Falls das Ziel einer Basiskraft eines Verbündeten das Spiel verlässt, bevor der Verbündete Schaden in Höhe seines ANG zufügen konnte oder bevor er Bedrohung in Höhe seines WID entfernen konnte, nimmt der Verbündete keinen Folgeschaden (*aber er wird dennoch erschöpft*). Der Verbündete gilt im Bezug auf andere Fähigkeiten nicht, als hätte er angegriffen oder Widerstand geleistet. *Beispiel: Iron Fists (Doctor Strange, 14) Fähigkeit lautet: „Unterbrechung: Sobald Iron Fist einen Gegner angreift, entferne 1 Mystikmarker von ihm → betäube den Gegner und füge ihm 1 Schaden zu.“ Falls dieser Effekt den Gegner, den Iron Fist angreift, besiegt, hört der Basisangriff genau dann auf, wenn das Ziel das Spiel verlässt. Deshalb nimmt Iron Fist keinen Folgeschaden.*",
     "references": [
       "Angriff (Spieleraktion)",
       "Basiskraft",
@@ -995,7 +1014,7 @@
   {
     "title": "„FÜR JEDE/JEDEN/JEDES“",
     "page": 18,
-    "text": "„Für jede/jeden/jedes“ zeigt einen Effekt an, der anhand der Anzahl eines bestimmten zählbaren Spielelements wiederholt wird.\n\n- Falls ein Effekt mit „für jede/jeden/jedes“ ein Ziel benötigt, wird der Effekt auf ein einziges Ziel angewendet, es sei denn, in der Anweisung des Effekts befindet sich der Begriff „wählen“. *Beispiel: Ein Effekt mit dem Text „Entferne für jeden Verrat, den du dir auf diese Weise angesehen hast, 1 Bedrohung von einem Plan“ entfernt von einem einzigen Plan die Bedrohung. Dagegen erlaubt dir der Effekt mit dem Text „Wähle für jedes Upgrade unter deiner Kontrolle einen Schergen und füge ihm 2 Schaden zu“ für jedes Upgrade unter deiner Kontrolle einen anderen Gegner zu wählen.*\n- Falls ein Effekt mit „für jede/jeden/jedes“ und ohne „wählen“ anweist, Schaden zuzufügen oder Bedrohung zu entfernen, gilt der zugefügte Schaden bzw. die entfernte Bedrohung als 1 Instanz.\n- Falls ein Effekt mit „für jede/jeden/jedes“ eine Anweisung mit der Formulierung „wählen“ hat, gilt jede Wiederholung des Effekts als eigene Instanz, auch wenn dasselbe Ziel mehrmals gewählt wird. Der Spielzustand wird nach jeder Instanz aktualisiert *(wenn beispielsweise ein Scherge oder Nebenplan besiegt wird)* . Nach jeder Instanz können Reaktionen ausgelöst werden. *Beispiel: Falls ein Spieler mit einem Schergen mit dem Merkmal Wache in einen Kampf verwickelt ist und er einen Effekt mit dem Text „für jede Ressource, die du auf diese Weise ausgegeben hast, wähle einen Gegner und füge ihm 2 Schaden zu“ verwendet, so kann er den Wache- Schergen mit 1 Instanz aus 2 Schaden besiegen, was den Schurken zu einem gültigen Ziel für weitere Instanzen dieses Effekts macht. Der Spieler könnte auch nach jeder Instanz einen Reaktions fähigkeit mit dem Text „nachdem du einem Gegner Schaden zugefügt hast“auslösen.*\n- Falls eine andere Fähigkeit einen „Für jede/jeden/jedes“ Effekt modifiziert, dann wird der Modifikator auf jede der Instanzen angewendet. *(Beispiel: Klingenwirbel (Psylocke, 4) ist ein Ereignis mit dem Text: „Wähle für jedes Psi-Katana unter deiner Kontrolle einen Gegner und füge ihm 2 Schaden zu.“ Falls das Ereignis durch einen anderen Effekt mit dem Text „Das Ereignis fügt 1 zusätzlichen Schaden zu“ modifiziert wird, fügt Klingenwirbel jedem gewählten Gegner 3 Schaden zu.)",
+    "text": "„Für jede/jeden/jedes“ zeigt einen Effekt an, der anhand der Anzahl eines bestimmten zählbaren Spielelements wiederholt wird.\n\n- Falls ein Effekt mit „für jede/jeden/jedes“ ein Ziel benötigt, wird der Effekt auf ein einziges Ziel angewendet, es sei denn, in der Anweisung des Effekts befindet sich der Begriff „wählen“. *Beispiel: Ein Effekt mit dem Text „Entferne für jeden Verrat, den du dir auf diese Weise angesehen hast, 1 Bedrohung von einem Plan“ entfernt von einem einzigen Plan die Bedrohung. Dagegen erlaubt dir der Effekt mit dem Text „Wähle für jedes Upgrade unter deiner Kontrolle einen Schergen und füge ihm 2 Schaden zu“ für jedes Upgrade unter deiner Kontrolle einen anderen Gegner zu wählen.*\n- Falls ein Effekt mit „für jede/jeden/jedes“ und ohne „wählen“ anweist, Schaden zuzufügen oder Bedrohung zu entfernen, gilt der zugefügte Schaden bzw. die entfernte Bedrohung als 1 Instanz.\n- Falls ein Effekt mit „für jede/jeden/jedes“ eine Anweisung mit der Formulierung „wählen“ hat, gilt jede Wiederholung des Effekts als eigene Instanz, auch wenn dasselbe Ziel mehrmals gewählt wird. Der Spielzustand wird nach jeder Instanz aktualisiert *(wenn beispielsweise ein Scherge oder Nebenplan besiegt wird)* . Nach jeder Instanz können Reaktionen ausgelöst werden. *Beispiel: Falls ein Spieler mit einem Schergen mit dem Merkmal Wache in einen Kampf verwickelt ist und er einen Effekt mit dem Text „für jede Ressource, die du auf diese Weise ausgegeben hast, wähle einen Gegner und füge ihm 2 Schaden zu“ verwendet, so kann er den Wache- Schergen mit 1 Instanz aus 2 Schaden besiegen, was den Schurken zu einem gültigen Ziel für weitere Instanzen dieses Effekts macht. Der Spieler könnte auch nach jeder Instanz einen Reaktionsfähigkeit mit dem Text „nachdem du einem Gegner Schaden zugefügt hast“auslösen.*\n- Falls eine andere Fähigkeit einen „Für jede/jeden/jedes“-Effekt modifiziert, dann wird der Modifikator auf jede der Instanzen angewendet. *(Beispiel: Klingenwirbel (Psylocke, 4) ist ein Ereignis mit dem Text: „Wähle für jedes Psi-Katana unter deiner Kontrolle einen Gegner und füge ihm 2 Schaden zu.“ Falls das Ereignis durch einen anderen Effekt mit dem Text „Das Ereignis fügt 1 zusätzlichen Schaden zu“ modifiziert wird, fügt Klingenwirbel jedem gewählten Gegner 3 Schaden zu.)",
     "references": [
       "Fähigkeit",
       "Ziel"
@@ -1004,16 +1023,16 @@
   {
     "title": "GEDANKENSTRICH (ALS WERT)",
     "page": 18,
-    "text": "Ein Wert kann nicht verwendet werden, wenn ein Gedanken strich (–) als Wert angegeben ist.\n\n- Falls eine Karte als Kostenwert einen Gedankenstrich (–) hat, kann die Karte nicht gespielt werden und kann nur auf andere Weise ins Spiel kommen.\n\n\n- Falls die Kraft eines Charakters (ANG, ERH, PLA, VER und WID) einen Gedankenstrich (–) als Wert hat, kann der Charakter nicht erschöpft werden, um diese Kraft zu verwenden.\n- Falls sich ein Spielschritt oder eine Kartenfähigkeit auf einen Wert mit einem Gedankenstrich (–) bezieht, wird dieser Wert als unmodifizierbare Null behandelt. ( *Beispiel: Falls eine Fähigkeit „den Gegner mit dem niedrigsten PLA-Wert“ zum Ziel hat, dann gilt ein Gegner mit einem Gedankenstrich als PLA-Wert, als hätte er den gleichen PLA-Wert wie ein Gegner mit einem PLA-Wert von 0.)",
+    "text": "Ein Wert kann nicht verwendet werden, wenn ein Gedankenstrich (–) als Wert angegeben ist.\n\n- Falls eine Karte als Kostenwert einen Gedankenstrich (–) hat, kann die Karte nicht gespielt werden und kann nur auf andere Weise ins Spiel kommen.\n\n\n- Falls die Kraft eines Charakters (ANG, ERH, PLA, VER und WID) einen Gedankenstrich (–) als Wert hat, kann der Charakter nicht erschöpft werden, um diese Kraft zu verwenden.\n- Falls sich ein Spielschritt oder eine Kartenfähigkeit auf einen Wert mit einem Gedankenstrich (–) bezieht, wird dieser Wert als unmodifizierbare Null behandelt. (*Beispiel: Falls eine Fähigkeit „den Gegner mit dem niedrigsten PLA-Wert“ zum Ziel hat, dann gilt ein Gegner mit einem Gedankenstrich als PLA-Wert, als hätte er den gleichen PLA-Wert wie ein Gegner mit einem PLA-Wert von 0.*)",
     "references": [
       "Basiskraft",
-      "Nicht-Numerische Variable"
+      "Nicht-numerische Variable"
     ]
   },
   {
     "title": "GEFAHRENSYMBOL (:cardicon_hazard:)",
     "page": 18,
-    "text": "Für jede Karte im Spiel mit dem Gefahrensymbol wird im „Begegnungskarten zuteilen“Schritt der Schurkenphase einem Spieler 1 zusätzliche Begegnungskarte zugeteilt *(nicht 1 Karte pro Spieler)* . Die zusätzlichen Karten werden in Spielerreihenfolge zugeteilt *(die erste zusätzliche Karte an den Startspieler, die zweite an den zweiten Spieler usw.).",
+    "text": "Für jede Karte im Spiel mit dem Gefahrensymbol wird im „Begegnungskarten zuteilen“-Schritt der Schurkenphase einem Spieler 1 zusätzliche Begegnungskarte zugeteilt *(nicht 1 Karte pro Spieler)*. Die zusätzlichen Karten werden in Spielerreihenfolge zugeteilt *(die erste zusätzliche Karte an den Startspieler, die zweite an den zweiten Spieler usw.)*.",
     "references": [
       "In Spielerreihenfolge",
       "Nebenplan",
@@ -1038,7 +1057,7 @@
     "references": [
       "Aktivierung",
       "Angriff (Gegner-Aktivierung)",
-      "Plan voran treiben (GegnerAktivierung)"
+      "Plan vorantreiben (Gegner-Aktivierung)"
     ]
   },
   {
@@ -1056,13 +1075,13 @@
     "text": "",
     "references": [
       "Aktivierung",
-      "Plan voran treiben (GegnerAktivierung)"
+      "Plan vorantreiben (GegnerAktivierung)"
     ]
   },
   {
     "title": "GEIST-RESSOURCE (:cardicon_mental:)",
     "page": 18,
-    "text": "Eine GeistRessource (:cardicon_mental:) ist einer der vier Ressourcentypen.\n\n- GeistRessourcen können ausgegeben werden, um die Ressourcenkosten von Karten und Fähigkeiten zu bezahlen.\n- Einige Kartenfähigkeiten benötigen speziell Geist-Ressourcen, die ausgegeben werden müssen, um ihre Effekte abhandeln zu können.",
+    "text": "Eine Geist-Ressource (:cardicon_mental:) ist einer der vier Ressourcentypen.\n\n- Geist-Ressourcen können ausgegeben werden, um die Ressourcenkosten von Karten und Fähigkeiten zu bezahlen.\n- Einige Kartenfähigkeiten benötigen speziell Geist-Ressourcen, die ausgegeben werden müssen, um ihre Effekte abhandeln zu können.",
     "references": [
       "Energie-Ressource",
       "Fähigkeit",
@@ -1076,7 +1095,7 @@
   {
     "title": "GEKENNZEICHNETE FÄHIGKEIT",
     "page": 18,
-    "text": "Eine gekennzeichnete Fähigkeit ist eine ausgelöste Fähigkeit, die durch einen fett gedruckten AuslöserText angezeigt wird, gefolgt von einem Wort in Klammern, das die Fähigkeit entweder als Angriff, Verteidigung und/oder Widerstand kennzeichnet.\n\n- Sobald ein Spieler eine Fähigkeit abhandelt, die mit „ *(Angriff)* “ gekennzeichnet ist, gilt die Fähigkeit als ein Angriff, den die Identität des Spielers durchführt.\n- Sobald ein Spieler eine Fähigkeit abhandelt, die mit „ *(Verteidigung)* “ gekennzeichnet ist, gilt die Fähigkeit als eine Verteidigung, welche die Identität des Spielers durchführt. Wenn eine solche Fähigkeit während eines Angriffs eingeleitet wird, wird die Identität des Spielers der Verteidiger des Angriffs.\n- Sobald ein Spieler eine Fähigkeit abhandelt, die mit „ *(Widerstand)* “ gekennzeichnet ist, gilt die Fähigkeit als ein Widerstandleisten, das die Identität des Spielers durchführt.\n- Sobald ein Spieler eine Fähigkeit mit mehreren Kenn zeichnungen abhandelt, gilt die Fähigkeit als jede dieser gekennzeichneten Fähigkeiten, die alle von der Identität des Spielers durchgeführt werden.\n- Falls ein Spieler eine gekennzeichnete Fähigkeit auslöst, solange seine Identität 1 oder mehr Statuskarten hat, die auch nur eine der gekennzeichneten Fähigkeiten aufhebt, wird die gesamte Fähigkeit *(mit Ausnahme der Kosten)* aufgehoben. Die Identität gilt dann nicht, als hätte sie angegriffen, verteidigt oder Widerstand geleistet. Jede Statuskarte auf der Identität eines Spielers, die eine der gekennzeichneten Fähigkeiten aufhebt, wird entfernt, sobald die Fähigkeit aufgehoben wird. *Beispiel: Eine Fähigkeit mit der Kennzeichnung „* (Angriff/ Widerstand) *“ würde sowohl eine Verwirrt-Statuskarte als auch eine Betäubt-Statuskarte von der Identität des Spielers entfernen, der die Fähigkeit ausgelöst hat.",
+    "text": "Eine gekennzeichnete Fähigkeit ist eine ausgelöste Fähigkeit, die durch einen fett gedruckten Auslöser-Text angezeigt wird, gefolgt von einem Wort in Klammern, das die Fähigkeit entweder als Angriff, Verteidigung und/oder Widerstand kennzeichnet.\n\n- Sobald ein Spieler eine Fähigkeit abhandelt, die mit „ *(Angriff)* “ gekennzeichnet ist, gilt die Fähigkeit als ein Angriff, den die Identität des Spielers durchführt.\n- Sobald ein Spieler eine Fähigkeit abhandelt, die mit „ *(Verteidigung)* “ gekennzeichnet ist, gilt die Fähigkeit als eine Verteidigung, welche die Identität des Spielers durchführt. Wenn eine solche Fähigkeit während eines Angriffs eingeleitet wird, wird die Identität des Spielers der Verteidiger des Angriffs.\n- Sobald ein Spieler eine Fähigkeit abhandelt, die mit „ *(Widerstand)* “ gekennzeichnet ist, gilt die Fähigkeit als ein Widerstandleisten, das die Identität des Spielers durchführt.\n- Sobald ein Spieler eine Fähigkeit mit mehreren Kennzeichnungen abhandelt, gilt die Fähigkeit als jede dieser gekennzeichneten Fähigkeiten, die alle von der Identität des Spielers durchgeführt werden.\n- Falls ein Spieler eine gekennzeichnete Fähigkeit auslöst, solange seine Identität 1 oder mehr Statuskarten hat, die auch nur eine der gekennzeichneten Fähigkeiten aufhebt, wird die gesamte Fähigkeit *(mit Ausnahme der Kosten)* aufgehoben. Die Identität gilt dann nicht, als hätte sie angegriffen, verteidigt oder Widerstand geleistet. Jede Statuskarte auf der Identität eines Spielers, die eine der gekennzeichneten Fähigkeiten aufhebt, wird entfernt, sobald die Fähigkeit aufgehoben wird. *Beispiel: Eine Fähigkeit mit der Kennzeichnung „*(Angriff/ Widerstand)*“ würde sowohl eine Verwirrt- als auch eine Betäubt-Statuskarte von der Identität des Spielers entfernen, der die Fähigkeit ausgelöst hat.",
     "references": [
       "Angriff (Spielerfähigkeitstyp)",
       "Verteidigen",
@@ -1086,7 +1105,7 @@
   {
     "title": "GESTÄHLT",
     "page": 19,
-    "text": "Ein Charakter mit dem Schlüsselwort Gestählt kann nicht betäubt oder verwirrt werden.\n\n- Falls ein Charakter das Schlüsselwort Gestählt erhält, solange er eine Betäubtund/oder VerwirrtStatuskarte hat, wird jede Betäubtund/oder VerwirrtStatuskarte von dem Charakter entfernt.",
+    "text": "Ein Charakter mit dem Schlüsselwort Gestählt kann nicht betäubt oder verwirrt werden.\n\n- Falls ein Charakter das Schlüsselwort Gestählt erhält, solange er eine Betäubt- und/oder Verwirrt-Statuskarte hat, wird jede Betäubt- und/oder Verwirrt-Statuskarte von dem Charakter entfernt.",
     "references": [
       "Betäubt",
       "Erhalten",
@@ -1103,7 +1122,7 @@
   {
     "title": "GESTALT, GESTALT WECHSELN",
     "page": 19,
-    "text": "Ein Spieler befindet sich jederzeit in einer von zwei Gestalten: Held oder AlterEgo. Dies wird durch die Identitätskarte des Spielers angezeigt.\n\n- Jeder Spieler darf ein Mal pro Runde in seinem Zug die Gestalt wechseln, indem er seine Identitätskarte umdreht.\n- Wenn ein Spieler die Gestalt wechselt, ändert sich nur die Gestalt. Der Charakter behält seinen erlittenen Schaden, seine Statuskarten, andauernde Effekte, Anhänge und Marker. Außerdem bleibt er in seinem aktuellen Zustand *(spielbereit oder erschöpft)* .\n- Falls eine Kartenfähigkeit dazu führt, dass er die Gestalt wechselt, wird dies nicht auf den einen freiwilligen Gestaltwechsel angerechnet, der in dieser Runde im Zug des Spielers erlaubt ist.\n- Solange der Spieler sich in Heldengestalt befindet, interagieren Kartenfähigkeiten, die mit seinem Alter Ego interagieren, nicht mit seiner Identität.\n- Solange der Spieler sich in AlterEgoGestalt befindet, interagieren Kartenfähigkeiten, die mit seinem Helden interagieren, nicht mit seiner Identität.\n- Karten mit dem Schlüsselwort „[Art]Gestalt“ verleihen einer Identität einzigartige Gestalten. Diese Gestalten gelten zusätzlich zu den AlterEgound Heldengestalten deiner Identität und es gelten eigene Bedingungen, um in sie zu wechseln. Sobald eine Identität ihre zusätzliche Gestalt wechselt, zählt dies nicht gegen das Limit von einem Wechsel von Held zu Alter Ego (oder umgekehrt) pro Runde. Es zählt aber als Gestaltwechsel in Bezug auf das Auslösen von Karteneffekten.\n- Karten mit dem Text „Nur in [Art]Gestalt“ können nur von dem Spieler gespielt werden oder ins Spiel gebracht werden, dessen Identität sich in der angegebenen Gestalt befindet. *Beispiel: Das Upgrade Unbändige Rage (Hulk, 9) hat den Text: „Nur in Heldengestalt.“ Der Spieler darf diese Karte nur spielen, wenn er in seiner Heldengestalt ist.",
+    "text": "Ein Spieler befindet sich jederzeit in einer von zwei Gestalten: Held oder Alter-Ego. Dies wird durch die Identitätskarte des Spielers angezeigt.\n\n- Jeder Spieler darf ein Mal pro Runde in seinem Zug die Gestalt wechseln, indem er seine Identitätskarte umdreht.\n- Wenn ein Spieler die Gestalt wechselt, ändert sich nur die Gestalt. Der Charakter behält seinen erlittenen Schaden, seine Statuskarten, andauernde Effekte, Anhänge und Marker. Außerdem bleibt er in seinem aktuellen Zustand *(spielbereit oder erschöpft)* .\n- Falls eine Kartenfähigkeit dazu führt, dass er die Gestalt wechselt, wird dies nicht auf den einen freiwilligen Gestaltwechsel angerechnet, der in dieser Runde im Zug des Spielers erlaubt ist.\n- Solange der Spieler sich in Heldengestalt befindet, interagieren Kartenfähigkeiten, die mit seinem Alter Ego interagieren, nicht mit seiner Identität.\n- Solange der Spieler sich in Alter-Ego-Gestalt befindet, interagieren Kartenfähigkeiten, die mit seinem Helden interagieren, nicht mit seiner Identität.\n- Karten mit dem Schlüsselwort „[Art]-Gestalt“ verleihen einer Identität einzigartige Gestalten. Diese Gestalten gelten zusätzlich zu den Alter-Ego- und Heldengestalten deiner Identität und es gelten eigene Bedingungen, um in sie zu wechseln. Sobald eine Identität ihre zusätzliche Gestalt wechselt, zählt dies nicht gegen das Limit von einem Wechsel von Held zu Alter Ego (oder umgekehrt) pro Runde. Es zählt aber als Gestaltwechsel in Bezug auf das Auslösen von Karteneffekten.\n- Karten mit dem Text „Nur in [Art]-Gestalt“ können nur von dem Spieler gespielt werden oder ins Spiel gebracht werden, dessen Identität sich in der angegebenen Gestalt befindet. *Beispiel: Das Upgrade Unbändige Rage (Hulk, 9) hat den Text: „Nur in Heldengestalt.“ Der Spieler darf diese Karte nur spielen, wenn er in seiner Heldengestalt ist.",
     "references": [
       "Identität",
       "Schlüsselwörter",
@@ -1113,13 +1132,13 @@
   {
     "title": "GEWINNEN, DAS SPIEL GEWINNEN",
     "page": 19,
-    "text": "Falls der letzte Schurkenabschnitt besiegt ist, gewinnen die Spieler das Spiel. Wird der letzte Abschnitt des Hauptplan decks vollendet, gewinnt der Schurke das Spiel.\n\n- Manche Szenarien weisen alternative Bedingungen auf, wie ein Szenario gewonnen oder verloren werden kann. Wird eine solche Bedingung erfüllt, haben die Spieler dementsprechend gewonnen bzw. verloren. Alternative Bedingungen, wie das Szenario gewonnen oder verloren werden kann, können nicht entfernt oder aufgehoben werden.",
+    "text": "Falls der letzte Schurkenabschnitt besiegt ist, gewinnen die Spieler das Spiel. Wird der letzte Abschnitt des Hauptplandecks vollendet, gewinnt der Schurke das Spiel.\n\n- Manche Szenarien weisen alternative Bedingungen auf, wie ein Szenario gewonnen oder verloren werden kann. Wird eine solche Bedingung erfüllt, haben die Spieler dementsprechend gewonnen bzw. verloren. Alternative Bedingungen, wie das Szenario gewonnen oder verloren werden kann, können nicht entfernt oder aufgehoben werden.",
     "references": []
   },
   {
     "title": "GLEICHZEITIGE ABHANDLUNG",
     "page": 19,
-    "text": "Falls zwei oder mehrere Effekte mit dem gleichen fett gedruckten TimingAuslöser gleichzeitig abgehandelt werden würden, bestimmt der Startspieler die Reihenfolge, in der die Effekte abgehandelt werden.",
+    "text": "Falls zwei oder mehrere Effekte mit dem gleichen fett gedruckten Timing-Auslöser gleichzeitig abgehandelt werden würden, bestimmt der Startspieler die Reihenfolge, in der die Effekte abgehandelt werden.",
     "references": [
       "Ausgelöste Fähigkeit",
       "„Jeder Spieler“",
@@ -1137,7 +1156,7 @@
   {
     "title": "HANDLIMIT",
     "page": 19,
-    "text": "Jeder Spieler überprüft sein Handlimit am Ende der Spieler phase, indem er entweder bis zu seinem Handlimit Karten ablegt oder bis zu seinem Handlimit Karten nachzieht.\n\n- Sobald ein Spieler auf sein Handlimit nachzieht, zieht er nacheinander Karten und überprüft nach jeder gezogenen Karte, ob sein Handlimit erreicht ist.",
+    "text": "Jeder Spieler überprüft sein Handlimit am Ende der Spielerphase, indem er entweder bis zu seinem Handlimit Karten ablegt oder bis zu seinem Handlimit Karten nachzieht.\n\n- Sobald ein Spieler auf sein Handlimit nachzieht, zieht er nacheinander Karten und überprüft nach jeder gezogenen Karte, ob sein Handlimit erreicht ist.",
     "references": [
       "Ende der Spielerphase",
       "Modifikatoren"
@@ -1146,7 +1165,7 @@
   {
     "title": "HAUPTPLAN, HAUPTPLANDECK",
     "page": 19,
-    "text": "Ein Hauptplan ist ein Begegnungskartentyp. Der Hauptplan stellt das Hauptziel des Schurken dar.\n\n- In Schritt 1 der Schurkenphase wird die im Beschleunigungs feld des Hauptplans (rechte untere Ecke) angegebene Menge an Bedrohung auf diesem Plan platziert. Dieser Wert wird von allen aktiven Beschleunigungsmarkern und -symbolen modifiziert.\n- Falls die Menge an Bedrohung auf einem Hauptplan gleich oder größer als deren ZielBedrohungswert ist, ist der Hauptplan vollendet und das Hauptplandeck rückt vor. **Falls der Schurke den letzten Abschnitt des Hauptplandecks vollendet, gewinnt der Schurke das Spiel.** Falls der Hauptplan auf andere Weise als durch das Ansammeln von Bedrohung mindestens in Höhe seines ZielBedrohungswertes vorrückt, gilt der Hauptplan als **nicht** vollendet.\n- Sobald das Hauptplandeck vorrückt, werden die folgenden Schritte durchgeführt:\n\n**1.** Die oberste Hauptplankarte wird aus dem Spiel entfernt. Alle Marker (außer Beschleunigungsmarker) auf dem Plan werden in den Markervorrat zurückgelegt und alle an den Plan angehängten Karten werden abgelegt.\n\n**2.** Alle „ **Sobald aufgedeckt** “-Fähigkeiten auf der A-Seite der neuen obersten Karte im Hauptplandeck werden abgehandelt.\n\n**3.** Die oberste Karte des Hauptplandecks wird auf ihre B-Seite umgedreht, Bedrohung wird in Höhe der Start-Bedrohung auf der Karte platziert und alle „ **Sobald aufgedeckt** “-Fähigkeiten auf der B-Seite werden abgehandelt.\n- Sobald das Hauptplandeck vorrückt, wird überschüssige Bedrohung vom vorherigen Abschnitt nicht auf den neuen Abschnitt übertragen.\n- Sobald das Hauptplandeck vorrückt, werden darauf befindliche Beschleunigungsmarker auf den neuen Abschnitt übertragen.\n- Hauptplankarten können nicht aus dem Spiel abgelegt werden.",
+    "text": "Ein Hauptplan ist ein Begegnungskartentyp. Der Hauptplan stellt das Hauptziel des Schurken dar.\n\n- In Schritt 1 der Schurkenphase wird die im Beschleunigungsfeld des Hauptplans (rechte untere Ecke) angegebene Menge an Bedrohung auf diesem Plan platziert. Dieser Wert wird von allen aktiven Beschleunigungsmarkern und -symbolen modifiziert.\n- Falls die Menge an Bedrohung auf einem Hauptplan gleich oder größer als deren Ziel-Bedrohungswert ist, ist der Hauptplan vollendet und das Hauptplandeck rückt vor. **Falls der Schurke den letzten Abschnitt des Hauptplandecks vollendet, gewinnt der Schurke das Spiel.** Falls der Hauptplan auf andere Weise als durch das Ansammeln von Bedrohung mindestens in Höhe seines Ziel-Bedrohungswertes vorrückt, gilt der Hauptplan als **nicht** vollendet.\n- Sobald das Hauptplandeck vorrückt, werden die folgenden Schritte durchgeführt:\n\n**1.** Die oberste Hauptplankarte wird aus dem Spiel entfernt. Alle Marker (außer Beschleunigungsmarker) auf dem Plan werden in den Markervorrat zurückgelegt und alle an den Plan angehängten Karten werden abgelegt.\n\n**2.** Alle „**Sobald aufgedeckt**“-Fähigkeiten auf der A-Seite der neuen obersten Karte im Hauptplandeck werden abgehandelt.\n\n**3.** Die oberste Karte des Hauptplandecks wird auf ihre B-Seite umgedreht, Bedrohung wird in Höhe der Start-Bedrohung auf der Karte platziert und alle „**Sobald aufgedeckt**“-Fähigkeiten auf der B-Seite werden abgehandelt.\n- Sobald das Hauptplandeck vorrückt, wird überschüssige Bedrohung vom vorherigen Abschnitt nicht auf den neuen Abschnitt übertragen.\n- Sobald das Hauptplandeck vorrückt, werden darauf befindliche Beschleunigungsmarker auf den neuen Abschnitt übertragen.\n- Hauptplankarten können nicht aus dem Spiel abgelegt werden.",
     "references": [
       "Aus dem Spiel entfernt",
       "Bedrohung",
@@ -1165,7 +1184,8 @@
     "references": [
       "Identität",
       "Lebenspunkte",
-      "Scherge Schurke",
+      "Scherge",
+      "Schurke",
       "Verbündeter"
     ]
   },
@@ -1189,7 +1209,7 @@
   {
     "title": "HINDERNIS X",
     "page": 20,
-    "text": "Sobald eine Karte mit dem Schlüsselwort Hindernis X ins Spiel kommt, wird X Bedrohung auf der Karte platziert. *(X ist der Wert, der hinter dem Schlüsselwort angegeben ist.)",
+    "text": "Sobald eine Karte mit dem Schlüsselwort Hindernis X ins Spiel kommt, wird X Bedrohung auf der Karte platziert. *(X ist der Wert, der hinter dem Schlüsselwort angegeben ist.)*",
     "references": [
       "Aufdecken",
       "Bedrohung",
@@ -1201,7 +1221,7 @@
   {
     "title": "IDENTITÄT",
     "page": 20,
-    "text": "Eine Identität ist ein Spielerkartentyp. Die Identitätskarte repräsentiert den Charakter eines Spielers. Die Identitätskarte eines Spielers ist eine doppelseitige Karte, die seinen Helden auf der einen Seite und sein Alter Ego auf der anderen Seite darstellt. Die offen liegende Seite zeigt die Gestalt *(Held oder Alter Ego)* an, in der sich der Spieler gerade befindet.\n\n- Jeder Spieler beginnt das Spiel in seiner AlterEgoGestalt.\n- Falls sich eine Karte auf einen Helden oder ein Alter Ego mit Namen bezieht, bezieht sie sich nur auf die Identität mit diesem Namen und nicht auf die andere Seite der Karte.\n- Identitätskarten können nicht aus dem Spiel abgelegt werden.\n- Die offene Seite einer Identitätskarte gilt als im Spiel. Die verdeckte Seite einer Identitätskarte gilt als nicht im Spiel.",
+    "text": "Eine Identität ist ein Spielerkartentyp. Die Identitätskarte repräsentiert den Charakter eines Spielers. Die Identitätskarte eines Spielers ist eine doppelseitige Karte, die seinen Helden auf der einen Seite und sein Alter Ego auf der anderen Seite darstellt. Die offen liegende Seite zeigt die Gestalt *(Held oder Alter Ego)* an, in der sich der Spieler gerade befindet.\n\n- Jeder Spieler beginnt das Spiel in seiner Alter-Ego-Gestalt.\n- Falls sich eine Karte auf einen Helden oder ein Alter Ego mit Namen bezieht, bezieht sie sich nur auf die Identität mit diesem Namen und nicht auf die andere Seite der Karte.\n- Identitätskarten können nicht aus dem Spiel abgelegt werden.\n- Die offene Seite einer Identitätskarte gilt als im Spiel. Die verdeckte Seite einer Identitätskarte gilt als nicht im Spiel.",
     "references": [
       "Gestalt",
       "Im Spiel und nicht im Spiel",
@@ -1212,12 +1232,12 @@
   {
     "title": "IDENTITÄTSSPEZIFISCHE KARTE",
     "page": 20,
-    "text": "Karten mit der Klassifizierung „identitätsspezifisch“ (manch mal auch als heldenspezifisch bezeichnet), sind Karten, die zu einem Set einer Identität gehören.\n\n- Das Deck eines Spielers muss jede identitätsspezifische Karte enthalten, die zur gewählten Identitätskarte gehört. Das Deck muss die genaue Anzahl jeder in diesem identitäts spezifischen Set enthaltenen Karte enthalten.\n- Identitätsspezifische Karten *(zusammen mit den Verpflichtungskarten und Karten des Erzfeind-Sets)* dürfen nur zusammen mit der Identität verwendet werden, wenn diese Karten das gleiche SetSymbol *(in der Sammler- Information der Karte)* aufweisen.\n- Eine identitätsspezifische Karte ist am Identitätssymbol in der unteren rechten Ecke der Karte zu erkennen. Identitätskarten sind identitätsspezifische Karten.",
+    "text": "Karten mit der Klassifizierung „identitätsspezifisch“ (manchmal auch als heldenspezifisch bezeichnet), sind Karten, die zu einem Set einer Identität gehören.\n\n- Das Deck eines Spielers muss jede identitätsspezifische Karte enthalten, die zur gewählten Identitätskarte gehört. Das Deck muss die genaue Anzahl jeder in diesem identitätsspezifischen Set enthaltenen Karte enthalten.\n- Identitätsspezifische Karten *(zusammen mit den Verpflichtungskarten und Karten des Erzfeind-Sets)* dürfen nur zusammen mit der Identität verwendet werden, wenn diese Karten das gleiche Set-Symbol *(in der Sammler- Information der Karte)* aufweisen.\n- Eine identitätsspezifische Karte ist am Identitätssymbol in der unteren rechten Ecke der Karte zu erkennen. Identitätskarten sind identitätsspezifische Karten.",
     "references": [
       "Anhang I: Deckbau",
       "Aspektkarte",
       "Basiskarte",
-      "ErzfeindSet",
+      "Erzfeind-Set",
       "Identität",
       "Klassifizierung"
     ]
@@ -1592,7 +1612,7 @@
   {
     "title": "MODULARES BEGEGNUNGSSET",
     "page": 26,
-    "text": "Karten, die zur Klassifizierung „Modulares Begegnungsset“ gehören, sind Begegnungskarten, die fast zu jedem Szenario hinzugefügt und/oder aus ihnen entfernt werden können.\n\n- Beim Spielaufbau ist bei vielen Szenarien angegeben, wie viele modulare Begegnungssets einem Szenario hinzu gefügt werden müssen. Abhängig vom Szenario werden manche modulare Begegnungssets vorausgesetzt, wäh rend andere von den Spielern gewählt werden können.\n- Wenn ein modulares Begegnungsset einem Szenario hinzugefügt wird, muss das gesamte Set hinzugefügt wer den. Einzelne Karten eines modularen Begegnungssets können einem Szenario nicht hinzugefügt werden, außer die Regeln des Szenarios besagen etwas anderes.\n- Eine Karte eines modularen Begegnungssets ist am Namen des Sets zu erkennen, der im Deckbau Klassifizierungs bereich unten auf der Karte angegeben ist.",
+    "text": "Karten, die zur Klassifizierung „Modulares Begegnungsset“ gehören, sind Begegnungskarten, die fast zu jedem Szenario hinzugefügt und/oder aus ihnen entfernt werden können.\n\n- Beim Spielaufbau ist bei vielen Szenarien angegeben, wie viele modulare Begegnungssets einem Szenario hinzu gefügt werden müssen. Abhängig vom Szenario werden manche modulare Begegnungssets vorausgesetzt, wäh rend andere von den Spielern gewählt werden können.\n- Wenn ein modulares Begegnungsset einem Szenario hinzugefügt wird, muss das gesamte Set hinzugefügt werden. Einzelne Karten eines modularen Begegnungssets können einem Szenario nicht hinzugefügt werden, außer die Regeln des Szenarios besagen etwas anderes.\n- Eine Karte eines modularen Begegnungssets ist am Namen des Sets zu erkennen, der im Deckbau Klassifizierungs bereich unten auf der Karte angegeben ist.",
     "references": [
       "Anhang I: Deckbau",
       "Klassifizierung"
@@ -2286,19 +2306,19 @@
     "page": 36,
     "text": "Statuskarten repräsentieren verschiedene Zustände, in denen sich ein Charakter im Spiel befinden kann.\nDie folgenden Statuskarten werden im Spiel verwendet. Sobald einem Charakter eine Statuskarte gegeben wird, wird eine Statuskarte des angegebenen Typs aus dem Vorrat genommen und auf diesen Charakter gelegt.\n\n- Ein Charakter kann zur gleichen Zeit nicht mehr als eine Statuskarte pro Typ haben.\n  - Charaktere mit dem Schlüsselwort Standhaft können 1 zusätzliche Betäubt-Statuskarte und 1 zusätzliche Verwirrt-Statuskarte haben.\n- Statuskarten-Fähigkeiten haben zeitlichen Vorrang vor allen ausgelösten Fähigkeiten, mit denen sie in Konflikt stehen.\n\nDie drei Statuskartentypen sind:\n**Betäubt** - Eine Betäubt-Statuskarte hebt den nächsten Angriff des Charakters auf. (**Siehe:** Betäubt, Betäuben)\n**Verwirrt** - Eine Verwirrt-Statuskarte hebt das nächste „Plan vorantreiben“ oder „Widerstand leisten“ des Charakters auf. (**Siehe**: Verwirrt, Verwirren)\n**Zäh** - Eine Zäh-Statuskarte verhindert, dass ein Charakter Schaden nimmt. (**Siehe**: Zäh)",
     "references": [
-      "Angriff (Gegner-Aktivierung)", 
+      "Angriff (Gegner-Aktivierung)",
       "Angriff (Spieleraktion)",
-      "Ausgelöste Fähigkeit", 
-      "Basiskraft", 
-      "Betäubt", 
+      "Ausgelöste Fähigkeit",
+      "Basiskraft",
+      "Betäubt",
       "Ersatzeffekte",
       "Gestalt",
       "Identität",
-      "Schaden", 
-      "Scherge", 
-      "Schurke", 
-      "Verbündeter", 
-      "Verwirrt", 
+      "Schaden",
+      "Scherge",
+      "Schurke",
+      "Verbündeter",
+      "Verwirrt",
       "Zäh"
     ]
   },

@@ -100,6 +100,59 @@ def _card_description(card: dict) -> str:
     return " · ".join(parts)[:100]
 
 
+class ErrataToggleView(discord.ui.View):
+    def __init__(self, card: dict, errata: dict, emojis: dict, requester_id: int):
+        super().__init__(timeout=30)
+        self.card          = card
+        self.errata        = errata
+        self.emojis        = emojis
+        self.requester_id  = requester_id
+        self.showing_errata = True
+        self.message: discord.Message | None = None
+
+    async def interaction_check(self, interaction: discord.Interaction) -> bool:
+        if interaction.user.id != self.requester_id:
+            await interaction.response.send_message(
+                "Nur die Person, die die Karte aufgerufen hat, darf die Buttons benutzen.",
+                ephemeral=True,
+            )
+            return False
+        return True
+
+    @discord.ui.button(label="Original anzeigen", style=discord.ButtonStyle.primary)
+    async def toggle(self, interaction: discord.Interaction, button: discord.ui.Button):
+        self.showing_errata = not self.showing_errata
+        if self.showing_errata:
+            card = _apply_errata(self.card, self.errata)
+            button.label = "Original anzeigen"
+        else:
+            card = self.card
+            button.label = "Errata anzeigen"
+        await interaction.response.edit_message(embed=build_embed(card, self.emojis), view=self)
+
+    @discord.ui.button(label="Buttons ausblenden", style=discord.ButtonStyle.danger)
+    async def hide(self, interaction: discord.Interaction, button: discord.ui.Button):
+        await interaction.response.edit_message(view=None)
+        self.stop()
+
+    async def on_timeout(self):
+        if self.message is not None:
+            try:
+                await self.message.edit(view=None)
+            except discord.HTTPException:
+                pass
+
+
+async def _send_card(send, card: dict, errata: dict, emojis: dict, requester_id: int) -> None:
+    patched = _apply_errata(card, errata)
+    embed = build_embed(patched, emojis)
+    if patched.get("has_errata"):
+        view = ErrataToggleView(card, errata, emojis, requester_id)
+        view.message = await send(embed=embed, view=view)
+    else:
+        await send(embed=embed)
+
+
 class CardSelectView(discord.ui.View):
     def __init__(
         self,
@@ -184,7 +237,7 @@ class CardSelectView(discord.ui.View):
         else:
             # Einzel-Modus: Embed direkt senden
             await interaction.response.edit_message(content=None, view=self)
-            await interaction.followup.send(embed=build_embed(_apply_errata(card, self.errata), self.custom_emojis))
+            await _send_card(interaction.followup.send, card, self.errata, self.custom_emojis, self.requester_id)
 
         self.stop()
 
@@ -303,7 +356,7 @@ class Marvel(commands.Cog):
 
         emojis = self._custom_emojis()
         if len(matches) == 1:
-            await message.channel.send(embed=build_embed(_apply_errata(matches[0], self.bot.errata), emojis))
+            await _send_card(message.channel.send, matches[0], self.bot.errata, emojis, message.author.id)
             return
 
         view = CardSelectView(matches, offset=0, requester_id=message.author.id,
@@ -359,7 +412,7 @@ class Marvel(commands.Cog):
         # Alle gefundenen Karten in Originalreihenfolge anzeigen
         for card in slots:
             if card is not None:
-                await message.channel.send(embed=build_embed(_apply_errata(card, self.bot.errata), emojis))
+                await _send_card(message.channel.send, card, self.bot.errata, emojis, message.author.id)
 
 
 async def setup(bot):

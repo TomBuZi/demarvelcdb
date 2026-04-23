@@ -121,7 +121,7 @@ def build_embed(card: dict, custom_emojis: dict | None = None) -> discord.Embed:
     type_label   = TYPE_LABELS.get(type_code, type_code)
     faction_name = card.get("faction_name", "")
     all_packs    = card.get("all_packs") or [{"pack_name": card.get("pack_name", ""), "position": card.get("position"), "quantity": card.get("quantity")}]
-    traits       = card.get("traits") or card.get("real_traits")
+    traits       = card["traits"] if "traits" in card else card.get("real_traits")
     show_faction = faction_name and faction_name.lower() not in (type_code, "hero", "villain", "encounter")
     desc = f"{faction_name}\n**{type_label}**" if show_faction else f"**{type_label}**"
 

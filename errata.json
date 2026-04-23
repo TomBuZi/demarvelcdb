@@ -34,7 +34,7 @@
   },
   "04061": {
     "_note": "Hydra-Patrouille → Hydra-Angriff (erster Absatz); keine dt. Übersetzung in GitHub vorhanden – Aufbau-Paragraph ist Übersetzung",
-    "text": "<b>Inhalt:<\/b> Crossbones (I) und Crossbones (II). Crossbones-, „Experimentelle Waffen"- und Standard-Begegnungssets. Drei modulare Begegnungssets <i>(__Hydra-Angriff__, Waffenmeister und Hydras Legionen).<\/i>\n<b>Aufbau:<\/b> Erstelle das Experimentelle-Waffen-Deck und lege es neben das Hauptplandeck. <i>(Siehe Regelheft, Seite 5.)<\/i>"
+    "text": "<b>Inhalt:<\/b> Crossbones (I) und Crossbones (II). Crossbones-, „Experimentelle Waffen“- und Standard-Begegnungssets. Drei modulare Begegnungssets <i>(__Hydra-Angriff__, Waffenmeister und Hydras Legionen).<\/i>\n<b>Aufbau:<\/b> Erstelle das Experimentelle-Waffen-Deck und lege es neben das Hauptplandeck. <i>(Siehe Regelheft, Seite 5.)<\/i>"
   },
   "04128a": {
     "_note": "jeden anderen Nebenplan → jeden anderen Begegnungs-Nebenplan; keine dt. Übersetzung in GitHub – Inhalt-Paragraph ist Übersetzung",
@@ -60,5 +60,245 @@
   "10025": {
     "_note": "Dann: entfernt (erster Absatz, RRG 1.4); Entfernung kann nicht unterstrichen werden",
     "text": "<b><i>Gib dies dem Spieler von Bruce Banner.<\/i><\/b>\nWechsle deine Gestalt (drehe deine Identitätskarte um).\n• Falls du Bruce Banner bist, lege 2 Karten von deiner Hand ab. Lege diese Verpflichtung ab.\n• Falls du Hulk bist, erschöpfe deinen Helden. Lege diese Verpflichtung ab."
+  },
+  "13028": {
+    "_note": "Klarstellung: welcher Spieler die Fähigkeit abhandeln muss",
+    "text": "Wache.\n<b>Erzwungene Unterbrechung<\/b>: Sobald Beetle besiegt wird, wählt __der Spieler, der Beetle besiegt__: Er gibt entweder eine [physical]-Ressource aus oder er mischt Beetle in das Begegnungsdeck.\n<i>(Wasps Erzfeind-Scherge.)<\/i>"
+  },
+  "17020": {
+    "_note": "eines Decks → eines Spieler- oder Begegnungsdecks (Klarstellung)",
+    "text": "<b>Unterbrechung<\/b>: Sobald Cosmo angreift oder Widerstand leistet, benenne einen Kartentyp. Lege dann die oberste Karte eines __Spieler- oder Begegnungsdecks__ ab. Falls die Karte eine Karte des benannten Typs ist, nimmt Cosmo für diese Verwendung keinen Folgeschaden."
+  },
+  "22011": {
+    "_note": "Wählen-Formulierung an 'für jede/jeden/jedes'-Eintrag angepasst (RRG)",
+    "text": "<b>Reaktion:<\/b> Nachdem du Eros von deiner Hand gespielt hast, __wähle für jede [mental]-Ressource, die du verwendet hast, um für ihn zu bezahlen, einen Schergen und verwirre ihn__."
+  },
+  "22031": {
+    "_note": "Erinnerungstext in Spieltext umgewandelt (RRG 1.6, Bezug nehmende Fähigkeiten)",
+    "text": "<b>Sobald aufgedeckt:<\/b> Gamora greift dich an. __Falls Gamora als Held oder Verbündeter im Spiel ist, greift sie dich an (handle ihren ANG gegen dich ab, ohne sie zu erschöpfen.)__ Falls auf diese Weise kein Angriff durchgeführt wurde, erhält diese Karte Nachrüsten."
+  },
+  "22033": {
+    "_note": "'ein Upgrade oder einen Verbündeten' → 'ein Upgrade auf einen Verbündeten'; API bereits korrekt",
+    "text": "Spiele diese Karte unter die Kontrolle eines beliebigen Spielers. Max. 1 [[Team]]-Karte pro Spieler.\nFalls jeder deiner Charaktere das Merkmal [[Guardian]] hat, erhält diese Karte: \"<b>Reaktion<\/b>: Nachdem du ein Upgrade __auf einen Verbündeten__ gespielt hast, ziehe 1 Karte.\""
+  },
+  "23001b": {
+    "_note": "James Rhodes (Alter-Ego): 'Nur ein Mal pro Phase' zur Aktion hinzugefügt (RRG 1.5)",
+    "text": "<b>Aktion<\/b>: Wähle eine War-Machine-Karte aus deinem Ablagestapel und mische sie in dein Deck. __(Nur ein Mal pro Phase.)__\n<b>Erzwungene Reaktion<\/b>: Nachdem du in diese Gestalt gewechselt bist, lege jeden Munitionsmarker von deiner Identität ab."
+  },
+  "31001b": {
+    "_note": "SP//dr Anzug: Marker und Anhänge werden jetzt auf Peni verschoben statt umgekehrt",
+    "text": "Dauerhaft. Das Textfeld dieser Karte kann nicht behandelt werden, als ob es leer wäre.\n<i>Rückkehr zur Basis<\/i> — <b>Erzwungene Unterbrechung<\/b>: Sobald du auf diese Seite wechselst, drehe SP//dr zu Peni Parker um. Hänge Peni Parker von hier ab und verschiebe dabei __alle Marker von dieser Karte und alle Karten, die hier angehängt sind, auf Peni Parker__."
+  },
+  "31027": {
+    "_note": "M.O.R.B.I.U.S.: 'Held' → 'Spieler'; 'Helden' → 'Helden des Spielers'",
+    "text": "<b>Erzwungene Reaktion<\/b>: Nachdem __der Spieler__ im Kampf mit diesem Schergen eine beliebige Anzahl an Ressourcen erzeugt hat, füge dem Helden __des Spielers__ die gleiche Menge an Schaden zu.\n<i>(SP//drs Erzfeind-Scherge.)<\/i>"
+  },
+  "32008": {
+    "_note": "Stahlfaust: Kosten-Pfeil entfernt, Satz umformuliert (+ API-Tippfehler 'Aktion)' nebenbei behoben)",
+    "text": "<b>Held - Aktion<\/b> <i>(Angriff)<\/i>: Füge einem Gegner 5 Schaden zu. Du darfst eine Zäh-Statuskarte von deinem Helden ablegen, __um jenen Gegner zu betäuben und zu verwirren__."
+  },
+  "32010": {
+    "_note": "Panzern: 'aktiviert wird' → 'aktiviert werden würde' (RRG)",
+    "text": "<b>Alter Ego - Unterbrechung<\/b>: Sobald der Schurke __aktiviert werden würde__, wechsle in deine Heldengestalt."
+  },
+  "35001b": {
+    "_note": "Logan (Alter-Ego): Spielaufbau-Text vereinfacht",
+    "text": "<i>Snikt!<\/i> — <b>Spielaufbau<\/b>: __Bringe Wolverines Klauen ins Spiel.__"
+  },
+  "35008": {
+    "_note": "Berserkerzorn: Kosten-Pfeilsymbol entfernt, Satz umformuliert",
+    "text": "<b>Held - Aktion<\/b> <i>(Angriff)<\/i>: Füge einem Gegner 4 Schaden zu. Falls dieser Angriff einen Gegner besiegt, darfst du 2 Schaden nehmen__, um diese Fähigkeit zu wiederholen__."
+  },
+  "36030": {
+    "_note": "Klaustrophobie: 'deine Gestalt nicht wechseln' → 'nicht in deine Heldengestalt wechseln'",
+    "text": "<b><i>Gib dies dem Spieler von Ororo Munroe.<\/i><\/b>\nDrehe deine Identität auf deine Alter-Ego-Seite um.\nDu kannst __nicht in deine Heldengestalt wechseln__.\n<b>Alter Ego - Aktion<\/b>: Erschöpfe Ororo Munroe → entferne Klaustrophobie aus dem Spiel."
+  },
+  "38001a": {
+    "_note": "Rogue (Held): 'Finde' vor 'hänge Berührt an' hinzugefügt (RRG)",
+    "text": "<i>Hautkontakt<\/i> - <b>Aktion<\/b>: __Finde Berührt und hänge diese Karte__ an einen anderen Charakter an. Bis zum Ende der Runde erhältst du jedes [[MERKMAL]] des berührten Charakters. (Nur ein Mal pro Runde.)\n<b>Erzwungene Reaktion<\/b>: Nachdem die Spielerphase begonnen hat, finde Berührt und lege die Karte beiseite."
+  },
+  "38001b": {
+    "_note": "Anna Marie (Alter-Ego): 'Finde' vor 'lege beiseite' hinzugefügt (RRG)",
+    "text": "<b>Spielaufbau<\/b>: __Finde dein Upgrade Berührt und lege es beiseite__.\n<i>Zurückgezogen<\/i> – <b>Erzwungene Reaktion<\/b>: Nachdem du in diese Gestalt gewechselt bist, __finde Berührt und lege es beiseite__."
+  },
+  "38007": {
+    "_note": "Energietransfer: 'Finde Berührt und' hinzugefügt (RRG); API-Tippfehler 'Roque' → 'Rogue' nebenbei behoben",
+    "text": "<b>Held Aktion<\/b>: __Finde Berührt und hänge diese Karte__ an einen Charakter an (außer Rogue) und füge ihm 2 Schaden zu → heile 2 Schaden von Rogue und mache sie spielbereit. Bis zum Ende der Runde erhältst du jedes [[MERKMAL]] des berührten Charakters."
+  },
+  "38026": {
+    "_note": "Mystiques Manipulationen: Spieler, der besiegt, wurde spezifiziert",
+    "text": "<b>Sobald besiegt<\/b>: __Der Spieler, der diesen Nebenplan besiegt, durchsucht__ das Begegnungsdeck und den Ablagestapel nach einem Exemplar des Verrats Irregeführt und __mischt es in sein Deck__."
+  },
+  "38031": {
+    "_note": "Bonebreaker: 'Erzwungene Unterbrechung' → 'Erzwungene Reaktion' (RRG 1.5); dt. Übersetzung im API unvollständig – zweiter Absatz hier ergänzt",
+    "text": "Teamwork ([[REAVER]]). Toughness.\n<b>Erzwungene __Reaktion__<\/b>: Nachdem Bonebreaker dich in einen Kampf verwickelt hat, nimm 1 indirekten Schaden für jeden [[REAVER]]-Schergen, der im Kampf mit dir ist."
+  },
+  "41028": {
+    "_note": "Psionische Illusion: Letzter Satz mit 'und' angebunden statt durch Punkt abgetrennt",
+    "text": "Hänge diese Karte an deine Identität an. Erzwungene Unterbrechung: Sobald du einen Gegner angreifst, nenne einen Ressourcentyp, dann lege die oberste Karte deines Decks ab. Falls die Karte keine Ressource des genannten Typs hat, wird stattdessen ein befreundeter Charakter deiner Wahl Ziel dieses Angriffs __und diese Karte wird abgelegt__."
+  },
+  "43036": {
+    "_note": "Frontlinienspezialist: 'Held' → 'Identität' (RRG 1.6)",
+    "text": "Verknüpft (Spezialisiertes Training).\n__Deine Identität__ bekommt +4 Lebenspunkte.\n<b>Reaktion<\/b>: Nachdem deine Identität durch den Angriff eines Gegners Schaden genommen hat, erschöpfe diese Karte → ziehe 1 Karte."
+  },
+  "45017": {
+    "_note": "Für den Kampf rüsten: 'an den Verbündeten' → 'an einen Verbündeten'; '(Mische.)' ergänzt",
+    "text": "Alter Ego - Aktion: Durchsuche dein Deck und deinen Ablagestapel nach einem Verbündeten und einem Upgrade, das __an einen Verbündeten__ angehängt werden kann. Nimm beide Karten auf deine Hand. (Mische.)"
+  },
+  "49010": {
+    "_note": "Magnetisches Geschoss: Kosten-Pfeil → Wort 'Dann'",
+    "text": "Held - Aktion: Lege einen Schergen mit dem Upgrade Von Metall umschlungen ab. __Dann__ füge einem Gegner 5 Schaden zu und betäube ihn."
+  },
+  "49023": {
+    "_note": "Schnelle Fokussierung: Aspekt Protection → Basic (nur in der englischen Version; deutsche API bereits korrekt)",
+    "text": "Max. 1 pro Spieler. Held Aktion: Erschöpfe Schnelle Fokussierung → senke die Ressourcenkosten der nächsten [[Superkraft]]-Karte, die du in diesem Zug spielst, um 1."
+  },
+  "51026": {
+    "_note": "Name: 'Unterstützung aufbauen' → 'Unterstützung leisten' (ist Nachdruck der einzigartigen Karte aus NeXt Evolution #27)",
+    "name": "Unterstützung leisten"
+  },
+  "52008": {
+    "_note": "Fotografisches Gedächtnis: 'Silk' → 'deine Identität'",
+    "text": "Unterbrechung: Sobald du eine Karte aus demselben Begegnungsset aufdeckst wie eine Karte, die unter deine Identität geschoben ist, erschöpfe Fotografisches Gedächtnis → tausche beide Karten aus und decke stattdessen die Karte auf, die unter __deine Identität__ geschoben war."
+  },
+  "54033": {
+    "_note": "S.H.I.E.L.D.-Hilfssheriff: 'Max. 1 pro Charakter' hinzugefügt",
+    "text": "Spiele diese Karte nur, falls deine Identität das Merkmal [[S.H.I.E.L.D.]] hat.\nHänge diese Karte an einen befreundeten Charakter an. __Max. 1 pro Charakter.__\nDer Charakter mit diesem Upgrade bekommt +1 Lebenspunkt und erhält das Merkmal [[S.H.I.E.L.D.]]."
+  },
+  "25007": {
+    "_note": "Aragorn: 'Valkyrie bekommt/erhält' → 'Du bekommst/erhältst' (RRG 1.5)",
+    "text": "__Du bekommst__ +4 Lebenspunkte und __erhältst__ das Merkmal [[Fliegend]]."
+  },
+  "25011": {
+    "_note": "Schildmaid: (Verteidigung)-Kennzeichnung und Verteidigung-Merkmal hinzugefügt (RRG 1.5)",
+    "text": "<b>Held Unterbrechung<\/b> __(Verteidigung)__: Sobald der Gegner mit Todesglühen angreift, erkläre Valkyrie zum Verteidiger, ohne sie zu erschöpfen. Sie bekommt gegen diesen Angriff +2 VER.",
+    "traits": "Verteidigung."
+  },
+  "26022": {
+    "_note": "Machine Man: 'für diese Verwendung' hinzugefügt (RRG 1.5)",
+    "text": "<b>Unterbrechung:<\/b> Sobald Machine Man angreift oder Widerstand leistet, gib bis zu 3 beliebige Ressourcen aus → Machine Man bekommt für jede auf diese Weise ausgegebene Ressource __für diese Verwendung__ +1 WID und +1 ANG."
+  },
+  "27025": {
+    "_note": "Besorgter Vater: George Stacy wird an die Verpflichtung angehängt statt beiseite gelegt (RRG 1.6)",
+    "text": "<b>Gib dies dem Spieler von Gwen Stacy.<\/b>\nDurchsuche dein Deck, deine Hand, deinen Ablagestapel und deine Spielzone nach George Stacy und __hänge ihn verdeckt an diese Karte an__.\n<b>Alter-Ego Aktion<\/b>: Erschöpfe Gwen Stacy und entferne diese Verpflichtung aus dem Spiel → nimm George Stacy auf deine Hand."
+  },
+  "28002": {
+    "_note": "Ms. Marvel (Ally): 'aus deinem Ablagestapel' hinzugefügt (RRG 1.5)",
+    "text": "<b>Held Reaktion<\/b>: Nachdem du ein Ereignis gespielt hast, erschöpfe Ms. Marvel und füge ihr 1 Schaden zu → schicke das Ereignis __aus deinem Ablagestapel__ auf deine Hand zurück."
+  },
+  "29025": {
+    "_note": "Für die Champions!: 'Entferne ... aus dem Spiel' als Kosten hinzugefügt",
+    "text": "Max. 1 pro Deck.\nSpiele diese Karte nur, falls deine Identität das Merkmal [[Champion]] hat.\n<b>Held Aktion<\/b>: __Entferne „Für die Champions!“ aus dem Spiel__ → jeder [[Champion]]-Charakter im Spiel kann bis zum Ende der Runde keinen Schaden nehmen."
+  },
+  "__disabled__": {
+    "_note_global": "Diese Karten haben keine deutsche Übersetzung in der Datenbank. Einträge hierher verschieben, sobald Übersetzung verfügbar ist.",
+    "16123": {
+      "_note": "Trank der Gehorsamkeit: Erinnerungstext → Spieltext (RRG 1.6)",
+      "text_partial_de": "Held – Aktion: Nimm 1 Schaden und gib [mental][mental]-Ressourcen aus → lege diese Karte ab. Jeder Spieler kann dies tun."
+    },
+    "16125": {
+      "_note": "Das Gift: Erinnerungstext → Spieltext (RRG 1.6)",
+      "text_partial_de": "Held – Aktion: Gib 3 Ressourcen unterschiedlichen Typs aus → lege diese Karte ab. Jeder Spieler kann dies tun."
+    },
+    "21116": {
+      "_note": "Sanctuary: 'durch Spielerkarten' hinzugefügt (RRG 1.6)",
+      "text_partial_de": "Thanos kann durch Spielerkarten keinen Schaden nehmen."
+    },
+    "21129": {
+      "_note": "Infinity-Handschuh: Satz 'Hänge diese Karte an den Schurken an.' hinzugefügt (RRG 1.5)",
+      "text_partial_de": "Dauerhaft. Spielaufbau.\nHänge diese Karte an den Schurken an.\n[star] Erzwungene Reaktion: Nachdem der Schurke mit diesem Anhang gegen dich aktiviert worden ist, handle …"
+    },
+    "24044": {
+      "_note": "Boomerang: Boost-Effekt 'jedem' → 'einem' (Verbündeten)",
+      "text_partial_de": "[boost] Boost: Füge einem Verbündeten unter deiner Kontrolle 2 Schaden zu."
+    },
+    "27073": {
+      "_note": "Venom I: 'du Venom mit einer Karte unter deiner Kontrolle' → 'du oder ein Verbündeter unter deiner Kontrolle' (RRG 1.5)",
+      "text_partial_de": "Rache – Erzwungene Reaktion: Nachdem du oder ein Verbündeter unter deiner Kontrolle Venom angegriffen und ihm Schaden zugefügt hat, platziere 1 verdeckte Boost-Karte auf deiner Identität."
+    },
+    "27074": {
+      "_note": "Venom II: 'du Venom mit einer Karte unter deiner Kontrolle' → 'du oder ein Verbündeter unter deiner Kontrolle' (RRG 1.5)",
+      "text_partial_de": "Rache – Erzwungene Reaktion: Nachdem du oder ein Verbündeter unter deiner Kontrolle Venom angegriffen und ihm Schaden zugefügt hat, platziere 1 verdeckte Boost-Karte auf deiner Identität."
+    },
+    "27075": {
+      "_note": "Venom III: Formulierung 'du oder ein Verbündeter unter deiner Kontrolle' (RRG 1.5)",
+      "text_partial_de": "Die Abrechnung – Erzwungene Reaktion: Nachdem du oder ein Verbündeter unter deiner Kontrolle Venom angegriffen und ihm Schaden zugefügt hat, platziere 1 verdeckte Boost-Karte auf deiner Identität. (2 verdeckte Boost-Karten stattdessen, falls dies der erste Angriff in dieser Runde ist.)"
+    },
+    "27171": {
+      "_note": "Manipulierter Verstand: 'Er verwickelt seinen kontrollierenden Spieler in einen Kampf' hinzugefügt, 'Falls du dies nicht kannst' → 'Ansonsten'",
+      "text_partial_de": "Sobald aufgedeckt: Hänge diese Karte an den Verbündeten unter deiner Kontrolle mit den niedrigsten Kosten an. Er verwickelt seinen kontrollierenden Spieler in einen Kampf. Ansonsten erhält diese Karte Nachrüsten."
+    },
+    "30026": {
+      "_note": "Green Gobbler: 'Marker' → 'Universalmarker'",
+      "text_partial_de": "Erzwungene Reaktion: Nachdem Green Gobbler dich in einen Kampf verwickelt hat, lege alle Universalmarker von jeder Karte unter deiner Kontrolle ab."
+    },
+    "32088a": {
+      "_note": "Mutanten im Einkaufszentrum: 'andere Version von' → 'andere Verbündeter-Version'",
+      "text_partial_de": "Sobald besiegt: Der Startspieler durchsucht das Begegnungsdeck und den Ablagestapel nach einem Sentinel-Schergen und deckt ihn auf. Drehe diese Karte um und bringe Jubilee ins Spiel. Lege dabei jede andere Verbündeter-Version von Jubilee aus dem Spiel ab."
+    },
+    "32090": {
+      "_note": "Boom Boom: Bindestrich im Namen und Spieltext entfernt (API hat bereits 'Boom Boom' ohne Bindestrich; dt. Übersetzung fehlt)",
+      "name": "Boom Boom"
+    },
+    "32141b": {
+      "_note": "Asteroid M (B-Seite): Magnetmarker werden entfernt, BEVOR die Magnetisch-Karte aufgedeckt wird",
+      "text_partial_de": "Erzwungene Reaktion: Nachdem du einen Magnetmarker auf diesem Plan platziert hast und falls daraufhin mindestens 3 Magnetmarker hier liegen, entferne 3 Magnetmarker von diesem Plan und lege Karten vom Begegnungsdeck ab, bis eine Magnetisch-Karte abgelegt wird. Decke die Karte auf."
+    },
+    "32142b": {
+      "_note": "Die Fabrik ist online (B-Seite): Magnetmarker werden entfernt, BEVOR die Magnetisch-Karte aufgedeckt wird",
+      "text_partial_de": "Erzwungene Reaktion: Nachdem du einen Magnetmarker auf diesem Plan platziert hast und falls daraufhin mindestens 3 Magnetmarker hier liegen, entferne 3 Magnetmarker von diesem Plan und lege Karten vom Begegnungsdeck ab, bis eine Magnetisch-Karte abgelegt wird. Decke die Karte auf."
+    },
+    "32143b": {
+      "_note": "Magnus' Herrschaft (B-Seite): Magnetmarker werden entfernt, BEVOR die Magnetisch-Karte aufgedeckt wird (erster Absatz)",
+      "text_partial_de": "Erzwungene Reaktion: Nachdem du einen Magnetmarker auf diesem Plan platziert hast und falls daraufhin mindestens 3 Magnetmarker hier liegen, entferne 3 Magnetmarker von diesem Plan und lege Karten vom Begegnungsdeck ab, bis eine Magnetisch-Karte abgelegt wird. Decke die Karte auf."
+    },
+    "36038": {
+      "_note": "Besessen: 'Er verwickelt seinen kontrollierenden Spieler in einen Kampf' hinzugefügt; 'Falls du dies nicht kannst' → 'Ansonsten'",
+      "text_partial_de": "Sobald aufgedeckt: Hänge diese Karte an den Verbündeten mit dem niedrigsten WID-Wert und ohne ein angehängtes Exemplar Besessen an. Er verwickelt seinen kontrollierenden Spieler in einen Kampf. Ansonsten erhält diese Karte Nachrüsten."
+    },
+    "37034": {
+      "_note": "Psionischer Schild: 'und bringe ihn zurück ins Spiel' entfernt",
+      "text_partial_de": "Erzwungene Reaktion: Sobald der Scherge mit diesem Anhang das Spiel verlassen würde, heile stattdessen allen Schaden von dem Schergen. Lege dann diesen Anhang ab."
+    },
+    "39016": {
+      "_note": "Die Suche nach Spiral: Kosten-Pfeil zur Held-Aktion hinzugefügt",
+      "text_partial_de": "Held – Aktion: Nimm 2 Schaden → entferne 3 Bedrohung von hier."
+    },
+    "39045": {
+      "_note": "Nervige Nebenquest (Fetch Quest): Text leicht umformuliert (Spielerreihenfolge, Kosten ignorieren)",
+      "text_partial_de": "Sobald besiegt: In Spielerreihenfolge darf jeder Spieler sein Deck nach einer Karte durchsuchen, sie ins Spiel bringen und dabei ihre Kosten ignorieren."
+    },
+    "40092": {
+      "_note": "Unterdrückendes Halsband: Erinnerungstext → Spieltext ('Jeder Spieler kann dies tun')",
+      "text_partial_de": "Aktion: Wähle: Erschöpfe entweder einen Charakter unter deiner Kontrolle oder nimm 3 Schaden → lege diese Karte ab. Jeder Spieler kann dies tun."
+    },
+    "44041": {
+      "_note": "'Pool-isiert: 'Er verwickelt seinen kontrollierenden Spieler in einen Kampf' hinzugefügt",
+      "text_partial_de": "Sobald aufgedeckt: Hänge diese Karte an den Verbündeten mit den höchsten Kosten und ohne ein angehängtes Exemplar 'Pool-isiert an. Er verwickelt seinen kontrollierenden Spieler in einen Kampf. Ansonsten erhält diese Karte Nachrüsten."
+    },
+    "37032": {
+      "_note": "Exodus: 'für diesen Angriff' hinzugefügt (zweiter Absatz)",
+      "text_partial_de": "Erzwungene Reaktion: Nachdem Exodus dich angegriffen hat, lege Karten von deinem Deck ab in Höhe seines Gesamt-ANG-Wertes für diesen Angriff."
+    },
+    "45171a": {
+      "_note": "Missionsteam: 'in dieser Phase' im ersten Unterpunkt hinzugefügt",
+      "text_partial_de": "Senke die Kosten des nächsten Verbündeten, der zur Mission in dieser Phase gespielt wird, um 2."
+    },
+    "48012": {
+      "_note": "Rogue (Ally aus Nightcrawler-Pack): 'aufgedruckte WID- und ANG-Werte' → 'WID- und ANG-Basiswerte'",
+      "text_partial_de": "Aktion: Füge einem anderen befreundeten Charakter 1 Schaden zu → bis zum Ende der Runde erhält Rogue jedes Merkmal des Charakters und addiert seine WID- und ANG-Basiswerte zu ihren entsprechenden Kräften hinzu. (Nur ein Mal pro Runde.)"
+    },
+    "48037": {
+      "_note": "Tweedledope: Stern-Symbol im Boost-Feld entfernt (boost_star sollte false sein)",
+      "boost_star": false
+    },
+    "50153": {
+      "_note": "Strahlenbelastung: PLA-Modifikator sollte ein WID-Modifikator sein (Feld thwart_star statt scheme_star/attack_star)",
+      "text_partial_de": "Hänge dies an deine Identität an. [star]-Modifikator gilt für WID statt PLA."
+    },
+    "50156": {
+      "_note": "MACH-IV: 'mit ihrer Basiskraft' gelöscht (zweiter Absatz)",
+      "text_partial_de": "Charaktere ohne das Merkmal Fliegend können nicht gegen MACH-IVs Angriffe verteidigen."
+    }
   }
 }

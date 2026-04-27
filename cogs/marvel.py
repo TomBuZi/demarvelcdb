@@ -9,6 +9,9 @@ PAGE_SIZE = 20
 RULE_COLOR = 0x8B0000
 
 
+_DE_FIELDS = ("name", "text", "traits", "flavor", "subname")
+
+
 def _apply_errata(card: dict, errata: dict) -> dict:
     patch = errata.get(card.get("code", ""))
     if not patch:
@@ -17,6 +20,35 @@ def _apply_errata(card: dict, errata: dict) -> dict:
     card.update({k: v for k, v in patch.items() if not k.startswith("_")})
     card["has_errata"] = True
     return card
+
+
+def _has_german_overlay(card: dict) -> bool:
+    """True, wenn auf diese Karte ein deutsches Overlay angewendet wurde —
+    erkannt daran, dass mindestens ein `real_<field>` (vom `bot.py`-Loader
+    gesichert) sich vom aktuellen Feld unterscheidet. Spielerkarten von der
+    de.marvelcdb-API haben keine `real_*`-Felder und liefern hier `False`,
+    weil dort keine Englisch-Variante zum Wechseln vorhanden ist."""
+    for field in _DE_FIELDS:
+        real = card.get(f"real_{field}")
+        if real is None:
+            continue
+        if real != (card.get(field) or ""):
+            return True
+    return False
+
+
+def _english_card(card: dict) -> dict:
+    """Liefert eine Kopie der Karte mit den englischen Originalwerten aus
+    `real_*` zurückgespielt. Errata wird verworfen, weil unser Errata-Dict
+    deutsche Strings patcht — auf einer englischen Karte würden die Mischmasch
+    erzeugen."""
+    en = dict(card)
+    for field in _DE_FIELDS:
+        real = card.get(f"real_{field}")
+        if real is not None:
+            en[field] = real
+    en["has_errata"] = False
+    return en
 
 
 RULEBOOK_URL = "https://asmodee-resources.azureedge.net/media/germanyprod/Regeln/marvel-champions-lcg-4015566029613-referenzhandbuch-v1-7de.pdf"
@@ -100,15 +132,72 @@ def _card_description(card: dict) -> str:
     return " · ".join(parts)[:100]
 
 
-class ErrataToggleView(discord.ui.View):
+class CardView(discord.ui.View):
+    """Universal-View für eine angezeigte Karte mit dynamisch eingeblendeten
+    Buttons. Drei mögliche Zustände, die die Buttons abdecken:
+
+    - Englisch-only (kein DE-Overlay, keine Errata): keine Buttons → kein View
+    - Englisch + Errata (selten): Errata + Verstecken
+    - Englisch + Deutsch: Sprache + Verstecken
+    - Englisch + Deutsch + Errata: Errata + Sprache + Verstecken
+
+    Errata wird ausschließlich auf die deutsche Variante angewendet (das
+    Errata-Dict enthält deutsche Strings). Beim Wechsel auf Englisch wird die
+    Errata-Anwendung pausiert, der Schalter-State (`errata_applied`) bleibt
+    aber erhalten — beim Zurückwechseln auf Deutsch sieht der User wieder
+    die zuletzt gewählte Variante.
+    """
+
     def __init__(self, card: dict, errata: dict, emojis: dict, requester_id: int):
-        super().__init__(timeout=30)
-        self.card          = card
-        self.errata        = errata
-        self.emojis        = emojis
-        self.requester_id  = requester_id
-        self.showing_errata = True
+        super().__init__(timeout=120)
+        self.card         = card
+        self.errata       = errata
+        self.emojis       = emojis
+        self.requester_id = requester_id
         self.message: discord.Message | None = None
+
+        self.has_de     = _has_german_overlay(card)
+        self.has_errata = card.get("code", "") in errata
+
+        # Initialer Zustand: zeige immer DE wenn vorhanden, mit Errata wenn vorhanden.
+        self.lang            = "de"
+        self.errata_applied  = self.has_errata
+
+        self._rebuild()
+
+    def _rebuild(self) -> None:
+        """Setzt die Buttons passend zum aktuellen State neu zusammen.
+
+        Errata-Button erscheint nur in DE-Modus (Errata patcht deutsche Felder).
+        Sprach-Button erscheint nur, wenn überhaupt eine deutsche Übersetzung
+        vorhanden ist."""
+        self.clear_items()
+
+        if self.has_errata and self.lang == "de":
+            label = "Original anzeigen" if self.errata_applied else "Errata anzeigen"
+            btn = discord.ui.Button(label=label, style=discord.ButtonStyle.primary)
+            btn.callback = self._toggle_errata
+            self.add_item(btn)
+
+        if self.has_de:
+            label = "Englisch anzeigen" if self.lang == "de" else "Deutsch anzeigen"
+            btn = discord.ui.Button(label=label, style=discord.ButtonStyle.secondary)
+            btn.callback = self._toggle_lang
+            self.add_item(btn)
+
+        # Hide-Button immer dabei, wenn überhaupt einer der Toggles existiert.
+        if self.has_de or self.has_errata:
+            btn = discord.ui.Button(label="Buttons ausblenden", style=discord.ButtonStyle.danger)
+            btn.callback = self._hide
+            self.add_item(btn)
+
+    def _displayed_card(self) -> dict:
+        """Aktuell angezeigte Karten-Variante anhand State."""
+        if self.lang == "en":
+            return _english_card(self.card)
+        if self.errata_applied:
+            return _apply_errata(self.card, self.errata)
+        return self.card
 
     async def interaction_check(self, interaction: discord.Interaction) -> bool:
         if interaction.user.id != self.requester_id:
@@ -119,19 +208,21 @@ class ErrataToggleView(discord.ui.View):
             return False
         return True
 
-    @discord.ui.button(label="Original anzeigen", style=discord.ButtonStyle.primary)
-    async def toggle(self, interaction: discord.Interaction, button: discord.ui.Button):
-        self.showing_errata = not self.showing_errata
-        if self.showing_errata:
-            card = _apply_errata(self.card, self.errata)
-            button.label = "Original anzeigen"
-        else:
-            card = self.card
-            button.label = "Errata anzeigen"
-        await interaction.response.edit_message(embed=build_embed(card, self.emojis), view=self)
+    async def _toggle_errata(self, interaction: discord.Interaction):
+        self.errata_applied = not self.errata_applied
+        self._rebuild()
+        await interaction.response.edit_message(
+            embed=build_embed(self._displayed_card(), self.emojis), view=self,
+        )
 
-    @discord.ui.button(label="Buttons ausblenden", style=discord.ButtonStyle.danger)
-    async def hide(self, interaction: discord.Interaction, button: discord.ui.Button):
+    async def _toggle_lang(self, interaction: discord.Interaction):
+        self.lang = "en" if self.lang == "de" else "de"
+        self._rebuild()
+        await interaction.response.edit_message(
+            embed=build_embed(self._displayed_card(), self.emojis), view=self,
+        )
+
+    async def _hide(self, interaction: discord.Interaction):
         await interaction.response.edit_message(view=None)
         self.stop()
 
@@ -144,10 +235,15 @@ class ErrataToggleView(discord.ui.View):
 
 
 async def _send_card(send, card: dict, errata: dict, emojis: dict, requester_id: int) -> None:
-    patched = _apply_errata(card, errata)
-    embed = build_embed(patched, emojis)
-    if patched.get("has_errata"):
-        view = ErrataToggleView(card, errata, emojis, requester_id)
+    has_de     = _has_german_overlay(card)
+    has_errata = card.get("code", "") in errata
+
+    # Initiale Anzeige spiegelt den Default-State der View: DE + (Errata wenn vorhanden).
+    initial = _apply_errata(card, errata) if has_errata else card
+    embed   = build_embed(initial, emojis)
+
+    if has_de or has_errata:
+        view = CardView(card, errata, emojis, requester_id)
         view.message = await send(embed=embed, view=view)
     else:
         await send(embed=embed)

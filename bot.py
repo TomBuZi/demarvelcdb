@@ -110,10 +110,12 @@ class MarvelBot(commands.Bot):
             card.setdefault("imagesrc",    f"/bundles/cards/{card['code']}.png")
             card.setdefault("url",         f"https://de.marvelcdb.com/card/{card['code']}")
 
-            # Englische Originale sichern
-            card["real_name"]   = card.get("name", "")
-            card["real_text"]   = card.get("text", "")
-            card["real_traits"] = card.get("traits", "")
+            # Englische Originale sichern, BEVOR das deutsche Overlay greift —
+            # alle Felder, die das Overlay potenziell ersetzt, kriegen einen
+            # `real_<field>`-Backup, damit ein Sprach-Toggle in der UI die
+            # vollständige englische Version wiederherstellen kann.
+            for _field in _DE_OVERLAY_FIELDS:
+                card[f"real_{_field}"] = card.get(_field, "")
 
             # Deutsche Übersetzung drüberlegen
             if card["code"] in de_map:

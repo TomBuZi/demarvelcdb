@@ -87,10 +87,20 @@ def _fmt(text: str, icons: dict) -> str:
     return text
 
 
+def _val(v):
+    """Stat-Wert für die Anzeige normalisieren: zzorbas Pack-JSONs nutzen `-1`
+    als Sentinel für variable Werte (z.B. Mandrills Vergeltung X). Auf den
+    gedruckten Karten erscheint dort ein 'X' — also rendern wir das gleich.
+    `None` (Feld nicht gesetzt) bleibt unangetastet, damit Aufrufer die
+    Lücke selbst behandeln können.
+    """
+    return "X" if v == -1 else v
+
+
 def _stat(label: str, value, star: bool = False, star_icon: str = "★"):
     if value is None:
         return None
-    return f"**{label}:** {value}{star_icon if star else ''}"
+    return f"**{label}:** {_val(value)}{star_icon if star else ''}"
 
 
 def build_embed(card: dict, custom_emojis: dict | None = None) -> discord.Embed:
@@ -153,7 +163,7 @@ def build_embed(card: dict, custom_emojis: dict | None = None) -> discord.Embed:
         cost = card.get("cost")
         if cost is not None:
             per = icons["per_hero"] if card.get("cost_per_hero") else ""
-            stats.append(f"**Kosten:** {cost}{per}")
+            stats.append(f"**Kosten:** {_val(cost)}{per}")
         for label, key, sk, cost_key in [
             ("WID", "thwart",  "thwart_star",  "thwart_cost"),
             ("PLA", "scheme",  "scheme_star",  None),
@@ -169,23 +179,23 @@ def build_embed(card: dict, custom_emojis: dict | None = None) -> discord.Embed:
             cd = icons.get("consequential_damage", "💥")
             act = cd * (card.get(cost_key) or 0) if cost_key else ""
             per = icons["per_hero"] if key == "health" and card.get("health_per_hero") else ""
-            stats.append(f"**{label}:** {val}{star}{per}{' ' + act if act else ''}")
+            stats.append(f"**{label}:** {_val(val)}{star}{per}{' ' + act if act else ''}")
 
     if type_code in ("event", "support", "upgrade", "resource", "obligation"):
         cost = card.get("cost")
         if cost is not None:
             per = icons["per_hero"] if card.get("cost_per_hero") else ""
-            stats.append(f"**Kosten:** {cost}{per}")
+            stats.append(f"**Kosten:** {_val(cost)}{per}")
 
     if type_code in ("main_scheme", "side_scheme"):
         bt = card.get("base_threat")
         if bt is not None:
             per = " pro Held" if card.get("base_threat_per_group") else ""
-            stats.append(f"**Startbedrohung:** {bt}{per}")
+            stats.append(f"**Startbedrohung:** {_val(bt)}{per}")
         et = card.get("escalation_threat")
         if et is not None:
             per = " pro Held" if card.get("escalation_threat_per_group") else ""
-            stats.append(f"**Eskalation:** {et}{per}")
+            stats.append(f"**Eskalation:** {_val(et)}{per}")
 
     if stats:
         desc += "\n" + "\n".join(stats)

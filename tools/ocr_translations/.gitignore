@@ -1,0 +1,9 @@
+# Sprachdaten — werden lokal beim Setup befüllt, nicht versionieren (~22 MB)
+tessdata/
+
+# OCR-Output — wird pro Lauf neu erzeugt
+output/
+
+# Python-Bytecode
+__pycache__/
+*.pyc

@@ -1,10 +1,15 @@
 import os
 import json
+import logging
 import asyncio
+from pathlib import Path
 import aiohttp
 import discord
 from discord.ext import commands
 from dotenv import load_dotenv
+
+log = logging.getLogger(__name__)
+LOCAL_TRANSLATIONS_DIR = Path(__file__).parent / "translations_local"
 
 load_dotenv()
 
@@ -78,6 +83,22 @@ class MarvelBot(commands.Bot):
 
         de_entries = await _fetch_json(session, f"{DE_TRANS_BASE}/{pack_code}_encounter.json") or []
         de_map = {c["code"]: c for c in de_entries}
+
+        # Lokales Overlay aus translations_local/ — gewinnt gegen GitHub-DE,
+        # weil es nach den GitHub-Daten in dieselbe Map gemerged wird.
+        local_path = LOCAL_TRANSLATIONS_DIR / f"{pack_code}_encounter.json"
+        if local_path.exists():
+            try:
+                local_entries = json.loads(local_path.read_text(encoding="utf-8"))
+                for entry in local_entries:
+                    code = entry.get("code")
+                    if not code:
+                        continue
+                    de_map.setdefault(code, {}).update(
+                        {k: v for k, v in entry.items() if k in _DE_OVERLAY_FIELDS}
+                    )
+            except Exception as e:
+                log.warning("Konnte %s nicht laden: %s", local_path, e)
 
         result = []
         for card in en_cards:

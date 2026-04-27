@@ -1,0 +1,58 @@
+# Layout-Definition für das Pack `hood`.
+#
+# Modus `auto_detect: true`: Karten werden per Konturerkennung gefunden
+# (saubere weiße Bereiche zwischen den Karten vorausgesetzt). Es muss kein
+# Pixel-Grid mehr gepflegt werden. `cols` dient nur als Hinweis, in welche
+# (row, col)-Buckets die erkannten Karten in der Reviewer-Verzeichnis-Struktur
+# einsortiert werden — er beeinflusst die OCR nicht.
+#
+# Kein `set_indicator_hint`: die Hood-Bögen enthalten Karten aus vielen Sets
+# (the_hood, brothers_grimm, beasty_boys, ...). Ein pauschaler Hint würde
+# falsche Codes erzeugen, daher lassen wir das Mapping leer, wenn OCR es
+# nicht eindeutig auflösen kann — der Reviewer ergänzt code dann manuell.
+#
+# Falls Auto-Detect für einen Bogen scheitert (z.B. Karten kleben aneinander),
+# kann derselbe Bogen alternativ mit `auto_detect: false` plus klassischem
+# Grid (rows/cols/origin_x/.../cards) konfiguriert werden — siehe
+# `extract.py:_build_card_iter`.
+#
+# Hinweis zur Orientierung: Schemes und Attachments sind im Druck Querformat,
+# liegen auf den Bögen aber meist um 90° rotiert (Bounding-Box bleibt
+# Hochformat-Verhältnis). Für solche Karten ist die Standard-Region-OCR
+# (für Hochformat ausgelegt) erwartbar Müll — der Reviewer korrigiert
+# `parsed.json` direkt anhand des Crops.
+
+"HoodSetGER_1.jpg":
+  auto_detect: true
+  cols: 3
+
+"HoodSetGER_2.jpg":
+  auto_detect: true
+  cols: 3
+
+"HoodSetGER_3.jpg":
+  auto_detect: true
+  cols: 3
+
+"HoodSetGER_4.jpg":
+  auto_detect: true
+  cols: 3
+
+"HoodSetGER_5.jpg":
+  auto_detect: true
+  cols: 3
+
+"HoodSetGER_6.jpg":
+  auto_detect: true
+  cols: 3
+
+"HoodSetGER_7.jpg":
+  auto_detect: true
+  cols: 3
+
+"HoodSetGER_8.jpg":
+  auto_detect: true
+  cols: 3
+
+# Region-Templates pro Card-Type-Klasse leben jetzt im Code (`extract.py:TYPE_LAYOUTS`),
+# weil sie kartentyp-abhängig sind und nicht pro Bogen variieren.

@@ -180,14 +180,15 @@ class CardView(discord.ui.View):
             self.add_item(btn)
 
         if self.has_de:
-            label = "Englisch anzeigen" if self.lang == "de" else "Deutsch anzeigen"
-            btn = discord.ui.Button(label=label, style=discord.ButtonStyle.secondary)
+            label = "Englisch anzeigen" if self.lang == "de" else "Show in German"
+            btn = discord.ui.Button(label=label, style=discord.ButtonStyle.primary)
             btn.callback = self._toggle_lang
             self.add_item(btn)
 
         # Hide-Button immer dabei, wenn überhaupt einer der Toggles existiert.
         if self.has_de or self.has_errata:
-            btn = discord.ui.Button(label="Buttons ausblenden", style=discord.ButtonStyle.danger)
+            hide_label = "Buttons ausblenden" if self.lang == "de" else "Hide buttons"
+            btn = discord.ui.Button(label=hide_label, style=discord.ButtonStyle.danger)
             btn.callback = self._hide
             self.add_item(btn)
 
@@ -201,10 +202,12 @@ class CardView(discord.ui.View):
 
     async def interaction_check(self, interaction: discord.Interaction) -> bool:
         if interaction.user.id != self.requester_id:
-            await interaction.response.send_message(
-                "Nur die Person, die die Karte aufgerufen hat, darf die Buttons benutzen.",
-                ephemeral=True,
+            msg = (
+                "Nur die Person, die die Karte aufgerufen hat, darf die Buttons benutzen."
+                if self.lang == "de"
+                else "Only the person who looked up the card can use these buttons."
             )
+            await interaction.response.send_message(msg, ephemeral=True)
             return False
         return True
 
@@ -212,14 +215,14 @@ class CardView(discord.ui.View):
         self.errata_applied = not self.errata_applied
         self._rebuild()
         await interaction.response.edit_message(
-            embed=build_embed(self._displayed_card(), self.emojis), view=self,
+            embed=build_embed(self._displayed_card(), self.emojis, lang=self.lang), view=self,
         )
 
     async def _toggle_lang(self, interaction: discord.Interaction):
         self.lang = "en" if self.lang == "de" else "de"
         self._rebuild()
         await interaction.response.edit_message(
-            embed=build_embed(self._displayed_card(), self.emojis), view=self,
+            embed=build_embed(self._displayed_card(), self.emojis, lang=self.lang), view=self,
         )
 
     async def _hide(self, interaction: discord.Interaction):

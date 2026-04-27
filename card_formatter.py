@@ -62,6 +62,58 @@ TYPE_LABELS = {
     "treachery":   "Verrat",
     "obligation":  "Verpflichtung",
     "environment": "Umgebung",
+    "attachment":  "Anhang",
+}
+
+TYPE_LABELS_EN = {
+    "hero":        "Hero",
+    "alter_ego":   "Alter-Ego",
+    "ally":        "Ally",
+    "event":       "Event",
+    "resource":    "Resource",
+    "support":     "Support",
+    "upgrade":     "Upgrade",
+    "villain":     "Villain",
+    "main_scheme": "Main Scheme",
+    "side_scheme": "Side Scheme",
+    "minion":      "Minion",
+    "treachery":   "Treachery",
+    "obligation":  "Obligation",
+    "environment": "Environment",
+    "attachment":  "Attachment",
+}
+
+_STAT_LABELS = {
+    "de": {
+        "HP":         "LP",
+        "HAND":       "Handkarten",
+        "THW":        "WID",
+        "ATK":        "ANG",
+        "DEF":        "VER",
+        "REC":        "ERH",
+        "SCH":        "PLA",
+        "COST":       "Kosten",
+        "BASE":       "Startbedrohung",
+        "ESC":        "Eskalation",
+        "RES":        "Ressourcen",
+        "PER_HERO":   " pro Held",
+        "ERRATA":     "ERRATA",
+    },
+    "en": {
+        "HP":         "HP",
+        "HAND":       "Hand Size",
+        "THW":        "THW",
+        "ATK":        "ATK",
+        "DEF":        "DEF",
+        "REC":        "REC",
+        "SCH":        "SCH",
+        "COST":       "Cost",
+        "BASE":       "Starting Threat",
+        "ESC":        "Acceleration",
+        "RES":        "Resources",
+        "PER_HERO":   " per hero",
+        "ERRATA":     "ERRATA",
+    },
 }
 
 IMAGE_BASE = "https://marvelcdb.com"
@@ -103,8 +155,10 @@ def _stat(label: str, value, star: bool = False, star_icon: str = "★"):
     return f"**{label}:** {_val(value)}{star_icon if star else ''}"
 
 
-def build_embed(card: dict, custom_emojis: dict | None = None) -> discord.Embed:
+def build_embed(card: dict, custom_emojis: dict | None = None, lang: str = "de") -> discord.Embed:
     icons     = _build_icon_map(custom_emojis or {})
+    L         = _STAT_LABELS.get(lang, _STAT_LABELS["de"])
+    type_map  = TYPE_LABELS_EN if lang == "en" else TYPE_LABELS
     type_code = card.get("type_code", "")
     faction   = card.get("faction_code", "")
     color     = FACTION_COLORS.get(faction, FACTION_COLORS.get(type_code, 0x888888))
@@ -112,7 +166,8 @@ def build_embed(card: dict, custom_emojis: dict | None = None) -> discord.Embed:
         color = 0xFF8C00
 
     # Title
-    title = card.get("name") or card.get("real_name", "Unbekannt")
+    fallback_name = "Unknown" if lang == "en" else "Unbekannt"
+    title = card.get("name") or card.get("real_name", fallback_name)
     if card.get("stage"):
         title = f"{title} ({card['stage']})"
     subname = card.get("subname")
@@ -128,7 +183,7 @@ def build_embed(card: dict, custom_emojis: dict | None = None) -> discord.Embed:
     if imagesrc:
         embed.set_thumbnail(url=IMAGE_BASE + imagesrc)
 
-    type_label   = TYPE_LABELS.get(type_code, type_code)
+    type_label   = type_map.get(type_code, type_code)
     faction_name = card.get("faction_name", "")
     all_packs    = card.get("all_packs") or [{"pack_name": card.get("pack_name", ""), "position": card.get("position"), "quantity": card.get("quantity")}]
     traits       = card["traits"] if "traits" in card else card.get("real_traits")
@@ -140,62 +195,82 @@ def build_embed(card: dict, custom_emojis: dict | None = None) -> discord.Embed:
 
     if type_code in ("hero", "alter_ego"):
         per = icons["per_hero"] if card.get("health_per_hero") else ""
-        s = _stat("LP", card.get("health"), card.get("health_star", False), icons["star"])
+        s = _stat(L["HP"], card.get("health"), card.get("health_star", False), icons["star"])
         if s: stats.append(s + per)
-        s = _stat("Handkarten", card.get("hand_size"))
+        s = _stat(L["HAND"], card.get("hand_size"))
         if s: stats.append(s)
 
     if type_code == "hero":
-        for label, key, sk in [
-            ("WID", "thwart",  "thwart_star"),
-            ("ANG", "attack",  "attack_star"),
-            ("VER", "defense", "defense_star"),
-            ("ERH", "recover", "recover_star"),
+        for label_key, key, sk in [
+            ("THW", "thwart",  "thwart_star"),
+            ("ATK", "attack",  "attack_star"),
+            ("DEF", "defense", "defense_star"),
+            ("REC", "recover", "recover_star"),
         ]:
-            s = _stat(label, card.get(key), card.get(sk, False), icons["star"])
+            s = _stat(L[label_key], card.get(key), card.get(sk, False), icons["star"])
             if s: stats.append(s)
 
     if type_code == "alter_ego":
-        s = _stat("ERH", card.get("recover"), card.get("recover_star", False), icons["star"])
+        s = _stat(L["REC"], card.get("recover"), card.get("recover_star", False), icons["star"])
         if s: stats.append(s)
 
     if type_code in ("ally", "minion", "villain"):
         cost = card.get("cost")
         if cost is not None:
             per = icons["per_hero"] if card.get("cost_per_hero") else ""
-            stats.append(f"**Kosten:** {_val(cost)}{per}")
-        for label, key, sk, cost_key in [
-            ("WID", "thwart",  "thwart_star",  "thwart_cost"),
-            ("PLA", "scheme",  "scheme_star",  None),
-            ("ANG", "attack",  "attack_star",  "attack_cost"),
-            ("VER", "defense", "defense_star", None),
-            ("ERH", "recover", "recover_star", None),
-            ("LP",  "health",  "health_star",  None),
+            stats.append(f"**{L['COST']}:** {_val(cost)}{per}")
+        # Verbündete haben konzeptuell immer ATK und THW; wenn die JSON-Daten
+        # keinen Wert liefern, rendern wir einen Strich statt die Zeile ganz
+        # wegzulassen.
+        always_show = {"thwart", "attack"} if type_code == "ally" else set()
+        for label_key, key, sk, cost_key in [
+            ("THW", "thwart",  "thwart_star",  "thwart_cost"),
+            ("SCH", "scheme",  "scheme_star",  None),
+            ("ATK", "attack",  "attack_star",  "attack_cost"),
+            ("DEF", "defense", "defense_star", None),
+            ("REC", "recover", "recover_star", None),
+            ("HP",  "health",  "health_star",  None),
         ]:
             val = card.get(key)
             if val is None:
+                if key in always_show:
+                    stats.append(f"**{L[label_key]}:** -")
                 continue
             star = icons["star"] if card.get(sk) else ""
             cd = icons.get("consequential_damage", "💥")
             act = cd * (card.get(cost_key) or 0) if cost_key else ""
             per = icons["per_hero"] if key == "health" and card.get("health_per_hero") else ""
-            stats.append(f"**{label}:** {_val(val)}{star}{per}{' ' + act if act else ''}")
+            stats.append(f"**{L[label_key]}:** {_val(val)}{star}{per}{' ' + act if act else ''}")
+
+    if type_code == "attachment":
+        # Anhänge addieren ihre Werte auf den Träger; wir prefixen den Wert mit
+        # `+`. Felder fehlen, wenn der Anhang den Stat gar nicht modifiziert —
+        # `0` ist ein gültiger Wert (typisch in Kombination mit einem Stern).
+        for label_key, key, sk in [
+            ("ATK", "attack", "attack_star"),
+            ("SCH", "scheme", "scheme_star"),
+        ]:
+            val = card.get(key)
+            if val is None:
+                continue
+            star = icons["star"] if card.get(sk) else ""
+            stats.append(f"**{L[label_key]}:** +{_val(val)}{star}")
 
     if type_code in ("event", "support", "upgrade", "resource", "obligation"):
         cost = card.get("cost")
         if cost is not None:
             per = icons["per_hero"] if card.get("cost_per_hero") else ""
-            stats.append(f"**Kosten:** {_val(cost)}{per}")
+            stats.append(f"**{L['COST']}:** {_val(cost)}{per}")
 
     if type_code in ("main_scheme", "side_scheme"):
         bt = card.get("base_threat")
         if bt is not None:
-            per = " pro Held" if card.get("base_threat_per_group") else ""
-            stats.append(f"**Startbedrohung:** {_val(bt)}{per}")
+            per = L["PER_HERO"] if card.get("base_threat_per_group") else ""
+            stats.append(f"**{L['BASE']}:** {_val(bt)}{per}")
         et = card.get("escalation_threat")
         if et is not None:
-            per = " pro Held" if card.get("escalation_threat_per_group") else ""
-            stats.append(f"**Eskalation:** {_val(et)}{per}")
+            per = L["PER_HERO"] if card.get("escalation_threat_per_group") else ""
+            stats.append(f"**{L['ESC']}:** {_val(et)}{per}")
 
     if stats:
         desc += "\n" + "\n".join(stats)
@@ -231,7 +306,7 @@ def build_embed(card: dict, custom_emojis: dict | None = None) -> discord.Embed:
         if val:
             resources.append(icons[key] * val)
     if resources:
-        desc += f"\n**Ressourcen:** {'  '.join(resources)}"
+        desc += f"\n**{L['RES']}:** {'  '.join(resources)}"
 
     pack_lines = []
     for p in all_packs:

@@ -1,3 +1,5 @@
+from difflib import SequenceMatcher
+
 _FINGERPRINT_FIELDS = (
     "name", "real_name", "subname",
     "type_code", "faction_code",
@@ -19,6 +21,9 @@ _FINGERPRINT_FIELDS = (
     "is_unique", "permanent", "double_sided",
 )
 
+_FUZZY_THRESHOLD = 0.5
+_FUZZY_LIMIT     = 5
+
 
 def _fingerprint(card: dict) -> tuple:
     def norm(v):
@@ -26,7 +31,42 @@ def _fingerprint(card: dict) -> tuple:
     return tuple(norm(card.get(f)) for f in _FINGERPRINT_FIELDS)
 
 
-def search_cards(cards: list[dict], query: str) -> list[dict]:
+def _ratio(a: str, b: str) -> float:
+    if not a or not b:
+        return 0.0
+    return SequenceMatcher(None, a, b).ratio()
+
+
+def _decorate(hits: list[dict]) -> list[dict]:
+    seen:      dict[tuple, dict]       = {}
+    all_packs: dict[tuple, list[dict]] = {}
+    order:     list[tuple]             = []
+    for c in hits:
+        fp = _fingerprint(c)
+        if fp not in seen:
+            seen[fp] = c
+            order.append(fp)
+        elif c["code"] < seen[fp]["code"]:
+            seen[fp] = c
+        all_packs.setdefault(fp, []).append({
+            "pack_name": c.get("pack_name", ""),
+            "position":  c.get("position"),
+            "quantity":  c.get("quantity"),
+        })
+
+    result = []
+    for fp in order:
+        card = dict(seen[fp])
+        card["all_packs"] = all_packs[fp]
+        result.append(card)
+    return result
+
+
+def search_cards(cards: list[dict], query: str) -> tuple[str, list[dict]]:
+    """Suche in drei Stufen: exakter Name → Teilstring → Fuzzy-Top-5.
+
+    Rückgabe: ("exact"|"substring"|"fuzzy"|"none", treffer)
+    """
     q = query.lower()
 
     def matches(c: dict, exact: bool) -> bool:
@@ -37,25 +77,37 @@ def search_cards(cards: list[dict], query: str) -> list[dict]:
         return (name == q or real == q) if exact else (q in name or q in real)
 
     hits = [c for c in cards if matches(c, exact=True)]
-    if not hits:
-        hits = [c for c in cards if matches(c, exact=False)]
+    if hits:
+        return ("exact", _decorate(hits))
 
-    seen:      dict[tuple, dict]       = {}
-    all_packs: dict[tuple, list[dict]] = {}
-    for c in hits:
+    hits = [c for c in cards if matches(c, exact=False)]
+    if hits:
+        return ("substring", _decorate(hits))
+
+    # Fuzzy: pro Kandidat die beste Ratio gegen Name oder Real-Name; nach Score
+    # absteigend dedupen über Fingerprint, max. 5 Ergebnisse.
+    scored = []
+    for c in cards:
+        if c.get("duplicate_of"):
+            continue
+        name = (c.get("name") or "").lower()
+        real = (c.get("real_name") or "").lower()
+        r = max(_ratio(q, name), _ratio(q, real))
+        if r >= _FUZZY_THRESHOLD:
+            scored.append((r, c))
+    scored.sort(key=lambda t: -t[0])
+
+    seen_fp: set[tuple] = set()
+    top: list[dict] = []
+    for _r, c in scored:
         fp = _fingerprint(c)
-        if fp not in seen or c["code"] < seen[fp]["code"]:
-            seen[fp] = c
-        pack_entry = {
-            "pack_name": c.get("pack_name", ""),
-            "position":  c.get("position"),
-            "quantity":  c.get("quantity"),
-        }
-        all_packs.setdefault(fp, []).append(pack_entry)
+        if fp in seen_fp:
+            continue
+        seen_fp.add(fp)
+        top.append(c)
+        if len(top) >= _FUZZY_LIMIT:
+            break
 
-    result = []
-    for fp, card in seen.items():
-        card = dict(card)
-        card["all_packs"] = all_packs[fp]
-        result.append(card)
-    return result
+    if not top:
+        return ("none", [])
+    return ("fuzzy", _decorate(top))

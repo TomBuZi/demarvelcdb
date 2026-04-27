@@ -302,13 +302,15 @@ def main():
             print(f'"{query}": Bitte mindestens 3 Buchstaben angeben.')
             continue
 
-        matches = search_cards(cards, query)
+        kind, matches = search_cards(cards, query)
 
         if not matches:
             print(f'\nKeine Karte gefunden für „{query}".')
             continue
 
-        if len(matches) == 1:
+        if kind == "fuzzy":
+            print(f'\nKeine direkten Treffer für „{query}" – ähnlichste Karten:')
+        elif len(matches) == 1:
             print_card(matches[0])
             continue
 

@@ -426,44 +426,46 @@ class Marvel(commands.Cog):
             await message.channel.send(f'"{query}": Bitte mindestens 2 Buchstaben angeben.')
             return
 
-        matches = search_rules(query)
+        kind, matches = search_rules(query)
         if not matches:
             await message.channel.send(f'Keine Regel gefunden für „{query}".')
             return
 
         emojis = self._custom_emojis()
-        if len(matches) == 1:
+        if len(matches) == 1 and kind != "fuzzy":
             for embed in build_rule_embeds(matches[0], emojis):
                 await message.channel.send(embed=embed)
             return
 
+        if kind == "fuzzy":
+            prompt = f'Keine direkten Treffer für „{query}" – ähnlichste Regeln:'
+        else:
+            prompt = f'**{len(matches)} Treffer** für „{query}" – bitte eine Regel wählen:'
         view = RuleSelectView(matches, requester_id=message.author.id, custom_emojis=emojis)
-        await message.channel.send(
-            f'**{len(matches)} Treffer** für „{query}" – bitte eine Regel wählen:',
-            view=view,
-        )
+        await message.channel.send(prompt, view=view)
 
     async def _handle_single(self, message: discord.Message, cards: list, query: str):
         if len(query) < 3:
             await message.channel.send(f'"{query}": Bitte mindestens 3 Buchstaben angeben.')
             return
 
-        matches = search_cards(cards, query)
+        kind, matches = search_cards(cards, query)
         if not matches:
             await message.channel.send(f'Keine deutsche Karte gefunden für "{query}".')
             return
 
         emojis = self._custom_emojis()
-        if len(matches) == 1:
+        if len(matches) == 1 and kind != "fuzzy":
             await _send_card(message.channel.send, matches[0], self.bot.errata, emojis, message.author.id)
             return
 
+        if kind == "fuzzy":
+            prompt = f'Keine direkten Treffer für „{query}" – ähnlichste Karten:'
+        else:
+            prompt = f'**{len(matches)} Treffer** für "{query}" – bitte eine Karte wählen:'
         view = CardSelectView(matches, offset=0, requester_id=message.author.id,
                               custom_emojis=emojis, errata=self.bot.errata)
-        await message.channel.send(
-            f'**{len(matches)} Treffer** für "{query}" – bitte eine Karte wählen:',
-            view=view,
-        )
+        await message.channel.send(prompt, view=view)
 
     async def _handle_multi(self, message: discord.Message, cards: list, queries: list[str]):
         loop = asyncio.get_event_loop()
@@ -478,23 +480,24 @@ class Marvel(commands.Cog):
                 slots.append(None)
                 continue
 
-            matches = search_cards(cards, query)
+            kind, matches = search_cards(cards, query)
             if not matches:
                 await message.channel.send(f'Keine deutsche Karte gefunden für "{query}".')
                 slots.append(None)
                 continue
 
-            if len(matches) == 1:
+            if len(matches) == 1 and kind != "fuzzy":
                 slots.append(matches[0])
                 continue
 
             future: asyncio.Future = loop.create_future()
             view = CardSelectView(matches, offset=0, requester_id=message.author.id,
                                   future=future, custom_emojis=emojis, errata=self.bot.errata)
-            await message.channel.send(
-                f'**{len(matches)} Treffer** für "{query}" – bitte eine Karte wählen:',
-                view=view,
-            )
+            if kind == "fuzzy":
+                prompt = f'Keine direkten Treffer für „{query}" – ähnlichste Karten:'
+            else:
+                prompt = f'**{len(matches)} Treffer** für "{query}" – bitte eine Karte wählen:'
+            await message.channel.send(prompt, view=view)
             slots.append(future)
 
         # Auf alle offenen Auswahlen warten

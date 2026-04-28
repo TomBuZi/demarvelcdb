@@ -1,0 +1,1069 @@
+[
+  {
+    "code": "45059",
+    "name": "Unus",
+    "text": "Zähigkeit.\nFalls auf dem Nebenplan Genpool mindestens so viel Bedrohung liegt:\n• 3 – Unus erhält Vergeltung 1.\n• 6 – Unus erhält außerdem Gestählt.\n• 9 – Unus erhält außerdem ein [boost]-Symbol.",
+    "traits": "Prälat.",
+    "subname": "Schurke"
+  },
+  {
+    "code": "45060",
+    "name": "Unus",
+    "text": "Zähigkeit.\nFalls auf dem Nebenplan Genpool mindestens so viel Bedrohung liegt:\n• 3 – Unus erhält Vergeltung 1.\n• 6 – Unus erhält außerdem Gestählt.\n• 9 – Unus erhält außerdem ein [boost]-Symbol.",
+    "traits": "Prälat.",
+    "subname": "Schurke"
+  },
+  {
+    "code": "45061",
+    "name": "Unus",
+    "text": "Zähigkeit.\nFalls auf dem Nebenplan Genpool mindestens so viel Bedrohung liegt:\n• 3 – Unus erhält Vergeltung 1.\n• 6 – Unus erhält außerdem Gestählt.\n• 9 – Unus erhält außerdem ein [boost]-Symbol.",
+    "traits": "Prälat.",
+    "subname": "Schurke"
+  },
+  {
+    "code": "45062a",
+    "name": "Jagd nach den Gen-Verrätern",
+    "text": "<b>Inhalt</b>: Unus (I) und (II) <i>(Unus (II) und (III) im Expertenmodus)</i>. Unus-, Infinites- und Standard-Set. Ein modulares Set <i>(Dystopischer Albtraum)</i>.\n<b>Spielaufbau</b>: Decke den Nebenplan Genpool auf. Teile im Expertenmodus jedem Spieler eine verdeckte Begegnungskarte zu.",
+    "subname": "Hauptplan"
+  },
+  {
+    "code": "45063",
+    "name": "Prälaten-Pistole",
+    "text": "Hänge diese Karte an Unus an.\n★ <b>Erzwungene Reaktion</b>: Nachdem Unus einen Verbündeten angegriffen und besiegt hat, platziere 1 Bedrohung auf dem Nebenplan Genpool.\n<b>Held – Reaktion</b>: Nachdem du einen Basisangriff gegen Unus durchgeführt hast, gib [physical][mental]-Ressourcen aus → lege diese Karte ab.",
+    "traits": "Waffe.",
+    "subname": "Anhang"
+  },
+  {
+    "code": "45064",
+    "name": "Prälaten-Rüstung",
+    "text": "Hänge diese Karte an Unus an.\n★ <b>Erzwungene Reaktion</b>: Nachdem Unus den Plan vorangetrieben hat, gib ihm eine Zäh-Statuskarte.\n<b>Held – Reaktion</b>: Nachdem du einen Basisangriff gegen Unus durchgeführt hast, gib [physical][mental]-Ressourcen aus → lege diese Karte ab.",
+    "traits": "Rüstung.",
+    "subname": "Anhang"
+  },
+  {
+    "code": "45065",
+    "name": "Infinite-Jäger",
+    "text": "<b>Sobald aufgedeckt</b>: Füge einem Verbündeten unter deiner Kontrolle 3 Schaden zu.\n★ <b>Boost</b>: Wähle: Platziere entweder 2 Bedrohung auf Genpool oder der aktivierende Gegner bekommt für diese Aktivierung +2 PLA und +2 ANG.",
+    "traits": "Infinite.",
+    "subname": "Scherge"
+  },
+  {
+    "code": "45066",
+    "name": "Genetische Experimente",
+    "text": "Hänge diese Karte an einen <i>Infinite</i>-Schergen an. Ansonsten erhält diese Karte Nachrüsten.\nDer Scherge mit diesem Anhang bekommt +2 Lebenspunkte.\n<b>Erzwungene Unterbrechung</b>: Sobald der Scherge mit diesem Anhang besiegt wird, platziere 2 Bedrohung auf Genpool.\n★ <b>Boost</b>: Hänge diese Karte an einen <i>Infinite</i>-Schergen an.",
+    "traits": "Zustand.",
+    "subname": "Anhang"
+  },
+  {
+    "code": "45067",
+    "name": "Infinite-Prälat",
+    "text": "<b>Sobald aufgedeckt</b>: Unus wird gegen dich aktiviert. Falls auf Genpool mindestens so viel Bedrohung liegt:\n• 3 – Gib Unus eine Zäh-Statuskarte.\n• 6 – Heile außerdem 3 Schaden von Unus.\n• 9 – Gib Unus für diese Aktivierung außerdem eine zusätzliche Boost-Karte.",
+    "subname": "Verrat"
+  },
+  {
+    "code": "45068",
+    "name": "Endlose Wellen",
+    "text": "<b>Sobald besiegt</b>: Platziere 3 Bedrohung auf dem Nebenplan Genpool.",
+    "flavor": "<i>Die Infinites machen ihrem Namen alle Ehre: Egal wie viele ihr besiegt, es werden immer mehr erschaffen.</i>",
+    "subname": "Nebenplan"
+  },
+  {
+    "code": "45069",
+    "name": "Infinite-Soldat",
+    "text": "Wache.\nFalls auf dem Nebenplan Genpool mindestens so viel Bedrohung liegt:\n• 3 – Dieser Scherge erhält Erstschlag.\n• 6 – Dieser Scherge erhält außerdem Nachrüsten.\n• 9 – Dieser Scherge bekommt außerdem +3 Lebenspunkte.",
+    "traits": "Infinite.",
+    "subname": "Scherge"
+  },
+  {
+    "code": "45062b",
+    "name": "Jagd nach den Gen-Verrätern",
+    "text": "★ <b>Erzwungene Reaktion</b>: Nachdem Schritt 1 der Schurkenphase abgehandelt worden ist, platziere 1 Bedrohung auf dem Nebenplan Genpool.\nFalls dieser Plan vollendet ist, verlieren die Spieler das Spiel.",
+    "flavor": "<i>Prälat Unus durchkämmt mit einem Trupp Infinites die Ruinen der X-Mansion nach den Feinden von Apocalypse.</i>",
+    "subname": "Hauptplan"
+  },
+  {
+    "code": "45073",
+    "name": "Kriegsmüde",
+    "text": "<b>Sobald aufgedeckt</b>: Du wirst betäubt. Falls du bereits betäubt bist, nimm stattdessen 2 Schaden.\n★ <b>Boost</b>: Du wirst betäubt. Falls du bereits betäubt bist, nimm stattdessen 2 Schaden.",
+    "subname": "Verrat"
+  },
+  {
+    "code": "45072",
+    "name": "Gejagt",
+    "text": "<b>Alter Ego – Aktion</b>: Lege eine Karte von deiner Hand ab → lege diese Karte ab.",
+    "subname": "Verpflichtung"
+  },
+  {
+    "code": "45071",
+    "name": "Genpool",
+    "text": "Dauerhaft. Spielaufbau.\n<b>Erzwungene Reaktion</b>: Nachdem ein Verbündeter durch etwas anderes als Folgeschaden besiegt worden ist, platziere hier 3 Bedrohung.",
+    "flavor": "<i>Aus dem genetischen Rohmaterial seiner Opfer erschafft Apocalypse die Infinites.</i>",
+    "subname": "Nebenplan"
+  },
+  {
+    "code": "45070",
+    "name": "Ausmerzen der Schwachen",
+    "text": "<b>Sobald aufgedeckt</b>: Platziere 4 Bedrohung auf Genpool.\n★ <b>Boost</b>: Platziere 2 Bedrohung auf Genpool.",
+    "flavor": "<i>Die Infinites wurden geschaffen, um den Willen von Apocalypse auszuführen: Die Schwachen müssen vernichtet werden.</i>",
+    "subname": "Verrat"
+  },
+  {
+    "code": "45087",
+    "name": "Eine Zeit des Hungers",
+    "text": "<b>Sobald besiegt</b>: Der Spieler, der diesen Plan besiegt hat, legt die obersten 10 Karten seines Decks ab.",
+    "flavor": "<i>Hunger kann mit einer kleinen Berührung selbst dem stärksten Mutanten seine Kräfte entziehen.</i>",
+    "subname": "Nebenplan"
+  },
+  {
+    "code": "45086",
+    "name": "Die Verheerungen des Krieges",
+    "text": "<b>Sobald besiegt</b>: Der Spieler, der diesen Plan besiegt hat, legt ein Upgrade oder einen Vorteil unter seiner Kontrolle ab.",
+    "flavor": "<i>Krieg erzeugt Schockwellen mit seinen Armen, um seine Gegner aus dem Gleichgewicht zu bringen.</i>",
+    "subname": "Nebenplan"
+  },
+  {
+    "code": "45085a",
+    "name": "Die Reiter des Apocalypse",
+    "text": "<b>Inhalt</b>: Krieg (A), Hunger (A), Pestilenz (A), Tod (A). <i>„Die Vier Reiter\"</i>- und Standard-Set. Zwei modulare Sets <i>(Dystopischer Albtraum und Hounds)</i>.\n<b>Spielaufbau</b>: Mische die 4 <i>Reiter</i>-Schurken, dann decke sie in einer Reihe von links nach rechts auf. Platziere den Aktivmarker auf dem Schurken ganz links (siehe Regelheft). Jeder Spieler deckt einen zufälligen Nebenplan aus dem Begegnungsset Die Vier Reiter auf.",
+    "subname": "Hauptplan"
+  },
+  {
+    "code": "45084a",
+    "name": "Tod",
+    "text": "★ <b>Erzwungene Reaktion</b>: Nachdem Tod dich angegriffen hat und falls er mindestens 1 Lebenspunkt hat, füge jedem Charakter unter deiner Kontrolle 1 Schaden zu.\nTod kann nicht besiegt werden, solange ein anderer Schurke mindestens 1 Lebenspunkt hat.",
+    "traits": "Fliegend. Reiter.",
+    "subname": "Schurke"
+  },
+  {
+    "code": "45083a",
+    "name": "Pestilenz",
+    "text": "★ <b>Erzwungene Reaktion</b>: Nachdem Pestilenz dich angegriffen hat und falls sie mindestens 1 Lebenspunkt hat, behandle das Textfeld deiner Identität bis zum Beginn der nächsten Schurkenphase, als ob es leer wäre <i>(mit Ausnahme von <b>Merkmalen</b>)</i>.\nPestilenz kann nicht besiegt werden, solange ein anderer Schurke mindestens 1 Lebenspunkt hat.",
+    "traits": "Reiter.",
+    "subname": "Schurke"
+  },
+  {
+    "code": "45082a",
+    "name": "Hunger",
+    "text": "★ <b>Erzwungene Reaktion</b>: Nachdem Hunger dich angegriffen hat und falls sie mindestens 1 Lebenspunkt hat, lege die obersten 10 Karten deines Decks ab.\nHunger kann nicht besiegt werden, solange ein anderer Schurke mindestens 1 Lebenspunkt hat.",
+    "traits": "Reiter.",
+    "subname": "Schurke"
+  },
+  {
+    "code": "45081a",
+    "name": "Krieg",
+    "text": "★ <b>Erzwungene Reaktion</b>: Nachdem Krieg dich angegriffen hat und falls er mindestens 1 Lebenspunkt hat, lege ein Upgrade oder einen Vorteil unter deiner Kontrolle ab.\nKrieg kann nicht besiegt werden, solange ein anderer Schurke mindestens 1 Lebenspunkt hat.",
+    "traits": "Reiter.",
+    "subname": "Schurke"
+  },
+  {
+    "code": "45074",
+    "name": "Zur Vernichtung bestimmt",
+    "text": "<b>Sobald besiegt</b>: Der Spieler, der diesen Plan besiegt hat, muss seine Identität verwirren.",
+    "flavor": "<i>Die Infinites machen Jagd auf diejenigen, die ihr Meister für unwürdig erachtet.</i>",
+    "subname": "Nebenplan"
+  },
+  {
+    "code": "45090",
+    "name": "Goldenes Pferd",
+    "text": "Hänge diese Karte an den Schurken mit den wenigsten Lebenspunkten und ohne das Merkmal <i>Fliegend</i> an.\nDer Schurke mit diesem Anhang erhält das Merkmal <i>Fliegend</i> und wird behandelt, als ob er mindestens 1 Lebenspunkt hätte.\n<b>Held – Reaktion</b>: Nachdem du den Schurken mit diesem Anhang angegriffen hast, handle seine <i>„Erzwungene Reaktion\"</i> ab, als ob er dich gerade angegriffen hätte → lege diese Karte ab.",
+    "traits": "Gegenstand. Tech.",
+    "subname": "Anhang"
+  },
+  {
+    "code": "45089",
+    "name": "Das Gespenst des Todes",
+    "text": "<b>Sobald besiegt</b>: Der Spieler, der diesen Plan besiegt hat, fügt jedem Charakter unter seiner Kontrolle 1 Schaden zu.",
+    "flavor": "<i>Des Todes Schatten treibt die Angst in die Herzen jener, die er jagt.</i>",
+    "subname": "Nebenplan"
+  },
+  {
+    "code": "45088",
+    "name": "Krankheit und Pestilenz",
+    "text": "<b>Sobald besiegt</b>: Der Spieler, der diesen Plan besiegt hat, behandelt das Textfeld seiner Identität bis zum Beginn der nächsten Schurkenphase, als ob es leer wäre <i>(mit Ausnahme von <b>Merkmalen</b>)</i>.",
+    "flavor": "<i>Pestilenz nutzt ihre Kräfte, um ihre Feinde krank und hilflos zu machen.</i>",
+    "subname": "Nebenplan"
+  },
+  {
+    "code": "45084b",
+    "name": "Tod",
+    "text": "★ <b>Erzwungene Reaktion</b>: Nachdem Tod dich angegriffen hat und falls er mindestens 1 Lebenspunkt hat, füge jedem Charakter unter deiner Kontrolle 1 Schaden zu.\nTod kann nicht besiegt werden, solange ein anderer Schurke mindestens 1 Lebenspunkt hat.",
+    "traits": "Fliegend. Reiter.",
+    "subname": "Schurke"
+  },
+  {
+    "code": "45083b",
+    "name": "Pestilenz",
+    "text": "★ <b>Erzwungene Reaktion</b>: Nachdem Pestilenz dich angegriffen hat und falls sie mindestens 1 Lebenspunkt hat, behandle das Textfeld deiner Identität bis zum Beginn der nächsten Schurkenphase, als ob es leer wäre <i>(mit Ausnahme von <b>Merkmalen</b>)</i>.\nPestilenz kann nicht besiegt werden, solange ein anderer Schurke mindestens 1 Lebenspunkt hat.",
+    "traits": "Reiter.",
+    "subname": "Schurke"
+  },
+  {
+    "code": "45082b",
+    "name": "Hunger",
+    "text": "★ <b>Erzwungene Reaktion</b>: Nachdem Hunger dich angegriffen hat und falls sie mindestens 1 Lebenspunkt hat, lege die obersten 10 Karten deines Decks ab.\nHunger kann nicht besiegt werden, solange ein anderer Schurke mindestens 1 Lebenspunkt hat.",
+    "traits": "Reiter.",
+    "subname": "Schurke"
+  },
+  {
+    "code": "45081b",
+    "name": "Krieg",
+    "text": "★ <b>Erzwungene Reaktion</b>: Nachdem Krieg dich angegriffen hat und falls er mindestens 1 Lebenspunkt hat, lege ein Upgrade oder einen Vorteil unter deiner Kontrolle ab.\nKrieg kann nicht besiegt werden, solange ein anderer Schurke mindestens 1 Lebenspunkt hat.",
+    "traits": "Reiter.",
+    "subname": "Schurke"
+  },
+  {
+    "code": "45096",
+    "name": "Wilde Reiter",
+    "text": "<b>Sobald aufgedeckt</b>: Handle die <i>„Erzwungene Reaktion\"</i> auf dem aktiven Schurken ab, als ob er dich gerade mit mindestens 1 Lebenspunkt angegriffen hätte. Verschiebe den Aktivmarker auf den nächsten Schurken und handle seine <i>„Erzwungene Reaktion\"</i> auf dieselbe Weise ab.",
+    "subname": "Verrat"
+  },
+  {
+    "code": "45095",
+    "name": "Reiter des Todes",
+    "text": "<b>Sobald aufgedeckt</b>: Heile 2 Schaden von Tod und gib ihm eine Zäh-Statuskarte. Er wird gegen dich aktiviert.\n★ <b>Boost</b>: Nach dieser Aktivierung wird Tod gegen dich aktiviert. Gib Tod für die Aktivierung keine Boost-Karte.",
+    "subname": "Verrat"
+  },
+  {
+    "code": "45094",
+    "name": "Reiter der Pestilenz",
+    "text": "<b>Sobald aufgedeckt</b>: Heile 2 Schaden von Pestilenz und gib ihr eine Zäh-Statuskarte. Sie wird gegen dich aktiviert.\n★ <b>Boost</b>: Nach dieser Aktivierung wird Pestilenz gegen dich aktiviert. Gib Pestilenz für die Aktivierung keine Boost-Karte.",
+    "subname": "Verrat"
+  },
+  {
+    "code": "45093",
+    "name": "Reiter des Hungers",
+    "text": "<b>Sobald aufgedeckt</b>: Heile 2 Schaden von Hunger und gib ihr eine Zäh-Statuskarte. Sie wird gegen dich aktiviert.\n★ <b>Boost</b>: Nach dieser Aktivierung wird Hunger gegen dich aktiviert. Gib Hunger für die Aktivierung keine Boost-Karte.",
+    "subname": "Verrat"
+  },
+  {
+    "code": "45092",
+    "name": "Reiter des Krieges",
+    "text": "<b>Sobald aufgedeckt</b>: Heile 2 Schaden von Krieg und gib ihm eine Zäh-Statuskarte. Er wird gegen dich aktiviert.\n★ <b>Boost</b>: Nach dieser Aktivierung wird Krieg gegen dich aktiviert. Gib Krieg für die Aktivierung keine Boost-Karte.",
+    "subname": "Verrat"
+  },
+  {
+    "code": "45091",
+    "name": "Metallflügel",
+    "text": "Hänge diese Karte an Tod an und verschiebe den Aktivmarker auf ihn.\nTod erhält Vergeltung 1 und wird behandelt, als ob er mindestens 1 Lebenspunkt hätte.\n<b>Held – Reaktion</b>: Nachdem du Tod angegriffen hast, handle seine <i>„Erzwungene Reaktion\"</i> ab, als ob er dich gerade angegriffen hätte → lege diese Karte ab.",
+    "traits": "Gegenstand. Tech.",
+    "subname": "Anhang"
+  },
+  {
+    "code": "45102a",
+    "name": "Apocalypse",
+    "text": "Standhaft. Zähigkeit.\n<b>Erzwungene Unterbrechung</b>: Sobald der Hauptplan vollendet ist, entferne alle Bedrohung von ihm <i>(ignoriere dabei alle Krisensymbole [crisis])</i>. Drehe diese Karte um und decke Apocalypse (IV) auf.",
+    "traits": "Mutant.",
+    "flavor": "<i>„Die Welt gehört mir und jenen, die ich für würdig erachte.\"</i>",
+    "subname": "Schurke"
+  },
+  {
+    "code": "45101a",
+    "name": "Apocalypse",
+    "text": "Zähigkeit.\n<b>Erzwungene Unterbrechung</b>: Sobald der Hauptplan vollendet ist, entferne alle Bedrohung von ihm <i>(ignoriere dabei alle Krisensymbole [crisis])</i>. Drehe diese Karte um und decke Apocalypse (II) auf.",
+    "traits": "Mutant.",
+    "flavor": "<i>„Fordere mich heraus und verstehe, warum Apocalypse unangefochten an der Spitze steht.\"</i>",
+    "subname": "Schurke"
+  },
+  {
+    "code": "45100",
+    "name": "Die Hunde loslassen",
+    "text": "Das erste Exemplar von Hound, das in jeder Phase aufgedeckt wird, erhält Nachrüsten.\n<b>Sobald besiegt</b>: Der Spieler, der diesen Plan besiegt hat, durchsucht das Begegnungsdeck und den Ablagestapel nach einem Exemplar von Hound und teilt ihn sich selbst als verdeckte Begegnungskarte zu.",
+    "flavor": "<i>Ahab genießt es, mithilfe seiner Hounds Mutanten zu jagen.</i>",
+    "subname": "Nebenplan"
+  },
+  {
+    "code": "45099",
+    "name": "Ahabs Energiespeer",
+    "text": "Hänge diese Karte an Ahab an. Ansonsten hänge sie an den Schurken an.\n★ <b>Erzwungene Unterbrechung</b>: Sobald der Gegner mit diesem Anhang dich angreift, erhält der Angriff Durchdringend und Overkill. Lege Ahabs Energiespeer am Ende des Angriffs ab.",
+    "traits": "Waffe.",
+    "subname": "Anhang"
+  },
+  {
+    "code": "45098",
+    "name": "Hound",
+    "text": "Wache.\n<b>Sobald aufgedeckt</b>: Falls du in Heldengestalt bist, greift Hound dich an. Ansonsten wechsle in deine Heldengestalt.",
+    "traits": "Fährtenleser.",
+    "flavor": "<i>Ahabs Hounds sind Mutanten, die ihres freien Willens beraubt wurden und nun gezwungen sind, ihre eigenen Artgenossen zu jagen.</i>",
+    "subname": "Scherge"
+  },
+  {
+    "code": "45097",
+    "name": "Ahab",
+    "text": "Zähigkeit.\n<b>Sobald aufgedeckt</b>: Falls Die Hunde loslassen im Spiel ist, platziere 3 Bedrohung darauf. Ansonsten finde den Nebenplan Die Hunde loslassen und decke ihn auf.",
+    "traits": "Cyborg. Fährtenleser.",
+    "flavor": "<i>„Du kannst dich vor mir nicht verstecken, Mutant.\"</i>",
+    "subname": "Scherge"
+  },
+  {
+    "code": "45109",
+    "name": "Die Stärksten",
+    "text": "Hänge diese Karte an den Schergen mit den höchsten aufgedruckten Lebenspunkten an und gib ihm eine Zäh-Statuskarte. Ansonsten erhält diese Karte Nachrüsten.\nDer Gegner mit diesem Anhang bekommt +5 Lebenspunkte.",
+    "traits": "Zustand.",
+    "flavor": "<i>Apocalypse befördert nur die stärksten und grausamsten Mutanten in den Rang eines Prälaten.</i>",
+    "subname": "Anhang"
+  },
+  {
+    "code": "45108",
+    "name": "Molekulare Kontrolle",
+    "text": "Hänge diese Karte an Apocalypse an.\nApocalypse erhält Vergeltung 1 und Gestählt.\n★ <b>Boost</b>: Hänge diese Karte an Apocalypse an.",
+    "traits": "Superkraft.",
+    "flavor": "<i>Apocalypses Fähigkeit, jedes Molekül in seinem Körper zu kontrollieren, macht ihn zu einem unberechenbaren Gegner.</i>",
+    "subname": "Anhang"
+  },
+  {
+    "code": "45107",
+    "name": "Biomorphose",
+    "text": "Hänge diese Karte an Apocalypse an.\n★ Apocalypses Angriffe erhalten Overkill.\n★ <b>Boost</b>: Hänge diese Karte an Apocalypse an.",
+    "traits": "Superkraft.",
+    "subname": "Anhang"
+  },
+  {
+    "code": "45106",
+    "name": "Cyberpathie",
+    "text": "Hänge diese Karte an Apocalypse an.\n★ <b>Erzwungene Reaktion</b>: Nachdem Apocalypse den Plan vorangetrieben hat, platziere 1 Bedrohung auf jedem Nebenplan.\n★ <b>Boost</b>: Hänge diese Karte an Apocalypse an.",
+    "traits": "Superkraft.",
+    "subname": "Anhang"
+  },
+  {
+    "code": "45105a",
+    "name": "Der Thron des Tyrannen",
+    "text": "Von diesem Plan kann keine Bedrohung entfernt werden, solange ein <i>Prälat</i>-Scherge im Spiel ist.\n<b>Sobald besiegt</b>: Der Startspieler deckt einen zufälligen beiseitegelegten <i>Prälat</i>-Schergen auf. Teile jedem anderen Spieler eine Begegnungskarte zu. Drehe diese Karte um und decke Nicht länger würdig auf.",
+    "subname": "Nebenplan"
+  },
+  {
+    "code": "45104a",
+    "name": "Das Herz des Reiches",
+    "text": "Von diesem Plan kann keine Bedrohung entfernt werden, solange ein <i>Prälat</i>-Scherge im Spiel ist.\n<b>Sobald besiegt</b>: Der Startspieler deckt einen zufälligen beiseitegelegten <i>Prälat</i>-Schergen auf. Teile jedem anderen Spieler eine Begegnungskarte zu. Drehe diese Karte um.",
+    "flavor": "<i>Bevor ihr Apocalypse herausfordern könnt, müsst ihr euch den Weg durch seinen Turm freikämpfen.</i>",
+    "subname": "Nebenplan"
+  },
+  {
+    "code": "45103a",
+    "name": "Die Zeit der Apokalypse",
+    "text": "<b>Inhalt</b>: Apocalypse (II) und (III). <i>(Nur mit Apocalypse (III) im Expertenmodus.)</i> Apocalypse-, Prälaten- und Standard-Set. Zwei modulare Sets <i>(Dark Riders und Infinites)</i>.\n<b>Spielaufbau</b>: Lege jede nicht verwendete Schurkenkarte, jeden <i>Prälat</i>-Schergen und den Nebenplan Der Thron des Tyrannen beiseite. Decke den Nebenplan Das Herz des Reiches auf. Der Startspieler deckt einen zufälligen beiseitegelegten <i>Prälat</i>-Schergen auf.",
+    "subname": "Hauptplan"
+  },
+  {
+    "code": "45111",
+    "name": "Die Apokalypse-Lösung",
+    "text": "<b>Sobald besiegt</b>: Lege die obersten X Karten des Begegnungsdecks ab. X entspricht dem aufgedruckten Lebenspunktewert von Apocalypse.",
+    "flavor": "<i>Apocalypse würde eher sein Reich niederbrennen, als auf seine Herrschaft zu verzichten.</i>",
+    "subname": "Nebenplan"
+  },
+  {
+    "code": "45110",
+    "name": "Wolf im Schafspelz",
+    "text": "<b>Sobald aufgedeckt</b>: Der <i>Prälat</i>-Scherge wird gegen dich aktiviert. Ansonsten wird Apocalypse gegen dich aktiviert.\n★ <b>Boost</b>: Gib dem <i>Prälat</i>-Schergen eine Zäh-Statuskarte. Ansonsten gib Apocalypse eine Zäh-Statuskarte.",
+    "subname": "Verrat"
+  },
+  {
+    "code": "45105b",
+    "name": "Nicht länger würdig",
+    "text": "Hänge diese Karte an Apocalypse an und heile 5[per_hero] Schaden von ihm. Er kann keinen Schaden nehmen, solange ein <i>Prälat</i>-Scherge im Spiel ist.\nIgnoriere die <i>„Erzwungene Unterbrechung\"</i> auf dem Hauptplan.\n<b>Erzwungene Unterbrechung</b>: Sobald Apocalypse besiegt wird, gewinnen die Spieler das Spiel.",
+    "traits": "Zustand.",
+    "subname": "Anhang"
+  },
+  {
+    "code": "45104b",
+    "name": "Die gewaltige Zitadelle",
+    "text": "Von diesem Plan kann keine Bedrohung entfernt werden, solange ein <i>Prälat</i>-Scherge im Spiel ist.\n<b>Sobald besiegt</b>: Der Startspieler deckt einen zufälligen beiseitegelegten <i>Prälat</i>-Schergen auf. Teile jedem anderen Spieler eine Begegnungskarte zu. Decke den Nebenplan Der Thron des Tyrannen auf und entferne diese Karte aus dem Spiel.",
+    "subname": "Nebenplan"
+  },
+  {
+    "code": "45103b",
+    "name": "Die Zeit der Apokalypse",
+    "text": "X entspricht dem aufgedruckten Lebenspunktewert von Apocalypse.\n<b>Erzwungene Unterbrechung</b>: Sobald Apocalypse besiegt werden würde, lege stattdessen jeden Anhang von ihm ab und heile allen Schaden von ihm. Entferne X Bedrohung von diesem Plan <i>(ignoriere dabei alle Krisensymbole [crisis])</i>.",
+    "flavor": "<i>Die Zeit ist gekommen für einen direkten Angriff auf Apocalypse in seiner gewaltigen Zitadelle.</i>",
+    "subname": "Hauptplan"
+  },
+  {
+    "code": "45125",
+    "name": "Böses Genie",
+    "text": "<b>Sobald aufgedeckt (Alter Ego)</b>: Dark Beast treibt den Plan voran. Gib ihm eine Zäh-Statuskarte.\n<b>Sobald aufgedeckt (Held)</b>: Dark Beast greift dich an. Gib ihm für den Angriff eine zusätzliche Boost-Karte.",
+    "subname": "Verrat"
+  },
+  {
+    "code": "45126",
+    "name": "Zeitreise-Spielchen",
+    "text": "<b>Sobald besiegt</b>: Der Spieler, der diesen Plan besiegt hat, legt Karten vom Begegnungsdeck ab, bis er eine Karte aus demselben Begegnungsset wie die <i>Schauplatz</i>-Umgebung ablegt, und deckt die soeben abgelegte Karte auf.",
+    "subname": "Nebenplan"
+  },
+  {
+    "code": "45117",
+    "name": "Dark Riders",
+    "text": "Hindernis 1[per_hero].\nJeder <i>Dark Riders</i>-Scherge erhält Zähigkeit.\n<b>Sobald aufgedeckt</b>: Lege Karten vom Begegnungsdeck ab, bis ein <i>Dark Riders</i>-Scherge abgelegt wird, und decke ihn auf.",
+    "flavor": "<i>Die Dark Riders leben nach dem Grundsatz: Die Schwachen müssen sterben.</i>",
+    "subname": "Nebenplan"
+  },
+  {
+    "code": "45116",
+    "name": "Psynapse",
+    "text": "Zusammenarbeit <i>(Dark Riders)</i>.\n★ <b>Erzwungene Reaktion</b>: Nachdem Psynapse dich angegriffen hat, wirst du verwirrt.\n★ <b>Boost</b>: Du wirst verwirrt.",
+    "traits": "Dark Riders.",
+    "subname": "Scherge"
+  },
+  {
+    "code": "45115",
+    "name": "Tusk",
+    "text": "Zusammenarbeit <i>(Dark Riders)</i>.\n★ <b>Erzwungene Reaktion</b>: Nachdem Tusk dich angegriffen hat, wirst du betäubt.\n★ <b>Boost</b>: Du wirst betäubt.",
+    "traits": "Dark Riders.",
+    "subname": "Scherge"
+  },
+  {
+    "code": "45114",
+    "name": "Hard-Drive",
+    "text": "Zusammenarbeit <i>(Dark Riders)</i>.\n★ <b>Erzwungene Reaktion</b>: Nachdem Hard-Drive dich angegriffen hat, platziere 1 Bedrohung auf jedem Plan.",
+    "traits": "Dark Riders.",
+    "flavor": "<i>„Scanvorgang beendet. Bereit zum Sprung.\"</i>",
+    "subname": "Scherge"
+  },
+  {
+    "code": "45113",
+    "name": "Barrage",
+    "text": "Zusammenarbeit <i>(Dark Riders)</i>.\n★ <b>Erzwungene Reaktion</b>: Nachdem Barrage dich angegriffen hat, füge jedem Charakter unter deiner Kontrolle 1 Schaden zu.",
+    "traits": "Dark Riders.",
+    "flavor": "<i>„Achtet auf sein Sperrfeuer! Barrage ist bei seinen Zielen nicht wählerisch.\" – Cyclops</i>",
+    "subname": "Scherge"
+  },
+  {
+    "code": "45112",
+    "name": "Gauntlet",
+    "text": "Zusammenarbeit <i>(Dark Riders)</i>.\n★ <b>Erzwungene Reaktion</b>: Nachdem Gauntlet dich angegriffen hat, lege ein Upgrade unter deiner Kontrolle ab.",
+    "traits": "Dark Riders.",
+    "flavor": "<i>„Du willst jemanden loswerden? Dann heuerst du die Dark Riders an.\"</i>",
+    "subname": "Scherge"
+  },
+  {
+    "code": "45124",
+    "name": "Grausames Experiment",
+    "text": "Der Scherge mit diesem Anhang bekommt +2 Lebenspunkte und erhält Wache.\n<b>Sobald aufgedeckt</b>: Lege Karten vom Begegnungsdeck ab, bis du einen Schergen ablegst. Decke den Schergen auf und hänge Grausames Experiment an ihn an.",
+    "traits": "Zustand.",
+    "flavor": "<i>„Ich könnte das auch unter Narkose tun, aber wo bliebe da der Spaß?\" – Dark Beast</i>",
+    "subname": "Anhang"
+  },
+  {
+    "code": "45123",
+    "name": "Genetische Verbesserung",
+    "text": "Hänge diese Karte an Dark Beast an.\n<b>Held – Aktion</b>: Erschöpfe deinen Helden und handle die <i>„Spezial\"</i>-Fähigkeit auf der <i>Schauplatz</i>-Umgebung ab → lege diese Karte ab.\n★ <b>Boost</b>: Hänge diese Karte an Dark Beast an.",
+    "traits": "Zustand.",
+    "subname": "Anhang"
+  },
+  {
+    "code": "45122",
+    "name": "Hightech-Brille",
+    "text": "Hänge diese Karte an Dark Beast an.\n<b>Held – Aktion</b>: Erschöpfe deinen Helden und handle die <i>„Spezial\"</i>-Fähigkeit auf der <i>Schauplatz</i>-Umgebung ab → lege diese Karte ab.\n★ <b>Boost</b>: Hänge diese Karte an Dark Beast an.",
+    "traits": "Tech.",
+    "subname": "Anhang"
+  },
+  {
+    "code": "45121a",
+    "name": "Dark Beasts verrückte Zeitreise",
+    "text": "<b>Inhalt</b>: Dark Beast (I) und (II) <i>(Dark Beast (II) und (III) im Expertenmodus)</i>. <i>„Dark Beast\"</i>-, <i>„Blauer Mond\"</i>-, Genosha-, <i>„Wildes Land\"</i>- und Standard-Set. Ein modulares Set <i>(Dystopischer Albtraum)</i>.\n<b>Spielaufbau</b>: Lege die Sets Blauer Mond, Genosha und Wildes Land beiseite <i>(einschließlich jeder Umgebungskarte in diesen Sets)</i>. Decke im Expertenmodus den Anhang Hightech-Brille auf.",
+    "subname": "Hauptplan"
+  },
+  {
+    "code": "45120",
+    "name": "Dark Beast",
+    "text": "★ <b>Erzwungene Unterbrechung</b>: Sobald Dark Beast dich angreift, handle die <i>„Spezial\"</i>-Fähigkeit auf der <i>Schauplatz</i>-Umgebung ab.\n<b>Sobald aufgedeckt</b>: Decke eine zufällige beiseitegelegte Umgebung auf und mische den Rest ihres Begegnungssets in das Begegnungsdeck. Teile jedem Spieler eine Begegnungskarte zu.",
+    "traits": "Genie. Schläger.",
+    "subname": "Schurke"
+  },
+  {
+    "code": "45119",
+    "name": "Dark Beast",
+    "text": "★ <b>Erzwungene Unterbrechung</b>: Sobald Dark Beast dich angreift, handle die <i>„Spezial\"</i>-Fähigkeit auf der <i>Schauplatz</i>-Umgebung ab.\n<b>Sobald aufgedeckt</b>: Decke eine zufällige beiseitegelegte Umgebung auf und mische den Rest ihres Begegnungssets in das Begegnungsdeck. Teile jedem Spieler eine Begegnungskarte zu.",
+    "traits": "Genie. Schläger.",
+    "subname": "Schurke"
+  },
+  {
+    "code": "45118",
+    "name": "Dark Beast",
+    "text": "★ <b>Erzwungene Unterbrechung</b>: Sobald Dark Beast dich angreift, handle die <i>„Spezial\"</i>-Fähigkeit auf der <i>Schauplatz</i>-Umgebung ab.\n<b>Sobald aufgedeckt</b>: Decke eine zufällige beiseitegelegte Umgebung auf und mische den Rest ihres Begegnungssets in das Begegnungsdeck. Teile jedem Spieler eine Begegnungskarte zu.",
+    "traits": "Genie. Schläger.",
+    "flavor": "<i>„Die Arbeit eines Schurken ist niemals beendet!\"</i>",
+    "subname": "Schurke"
+  },
+  {
+    "code": "45131",
+    "name": "Aus der Zeit gefallenes Land",
+    "text": "<b>Sobald aufgedeckt</b>: Falls die Umgebung Das Wilde Land im Spiel ist, handle seine <i>„Spezial\"</i>-Fähigkeit ab und nimm für jedes Ressourcensymbol auf den auf diese Weise abgelegten Karten 1 indirekten Schaden. Ansonsten finde die Umgebung Das Wilde Land und decke sie auf.",
+    "flavor": "<i>Das Wilde Land ist genau das, was man von einem prähistorischen Dschungel mitten in der Antarktis erwarten würde.</i>",
+    "subname": "Verrat"
+  },
+  {
+    "code": "45130",
+    "name": "Riesenaffe",
+    "text": "Wache.\n<b>Sobald besiegt</b>: Der Spieler, der Riesenaffe besiegt hat, handelt die <i>„Spezial\"</i>-Fähigkeit auf der <i>Schauplatz</i>-Umgebung ab.",
+    "traits": "Kreatur.",
+    "flavor": "<i>„Deshalb sollte man Tiere nicht füttern!\" – Jubilee</i>",
+    "subname": "Scherge"
+  },
+  {
+    "code": "45129",
+    "name": "Velociraptor",
+    "text": "Erstschlag.\n★ <b>Erzwungene Unterbrechung</b>: Sobald Velociraptor dich angreift, lege die oberste Karte deines Decks ab. Velociraptor bekommt für den Angriff für jedes auf diese Weise abgelegte Ressourcensymbol +1 ANG.",
+    "traits": "Kreatur.",
+    "subname": "Scherge"
+  },
+  {
+    "code": "45128",
+    "name": "Pterosaurier",
+    "text": "<b>Sobald aufgedeckt</b>: Handle die <i>„Spezial\"</i>-Fähigkeit auf der <i>Schauplatz</i>-Umgebung ab.\n★ <b>Boost</b>: Falls die Umgebung Das Wilde Land im Spiel ist, teile dir selbst Pterosaurier als verdeckte Begegnungskarte zu.",
+    "traits": "Fliegend. Kreatur.",
+    "subname": "Scherge"
+  },
+  {
+    "code": "45127",
+    "name": "Das Wilde Land",
+    "text": "Spielaufbau.\nDer Schurke erhält Vergeltung 1.\n<b>Spezial</b>: Lege die obersten 3 Karten deines Decks ab.\n<b>Sobald aufgedeckt</b>: Lege jede andere <i>Schauplatz</i>-Umgebung im Spiel ab.",
+    "traits": "Ort. Schauplatz.",
+    "subname": "Umgebung"
+  },
+  {
+    "code": "45121b",
+    "name": "Dark Beasts verrückte Zeitreise",
+    "text": "Falls dieser Abschnitt vollendet ist, verlieren die Spieler das Spiel.",
+    "flavor": "<i>Dark Beast aktiviert seine Zeitmaschine, um den Aufstieg von Apocalypse sicherzustellen. Doch euer schnelles Eingreifen macht ihm einen Strich durch die Rechnung. Ihr kämpft um die Kontrolle über die Maschine, während sie euch durch Zeit und Raum transportiert!</i>",
+    "subname": "Hauptplan"
+  },
+  {
+    "code": "45137",
+    "name": "Mutant auf der Flucht",
+    "text": "Hänge diese Karte an deine Identität an.\nJeder <i>Genosha</i>-Scherge, der mit dir in einen Kampf verwickelt wird, erhält Erstschlag.\n<b>Alter Ego – Aktion</b>: Handle die <i>„Spezial\"</i>-Fähigkeit auf der <i>Schauplatz</i>-Umgebung ab → lege diese Karte ab.",
+    "flavor": "<i>Mutanten, die aus Genosha fliehen wollen, müssen einen Weg finden, den Magistraten zu entkommen.</i>",
+    "subname": "Anhang"
+  },
+  {
+    "code": "45136",
+    "name": "Genosha-Mech",
+    "text": "Wache. Zähigkeit.\n★ <b>Erzwungene Reaktion</b>: Nachdem Genosha-Mech einen deiner Verbündeten angegriffen und besiegt hat, handle die <i>„Spezial\"</i>-Fähigkeit auf der <i>Schauplatz</i>-Umgebung zwei Mal ab.",
+    "traits": "Fahrzeug. Genosha.",
+    "flavor": "<i>„Ihre Anzüge sollen unseren Kräften standhalten können.\" – Storm</i>",
+    "subname": "Scherge"
+  },
+  {
+    "code": "45135",
+    "name": "Gepanzertes Unibike",
+    "text": "Gepanzertes Unibike verwickelt den Spieler mit dem Anhang Mutant auf der Flucht in einen Kampf <i>(falls möglich)</i>.\n★ <b>Erzwungene Reaktion</b>: Nachdem Gepanzertes Unibike angegriffen hat, handle die <i>„Spezial\"</i>-Fähigkeit auf der <i>Schauplatz</i>-Umgebung ab.",
+    "traits": "Fahrzeug. Genosha.",
+    "flavor": "<i>„Habe das Signal des Mutanten. Gehe auf Abfangkurs.\"</i>",
+    "subname": "Scherge"
+  },
+  {
+    "code": "45134",
+    "name": "Magistrat",
+    "text": "Patrouille.\n<b>Sobald besiegt</b>: Der Spieler, der diesen Schergen besiegt hat, muss den Anhang Mutant auf der Flucht finden und an seine Identität anhängen.\n★ <b>Boost</b>: Falls Mutant auf der Flucht an deine Identität angehängt ist, erhält diese Karte [boost][boost][boost].",
+    "traits": "Genosha.",
+    "subname": "Scherge"
+  },
+  {
+    "code": "45133",
+    "name": "Genosha",
+    "text": "Spielaufbau.\nDer Schurke erhält Standhaft.\n<b>Spezial</b>: Platziere 1 Bedrohung auf dem Hauptplan.\n<b>Sobald aufgedeckt</b>: Lege jede andere <i>Schauplatz</i>-Umgebung im Spiel ab.",
+    "traits": "Ort. Schauplatz.",
+    "subname": "Umgebung"
+  },
+  {
+    "code": "45132",
+    "name": "Ein Dorf wird angegriffen",
+    "text": "Hindernis 1[per_hero].\n<b>Sobald besiegt</b>: Jeder Spieler handelt die <i>„Spezial\"</i>-Fähigkeit auf der <i>Schauplatz</i>-Umgebung ab.",
+    "flavor": "<i>„Wir müssen das Dorf vor diesen Dinosauriern retten! (Hätte nie gedacht, dass ich das mal sagen würde.)\" – Rogue</i>",
+    "subname": "Nebenplan"
+  },
+  {
+    "code": "45145",
+    "name": "Imperialer Gardist",
+    "text": "Hänge diese Karte an einen Schergen an. Ansonsten erhält sie Nachrüsten.\nDer Scherge mit diesem Anhang bekommt +4 Lebenspunkte und erhält das Merkmal <i>Imperiale Garde</i>.\n<b>Erzwungene Unterbrechung</b>: Sobald der Scherge mit diesem Anhang besiegt wird, handle die <i>„Spezial\"</i>-Fähigkeit auf der <i>Schauplatz</i>-Umgebung ab.",
+    "traits": "Titel.",
+    "subname": "Anhang"
+  },
+  {
+    "code": "45146",
+    "name": "Gerichtskampf",
+    "text": "Hindernis 1[per_hero].\n<b>Sobald besiegt</b>: Mische jeden <i>Imperiale Garde</i>-Schergen im Begegungs-Ablagestapel in das Begegnungsdeck.",
+    "flavor": "<i>Das Gesetz der Shi'ar gibt dem Angeklagten die Chance, sich zu verteidigen, indem er gegen die Imperiale Garde im Kampf antritt.</i>",
+    "subname": "Nebenplan"
+  },
+  {
+    "code": "45144",
+    "name": "Warstar",
+    "text": "Zusammenarbeit <i>(Imperiale Garde)</i>.\n<b>Sobald aufgedeckt</b>: Lege die oberste Karte des Begegnungsdecks ab. Falls die Karte ein <i>Imperiale Garde</i>-Scherge ist, decke sie auf. Ansonsten handle die <i>„Spezial\"</i>-Fähigkeit auf der <i>Schauplatz</i>-Umgebung ab.",
+    "traits": "Imperiale Garde.",
+    "subname": "Scherge"
+  },
+  {
+    "code": "45143",
+    "name": "Earthquake",
+    "text": "Zusammenarbeit <i>(Imperiale Garde)</i>.\n<b>Sobald aufgedeckt</b>: Erschöpfe deine Identität. Falls du bereits erschöpft bist, handle die <i>„Spezial\"</i>-Fähigkeit auf der <i>Schauplatz</i>-Umgebung ab.",
+    "traits": "Imperiale Garde.",
+    "flavor": "<i>„Hier wird es gleich ungemütlich!\"</i>",
+    "subname": "Scherge"
+  },
+  {
+    "code": "45142",
+    "name": "Manta",
+    "text": "Zusammenarbeit <i>(Imperiale Garde)</i>.\n<b>Sobald aufgedeckt</b>: Du wirst betäubt. Falls du bereits betäubt bist, handle die <i>„Spezial\"</i>-Fähigkeit auf der <i>Schauplatz</i>-Umgebung ab.",
+    "traits": "Imperiale Garde.",
+    "flavor": "<i>„Unglaublich! Ich kann nichts sehen!\" – Nightcrawler</i>",
+    "subname": "Scherge"
+  },
+  {
+    "code": "45141",
+    "name": "Oracle",
+    "text": "Zusammenarbeit <i>(Imperiale Garde)</i>.\n<b>Sobald aufgedeckt</b>: Du wirst verwirrt. Falls du bereits verwirrt bist, handle die <i>„Spezial\"</i>-Fähigkeit auf der <i>Schauplatz</i>-Umgebung ab.",
+    "traits": "Imperiale Garde.",
+    "flavor": "<i>„Diesen Kampf kannst du nicht gewinnen.\"</i>",
+    "subname": "Scherge"
+  },
+  {
+    "code": "45140",
+    "name": "Gladiator",
+    "text": "Zusammenarbeit <i>(Imperiale Garde)</i>.\nSolange Gerichtskampf im Spiel ist, kann Gladiator keinen Schaden nehmen.\n★ <b>Boost</b>: Falls Gerichtskampf im Spiel ist, teile dir selbst Gladiator als verdeckte Begegnungskarte zu.",
+    "traits": "Elite. Imperiale Garde.",
+    "subname": "Scherge"
+  },
+  {
+    "code": "45139",
+    "name": "Die Blaue Zone des Mondes",
+    "text": "Spielaufbau.\nJeder Scherge erhält Wache.\n<b>Spezial</b>: Füge deiner Identität 1 Schaden zu.\n<b>Sobald aufgedeckt</b>: Lege jede andere <i>Schauplatz</i>-Umgebung im Spiel ab.",
+    "traits": "Ort. Schauplatz.",
+    "subname": "Umgebung"
+  },
+  {
+    "code": "45150",
+    "name": "Biomorpher Strahl",
+    "text": "<b>Sobald aufgedeckt</b>: Falls Apocalypse in seiner <i>Biomorph</i>-Gestalt ist, wird er gegen dich aktiviert. Ansonsten wechsle Apocalypse in seine <i>Biomorph</i>-Gestalt und platziere 1 Machtmarker auf dem Hauptplan.\n★ <b>Boost</b>: Wechsle Apocalypse nach dieser Aktivierung in seine <i>Biomorph</i>-Gestalt.",
+    "traits": "Superkraft.",
+    "subname": "Verrat"
+  },
+  {
+    "code": "45149",
+    "name": "Überwältigende Stärke",
+    "text": "Hänge diese Karte an Apocalypse an und wechsle ihn in seine <i>Riesig</i>-Gestalt.\n★ <b>Erzwungene Unterbrechung</b>: Sobald Apocalypse dich angreift, wirst du betäubt. Lege diese Karte nach dieser Aktivierung ab.\n★ <b>Boost</b>: Decke diese Karte nach dieser Aktivierung auf.",
+    "traits": "Superkraft.",
+    "subname": "Anhang"
+  },
+  {
+    "code": "45148a",
+    "name": "Der Aufstieg von Apocalypse",
+    "text": "<b>Sobald aufgedeckt</b>: Der Startspieler legt Karten vom Begegnungsdeck ab, bis eine <i>Superkraft</i>-Karte abgelegt wird, und deckt sie auf.",
+    "flavor": "<i>Ihr habt gesehen, wie sich die Zukunft entwickelt, wenn es Apocalypse gelingt, seinen Einfluss auszuweiten. Es liegt an euch, diesen Größenwahnsinnigen hier und jetzt zu stoppen!</i>",
+    "subname": "Hauptplan"
+  },
+  {
+    "code": "45147a",
+    "name": "En Sabah Nurs Pyramide",
+    "text": "<b>Inhalt</b>: Apocalypse (I) und (II) <i>(Apocalypse (II) und (III) im Expertenmodus)</i>. <i>„En Sabah Nur\"</i>- und Standard-Set. Zwei modulare Sets <i>(Celestial-Tech und Clan Akkaba)</i>.\n<b>Spielaufbau</b>: Apocalypse beginnt das Spiel in seiner <i>Biomorph</i>-Gestalt. Teile jedem Spieler eine verdeckte Begegnungskarte zu.",
+    "subname": "Hauptplan"
+  },
+  {
+    "code": "45152",
+    "name": "Gigantischer Despot",
+    "text": "<b>Sobald aufgedeckt</b>: Falls Apocalypse in seiner <i>Riesig</i>-Gestalt ist, wird er gegen dich aktiviert. Ansonsten wechsle Apocalypse in seine <i>Riesig</i>-Gestalt und platziere 1 Machtmarker auf dem Hauptplan.\n★ <b>Boost</b>: Wechsle Apocalypse nach dieser Aktivierung in seine <i>Riesig</i>-Gestalt.",
+    "traits": "Superkraft.",
+    "subname": "Verrat"
+  },
+  {
+    "code": "45151",
+    "name": "Technologisches Interface",
+    "text": "<b>Sobald aufgedeckt</b>: Falls Apocalypse in seiner <i>Cyberpath</i>-Gestalt ist, wird er gegen dich aktiviert. Ansonsten wechsle Apocalypse in seine <i>Cyberpath</i>-Gestalt und platziere 1 Machtmarker auf dem Hauptplan.\n★ <b>Boost</b>: Wechsle Apocalypse nach dieser Aktivierung in seine <i>Cyberpath</i>-Gestalt.",
+    "traits": "Superkraft.",
+    "subname": "Verrat"
+  },
+  {
+    "code": "45148b",
+    "name": "Der Aufstieg von Apocalypse",
+    "text": "★ <b>Erzwungene Reaktion</b>: Nachdem Schritt 1 der Schurkenphase abgehandelt worden ist, platziere hier 1 Machtmarker. Falls hier mindestens 4 Machtmarker liegen, entfernt der Startspieler 4 von ihnen und legt Karten vom Begegnungsdeck ab, bis eine <i>Superkraft</i>-Karte abgelegt wird, und deckt sie auf.\nFalls dieser Plan vollendet ist, verlieren die Spieler das Spiel.",
+    "subname": "Hauptplan"
+  },
+  {
+    "code": "45147b",
+    "name": "En Sabah Nurs Pyramide",
+    "text": "★ <b>Erzwungene Reaktion</b>: Nachdem Schritt 1 der Schurkenphase abgehandelt worden ist, platziere hier 1 Machtmarker. Falls hier mindestens 4 Machtmarker liegen, entfernt der Startspieler 4 von ihnen und legt Karten vom Begegnungsdeck ab, bis eine <i>Superkraft</i>-Karte abgelegt wird, und deckt sie auf.",
+    "flavor": "<i>Apocalypse bereitet sich in seiner Hightech-Pyramide auf seinen Aufstieg vor.</i>",
+    "subname": "Hauptplan"
+  },
+  {
+    "code": "45160",
+    "name": "Scarab",
+    "text": "Erstschlag.\n★ <b>Erzwungene Reaktion</b>: Nachdem Scarab angegriffen hat, platziere 1 Bedrohung auf Uraltes Ritual <i>(3 Bedrohung stattdessen, falls der Angriff einen Verbündeten besiegt hat)</i>.",
+    "traits": "Clan Akkaba.",
+    "subname": "Scherge"
+  },
+  {
+    "code": "45159",
+    "name": "Ozymandias",
+    "text": "Zähigkeit. Schurkisch.\n★ Sobald Ozymandias den Plan vorantreibt, platziere die Bedrohung auf Uraltes Ritual.\n★ <b>Boost</b>: Wähle: Platziere entweder 3 Bedrohung auf Uraltes Ritual oder diese Karte erhält [boost][boost][boost].",
+    "traits": "Clan Akkaba. Elite.",
+    "subname": "Scherge"
+  },
+  {
+    "code": "45158",
+    "name": "Celestial-Tech",
+    "text": "<b>Sobald aufgedeckt</b>: Handle den Effekt jedes <i>Celestial</i>-Anhangs im Spiel ab, als ob der Schurke mit dem Anhang gerade den Plan vorangetrieben oder dich angegriffen hätte. Falls keine <i>Celestial</i>-Anhänge an den Schurken angehängt sind, durchsuche das Begegnungsdeck und den Ablagestapel nach einem <i>Celestial</i>-Anhang und decke ihn auf. <i>(Mische.)</i>",
+    "subname": "Verrat"
+  },
+  {
+    "code": "45157",
+    "name": "Celestial-Waffe",
+    "text": "Hänge diese Karte an den Schurken an.\n★ <b>Erzwungene Unterbrechung</b>: Sobald der Schurke dich angreift, lege die oberste Karte deines Decks ab. Falls auf der Karte die folgende Ressource aufgedruckt ist:\n[physical] – Füge deiner Identität 2 Schaden zu.\n[mental] – Lege eine Karte von deiner Hand ab.\n[energy] – Du wirst betäubt. Lege diese Karte ab.\n[wild] – Führe alle obigen Punkte aus.",
+    "traits": "Celestial. Waffe.",
+    "subname": "Anhang"
+  },
+  {
+    "code": "45156",
+    "name": "Celestial-Rüstung",
+    "text": "Hänge diese Karte an den Schurken an.\n★ <b>Erzwungene Unterbrechung</b>: Sobald der Schurke den Plan vorantreibt, lege die oberste Karte deines Decks ab. Falls auf der Karte die folgende Ressource aufgedruckt ist:\n[physical] – Heile 2 Schaden vom Schurken.\n[mental] – Du wirst verwirrt. Lege diese Karte ab.\n[energy] – Gib dem Schurken eine Zäh-Statuskarte.\n[wild] – Führe alle obigen Punkte aus.",
+    "traits": "Celestial. Rüstung.",
+    "subname": "Anhang"
+  },
+  {
+    "code": "45155",
+    "name": "Riesenwuchs",
+    "text": "<b>Sobald besiegt</b>: Falls Apocalypse in seiner <i>Riesig</i>-Gestalt ist, wird er gegen den Spieler aktiviert, der diesen Plan besiegt hat. Ansonsten wechsle Apocalypse in seine <i>Riesig</i>-Gestalt und gib ihm eine Zäh-Statuskarte.",
+    "traits": "Superkraft.",
+    "subname": "Nebenplan"
+  },
+  {
+    "code": "45154",
+    "name": "Eingestöpselt",
+    "text": "<b>Sobald besiegt</b>: Falls Apocalypse in seiner <i>Cyberpath</i>-Gestalt ist, wird er gegen den Spieler aktiviert, der diesen Plan besiegt hat. Ansonsten wechsle Apocalypse in seine <i>Cyberpath</i>-Gestalt und gib ihm eine Zäh-Statuskarte.",
+    "traits": "Superkraft.",
+    "subname": "Nebenplan"
+  },
+  {
+    "code": "45153",
+    "name": "Quelle der Macht",
+    "text": "<b>Sobald besiegt</b>: Falls Apocalypse in seiner <i>Biomorph</i>-Gestalt ist, wird er gegen den Spieler aktiviert, der diesen Plan besiegt hat. Ansonsten wechsle Apocalypse in seine <i>Biomorph</i>-Gestalt und gib ihm eine Zäh-Statuskarte.",
+    "traits": "Superkraft.",
+    "subname": "Nebenplan"
+  },
+  {
+    "code": "45161",
+    "name": "Zelot von Clan Akkaba",
+    "text": "Wache.\n<b>Sobald besiegt</b>: Platziere 2 Bedrohung auf Uraltes Ritual.\n★ <b>Boost</b>: Platziere 1 Bedrohung auf Uraltes Ritual.",
+    "traits": "Clan Akkaba.",
+    "subname": "Scherge"
+  },
+  {
+    "code": "45162",
+    "name": "Tyrannenverehrung",
+    "text": "<b>Sobald aufgedeckt</b>: Platziere 5 Bedrohung auf Uraltes Ritual.\n★ <b>Boost</b>: Wähle: Platziere entweder 3 Bedrohung auf Uraltes Ritual oder diese Karte erhält [boost][boost][boost].",
+    "flavor": "<i>Der Clan Akkaba hat sich ganz der gnadenlosen Doktrin seines Herrn verschrieben.</i>",
+    "subname": "Verrat"
+  },
+  {
+    "code": "45163",
+    "name": "Uraltes Ritual",
+    "text": "Dauerhaft. Spielaufbau.\n<b>Erzwungene Reaktion</b>: Nachdem Bedrohung auf dieser Karte platziert worden ist und falls dann mindestens 10 Bedrohung hier liegt, entferne 5 Bedrohung von diesem Plan und teile jedem Spieler eine verdeckte Begegnungskarte zu.",
+    "flavor": "<i>„Keine Ahnung, was genau sie tun, aber ich bin sicher, es ist nichts Gutes.\" – Iceman</i>",
+    "subname": "Nebenplan"
+  },
+  {
+    "code": "45170b",
+    "name": "Den Professor beschützen",
+    "text": "<b>Erzwungene Reaktion</b>: Nachdem du diese Karte auf diese Seite umgedreht hast, entferne jede Karte in der Missionszone aus dem Spiel und tue Folgendes:\n• Falls die Mission nicht besiegt wurde, verlieren die Spieler das Spiel.\n• Falls die Mission besiegt wurde, durchsucht jeder Spieler sein Deck und seinen Ablagestapel nach einem Verbündeten und nimmt ihn auf seine Hand.",
+    "traits": "Beendet.",
+    "subname": "Nebenplan"
+  },
+  {
+    "code": "45169b",
+    "name": "Vermisste Mutanten finden",
+    "text": "<b>Erzwungene Reaktion</b>: Nachdem du diese Karte auf diese Seite umgedreht hast, entferne jede Karte in der Missionszone aus dem Spiel und tue Folgendes:\n• Falls die Mission nicht besiegt wurde, legt jeder Spieler 1 Karte von seiner Hand ab.\n• Falls die Mission besiegt wurde, nimmt jeder Spieler einen beiseitegelegten Kampagne-Verbündeten auf seine Hand.",
+    "traits": "Beendet.",
+    "subname": "Nebenplan"
+  },
+  {
+    "code": "45168b",
+    "name": "Den Meereswall sabotieren",
+    "text": "<b>Erzwungene Reaktion</b>: Nachdem du diese Karte auf diese Seite umgedreht hast, entferne jede Karte in der Missionszone aus dem Spiel und tue Folgendes:\n• Falls die Mission nicht besiegt wurde, finde Nordamerikanischer Meereswall und decke sie auf. <i>(Mische.)</i>\n• Falls die Mission besiegt wurde, finde Nordamerikanischer Meereswall, entferne ihn aus dem Spiel und jeder Spieler fügt einem Gegner 3 Schaden zu.",
+    "traits": "Beendet.",
+    "subname": "Nebenplan"
+  },
+  {
+    "code": "45167b",
+    "name": "Überlebende evakuieren",
+    "text": "<b>Erzwungene Reaktion</b>: Nachdem du diese Karte auf diese Seite umgedreht hast, entferne jede Karte in der Missionszone aus dem Spiel und tue Folgendes:\n• Falls die Mission nicht besiegt wurde, teile jedem Spieler eine verdeckte Begegnungskarte zu.\n• Falls die Mission besiegt wurde, durchsucht jeder Spieler sein Deck und seinen Ablagestapel nach 1 Karte und nimmt sie auf seine Hand.",
+    "traits": "Beendet.",
+    "subname": "Nebenplan"
+  },
+  {
+    "code": "45166b",
+    "name": "Den Kern von Seattle befreien",
+    "text": "<b>Erzwungene Reaktion</b>: Nachdem du diese Karte auf diese Seite umgedreht hast, entferne jede Karte in der Missionszone aus dem Spiel und tue Folgendes:\n• Falls die Mission nicht besiegt wurde, platziere 2[per_hero] Bedrohung auf dem Hauptplan.\n• Falls die Mission besiegt wurde, nimmt jeder Spieler 1 Exemplar des Upgrades Verzweifelte Maßnahmen auf seine Hand.",
+    "traits": "Beendet.",
+    "subname": "Nebenplan"
+  },
+  {
+    "code": "45170a",
+    "name": "Den Professor beschützen",
+    "text": "<b>Erzwungene Reaktion</b>: Nachdem du einen Missionsversuch abgehandelt hast, platziere hier 1 Versuchsmarker und füge jedem Verbündeten auf Mission 1 Schaden zu. Falls hier 4 Versuchsmarker liegen, entferne Missionsteam aus dem Spiel und drehe diese Karte um.\n<b>Sobald besiegt</b>: Mische jede Spielerkarte auf Mission in das Deck ihres Besitzers. Drehe Missionsteam und diese Karte um.",
+    "traits": "Mission.",
+    "subname": "Nebenplan"
+  },
+  {
+    "code": "45169a",
+    "name": "Vermisste Mutanten finden",
+    "text": "<b>Erzwungene Reaktion</b>: Nachdem du einen Missionsversuch abgehandelt hast, platziere hier 1 Versuchsmarker und füge jedem Verbündeten auf Mission 1 Schaden zu. Falls hier 4 Versuchsmarker liegen, entferne Missionsteam aus dem Spiel und drehe diese Karte um.\n<b>Sobald besiegt</b>: Mische jede Spielerkarte auf Mission in das Deck ihres Besitzers. Drehe Missionsteam und diese Karte um.",
+    "traits": "Mission.",
+    "subname": "Nebenplan"
+  },
+  {
+    "code": "45168a",
+    "name": "Den Meereswall sabotieren",
+    "text": "<b>Erzwungene Reaktion</b>: Nachdem du einen Missionsversuch abgehandelt hast, platziere hier 1 Versuchsmarker und füge jedem Verbündeten auf Mission 1 Schaden zu. Falls hier 4 Versuchsmarker liegen, entferne Missionsteam aus dem Spiel und drehe diese Karte um.\n<b>Sobald besiegt</b>: Mische jede Spielerkarte auf Mission in das Deck ihres Besitzers. Drehe Missionsteam und diese Karte um.",
+    "traits": "Mission.",
+    "subname": "Nebenplan"
+  },
+  {
+    "code": "45167a",
+    "name": "Überlebende evakuieren",
+    "text": "<b>Erzwungene Reaktion</b>: Nachdem du einen Missionsversuch abgehandelt hast, platziere hier 1 Versuchsmarker und füge jedem Verbündeten auf Mission 1 Schaden zu. Falls hier 4 Versuchsmarker liegen, entferne Missionsteam aus dem Spiel und drehe diese Karte um.\n<b>Sobald besiegt</b>: Mische jede Spielerkarte auf Mission in das Deck ihres Besitzers. Drehe Missionsteam und diese Karte um.",
+    "traits": "Mission.",
+    "subname": "Nebenplan"
+  },
+  {
+    "code": "45166a",
+    "name": "Den Kern von Seattle befreien",
+    "text": "<b>Erzwungene Reaktion</b>: Nachdem du einen Missionsversuch abgehandelt hast, platziere hier 1 Versuchsmarker und füge jedem Verbündeten auf Mission 1 Schaden zu. Falls hier 4 Versuchsmarker liegen, entferne Missionsteam aus dem Spiel und drehe diese Karte um.\n<b>Sobald besiegt</b>: Mische jede Spielerkarte auf Mission in das Deck ihres Besitzers. Drehe Missionsteam und diese Karte um.",
+    "traits": "Mission.",
+    "subname": "Nebenplan"
+  },
+  {
+    "code": "45177",
+    "name": "Nordamerikanischer Meereswall",
+    "text": "Hindernis 2[per_hero]. Nachrüsten. Sieg 2.\nDer Schurke kann keinen Schaden nehmen.\n★ <b>Boost</b>: Teile dir selbst diese Karte als verdeckte Begegnungskarte zu.",
+    "flavor": "<i>Apocalypses Hightech-Meereswall schützt die östliche Grenze seines Reiches.</i>",
+    "subname": "Nebenplan"
+  },
+  {
+    "code": "45184a",
+    "name": "Apocalypse",
+    "text": "★ Apocalypses Angriffe erhalten Overkill.\n<b>Erzwungene Reaktion</b>: Nachdem Apocalypse in diese Gestalt gewechselt ist, füge jedem Spieler 1 indirekten Schaden zu.",
+    "traits": "Mutant. Biomorph.",
+    "flavor": "<i>„Nun fordere ich meine Bestimmung ein!\"</i>",
+    "subname": "Schurke"
+  },
+  {
+    "code": "45184b",
+    "name": "Apocalypse",
+    "text": "Vergeltung 1.\n<b>Erzwungene Reaktion</b>: Nachdem Apocalypse in diese Gestalt gewechselt ist, platziere 1 Bedrohung auf jedem Plan im Spiel.",
+    "traits": "Mutant. Cyberpath.",
+    "flavor": "<i>„Ich habe dich geprüft und für mangelhaft befunden.\"</i>",
+    "subname": "Schurke"
+  },
+  {
+    "code": "45184c",
+    "name": "Apocalypse",
+    "text": "Gestählt.\n<b>Erzwungene Reaktion</b>: Nachdem Apocalypse in diese Gestalt gewechselt ist, heile 1 Schaden von ihm.",
+    "traits": "Mutant. Riesig.",
+    "flavor": "<i>„Ich stehe so weit über gewöhnlichen Mutanten, wie sie über Menschen stehen.\"</i>",
+    "subname": "Schurke"
+  },
+  {
+    "code": "45185a",
+    "name": "Apocalypse",
+    "text": "★ Apocalypses Angriffe erhalten Overkill.\n<b>Erzwungene Reaktion</b>: Nachdem Apocalypse in diese Gestalt gewechselt ist, füge jedem Spieler 2 indirekten Schaden zu.",
+    "traits": "Mutant. Biomorph.",
+    "flavor": "<i>„Nun fordere ich meine Bestimmung ein!\"</i>",
+    "subname": "Schurke"
+  },
+  {
+    "code": "45185b",
+    "name": "Apocalypse",
+    "text": "Vergeltung 1.\n<b>Erzwungene Reaktion</b>: Nachdem Apocalypse in diese Gestalt gewechselt ist, platziere 2 Bedrohung auf jedem Plan im Spiel.",
+    "traits": "Mutant. Cyberpath.",
+    "flavor": "<i>„Ich habe dich geprüft und für mangelhaft befunden.\"</i>",
+    "subname": "Schurke"
+  },
+  {
+    "code": "45185c",
+    "name": "Apocalypse",
+    "text": "Gestählt.\n<b>Erzwungene Reaktion</b>: Nachdem Apocalypse in diese Gestalt gewechselt ist, heile 2 Schaden von ihm.",
+    "traits": "Mutant. Riesig.",
+    "flavor": "<i>„Ich stehe so weit über gewöhnlichen Mutanten, wie sie über Menschen stehen.\"</i>",
+    "subname": "Schurke"
+  },
+  {
+    "code": "45186a",
+    "name": "Apocalypse",
+    "text": "★ Apocalypses Angriffe erhalten Overkill.\n<b>Erzwungene Reaktion</b>: Nachdem Apocalypse in diese Gestalt gewechselt ist, füge jedem Spieler 3 indirekten Schaden zu.",
+    "traits": "Mutant. Biomorph.",
+    "flavor": "<i>„Nun fordere ich meine Bestimmung ein!\"</i>",
+    "subname": "Schurke"
+  },
+  {
+    "code": "45186b",
+    "name": "Apocalypse",
+    "text": "Vergeltung 1.\n<b>Erzwungene Reaktion</b>: Nachdem Apocalypse in diese Gestalt gewechselt ist, platziere 3 Bedrohung auf jedem Plan im Spiel.",
+    "traits": "Mutant. Cyberpath.",
+    "flavor": "<i>„Ich habe dich geprüft und für mangelhaft befunden.\"</i>",
+    "subname": "Schurke"
+  },
+  {
+    "code": "45186c",
+    "name": "Apocalypse",
+    "text": "Gestählt.\n<b>Erzwungene Reaktion</b>: Nachdem Apocalypse in diese Gestalt gewechselt ist, heile 3 Schaden von ihm.",
+    "traits": "Mutant. Riesig.",
+    "flavor": "<i>„Ich stehe so weit über gewöhnlichen Mutanten, wie sie über Menschen stehen.\"</i>",
+    "subname": "Schurke"
+  },
+  {
+    "code": "45179a",
+    "name": "Mister Sinister",
+    "text": "Sieg 5.\nKann keinen Schaden nehmen, solange ein anderer Scherge auf Mission ist.\n<b>Missionsreaktion</b>: Bei Missionsversuchen können die Spieler nicht mehreren Verbündeten Karten mit demselben Ressourcensymbol ([physical], [mental], [energy] oder [wild]) zuweisen.",
+    "traits": "Aufseher. Elite.",
+    "subname": "Scherge"
+  },
+  {
+    "code": "45180a",
+    "name": "Shadow King",
+    "text": "Sieg 5.\nKann keinen Schaden nehmen, solange ein anderer Scherge auf Mission ist.\n<b>Missionsreaktion</b>: Nachdem du Karten abgelegt hast, platziere für jede abgelegte [mental]-Ressource 2 Bedrohung auf dem <i>Mission</i>-Nebenplan.",
+    "traits": "Aufseher. Elite.",
+    "subname": "Scherge"
+  },
+  {
+    "code": "45181a",
+    "name": "Abyss",
+    "text": "Sieg 5.\nKann keinen Schaden nehmen, solange ein anderer Scherge auf Mission ist.\n<b>Missionsreaktion</b>: Nachdem du Karten abgelegt hast, hänge jede abgelegte Karte mit einer [wild]-Ressource verdeckt an Abyss an. <i>(Sie können für den Missionsversuch nicht verwendet werden.)</i>",
+    "traits": "Aufseher. Elite.",
+    "subname": "Scherge"
+  },
+  {
+    "code": "45182a",
+    "name": "Sugar Man",
+    "text": "Sieg 5.\nKann keinen Schaden nehmen, solange ein anderer Scherge auf Mission ist.\n<b>Missionsreaktion</b>: Nachdem du Karten abgelegt hast, heile für jede abgelegte [energy]-Ressource 3 Schaden von Sugar Man.",
+    "traits": "Aufseher. Elite.",
+    "subname": "Scherge"
+  },
+  {
+    "code": "45183a",
+    "name": "Mikhail Rasputin",
+    "text": "Sieg 5.\nKann keinen Schaden nehmen, solange ein anderer Scherge auf Mission ist.\n<b>Missionsreaktion</b>: Nachdem du Karten abgelegt hast, füge einem Verbündeten auf Mission für jede abgelegte [physical]-Ressource 1 Schaden zu.",
+    "traits": "Aufseher. Elite.",
+    "subname": "Scherge"
+  },
+  {
+    "code": "45179b",
+    "name": "Mister Sinister",
+    "text": "Vergeltung 1. Zähigkeit. Schurkisch. Sieg 3.\nMister Sinister verwickelt den Startspieler in einen Kampf.",
+    "traits": "Elite. Prälat.",
+    "subname": "Scherge"
+  },
+  {
+    "code": "45180b",
+    "name": "Shadow King",
+    "text": "Zähigkeit. Sieg 3.\nShadow King verwickelt den Startspieler in einen Kampf.\n★ <b>Erzwungene Reaktion</b>: Nachdem Shadow King dich angegriffen hat, wähle einen Verbündeten unter deiner Kontrolle mit dem höchsten WID-Wert. Lege den Verbündeten entweder ab oder platziere Bedrohung in Höhe seines WID-Werts auf dem Hauptplan.",
+    "traits": "Elite. Prälat.",
+    "subname": "Scherge"
+  },
+  {
+    "code": "45181b",
+    "name": "Abyss",
+    "text": "Zähigkeit. Sieg 3.\nAbyss bekommt für jede verdeckte Karte, die an ihn angehängt ist, +2 Lebenspunkte und er verwickelt den Startspieler in einen Kampf.\n★ <b>Erzwungene Reaktion</b>: Nachdem Abyss gegen dich aktiviert worden ist, hänge die oberste Karte deines Decks verdeckt an ihn an.",
+    "traits": "Elite. Prälat.",
+    "subname": "Scherge"
+  },
+  {
+    "code": "45182b",
+    "name": "Sugar Man",
+    "text": "Zähigkeit. Sieg 3.\nSugar Man verwickelt den Startspieler in einen Kampf.\n★ <b>Erzwungene Unterbrechung</b>: Sobald Sugar Man angreift, erhält dieser Angriff Durchdringend. Falls dieser Angriff einen Charakter besiegt, heile 5 Schaden von Sugar Man.",
+    "traits": "Elite. Prälat.",
+    "subname": "Scherge"
+  },
+  {
+    "code": "45183b",
+    "name": "Mikhail Rasputin",
+    "text": "Zähigkeit. Sieg 3.\nMikhail Rasputin verwickelt den Startspieler in einen Kampf.\n★ <b>Erzwungene Unterbrechung</b>: Sobald Mikhail Rasputin dich angreift, füge deiner Identität 1 Schaden zu.",
+    "traits": "Elite. Prälat.",
+    "subname": "Scherge"
+  },
+  {
+    "code": "45178",
+    "name": "Panische Flüchtlinge",
+    "text": "<b>Erzwungene Reaktion</b>: Nachdem diese Karte auf deine Hand gekommen ist, decke sie auf. Ziehe dann 1 Karte.\n<b>Alter Ego – Aktion</b>: Erschöpfe deine Identität → entferne diese Karte aus dem Spiel.",
+    "subname": "Verpflichtung"
+  },
+  {
+    "code": "45075a",
+    "name": "Von der Vergangenheit verfolgt",
+    "text": "Dauerhaft. Spielaufbau.\n<b>Erzwungene Reaktion</b>: Nachdem du hier einen Verfolgungsmarker platziert hast und falls die Anzahl an Markern hier um mindestens 3 größer ist als die Anzahl der Spieler, entferne alle Marker von dieser Karte → falls dein Erzfeind-Scherge im Spiel ist, wird er gegen dich aktiviert. Ansonsten drehe diese Karte um.",
+    "subname": "Umgebung"
+  },
+  {
+    "code": "45075b",
+    "name": "Von der Vergangenheit verfolgt",
+    "text": "Dauerhaft.\n<b>Erzwungene Reaktion</b>: Nachdem du diese Karte auf diese Seite umgedreht hast, finde deinen Erzfeind-Schergen und decke ihn auf. Durchsuche die beiseitegelegten Karten nach deinem Erzfeind-Nebenplan und decke ihn auf. Mische den Rest deines beiseitegelegten Erzfeind-Sets in das Begegnungsdeck. Drehe diese Karte um.",
+    "subname": "Umgebung"
+  },
+  {
+    "code": "45076",
+    "name": "Dunkles Vorhaben",
+    "text": "<b>Sobald aufgedeckt</b>: Platziere 1 Verfolgungsmarker auf Von der Vergangenheit verfolgt. Falls dann mindestens 1 Marker darauf liegt, treibt der Schurke den Plan voran.\n★ <b>Boost</b>: Nachdem diese Aktivierung abgehandelt worden ist, platziere 1 Verfolgungsmarker auf Von der Vergangenheit verfolgt.",
+    "subname": "Verrat"
+  },
+  {
+    "code": "45077",
+    "name": "Dunkler Vorstoss",
+    "text": "<b>Sobald aufgedeckt (Alter Ego)</b>: Platziere 1 Verfolgungsmarker auf Von der Vergangenheit verfolgt. Falls dann mindestens 1 Marker darauf liegt, erhält diese Karte Nachrüsten.\n<b>Sobald aufgedeckt (Held)</b>: Platziere 1 Verfolgungsmarker auf Von der Vergangenheit verfolgt. Falls dann mindestens 1 Marker darauf liegt, greift der Schurke dich an.",
+    "subname": "Verrat"
+  },
+  {
+    "code": "45078",
+    "name": "Allianz des Bösen",
+    "text": "<b>Sobald aufgedeckt</b>: Jeder Erzfeind-Scherge im Spiel wird gegen dich aktiviert. Falls auf diese Weise keine Schergen aktiviert wurden, platziere 3 Verfolgungsmarker auf Von der Vergangenheit verfolgt.\n★ <b>Boost</b>: Nachdem diese Aktivierung abgehandelt worden ist, platziere 1 Verfolgungsmarker auf Von der Vergangenheit verfolgt.",
+    "subname": "Verrat"
+  },
+  {
+    "code": "45079",
+    "name": "Nirgends ist es sicher",
+    "text": "<b>Sobald aufgedeckt</b>: Platziere 1 Verfolgungsmarker auf Von der Vergangenheit verfolgt. Falls dann mindestens 1 Marker darauf liegt, lege ein Upgrade oder einen Vorteil unter deiner Kontrolle ab.\n★ <b>Boost</b>: Nachdem diese Aktivierung abgehandelt worden ist, platziere 1 Verfolgungsmarker auf Von der Vergangenheit verfolgt.",
+    "subname": "Verrat"
+  },
+  {
+    "code": "45080",
+    "name": "Das Böse rückt näher",
+    "text": "<b>Erzwungene Reaktion</b>: Nachdem dein Zug begonnen hat, lege die oberste Karte deines Decks ab. Platziere für jedes aufgedruckte Ressourcensymbol auf der Karte 1 Verfolgungsmarker auf Von der Vergangenheit verfolgt.\n<b>Alter Ego – Aktion</b>: Lege eine identitätsspezifische Karte von deiner Hand ab → lege diese Karte ab.",
+    "subname": "Verpflichtung"
+  },
+  {
+    "code": "45102b",
+    "name": "Apocalypse",
+    "text": "★ Apocalypses Angriffe erhalten Overkill.\n\n<b>Erzwungene Unterbrechung:</b> Sobald der Hauptplan vollendet ist, verlieren die Spieler das Spiel.",
+    "traits": "Gestählt. Zähigkeit.",
+    "flavor": "„Ich werde diese Welt mit Feuer reinigen. Nur die Starken werden überleben.\"",
+    "subname": "Stage IV"
+  },
+  {
+    "code": "45101b",
+    "name": "Apocalypse",
+    "text": "<b>Erzwungene Unterbrechung:</b> Sobald der Hauptplan vollendet ist, entferne alle Bedrohung von ihm (ignoriere dabei alle Krisensymbole [crisis]). Entferne diese Karte aus dem Spiel und decke Apocalypse (III) auf.",
+    "traits": "Standhaft. Zähigkeit.",
+    "flavor": "„Du bist töricht, dich mir zu widersetzen.\"",
+    "subname": "Stage II"
+  },
+  {
+    "code": "45138",
+    "name": "Polizeistaat",
+    "text": "Hindernis 1[per_hero].\n\n<b>Sobald besiegt:</b> Der Spieler, der diesen Plan besiegt hat, muss den Anhang Mutant auf der Flucht finden und ihn aufdecken.",
+    "flavor": "Genoshas Wohlstand beruht auf der Ausbeutung seiner Mutanten-Bevölkerung."
+  },
+  {
+    "code": "45165",
+    "name": "Weltweite Krise",
+    "text": "<b>Sobald aufgedeckt:</b> Wähle: Platziere entweder 3 Bedrohung auf dem MISSION-Nebenplan, oder nimm 1 Schaden und diese Karte erhält Nachrüsten.\n\n★ <b>Boost:</b> Platziere 1 Bedrohung auf dem MISSION-Nebenplan. Gib dem aktivierenden Gegner eine zusätzliche Boost-Karte."
+  },
+  {
+    "code": "45164",
+    "name": "Anhänger von Apocalypse",
+    "text": "Wache.\n\n<b>Sobald aufgedeckt:</b> Wähle: Füge Anhänger von Apocalypse entweder der Missionszone hinzu oder sie werden gegen dich aktiviert.\n\n★ <b>Boost:</b> Füge einem Verbündeten auf Mission 1 Schaden zu. Gib dem aktivierenden Gegner eine zusätzliche Boost-Karte.",
+    "traits": "Clan Akkaba."
+  },
+  {
+    "code": "45085b",
+    "name": "Die Reiter des Apocalypse",
+    "text": "<b>Erzwungene Reaktion:</b> Nachdem ein Schurke aktiviert worden ist, verschiebe den Aktivmarker auf den nächsten Schurken.\n\nFalls dieser Abschnitt vollendet ist, verlieren die Spieler das Spiel.",
+    "flavor": "Die Vier Reiter sind die brutalsten Diener von Apocalypse. Sie schlagen nacheinander zu und nutzen ihre Kräfte als Team.",
+    "subname": "Stage 1B"
+  }
+]

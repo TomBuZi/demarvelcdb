@@ -1,17 +1,20 @@
 """Sammelt manuell von Claude erzeugte Karten-Übersetzungen in einer JSON-Datei.
 
-Nutzung (aus dem Code heraus aufgerufen):
-    add_cards([{...}, {...}])     # liefert Liste mit Erfolgs-Statistik
+Pack-parametrisiert über Env-Var `OCR_PACK` (Default: hood).
+Nutzung:
+    add_cards([{...}, {...}])     # liefert Statistik (added/skipped/total)
     list_pending()                # listet noch nicht erfasste Slots
     get_done_codes()              # Set bereits erfasster Codes
 """
 from __future__ import annotations
 import json
+import os
 from pathlib import Path
 
+PACK = os.environ.get("OCR_PACK", "hood")
 ROOT = Path(__file__).parent
-REVIEW = ROOT / "output" / "review" / "hood"
-OUT = ROOT / "output" / "hood_encounter_claude.json"
+REVIEW = ROOT / "output" / "review" / PACK
+OUT = ROOT / "output" / f"{PACK}_encounter_claude.json"
 
 ZZORBA_FIELDS = ("code", "name", "text", "traits", "flavor", "subname")
 

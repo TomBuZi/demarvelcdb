@@ -27,6 +27,28 @@ DE_TO_EN_SET_CODE: dict[str, str] = {
     "geplundertes_waffenlager": "ransacked_armory",
     "geplunderles_waffenlager": "ransacked_armory",  # OCR-Verlesungen
     "ausnahmezustand": "state_of_emergency",
+
+    # Age of Apocalypse (Erstkontakt — wird nach Visualize-Lauf justiert)
+    "apokalypse":            "apocalypse",
+    "vier_reiter":           "four_horsemen",
+    "die_vier_reiter":       "four_horsemen",
+    "klan_akkaba":           "clan_akkaba",
+    "pralaten":              "prelates",
+    "praelaten":             "prelates",
+    "dunkle_reiter":         "dark_riders",
+    "dunkles_biest":         "dark_beast",
+    "blauer_mond":           "blue_moon",
+    "wildes_land":           "savage_land",
+    "dystopischer_albtraum": "dystopian_nightmare",
+    "albtraum_der_dystopie": "dystopian_nightmare",
+    "aufseher":              "overseer",
+    "jagdhunde":             "hounds",
+    "zelestiale_technik":    "celestial_tech",
+    "zelestiale_techniken":  "celestial_tech",
+    # Mission/Campaign-Sets (bleiben oft englisch oder sind direkt mappable)
+    # en_sabah_nur, infinites, magik, magik_nemesis, bishop, bishop_nemesis,
+    # genosha, age_of_apocalypse, aoa_campaign, aoa_mission, standard_iii
+    # → werden via direktem Substring-Match aufgelöst
 }
 
 

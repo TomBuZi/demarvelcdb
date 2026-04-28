@@ -1,0 +1,105 @@
+# Karten-Grid pro Bogen für Pack `aoa` (Age of Apocalypse).
+#
+# Alle Bögen verwenden Auto-Detect (saubere weiße Bereiche zwischen Karten).
+# Region-Templates pro Card-Type-Klasse leben im Code (`extract.py:TYPE_LAYOUTS`).
+
+"AgeofApocalypseGER1.jpg":
+  auto_detect: true
+  cols: 3
+
+"AgeofApocalypseGER2.jpg":
+  auto_detect: true
+  cols: 3
+
+"AgeofApocalypseGER3.jpg":
+  auto_detect: true
+  cols: 3
+
+"AgeofApocalypseGER4.jpg":
+  auto_detect: true
+  cols: 3
+
+"AgeofApocalypseGER5.jpg":
+  auto_detect: true
+  cols: 3
+
+"AgeofApocalypseGER6.jpg":
+  auto_detect: true
+  cols: 3
+
+"AgeofApocalypseGER7.jpg":
+  auto_detect: true
+  cols: 3
+
+"AgeofApocalypseGER8.jpg":
+  auto_detect: true
+  cols: 3
+
+"AgeofApocalypseGER9.jpg":
+  auto_detect: true
+  cols: 3
+
+"AgeofApocalypseGER10.jpg":
+  auto_detect: true
+  cols: 3
+
+"AgeofApocalypseGER11.jpg":
+  auto_detect: true
+  cols: 3
+
+"AgeofApocalypseGER12.jpg":
+  auto_detect: true
+  cols: 3
+
+"AgeofApocalypseGER13.jpg":
+  auto_detect: true
+  cols: 3
+
+"AgeofApocalypseGER14.jpg":
+  auto_detect: true
+  cols: 3
+
+"AgeofApocalypseGER15.jpg":
+  auto_detect: true
+  cols: 3
+
+"AgeofApocalypseGER16.jpg":
+  auto_detect: true
+  cols: 3
+
+"AgeofApocalypseGER17.jpg":
+  auto_detect: true
+  cols: 3
+
+"AgeofApocalypseGER18.jpg":
+  auto_detect: true
+  cols: 3
+
+"AgeofApocalypseGER19.jpg":
+  auto_detect: true
+  cols: 3
+
+"AgeofApocalypseGER20.jpg":
+  auto_detect: true
+  cols: 3
+
+"AgeofApocalypseGER21.jpg":
+  auto_detect: true
+  cols: 3
+
+"AgeofApocalypseGER22.jpg":
+  auto_detect: true
+  cols: 3
+
+"AgeofApocalypseGER23.jpg":
+  auto_detect: true
+  cols: 3
+
+"AgeofApocalypseGER24.jpg":
+  auto_detect: true
+  cols: 3
+
+"AgeofApocalypseGER25.jpg":
+  auto_detect: true
+  cols: 3
+

@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'rulebook_entries.json'
+      - 'translations_local/**'
       - '**.py'
 
 jobs:

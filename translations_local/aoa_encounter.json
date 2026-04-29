@@ -915,5 +915,73 @@
     "name": "Die Reiter des Apocalypse",
     "text": "<b>Erzwungene Reaktion:</b> Nachdem ein Schurke aktiviert worden ist, verschiebe den Aktivmarker auf den nächsten Schurken.\n\nFalls dieser Abschnitt vollendet ist, verlieren die Spieler das Spiel.",
     "flavor": "Die Vier Reiter sind die brutalsten Diener von Apocalypse. Sie schlagen nacheinander zu und nutzen ihre Kräfte als Team."
+  },
+  {
+    "code": "45025",
+    "name": "Die Zukunft fürchten",
+    "text": "<b><i>Gib dies dem Spieler von Lucas Bishop.</i></b>\nDu darfst deine Identität auf deine Alter-Ego-Seite umdrehen. Wähle eines:\n• Erschöpfe Lucas Bishop → entferne Die Zukunft fürchten aus dem Spiel.\n• Lege diese Karte und jede Ressourcenkarte von deiner Hand ab. Falls auf diese Weise keine Ressourcenkarten abgelegt wurden, erhält diese Karte Nachrüsten."
+  },
+  {
+    "code": "45026",
+    "name": "Trevor Fitzroy",
+    "text": "Erstschlag.\n<b>Erzwungene Reaktion:</b> Nachdem Trevor Fitzroy einen Verbündeten angegriffen und besiegt hat und falls der Nebenplan Portal durch die Zeit im Spiel ist, platziere 2 Bedrohung darauf. Ansonsten finde den Nebenplan und decke ihn auf.",
+    "traits": "Elite. Temporal.",
+    "flavor": "(Bishops Erzfeind-Scherge.)"
+  },
+  {
+    "code": "45027",
+    "name": "Portal durch die Zeit",
+    "text": "<b>Erzwungene Unterbrechung:</b> Sobald eine <i>Temporal</i>-Karte aufgedeckt wird, erhält sie Nachrüsten. <i>(Nur ein Mal pro Phase.)</i>",
+    "flavor": "Trevor Fitzroy nutzt seine Zeitportale, um Verbrechen zu begehen und seiner gerechten Strafe zu entkommen."
+  },
+  {
+    "code": "45028",
+    "name": "Bantam",
+    "text": "<b>Sobald aufgedeckt:</b> Falls der Nebenplan Portal durch die Zeit im Spiel ist, platziere 2 Bedrohung darauf. Ansonsten finde den Nebenplan und decke ihn auf.",
+    "traits": "Temporal.",
+    "flavor": "„Zeit zu gehen, Trevor.\""
+  },
+  {
+    "code": "45029",
+    "name": "Temporale Trickerei",
+    "text": "<b>Sobald aufgedeckt:</b> Lege 1 deiner Handkarten mit den meisten aufgedruckten Ressourcensymbolen ab. Platziere für jedes Ressourcensymbol auf der Karte 1 Bedrohung auf jedem Plan.",
+    "traits": "Temporal.",
+    "flavor": "„Darum liebe ich Zeitreisen: Egal wie oft ich diese Bank überfalle, sie sind immer überrascht.\"\n- Trevor Fitzroy"
+  },
+  {
+    "code": "45053",
+    "name": "Darkchilde",
+    "text": "<b><i>Gib dies dem Spieler von Illyana Rasputin.</i></b>\nDu darfst deine Identität auf deine Alter-Ego-Seite umdrehen. Wähle:\n• Erschöpfe Illyana Rasputin → entferne Darkchilde aus dem Spiel.\n• Füge jedem Charakter unter deiner Kontrolle 1 Schaden zu. Lege diese Verpflichtung ab."
+  },
+  {
+    "code": "45054",
+    "name": "Belasco",
+    "text": "Schurkisch.\n[star] <b>Erzwungene Reaktion:</b> Nachdem Belasco gegen dich aktiviert worden ist, lege die obersten 3 Karten deines Decks ab. Falls der Nebenplan Herrscher des Limbo im Spiel ist, hänge die Karten verdeckt daran an.",
+    "traits": "Elite. Limbo.",
+    "flavor": "(Magiks Erzfeind-Scherge.)"
+  },
+  {
+    "code": "45055",
+    "name": "Herrscher des Limbo",
+    "text": "Solange Belasco im Spiel ist, kann von diesem Plan keine Bedrohung entfernt werden.\n<b>Sobald aufgedeckt:</b> Der Spieler von Illyana Rasputin muss den Vorteil Limbo finden und ihn verdeckt hier anhängen. Sobald dieser Plan besiegt wird, bringe Limbo unter der Kontrolle seines Besitzers ins Spiel."
+  },
+  {
+    "code": "45056",
+    "name": "S'ym",
+    "text": "Wache.\n<b>Sobald aufgedeckt:</b> Falls der Nebenplan Herrscher des Limbo im Spiel ist, platziere 2 Bedrohung darauf. Platziere ansonsten 2 Bedrohung auf dem Hauptplan.",
+    "traits": "Limbo.",
+    "flavor": "„Der Boss sagt, er hat endgültig genug von dir!\""
+  },
+  {
+    "code": "45057",
+    "name": "Witchfire",
+    "text": "Erstschlag.\n<b>Erzwungene Reaktion:</b> Nachdem Witchfire einen Verbündeten angegriffen und besiegt hat, platziere 1 Bedrohung auf den Nebenplan Herrscher des Limbo. Platziere ansonsten 1 Bedrohung auf den Hauptplan.",
+    "traits": "Limbo.",
+    "flavor": "„Der Limbo ist mein Geburtsrecht!\""
+  },
+  {
+    "code": "45058",
+    "name": "Kampf um den Limbo",
+    "text": "<b>Sobald aufgedeckt:</b> Jeder <i>Limbo</i>-Scherge im Spiel wird gegen den Spieler aktiviert, mit dem er im Kampf ist. Falls auf diese Weise kein <i>Limbo</i>-Scherge aktiviert wurde, erhält diese Karte Nachrüsten.\n[star] <b>Boost:</b> Falls Herrscher des Limbo im Spiel ist, platziere 2 Bedrohung darauf."
   }
 ]

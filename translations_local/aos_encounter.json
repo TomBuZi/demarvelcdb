@@ -665,5 +665,215 @@
     "name": "Taktische Unterstützung",
     "text": "Hänge diese Karte an den Schurken an. Dauerhaft.\n<b>Erzwungene Reaktion:</b> Nachdem hier ein Geheimnismarker platziert worden ist, füge einem befreundeten Charakter 2 Schaden zu.\nFalls 3 <i>DIREKTORIUMSMITGLIED</i>-Anhänge im Spiel sind, verlieren die Spieler das Spiel.",
     "traits": "Direktoriumsmitglied."
+  },
+  {
+    "code": "50146",
+    "name": "Schallblase",
+    "text": "<b>Erzwungene Unterbrechung:</b> Sobald einem Gegner eine beliebige Menge an Schaden zugefügt werden würde, entferne stattdessen so viel Bedrohung von dieser Karte.",
+    "flavor": "„Hier kommst du nicht raus!\"\n- Songbird"
+  },
+  {
+    "code": "50147",
+    "name": "Fester Schall",
+    "text": "<b>Sobald aufgedeckt:</b> Finde Songbird und decke sie auf. <i>(Falls sie bereits im Spiel ist, verwickelt sie dich in einen Kampf.)</i> Songbird wird gegen dich aktiviert. Falls auf diese Weise kein Gegner aktiviert wurde, erhält diese Karte Nachrüsten.\n[star] <b>Boost:</b> Gib dem aktivierenden Gegner 1 zusätzliche Boost-Karte."
+  },
+  {
+    "code": "50152",
+    "name": "Radioactive Man",
+    "text": "Schurkisch. Sieg 1.\n[star] <b>Erzwungene Reaktion:</b> Nachdem Radioactive Man gegen dich aktiviert worden ist, füge jedem Charakter unter deiner Kontrolle 1 Schaden zu.",
+    "traits": "Elite. Thunderbolt.",
+    "flavor": "„Auf geht's, machen wir sie nieder!\""
+  },
+  {
+    "code": "50153",
+    "name": "Strahlenbelastung",
+    "text": "Hänge diese Karte an deine Identität an.\n[star] Falls die Identität mit diesem Anhang das Merkmal <i>GAMMA</i> hat, gibt dieser Anhang stattdessen +1 ANG.\n<b>Erzwungene Reaktion:</b> Nachdem du dich erholt hast, lege 1 Karte von deiner Hand ab → lege diese Karte ab.",
+    "traits": "Zustand."
+  },
+  {
+    "code": "50154",
+    "name": "Unkontrollierbare Kernreaktion",
+    "text": "<b>Erzwungene Reaktion:</b> Nachdem Radioactive Man eine beliebige Menge an Schaden zugefügt worden ist, platziere genauso viel Bedrohung auf dieser Karte. Falls hier dann 10 oder mehr Bedrohung liegt, füge jedem Charakter 10 Schaden zu und lege Unkontrollierbare Kernreaktion ab."
+  },
+  {
+    "code": "50155",
+    "name": "Kraft des Atoms",
+    "text": "<b>Sobald aufgedeckt:</b> Finde Radioactive Man und decke ihn auf. <i>(Falls er bereits im Spiel ist, verwickelt er dich in einen Kampf.)</i> Radioactive Man wird gegen dich aktiviert. Falls auf diese Weise kein Gegner aktiviert wurde, erhält diese Karte Nachrüsten.\n[star] <b>Boost:</b> Nimm 2 indirekten Schaden."
+  },
+  {
+    "code": "50085",
+    "name": "Verrückte Wissenschaft",
+    "text": "Hindernis 2[per_hero].\nJeder <i>A.I.M.</i>-Scherge erhält 1 Beschleunigungssymbol [acceleration].",
+    "flavor": "Die Mitglieder von Advanced Idea Mechanics, abfällig auch als „Bienenzüchter\" bezeichnet, sind brillant, aber auch rücksichtslos und streben die Weltherrschaft durch technologische Macht an."
+  },
+  {
+    "code": "50098",
+    "name": "Machete",
+    "text": "Nachrüsten. Anfällig.\n[star] Machetes Angriffe erhalten Durchdringend.\n<b>Sobald besiegt:</b> Mische Machete in das Begegnungsdeck.",
+    "traits": "Batroc's Brigade. Söldner.",
+    "flavor": "Mit dem Ableben eines Machete geht der Titel an das nächste Mitglied der Familie Lopez über."
+  },
+  {
+    "code": "50099",
+    "name": "Rapido",
+    "text": "[star] Rapidos Angriffe erhalten Fernkampf und fügen indirekten Schaden zu.\n<b>Sobald aufgedeckt:</b> Füge jedem Charakter unter deiner Kontrolle 1 Schaden zu.\n[star] <b>Boost:</b> Füge jedem Charakter unter deiner Kontrolle 1 Schaden zu.",
+    "traits": "Batroc's Brigade. Söldner."
+  },
+  {
+    "code": "50100",
+    "name": "Zaran",
+    "text": "[star] Zaran bekommt +X ANG. X sind die aufgedruckten Ressourcenkosten der unter ihn geschobenen Karte.\n<b>Sobald aufgedeckt:</b> Schiebe ein <i>WAFFE</i>-Upgrade unter deiner Kontrolle unter Zaran. Ansonsten schiebe die oberste Karte deines Decks unter Zaran.",
+    "traits": "Batroc's Brigade. Söldner."
+  },
+  {
+    "code": "50101",
+    "name": "Batroc's Brigade",
+    "text": "Jeder Scherge erhält Zähigkeit.\n<b>Sobald aufgedeckt:</b> Gib jedem Gegner eine Zäh-Statuskarte.\n<b>Held - Unterbrechung:</b> Sobald du einen Nicht-<i>ELITE</i>-Schergen aufdeckst, gib 3 beliebige Ressourcen aus → hebe die Effekte des Schergen auf und lege ihn ab.",
+    "flavor": "„Mit Geld lässt sich Loyalität nicht kaufen, aber es kann helfen.\"\n- Batroc"
+  },
+  {
+    "code": "50102",
+    "name": "Glücksritter",
+    "text": "<b>Sobald aufgedeckt:</b> Wähle:\n• Gib 3 beliebige Ressourcen aus.\n• Finde einen <i>SÖLDNER</i>-Schergen und decke ihn auf. Falls auf diese Weise kein Scherge ins Spiel gekommen ist, erhält diese Karte Nachrüsten.\n[star] <b>Boost:</b> Wähle: Gib entweder 1 beliebige Ressource aus oder diese Karte erhält [boost][boost][boost]."
+  },
+  {
+    "code": "50125",
+    "name": "Oberster Wissenschaftler",
+    "text": "Sieg -1. Schurkisch. Anfällig. <i>(Lege diesen Charakter ab, falls er betäubt oder verwirrt wird.)</i>\n[star] Die Angriffe dieses Schergen erhalten Durchdringend und Fernkampf.",
+    "traits": "A.I.M. Genie.",
+    "flavor": "Der Oberste Wissenschaftler trägt einen Hightech-Anzug und verfügt über große körperliche und politische Macht."
+  },
+  {
+    "code": "50126",
+    "name": "Monica Rappaccini",
+    "text": "Sieg -1. Anfällig. <i>(Lege diesen Charakter ab, falls er betäubt oder verwirrt wird.)</i>\nSolange Oberster Wissenschaftler im Siegpunktestapel ist, erhält Monica Rappaccini Schurkisch.",
+    "traits": "A.I.M. Genie.",
+    "flavor": "Als stellvertretende Leiterin von A.I.M. hat es Monica auf den Titel des Obersten Wissenschaftlers abgesehen."
+  },
+  {
+    "code": "50127",
+    "name": "Diplomatische Immunität",
+    "text": "<b>Sobald aufgedeckt:</b> Platziere für jeden <i>A.I.M.</i>-Schergen im Siegpunktestapel 1 Beschleunigungsmarker auf dieser Karte.",
+    "flavor": "Ein Angriff auf das Staatsoberhaupt einer souveränen Nation ist politisch riskant. Ihr müsst gegen den Obersten Wissenschaftler mit Bedacht vorgehen."
+  },
+  {
+    "code": "50128",
+    "name": "Diplomatische Sanktionen",
+    "text": "Nachrüsten.\n<b>Sobald aufgedeckt:</b> Lege für jeden <i>A.I.M.</i>-Schergen im Siegpunktestapel 1 Karte von deiner Hand ab.\n[star] <b>Boost:</b> Diese Karte erhält für jeden <i>A.I.M.</i>-Schergen im Siegpunktestapel 1 [boost]."
+  },
+  {
+    "code": "50143",
+    "name": "Songbird",
+    "text": "Schurkisch. Sieg 1.\n[star] <b>Erzwungene Unterbrechung:</b> Sobald Songbird aktiviert wird, gib ihr für diese Aktivierung 1 zusätzliche Boost-Karte.",
+    "traits": "Elite. Fliegend. Thunderbolt.",
+    "flavor": "„Ich bin der Ton, der die Musik macht!\""
+  },
+  {
+    "code": "50144",
+    "name": "Feste Schallkonstrukte",
+    "text": "Hänge diese Karte an Songbird an. Hänge sie ansonsten an den Schurken an.\nDer Gegner mit diesem Anhang verliert Gestählt.\n<b>Erzwungene Unterbrechung:</b> Sobald der Gegner mit diesem Anhang eine Verwirrt- oder Betäubt-Statuskarte erhalten würde, lege stattdessen diese Karte ab.",
+    "traits": "Waffe."
+  },
+  {
+    "code": "50145",
+    "name": "Fesseln aus festem Schall",
+    "text": "Hänge diese Karte an deine Identität an.\n<b>Erzwungene Unterbrechung:</b> Sobald du angreifen würdest, lege stattdessen Fesseln aus festem Schall ab. Dann wirst du betäubt.\n[star] <b>Boost:</b> Du wirst betäubt. Falls du bereits betäubt bist, gib dem aktivierenden Gegner 1 zusätzliche Boost-Karte."
+  },
+  {
+    "code": "50156",
+    "name": "MACH-IV",
+    "text": "Schurkisch. Sieg 1.\n[star] Charaktere ohne das Merkmal <i>FLIEGEND</i> können nicht mit ihrer Basiskraft gegen MACH-IVs Angriffe verteidigen.",
+    "traits": "Elite. Fliegend. Thunderbolt.",
+    "flavor": "„Ich habe alle Waffen eines Kampfjets - und noch ein paar mehr.\""
+  },
+  {
+    "code": "50157",
+    "name": "Blaster",
+    "text": "Hänge diese Karte an MACH-IV an. Hänge sie ansonsten an den Gegner mit dem höchsten ANG-Wert an.\n[star] Die Angriffe des Gegners mit diesem Anhang erhalten Overkill und Fernkampf.\n<b>Held - Reaktion:</b> Nachdem du den Gegner mit diesem Anhang angegriffen und ihm Schaden zugefügt hast, gib [physical][physical]-Ressourcen aus → lege diese Karte ab.",
+    "traits": "Tech. Waffe."
+  },
+  {
+    "code": "50158",
+    "name": "Wärmesuchende Raketen",
+    "text": "Hänge diese Karte an MACH-IV an. Hänge sie ansonsten an den Schurken an.\nAnwendungen <i>(4 Raketenmarker)</i>.\n[star] <b>Erzwungene Reaktion:</b> Nachdem der Gegner mit diesem Anhang dich angegriffen hat, entferne 1 Raketenmarker von dieser Karte und nimm 2 indirekten Schaden.",
+    "traits": "Tech. Waffe."
+  },
+  {
+    "code": "50159",
+    "name": "Duell in den Lüften",
+    "text": "Hindernis 2[per_hero].\nSenke den Schaden, den jeder <i>FLIEGEND</i>-Charakter durch jeden Angriff nimmt, um 2, es sei denn, der Angreifer oder Angriff hat das Merkmal <i>FLIEGEND</i> oder der Angriff hat Fernkampf."
+  },
+  {
+    "code": "50160",
+    "name": "Überschall",
+    "text": "<b>Sobald aufgedeckt:</b> Finde MACH-IV und decke ihn auf. <i>(Falls er bereits im Spiel ist, verwickelt er dich in einen Kampf.)</i> MACH-IV wird gegen dich aktiviert. Falls auf diese Weise kein Gegner aktiviert wurde, erhält diese Karte Nachrüsten.\n[star] <b>Boost:</b> Falls diese Aktivierung ein Angriff ist, erhält er Overkill und Fernkampf."
+  },
+  {
+    "code": "50161",
+    "name": "Batroc",
+    "text": "Schurkisch. Sieg 1.\n<b>Erzwungene Unterbrechung:</b> Sobald Batroc dich in einen Kampf verwickelt, lege 1 Karte von deiner Hand ab.",
+    "traits": "Elite. Thunderbolt.",
+    "flavor": "„On se revoit. En garde!\""
+  },
+  {
+    "code": "50162",
+    "name": "Coup de Foudre",
+    "text": "<b>Erzwungene Unterbrechung:</b> Sobald ein Scherge einen Spieler in einen Kampf verwickelt, legt der Spieler die obersten X Karten seines Decks ab. X ist die Anzahl der Boost-Symbole [boost] auf dem Schergen. Platziere hier für jede auf diese Weise abgelegte aufgedruckte [wild]-Ressource 1 Bedrohung."
+  },
+  {
+    "code": "50163",
+    "name": "Batroc, der Springer",
+    "text": "<b>Sobald aufgedeckt:</b> Finde Batroc und decke ihn auf. <i>(Falls er bereits im Spiel ist, verwickelt er dich in einen Kampf.)</i> Batroc wird gegen dich aktiviert. Falls auf diese Weise kein Gegner aktiviert wurde, erhält diese Karte Nachrüsten.\n[star] <b>Boost:</b> Lege 1 Karte von deiner Hand ab."
+  },
+  {
+    "code": "50164",
+    "name": "Parcours du Combattant",
+    "text": "Nachrüsten.\n<b>Sobald aufgedeckt:</b> Jeder Spieler verwickelt jeden Schergen in einen Kampf, der mit dem Spieler zu seiner Linken im Kampf ist.\n[star] <b>Boost:</b> Nachdem dieser Angriff abgehandelt worden ist, verwickle jeden Schergen im Spiel in einen Kampf, der nicht bereits mit dir im Kampf ist."
+  },
+  {
+    "code": "50139",
+    "name": "Moonstone",
+    "text": "Schurkisch. Sieg 1.\n[star] <b>Erzwungene Reaktion:</b> Nachdem Moonstone aktiviert worden ist, gib ihr eine Zäh-Statuskarte.",
+    "traits": "Elite. Fliegend. Thunderbolt.",
+    "flavor": "„Fang!\""
+  },
+  {
+    "code": "50140",
+    "name": "Den Himmel beherrschen",
+    "text": "Jeder <i>FLIEGEND</i>-Charakter bekommt +1 ANG.\n[star] <b>Boost:</b> Falls der aktivierende Gegner das Merkmal <i>FLIEGEND</i> hat, gib ihm 1 zusätzliche Boost-Karte."
+  },
+  {
+    "code": "50141",
+    "name": "Gravitationskraft",
+    "text": "<b>Sobald aufgedeckt:</b> Finde Moonstone und decke sie auf. <i>(Falls sie bereits im Spiel ist, verwickelt sie dich in einen Kampf.)</i> Moonstone wird gegen dich aktiviert. Falls auf diese Weise kein Gegner aktiviert worden ist, erhält diese Karte Nachrüsten.\n[star] <b>Boost:</b> Erschöpfe einen Charakter unter deiner Kontrolle."
+  },
+  {
+    "code": "50142",
+    "name": "Psychologische Manipulation",
+    "text": "<b>Sobald aufgedeckt (Alter Ego):</b> Lege einen Verbündeten oder Vorteil unter deiner Kontrolle ab. Ansonsten erhält diese Karte Nachrüsten.\n<b>Sobald aufgedeckt (Held):</b> Füge dem befreundeten Charakter mit den wenigsten verbleibenden Lebenspunkten X Schaden zu. X ist der ANG-Wert deines Helden."
+  },
+  {
+    "code": "50148",
+    "name": "Black Widow",
+    "text": "Vergeltung 1. Schurkisch. Sieg 1.\n[star] <b>Erzwungene Reaktion:</b> Nachdem Black Widow den Plan gegen dich vorangetrieben hat, durchsuche das Begegnungsdeck und den Ablagestapel nach einem Exemplar von Handstandüberschlag und hänge es an sie an. <i>(Mische.)</i> Ansonsten wirst du verwirrt.",
+    "traits": "Elite. Thunderbolt."
+  },
+  {
+    "code": "50149",
+    "name": "Handstandüberschlag",
+    "text": "Hänge diese Karte an Black Widow an. Hänge sie ansonsten an den Schurken an.\n<b>Erzwungene Unterbrechung:</b> Sobald der Gegner mit diesem Anhang durch einen Angriff Schaden nehmen würde, füge den Schaden stattdessen dem angreifenden Charakter zu. Lege diese Karte ab.",
+    "traits": "Vorbereitung.",
+    "flavor": "„Das hat Spaß gemacht.\"\n- Black Widow"
+  },
+  {
+    "code": "50150",
+    "name": "Stolz des Red Rooms",
+    "text": "<b>Sobald aufgedeckt:</b> Platziere hier für jede <i>VORBEREITUNG</i>-Karte im Spiel 1 zusätzliche Bedrohung.",
+    "flavor": "Nachdem Yelena Belova ihren „Jahrgang im Red Room\" dominiert hatte, wollte sie sich als die beste Black Widow beweisen."
+  },
+  {
+    "code": "50151",
+    "name": "Blasse kleine Spinne",
+    "text": "<b>Sobald aufgedeckt:</b> Finde Black Widow und decke sie auf. <i>(Falls sie bereits im Spiel ist, verwickelt sie dich in einen Kampf.)</i> Black Widow wird gegen dich aktiviert. Falls auf diese Weise kein Gegner aktiviert wurde, erhält diese Karte Nachrüsten.\n[star] <b>Boost:</b> Du wirst verwirrt. Falls du bereits verwirrt bist, platziere 1 Bedrohung auf dem Hauptplan."
   }
 ]

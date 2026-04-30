@@ -1,0 +1,36 @@
+[
+  {
+    "code": "44037",
+    "name": "Unendlich viele Deadpools",
+    "text": "<b>Sobald aufgedeckt:</b> Decke den beiseitegelegten Schergen Dreadpool und den Nebenplan Entsetzliche Taten auf. Mische den Rest des beiseitegelegten Dreadpool-Begegnungssets in das Begegnungsdeck. Entferne diese Karte aus dem Spiel."
+  },
+  {
+    "code": "44038",
+    "name": "Dreadpool",
+    "text": "Dreadpool verwickelt den Startspieler in einen Kampf.\n<b>Sobald besiegt:</b> Teile Dreadpool dem Spieler, der ihn besiegt hat, als verdeckte Begegnungskarte zu.",
+    "traits": "Attentäter. Elite.",
+    "flavor": "„Ich tu das hier für ... die Sache. Aber meist fühle ich mich mies dabei.\""
+  },
+  {
+    "code": "44039",
+    "name": "Entsetzliche Taten",
+    "text": "<b>Sobald aufgedeckt:</b> Platziere hier 2 Bedrohung für jeden Spieler, der 1 oder mehr 'Pool-Karten <i>(pinke Karten)</i> kontrolliert.",
+    "flavor": "Dreadpool glaubt, dass er seinem Leiden nur dann ein Ende setzen kann, wenn er alle Wesen im gesamten Multiverse tötet."
+  },
+  {
+    "code": "44040",
+    "name": "Anti-Regenerationsstrahl",
+    "text": "Hänge diese Karte an Dreadpool an. Hänge sie ansonsten an den Schurken an.\n<b>Erzwungene Unterbrechung:</b> Sobald der Charakter mit diesem Anhang einen Nicht-Schurken-Charakter angreift, behandle das Textfeld des angegriffenen Charakters bis zum Ende des Angriffs, als ob es leer wäre <i>(mit Ausnahme von MERKMALEN)</i>.\n<b>Held - Aktion:</b> Gib [physical][energy][mental]-Ressourcen aus → hänge diese Karte an deine Identität an.",
+    "traits": "Waffe."
+  },
+  {
+    "code": "44041",
+    "name": "'Pool-isiert",
+    "text": "Behandle den Verbündeten mit diesem Anhang als einen <i>'POOL</i>-Schergen mit leerem Textfeld. Sein PLA-Wert entspricht dem aufgedruckten WID-Wert und er nimmt keinerlei Folgeschaden.\n<b>Sobald aufgedeckt:</b> Hänge diese Karte an den Verbündeten mit den höchsten Kosten und ohne ein angehängtes Exemplar 'Pool-isiert an. Ansonsten erhält diese Karte Nachrüsten."
+  },
+  {
+    "code": "44042",
+    "name": "Metazidale Absichten",
+    "text": "<b>Sobald aufgedeckt:</b> Füge jedem <i>DEADPOOL CORPS</i>-Charakter 2 Schaden zu <i>(3 Schaden stattdessen, falls Dreadpool im Spiel ist)</i>. Falls auf diese Weise kein Schaden zugefügt wurde, platziere 1 Beschleunigungsmarker auf dem Hauptplan."
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "code": "36036",
+    "name": "Shadow King",
+    "text": "Solange ein <i>KONTROLLIERT</i>-Scherge im Spiel ist, kann Shadow King keinen Schaden nehmen.\n<b>Sobald aufgedeckt:</b> Durchsuche das Begegnungsdeck und den Ablagestapel nach einem Exemplar von Besessen und decke es auf. <i>(Mische.)</i>",
+    "traits": "Elite. Psionisch."
+  },
+  {
+    "code": "36037",
+    "name": "Herrscher der Astralebene",
+    "text": "<b>Sobald besiegt:</b> Lege 1 Exemplar von Besessen aus dem Spiel ab.\n[star] <b>Boost:</b> Falls du mit einem <i>KONTROLLIERT</i>-Schergen im Kampf bist, decke diese Karte auf."
+  },
+  {
+    "code": "36038",
+    "name": "Besessen",
+    "text": "Behandle den Verbündeten mit diesem Anhang als einen <i>KONTROLLIERT</i>-Schergen mit leerem Textfeld. Sein PLA-Wert entspricht dem aufgedruckten WID-Wert und er nimmt keinen Folgeschaden.\n<b>Sobald aufgedeckt:</b> Hänge diese Karte an den Verbündeten mit dem niedrigsten WID-Wert und ohne ein angehängtes Exemplar Besessen an. Ansonsten erhält diese Karte Nachrüsten.",
+    "traits": "Zustand."
+  },
+  {
+    "code": "36039",
+    "name": "Astraler Angriff",
+    "text": "<b>Sobald aufgedeckt:</b> Jeder <i>KONTROLLIERT</i>-Scherge wird gegen dich aktiviert. Falls keine <i>KONTROLLIERT</i>-Schergen im Spiel sind, erhält diese Karte Nachrüsten.\n[star] <b>Boost:</b> Mische jede Shadow-King-Karte aus dem Ablagestapel in das Begegnungsdeck."
+  }
+]

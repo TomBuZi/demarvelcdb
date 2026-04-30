@@ -1,0 +1,25 @@
+[
+  {
+    "code": "46029",
+    "name": "Sauron",
+    "text": "<b>Sobald aufgedeckt:</b> Durchsuche das Begegnungsdeck und den Ablagestapel nach dem Anhang Lebenskraftentzug und decke ihn auf.\n[star] <b>Boost:</b> Heile 3 Schaden vom aktivierten Gegner und gib ihm eine Zäh-Statuskarte.",
+    "traits": "Brotherhood of Mutants."
+  },
+  {
+    "code": "46030",
+    "name": "„Sauron lebt!\"",
+    "text": "<b>Sobald besiegt:</b> Der Spieler, der diesen Plan besiegt hat, durchsucht das Begegnungsdeck und den Ablagestapel nach Sauron und teilt ihn sich selbst als verdeckte Begegnungskarte zu.",
+    "flavor": "Wenn Dr. Lykos Mutantenenergie absorbiert, verwandelt er sich in den furchterregenden Sauron."
+  },
+  {
+    "code": "46031",
+    "name": "Lebenskraftentzug",
+    "text": "Hänge diese Karte an den Schergen mit den höchsten aufgedruckten Lebenspunkten an. Er wird gegen dich aktiviert. Falls auf diese Weise kein Scherge aktiviert wurde, erhält diese Karte Nachrüsten.\n[star] <b>Erzwungene Unterbrechung:</b> Sobald der Scherge mit diesem Anhang dich angreift, nimm 2 Schaden und gib dem angreifenden Gegner eine Zäh-Statuskarte.",
+    "traits": "Superkraft."
+  },
+  {
+    "code": "46032",
+    "name": "Saurons böser Blick",
+    "text": "<b>Sobald aufgedeckt:</b> Lege die obersten 2 Karten deines Decks ab <i>(die obersten 3 Karten stattdessen, falls Sauron im Spiel ist)</i>. Für jedes auf diese Weise abgelegte Ressourcensymbol tue Folgendes:\n[physical] - Platziere 1 Bedrohung auf dem Hauptplan.\n[energy] - Lege 1 Karte von deiner Hand ab.\n[mental] - Füge deiner Identität 1 Schaden zu.\n[wild] - Erschöpfe einen Charakter unter deiner Kontrolle."
+  }
+]

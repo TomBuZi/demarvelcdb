@@ -1,0 +1,14 @@
+[
+  {
+    "code": "21100a",
+    "name": "Avengers Tower",
+    "text": "Die Regel für einzigartige Karten gilt nicht für den Avengers Tower.\n<b>Erzwungene Reaktion:</b> Nachdem hier Schaden platziert worden ist und falls sich mindestens 9[per_hero] Schaden auf dieser Karte befindet, entferne allen Schaden von hier. Drehe dann den Avengers Tower um.",
+    "traits": "Festung."
+  },
+  {
+    "code": "21100b",
+    "name": "Avengers Tower",
+    "text": "<b>Sobald aufgedeckt:</b> Lege jeden anderen Avengers Tower aus dem Spiel ab.\n<b>Erzwungene Reaktion:</b> Nachdem hier Schaden platziert worden ist und falls sich mindestens 9[per_hero] Schaden auf dieser Karte befindet, verlieren die Spieler das Spiel.",
+    "traits": "Beschädigt."
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "code": "48033",
+    "name": "Crazy Gang",
+    "text": "<b>Erzwungene Reaktion:</b> Nachdem ein Nicht-<i>ELITE</i>-Scherge gegen einen Spieler den Plan vorangetrieben hat, teile dem Spieler jenen Schergen als verdeckte Begegnungskarte zu. Gib dann die verdeckte Begegnungskarte an den nächsten Spieler weiter <i>(falls mehr als 1 Spieler im Spiel ist)</i>."
+  },
+  {
+    "code": "48034",
+    "name": "Queen of Hearts",
+    "text": "<b>Sobald aufgedeckt:</b> Durchsuche das Begegnungsdeck und den Ablagestapel nach dem Nebenplan Crazy Gang und decke ihn auf. Falls er bereits im Spiel ist, teile dir selbst eine verdeckte Begegnungskarte zu. <i>(Mische.)</i>",
+    "traits": "Königin. Krimineller.",
+    "flavor": "„Ab mit dem Kopf!\""
+  },
+  {
+    "code": "48035",
+    "name": "Jester",
+    "text": "<b>Sobald aufgedeckt:</b> Du wirst verwirrt. Falls du bereits verwirrt bist, lege einen Vorteil unter deiner Kontrolle ab.",
+    "traits": "Krimineller.",
+    "flavor": "„Ich trete dir mit Vergnügen ins Gesicht!\""
+  },
+  {
+    "code": "48036",
+    "name": "Executioner",
+    "text": "<b>Sobald aufgedeckt:</b> Executioner greift den befreundeten Charakter mit den wenigsten verbleibenden Lebenspunkten an. Falls dieser Angriff einen Verbündeten besiegt, entferne den Verbündeten aus dem Spiel.",
+    "traits": "Krimineller.",
+    "flavor": "Die Queen of Hearts hält ihn mit ihrem Lieblingsspruch beschäftigt."
+  },
+  {
+    "code": "48037",
+    "name": "Tweedledope",
+    "text": "<b>Sobald aufgedeckt:</b> Du wirst betäubt. Falls du bereits betäubt bist, lege ein Upgrade unter deiner Kontrolle ab.",
+    "traits": "Krimineller. Schläger.",
+    "flavor": "„Hyuk hyuk hyuk!\""
+  },
+  {
+    "code": "48038",
+    "name": "„Ab mit dem Kopf!\"",
+    "text": "<b>Sobald aufgedeckt:</b> Jeder Scherge wird gegen den Spieler aktiviert, mit dem er im Kampf ist. Falls auf diese Weise kein Scherge aktiviert wurde, lege Karten vom Begegnungsdeck ab, bis ein Scherge abgelegt wird, und decke ihn auf.",
+    "flavor": "Das ist im Grunde alles, was sie jemals sagt."
+  }
+]

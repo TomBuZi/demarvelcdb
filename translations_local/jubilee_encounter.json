@@ -1,0 +1,34 @@
+[
+  {
+    "code": "47030",
+    "name": "Arcade",
+    "text": "Arcade kann keinen Schaden nehmen, solange ein <i>FALLE!</i>-Nebenplan im Spiel ist.\n<b>Sobald aufgedeckt:</b> Lege Karten vom Begegnungsdeck ab, bis ein <i>FALLE!</i>-Nebenplan abgelegt wird, und decke ihn auf.",
+    "traits": "Attentäter.",
+    "flavor": "„Ich bin so froh, dass dich meine Söldner überzeugen konnten herzukommen!\""
+  },
+  {
+    "code": "47031",
+    "name": "Willkommen in Murderworld",
+    "text": "Hindernis 1[per_hero].\n<b>Sobald besiegt:</b> Der Spieler, der diesen Nebenplan besiegt hat, nimmt 2 Schaden.",
+    "traits": "Falle!",
+    "flavor": "„Diese Attraktionen sind ein Mordespaß!\"\n- Arcade"
+  },
+  {
+    "code": "47032",
+    "name": "Arcades Spasshaus",
+    "text": "Hindernis 1[per_hero].\n<b>Sobald besiegt:</b> Der Spieler, der diesen Nebenplan besiegt hat, wird betäubt. Falls er bereits betäubt ist, legt er einen Verbündeten oder ein Upgrade unter seiner Kontrolle ab.",
+    "traits": "Falle!"
+  },
+  {
+    "code": "47033",
+    "name": "Spiegelkabinett",
+    "text": "Hindernis 1[per_hero].\n<b>Sobald besiegt:</b> Der Spieler, der diesen Nebenplan besiegt hat, wird verwirrt. Falls er bereits verwirrt ist, platziere 2 Bedrohung auf dem Hauptplan.",
+    "traits": "Falle!"
+  },
+  {
+    "code": "47034",
+    "name": "Ausgeklügelte Falle",
+    "text": "<b>Sobald aufgedeckt:</b> Handle die „<b>Sobald besiegt</b>\"-Fähigkeit auf jedem <i>FALLE!</i>-Nebenplan ab, als ob du ihn besiegt hättest. Falls auf diese Weise keine Fähigkeiten abgehandelt wurden, lege Karten vom Begegnungsdeck ab, bis ein <i>FALLE!</i>-Nebenplan abgelegt wird, und decke ihn auf.",
+    "flavor": "„Overkill wird völlig unterschätzt.\"\n- Arcade"
+  }
+]

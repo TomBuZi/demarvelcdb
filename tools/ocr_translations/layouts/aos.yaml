@@ -1,0 +1,95 @@
+# Karten-Grid pro Bogen für Pack `aos` (Agents of S.H.I.E.L.D.).
+#
+# Auto-Detect für alle Bögen.
+
+"AgentsofSHIELDGER1.jpg":
+  auto_detect: true
+  cols: 3
+
+"AgentsofSHIELDGER2.jpg":
+  auto_detect: true
+  cols: 3
+
+"AgentsofSHIELDGER3.jpg":
+  auto_detect: true
+  cols: 3
+
+"AgentsofSHIELDGER4.jpg":
+  auto_detect: true
+  cols: 3
+
+"AgentsofSHIELDGER5.jpg":
+  auto_detect: true
+  cols: 3
+
+"AgentsofSHIELDGER6.jpg":
+  auto_detect: true
+  cols: 3
+
+"AgentsofSHIELDGER7.jpg":
+  auto_detect: true
+  cols: 3
+
+"AgentsofSHIELDGER8.jpg":
+  auto_detect: true
+  cols: 3
+
+"AgentsofSHIELDGER9.jpg":
+  auto_detect: true
+  cols: 3
+
+"AgentsofSHIELDGER10.jpg":
+  auto_detect: true
+  cols: 3
+
+"AgentsofSHIELDGER11.jpg":
+  auto_detect: true
+  cols: 3
+
+"AgentsofSHIELDGER12.jpg":
+  auto_detect: true
+  cols: 3
+
+"AgentsofSHIELDGER13.jpg":
+  auto_detect: true
+  cols: 3
+
+"AgentsofSHIELDGER14.jpg":
+  auto_detect: true
+  cols: 3
+
+"AgentsofSHIELDGER15.jpg":
+  auto_detect: true
+  cols: 3
+
+"AgentsofSHIELDGER16.jpg":
+  auto_detect: true
+  cols: 3
+
+"AgentsofSHIELDGER17.jpg":
+  auto_detect: true
+  cols: 3
+
+"AgentsofSHIELDGER18.jpg":
+  auto_detect: true
+  cols: 3
+
+"AgentsofSHIELDGER19.jpg":
+  auto_detect: true
+  cols: 3
+
+"AgentsofSHIELDGER20.jpg":
+  auto_detect: true
+  cols: 3
+
+"AgentsofSHIELDGER21.jpg":
+  auto_detect: true
+  cols: 3
+
+"AgentsofSHIELDGER22.jpg":
+  auto_detect: true
+  cols: 3
+
+"AgentsofSHIELDGER23.jpg":
+  auto_detect: true
+  cols: 3

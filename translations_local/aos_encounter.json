@@ -1,0 +1,173 @@
+[
+  {
+    "code": "50064",
+    "name": "Black Widow",
+    "text": "<b>Erzwungene Unterbrechung:</b> Sobald ein Charakter unter deiner Kontrolle Black Widow angreift, entferne 1 Bedrohung vom Hauptplan <i>(ignoriere dabei alle Krisensymbole im Spiel)</i> → lege die oberste Karte des Begegnungsdecks ab und handle jede „Vorbereitung\"-Fähigkeit auf der Karte ab.",
+    "traits": "Spion."
+  },
+  {
+    "code": "50065",
+    "name": "Black Widow",
+    "text": "<b>Sobald aufgedeckt:</b> Platziere 2[per_hero] Bedrohung auf dem Hauptplan.\n<b>Erzwungene Unterbrechung:</b> Sobald ein Charakter unter deiner Kontrolle Black Widow angreift, entferne 1 Bedrohung vom Hauptplan → lege die oberste Karte des Begegnungsdecks ab und handle jede „Vorbereitung\"-Fähigkeit auf der Karte ab.",
+    "traits": "Spion."
+  },
+  {
+    "code": "50066",
+    "name": "Black Widow",
+    "text": "<b>Sobald aufgedeckt:</b> Platziere 3[per_hero] Bedrohung auf dem Hauptplan.\n<b>Erzwungene Unterbrechung:</b> Sobald ein Charakter unter deiner Kontrolle Black Widow angreift, entferne 1 Bedrohung vom Hauptplan → lege die oberste Karte des Begegnungsdecks ab und handle jede „Vorbereitung\"-Fähigkeit auf der Karte ab.",
+    "traits": "Spion."
+  },
+  {
+    "code": "50067a",
+    "name": "Im Netz der Witwe",
+    "text": "<b>Inhalt</b>: Black Widow (I) und (II) <i>(stattdessen Black Widow (II) und (III) im Expertenmodus)</i>. „Black Widow\"- und Standard-Begegnungssets. Zwei modulare Begegnungssets <i>(A.I.M.-Entführung und A.I.M.-Wissenschaft)</i>.\n<b>Spielaufbau</b>: Jeder Spieler durchsucht das Begegnungsdeck nach einem Schergen und bringt ihn mit sich im Kampf ins Spiel. <i>(Mische.)</i>"
+  },
+  {
+    "code": "50068",
+    "name": "Black Widows Armreif",
+    "text": "Hänge diese Karte an Black Widow an.\nBlack Widow erhält Vergeltung 1.\n<b>Held - Reaktion:</b> Nachdem ein Charakter unter deiner Kontrolle Black Widow angegriffen hat und falls keine „Vorbereitung\"-Fähigkeit abgehandelt wurde, lege diese Karte ab <i>(nach der Abhandlung des Schlüsselworts Vergeltung)</i>.\n<b>Vorbereitung:</b> Hänge diese Karte an Black Widow an.",
+    "traits": "Tech. Waffe."
+  },
+  {
+    "code": "50069",
+    "name": "Greifhaken",
+    "text": "Hänge diese Karte an Black Widow an.\n<b>Erzwungene Unterbrechung:</b> Sobald ein Spieler eine Ereigniskarte spielt, hebe die Effekte der Ereigniskarte auf und lege sie ab. Dann lege diese Karte ab.\n<b>Vorbereitung:</b> Lege 1 Ereigniskarte von deiner Hand ab.",
+    "traits": "Gegenstand."
+  },
+  {
+    "code": "50070",
+    "name": "Nachtsichtbrille",
+    "text": "Hänge diese Karte an Black Widow an.\nJede Begegnungskarte ohne aufgedruckte „Vorbereitung\"-Fähigkeit erhält „<b>Vorbereitung:</b> Verhindere allen Schaden durch diesen Angriff. Lege dann Nachtsichtbrille ab.\"\n<b>Vorbereitung:</b> Hänge diese Karte an Black Widow an.",
+    "traits": "Gegenstand."
+  },
+  {
+    "code": "50071",
+    "name": "Betäubungsnetz",
+    "text": "Hänge diese Karte an deine Identität an.\nDer Charakter mit diesem Anhang kann nicht angreifen.\n<b>Held - Aktion:</b> Erschöpfe einen Charakter unter deiner Kontrolle → lege diese Karte ab. Jeder Spieler darf diese Fähigkeit auslösen.\n<b>Vorbereitung:</b> Hänge diese Karte nach diesem Angriff an den angreifenden Charakter an.",
+    "traits": "Gegenstand."
+  },
+  {
+    "code": "50067b",
+    "name": "Im Netz der Witwe",
+    "text": "Ihr verfolgt die Spur der vermissten S.H.I.E.L.D.-Spezialistin zu einem stillgelegten U-Bahn-Tunnel und entdeckt die Operationsbasis ihrer Entführer.\nX ist die Nummer von Black Widows Schurkenabschnitt.\nFalls dieser Abschnitt vollendet ist, verlieren die Spieler das Spiel."
+  },
+  {
+    "code": "50072",
+    "name": "A.I.M.-Kommandosoldat",
+    "text": "Erstschlag.\n<b>Vorbereitung:</b> Bringe diesen Schergen nach diesem Angriff mit dir im Kampf ins Spiel.",
+    "traits": "A.I.M."
+  },
+  {
+    "code": "50073",
+    "name": "A.I.M.-Infanterist",
+    "text": "Wache.\n<b>Vorbereitung:</b> Bringe diesen Schergen mit dir im Kampf ins Spiel. Handle dann diesen Angriff stattdessen gegen A.I.M.-Infanterist ab.",
+    "traits": "A.I.M."
+  },
+  {
+    "code": "50074",
+    "name": "Automatisches Verteidigungssystem",
+    "text": "Hindernis 1[per_hero].\nJede Begegnungskarte ohne aufgedruckte „Vorbereitung\"-Fähigkeit erhält „<b>Vorbereitung:</b> Füge dem angreifenden Charakter 1 Schaden zu.\""
+  },
+  {
+    "code": "50075",
+    "name": "Beweise vernichten",
+    "text": "Hindernis 2[per_hero].\nJede andere Begegnungskarte erhält Anstacheln 1.\n<i>(Sobald aufgedeckt, platziere 1 Bedrohung auf dem Hauptplan.)</i>"
+  },
+  {
+    "code": "50076",
+    "name": "Angriffsakrobatik",
+    "text": "<b>Sobald aufgedeckt:</b> Falls du in deiner Alter-Ego-Gestalt bist, wechsle in deine Heldengestalt. Black Widow greift dich an. Gib ihr für diesen Angriff 1 zusätzliche Boost-Karte.\n<b>Vorbereitung:</b> Verhindere allen Schaden durch diesen Angriff. Füge dem angreifenden Charakter im Expertenmodus so viel Schaden zu."
+  },
+  {
+    "code": "50077",
+    "name": "Verdeckter Einsatz",
+    "text": "<b>Sobald aufgedeckt:</b> Du wirst verwirrt. Black Widow treibt den Plan voran.\n<b>Vorbereitung:</b> Platziere 1 Bedrohung auf jedem Plan."
+  },
+  {
+    "code": "50078",
+    "name": "Todestanz",
+    "text": "<b>Sobald aufgedeckt:</b> Füge einem Charakter unter deiner Kontrolle 1 Schaden zu. Füge einem zweiten Charakter unter deiner Kontrolle 2 Schaden zu. Füge einem dritten Charakter unter deiner Kontrolle 3 Schaden zu.\n<b>Vorbereitung:</b> Füge jedem Charakter unter deiner Kontrolle 1 Schaden zu."
+  },
+  {
+    "code": "50079",
+    "name": "Witwenbiss",
+    "text": "<b>Sobald aufgedeckt:</b> Du wirst betäubt. Nimm 1 Schaden <i>(2 Schaden stattdessen, falls du bereits betäubt bist)</i>.\n<b>Vorbereitung:</b> Betäube den angreifenden Charakter nach diesem Angriff."
+  },
+  {
+    "code": "50086a",
+    "name": "Batroc",
+    "text": "[star] <b>Erzwungene Reaktion:</b> Nachdem Batroc angegriffen hat, platziere 1 Bedrohung auf Alarmstufe.\n<b>Erzwungene Unterbrechung:</b> Sobald Batroc besiegt werden würde, setze stattdessen seine Lebenspunkte auf 8 zurück. Entferne dann 6 Bedrohung vom Hauptplan.",
+    "traits": "Batroc's Brigade. Söldner."
+  },
+  {
+    "code": "50087a",
+    "name": "Botschaft von A.I.M. Island infiltrieren",
+    "text": "<b>Inhalt</b>: Batroc (A) <i>(stattdessen Batroc (B) im Expertenmodus.)</i> Batroc- und Standard-Begegnungssets. Zwei modulare Begegnungssets <i>(A.I.M.-Wissenschaft und Batroc's Brigade)</i>.\n<b>Spielaufbau</b>: Lege jeden „Befreiter Gefangener\"-Verbündeten beiseite. Bringe die Umgebung Alarmstufe mit der <i>NIEDRIG</i>-Seite nach oben ins Spiel. Platziere im Expertenmodus 2[per_hero] Bedrohung auf Alarmstufe."
+  },
+  {
+    "code": "50088a",
+    "name": "Vermisste Person lokalisieren",
+    "flavor": "Nachdem ihr in die Botschaft eingedrungen seid, müsst ihr Garza ausfindig machen. Im Keller der Botschaft entdeckt ihr mehrere Gefängniszellen. Hoffentlich befindet sich in einer davon die entführte Spezialistin."
+  },
+  {
+    "code": "50086b",
+    "name": "Batroc",
+    "text": "[star] <b>Erzwungene Reaktion:</b> Nachdem Batroc angegriffen hat, platziere 1 Bedrohung auf Alarmstufe.\n<b>Erzwungene Unterbrechung:</b> Sobald Batroc besiegt werden würde, setze stattdessen seine Lebenspunkte auf 12 zurück. Entferne dann 6 Bedrohung vom Hauptplan.",
+    "traits": "Batroc's Brigade. Söldner."
+  },
+  {
+    "code": "50087b",
+    "name": "Botschaft von A.I.M. Island infiltrieren",
+    "text": "<b>Erzwungene Unterbrechung:</b> Sobald die letzte Bedrohung von diesem Plan entfernt wird, rücke zu Abschnitt 2A vor. <i>(Ihr müsst vorrücken, um gewinnen zu können.)</i>\nFalls dieser Abschnitt vollendet ist, verlieren die Spieler das Spiel.",
+    "flavor": "Auf der Suche nach der entführten S.H.I.E.L.D.-Spezialistin Sarah Garza schleicht ihr euch in die Botschaft von A.I.M. Island ein. Dort steht ihr dem Söldner Batroc gegenüber, auch bekannt als Leaper."
+  },
+  {
+    "code": "50088b",
+    "name": "Vermisste Person lokalisieren",
+    "text": "<b>Erzwungene Unterbrechung:</b> Sobald die letzte Bedrohung von diesem Plan entfernt wird, bringe 1 beiseitegelegten „Befreiter Gefangener\"-Verbündeten unter der Kontrolle eines beliebigen Spielers erschöpft ins Spiel. Die Spieler dürfen zu Abschnitt 3A vorrücken. Falls sie nicht vorrücken, platziere hier 3[per_hero] Bedrohung. <i>(Ihr müsst vorrücken, um gewinnen zu können. Dabei muss mind. 1 Befreiter Gefangener überleben.)</i>\nFalls dieser Abschnitt vollendet ist, verlieren die Spieler das Spiel."
+  },
+  {
+    "code": "50089a",
+    "name": "Gefangene extrahieren",
+    "text": "<b>Sobald aufgedeckt:</b> Falls Alarmstufe auf ihrer <i>HOCH</i>-Seite liegt, teile jedem Spieler 1 verdeckte Begegnungskarte zu. Entferne ansonsten alle Bedrohung von Alarmstufe und drehe sie auf die <i>HOCH</i>-Seite um. Platziere im Expertenmodus in beiden Fällen 2[per_hero] Bedrohung auf Alarmstufe.",
+    "flavor": "Ihr habt zwar Garza nicht gefunden, aber dafür mehrere andere gefangene Zivilisten. Ihr müsst sie sicher nach draußen bringen."
+  },
+  {
+    "code": "50090a",
+    "name": "Alarmstufe",
+    "text": "Falls hier mindestens 4[per_hero] Bedrohung liegt, entferne alle Bedrohung von dieser Karte und drehe sie um.\n<b>Erzwungene Reaktion:</b> Nachdem ein Charakter besiegt worden ist <i>(außer durch Folgeschaden)</i>, platziere hier 1 Bedrohung.\n<b>Held - Aktion:</b> Gib 1 beliebige Ressource aus → entferne 1 Bedrohung von dieser Karte.",
+    "traits": "Niedrig."
+  },
+  {
+    "code": "50091",
+    "name": "Befreiter Gefangener",
+    "text": "Sieg -1.\nZählt nicht gegen dein Verbündetenlimit. Dieser Verbündete kann nicht durch Kartenfähigkeiten aus dem Spiel entfernt werden.\n<b>Held - Aktion:</b> Erschöpfe Befreiter Gefangener → entferne 1[per_hero] Bedrohung vom Hauptplan.",
+    "traits": "Zivilist."
+  },
+  {
+    "code": "50089b",
+    "name": "Gefangene extrahieren",
+    "text": "Im Expertenmodus erhält jeder Scherge Erstschlag.\n<b>Erzwungene Unterbrechung:</b> Sobald ein Gegner angreift, greift er stattdessen einen „Befreiter Gefangener\"-Verbündeten an.\nFalls hier keine Bedrohung liegt, gewinnen die Spieler das Spiel.\nFalls dieser Abschnitt vollendet ist oder kein Befreiter Gefangener mehr im Spiel ist, verlieren die Spieler das Spiel."
+  },
+  {
+    "code": "50090b",
+    "name": "Alarmstufe",
+    "text": "Batroc bekommt +1 PLA und +1 ANG.\n<b>Falls hier mindestens 4[per_hero] Bedrohung liegt, verlieren die Spieler das Spiel.</b>\n<b>Erzwungene Reaktion:</b> Nachdem ein Charakter besiegt worden ist <i>(außer durch Folgeschaden)</i>, platziere hier 1 Bedrohung.\n<b>Held - Aktion:</b> Gib 1 beliebige Ressource aus → entferne 1 Bedrohung von dieser Karte.",
+    "traits": "Hoch."
+  },
+  {
+    "code": "50095",
+    "name": "Sicherheitsbüro übernehmen",
+    "text": "<b>Sobald aufgedeckt:</b> Falls Alarmstufe mit der <i>HOCH</i>-Seite nach oben liegt, platziere hier 1 Beschleunigungsmarker.\n<b>Sobald besiegt:</b> Entferne 1[per_hero] Bedrohung von Alarmstufe."
+  },
+  {
+    "code": "50096",
+    "name": "Sprungtritt",
+    "text": "<b>Sobald aufgedeckt (Alter Ego):</b> Batroc treibt den Plan voran.\n<b>Sobald aufgedeckt (Held):</b> Batroc greift den Verbündeten mit den meisten verbleibenden Lebenspunkten an. Dieser Angriff erhält Overkill. Falls keine Verbündeten im Spiel sind, greift Batroc dich an."
+  },
+  {
+    "code": "50097",
+    "name": "Sicherheitskameras",
+    "text": "<b>Sobald aufgedeckt (Alter Ego):</b> Entferne 1 Bedrohung von Alarmstufe. Diese Karte erhält Nachrüsten.\n<b>Sobald aufgedeckt (Held):</b> Wähle für jeden Charakter unter deiner Kontrolle: Erschöpfe entweder den Charakter oder platziere 1 Bedrohung auf Alarmstufe <i>(2 Bedrohung stattdessen, falls Alarmstufe mit der HOCH-Seite nach oben liegt)</i>."
+  }
+]

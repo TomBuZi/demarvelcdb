@@ -1,0 +1,48 @@
+[
+  {
+    "code": "02004a",
+    "name": "Feindliche Übernahme",
+    "text": "<b>Inhalt</b>: Norman Osborn (I) und Norman Osborn (II) <i>(stattdessen Norman Osborn (II) und Norman Osborn (III) im Expertenmodus)</i>. „Riskantes Geschäft\"- und Standard-Begegnungssets. Ein modulares Begegnungsset <i>(empfohlen: Goblin-Tricks)</i>.\n<b>Spielaufbau</b>: Bringe die Umgebung Kriminelle Geschäfte ins Spiel. Mische das Begegnungsdeck. Rücke zu Abschnitt 1B vor."
+  },
+  {
+    "code": "02004b",
+    "name": "Feindliche Übernahme",
+    "text": "<b>Sobald vollendet:</b> Platziere 1[per_hero] Verrätenheitsmarker auf Kriminelle Geschäfte. Lege dann für jeden Verrätenheitsmarker auf Kriminelle Geschäfte 1 Karte vom Deck jedes Spielers ab.",
+    "flavor": "Norman Osborn hält eine Vorstandssitzung ab, um die Übernahme eines Geschäftszweigs von Stark Industries zu planen."
+  },
+  {
+    "code": "02005a",
+    "name": "Unternehmensakquisition",
+    "text": "<b>Sobald aufgedeckt:</b> Rücke zu Abschnitt 2B vor.",
+    "flavor": "Nun, da ein Zweig von Stark Industries unter seiner Kontrolle steht, hat Norman Osborn Zugriff auf tödliche Technologien und kann die Produktionskapazitäten von Oscorp vervielfachen."
+  },
+  {
+    "code": "02005b",
+    "name": "Unternehmensakquisition",
+    "text": "Falls dieser Abschnitt vollendet ist, verlieren die Spieler das Spiel.",
+    "flavor": "Sollte Norman Osborn Erfolg haben, steht seinen technologischen Vorhersehaft nichts mehr im Wege."
+  },
+  {
+    "code": "02017a",
+    "name": "Freisetzung des Mutagens",
+    "text": "<b>Inhalt</b>: Green Goblin (I) und Green Goblin (II) <i>(stattdessen Green Goblin (II) und Green Goblin (III) im Expertenmodus)</i>. „Mutagen-Formel\"- und Standard-Begegnungssets. Ein modulares Begegnungsset <i>(empfohlen: Goblin-Tricks)</i>.\n<b>Spielaufbau</b>: Bringe für jeden Spieler einen Schergen Goblin-Lakai mit dem Spieler ins Spiel. Mische das Begegnungsdeck. Rücke zu Abschnitt 1B vor."
+  },
+  {
+    "code": "02017b",
+    "name": "Freisetzung des Mutagens",
+    "text": "<b>Sobald vollendet:</b> In Spielerreihenfolge muss jeder Spieler, der nicht mit einem <i>GOBLIN</i>-Schergen im Kampf ist, 3 Karten vom Begegnungsdeck ablegen und den ersten <i>GOBLIN</i>-Schergen, den er auf diese Weise abgelegt hat, mit sich im Kampf ins Spiel bringen.",
+    "flavor": "Green Goblin hat in New York City ein giftiges Mutagen-Gas freigesetzt."
+  },
+  {
+    "code": "02018a",
+    "name": "Mutagen-Wolke",
+    "text": "<b>Sobald aufgedeckt:</b> Rücke zu Abschnitt 2B vor.",
+    "flavor": "Als sich die Wolke in der Stadt ausbreitet, beginnen die Unglücklichen, die den Dämpfen nicht entkommen können, zu zittern, sich zu krümmen und zu schrecklichen Goblin-Kreaturen zu mutieren."
+  },
+  {
+    "code": "02018b",
+    "name": "Mutagen-Wolke",
+    "text": "X ist die Anzahl an <i>GOBLIN</i>-Gegnern im Spiel <i>(einschließlich Green Goblin)</i>.\nFalls dieser Abschnitt vollendet ist, verlieren die Spieler das Spiel.",
+    "flavor": "Die Goblin-Kreaturen gehorchen willenlos allen Befehlen von Green Goblin. Hältst Green Goblin auf, bevor seine Monster-Miliz die Stadt überrennt!"
+  }
+]

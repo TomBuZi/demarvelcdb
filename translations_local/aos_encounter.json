@@ -169,5 +169,178 @@
     "code": "50097",
     "name": "Sicherheitskameras",
     "text": "<b>Sobald aufgedeckt (Alter Ego):</b> Entferne 1 Bedrohung von Alarmstufe. Diese Karte erhält Nachrüsten.\n<b>Sobald aufgedeckt (Held):</b> Wähle für jeden Charakter unter deiner Kontrolle: Erschöpfe entweder den Charakter oder platziere 1 Bedrohung auf Alarmstufe <i>(2 Bedrohung stattdessen, falls Alarmstufe mit der HOCH-Seite nach oben liegt)</i>."
+  },
+  {
+    "code": "50092",
+    "name": "Gesteigerte Reflexe",
+    "text": "Hänge diese Karte an Batroc an. Anwendungen <i>(4 Sprungmarker)</i>.\n<b>Erzwungene Unterbrechung:</b> Sobald Batroc eine beliebige Menge an Schaden nehmen würde, verhindere 2 Schaden davon und entferne 1 Sprungmarker von dieser Karte.\n[star] <b>Boost:</b> Hänge diese Karte an Batroc an.",
+    "traits": "Zustand."
+  },
+  {
+    "code": "50093",
+    "name": "Botschaftswache",
+    "text": "Wache. Anfällig. <i>(Lege diesen Charakter ab, falls er betäubt oder verwirrt wird.)</i>\nFalls Alarmstufe mit der <i>HOCH</i>-Seite nach oben liegt, erhält diese Karte Nachrüsten.\n<b>Sobald besiegt:</b> Platziere 1 Bedrohung auf Alarmstufe.",
+    "traits": "A.I.M."
+  },
+  {
+    "code": "50094",
+    "name": "Botschaftspatrouille",
+    "text": "Patrouille. Anfällig. <i>(Lege diesen Charakter ab, falls er betäubt oder verwirrt wird.)</i>\nFalls Alarmstufe mit der <i>HOCH</i>-Seite nach oben liegt, erhält diese Karte Anstacheln 1.\n<b>Sobald besiegt:</b> Platziere 1 Bedrohung auf Alarmstufe.",
+    "traits": "A.I.M."
+  },
+  {
+    "code": "50103a",
+    "name": "M.O.D.O.K.",
+    "text": "Vergeltung 1.\n<b>Erzwungene Unterbrechung:</b> Sobald M.O.D.O.K. besiegt werden würde und falls eine Gefängniszelle im Spiel ist, entferne stattdessen 2 Schließmarker von ihr und setze M.O.D.O.K.s Lebenspunkte auf 10 zurück. Ansonsten gewinnen die Spieler das Spiel.",
+    "traits": "Cyborg. Fliegend. Psionisch."
+  },
+  {
+    "code": "50104a",
+    "name": "Upgrade der Adaptoiden",
+    "text": "<b>Inhalt</b>: M.O.D.O.K. (A) <i>(stattdessen M.O.D.O.K. (B) im Expertenmodus)</i>. M.O.D.O.K.- und Standard-Begegnungssets. Ein modulares Begegnungsset <i>(Oberster Wissenschaftler)</i>.\n<b>Spielaufbau</b>: Erschaffe das Gefängniszellendeck <i>(siehe S. 13 im Regelheft)</i>. Bringe 1 zufällige <i>ADAPTOID</i>-Umgebung ins Spiel <i>(2 Umgebungen stattdessen im Expertenmodus)</i> und lege die anderen beiseite. Jeder Spieler durchsucht das Begegnungsdeck nach einem Exemplar von Adaptoid und deckt es auf."
+  },
+  {
+    "code": "50105a",
+    "name": "Gefängniszelle",
+    "text": "Gefängniszelle kommt mit 2[per_hero] Schließmarkern ins Spiel.\n<b>Erzwungene Unterbrechung:</b> Sobald der letzte Schließmarker von dieser Karte entfernt wird, drehe diese Karte um und bringe Fliegender Inhuman unter der Kontrolle eines beliebigen Spielers ins Spiel.\n<b>Held - Aktion:</b> Gib [energy][energy]-Ressourcen oder 3 beliebige Ressourcen aus → entferne 1 Schließmarker von dieser Karte."
+  },
+  {
+    "code": "50106a",
+    "name": "Gefängniszelle",
+    "text": "Gefängniszelle kommt mit 2[per_hero] Schließmarkern ins Spiel.\n<b>Erzwungene Unterbrechung:</b> Sobald der letzte Schließmarker von dieser Karte entfernt wird, drehe diese Karte um und bringe Psionischer Inhuman unter der Kontrolle eines beliebigen Spielers ins Spiel.\n<b>Held - Aktion:</b> Gib [mental][mental]-Ressourcen oder 3 beliebige Ressourcen aus → entferne 1 Schließmarker von dieser Karte."
+  },
+  {
+    "code": "50103b",
+    "name": "M.O.D.O.K.",
+    "text": "Vergeltung 2. Standhaft.\n<b>Erzwungene Unterbrechung:</b> Sobald M.O.D.O.K. besiegt werden würde und falls eine Gefängniszelle im Spiel ist, entferne stattdessen 2 Schließmarker von ihr und setze M.O.D.O.K.s Lebenspunkte auf 14 zurück. Ansonsten gewinnen die Spieler das Spiel.",
+    "traits": "Cyborg. Fliegend. Psionisch."
+  },
+  {
+    "code": "50104b",
+    "name": "Upgrade der Adaptoiden",
+    "text": "<b>Erzwungene Unterbrechung:</b> Sobald dieser Abschnitt vollendet werden würde, bringe stattdessen 1 zufällige beiseitegelegte <i>ADAPTOID</i>-Umgebung ins Spiel. Falls es dann keine beiseitegelegten <i>ADAPTOID</i>-Umgebungen mehr gibt, verlieren die Spieler das Spiel.\nEntferne ansonsten alle Bedrohung von dieser Karte und mische jeden Adaptoid-Schergen im Begegnungs-Ablagestapel in das Begegnungsdeck."
+  },
+  {
+    "code": "50105b",
+    "name": "Fliegender Inhuman",
+    "text": "Zählt nicht gegen dein Verbündetenlimit.\n[star] <b>Reaktion:</b> Nachdem dieser Verbündete Widerstand geleistet hat, entferne 1 Bedrohung von einem anderen Plan.\n<b>Erzwungene Reaktion:</b> Nachdem diese Karte das Spiel verlassen hat, drehe sie um und platziere sie unter dem Gefängniszellendeck.",
+    "traits": "Fliegend. Gerettet. Inhuman."
+  },
+  {
+    "code": "50106b",
+    "name": "Psionischer Inhuman",
+    "text": "Zählt nicht gegen dein Verbündetenlimit.\n[star] <b>Reaktion:</b> Nachdem dieser Verbündete Widerstand geleistet hat, entferne 1 Schließmarker von einer Gefängniszelle.\n<b>Erzwungene Reaktion:</b> Nachdem diese Karte das Spiel verlassen hat, drehe sie um und platziere sie unter dem Gefängniszellendeck.",
+    "traits": "Gerettet. Inhuman. Psionisch."
+  },
+  {
+    "code": "50107a",
+    "name": "Gefängniszelle",
+    "text": "Gefängniszelle kommt mit 2[per_hero] Schließmarkern ins Spiel.\n<b>Erzwungene Unterbrechung:</b> Sobald der letzte Schließmarker von dieser Karte entfernt wird, drehe diese Karte um und bringe Sarah Garza unter der Kontrolle eines beliebigen Spielers ins Spiel.\n<b>Held - Aktion:</b> Gib eine [wild]-Ressource oder 3 beliebige Ressourcen aus → entferne 1 Schließmarker von dieser Karte."
+  },
+  {
+    "code": "50108a",
+    "name": "Gefängniszelle",
+    "text": "Gefängniszelle kommt mit 2[per_hero] Schließmarkern ins Spiel.\n<b>Erzwungene Unterbrechung:</b> Sobald der letzte Schließmarker von dieser Karte entfernt wird, drehe diese Karte um und bringe Starke Inhuman unter der Kontrolle eines beliebigen Spielers ins Spiel.\n<b>Held - Aktion:</b> Gib [physical][physical]-Ressourcen oder 3 beliebige Ressourcen aus → entferne 1 Schließmarker von dieser Karte."
+  },
+  {
+    "code": "50109",
+    "name": "Flug-Upgrade",
+    "text": "Jeder Adaptoid bekommt +1 PLA, erhält Anstacheln 1 und erhält das Merkmal <i>FLIEGEND</i>.",
+    "traits": "Adaptoid.",
+    "flavor": "„Sie fliegen jetzt?\"\n„Sie fliegen jetzt.\"\n- Maria Hill und Nick Fury"
+  },
+  {
+    "code": "50110",
+    "name": "Psionik-Upgrade",
+    "text": "Jeder Adaptoid erhält Schurkisch und das Merkmal <i>PSIONISCH</i>.",
+    "traits": "Adaptoid.",
+    "flavor": "„Denken Sie an Ihr Training zur Abwehr psionischer Kräfte!\"\n- Maria Hill"
+  },
+  {
+    "code": "50111",
+    "name": "Sarah-Garza-Upgrade",
+    "text": "Jeder Adaptoid erhält das Merkmal <i>ELITE</i>.\nJeder Adaptoid bekommt +1 ANG und seine Angriffe erhalten Overkill und Fernkampf.",
+    "traits": "Adaptoid.",
+    "flavor": "„Das ist ja großartig. Diese Dinger können meine Kräfte besser kontrollieren als ich!\"\n- Sarah Garza"
+  },
+  {
+    "code": "50107b",
+    "name": "Sarah Garza",
+    "text": "Zählt nicht gegen dein Verbündetenlimit.\n[star] Sarah Garzas Angriffe erhalten Overkill und Fernkampf.\n<b>Erzwungene Reaktion:</b> Nachdem diese Karte das Spiel verlassen hat, drehe sie um und platziere sie unter dem Gefängniszellendeck.",
+    "traits": "Gerettet. Inhuman. S.H.I.E.L.D."
+  },
+  {
+    "code": "50108b",
+    "name": "Starke Inhuman",
+    "text": "Zähigkeit.\nZählt nicht gegen dein Verbündetenlimit.\n<b>Erzwungene Reaktion:</b> Nachdem diese Karte das Spiel verlassen hat, drehe sie um und platziere sie unter dem Gefängniszellendeck.",
+    "traits": "Gerettet. Inhuman."
+  },
+  {
+    "code": "50112",
+    "name": "Stärke-Upgrade",
+    "text": "Jeder Adaptoid bekommt +1 ANG, erhält Zähigkeit und erhält das Merkmal <i>SCHLÄGER</i>.",
+    "traits": "Adaptoid.",
+    "flavor": "„Ich glaube nicht, dass wir sie wütend erleben wollen!\"\n- Quake"
+  },
+  {
+    "code": "50113",
+    "name": "Adaptoid",
+    "text": "[star] <i>(Überprüfe die <b>ADAPTOID</b>-Umgebungen auf Modifikatoren für diese Werte.)</i>\n<b>Sobald besiegt:</b> Entferne 1 Universalmarker von einer Umgebung.\n[star] <b>Boost:</b> Mische Adaptoid nach dieser Aktivierung in das Begegnungsdeck.",
+    "traits": "Adaptoid."
+  },
+  {
+    "code": "50114",
+    "name": "Automatisierte mobile Einheit",
+    "text": "Hänge diese Karte an M.O.D.O.K. an.\nM.O.D.O.K. bekommt +5 Lebenspunkte.\n<b>Erzwungene Reaktion:</b> Nachdem M.O.D.O.K.s Lebenspunkte zurückgesetzt worden sind, lege diese Karte ab.",
+    "flavor": "„Ich werde dich zerquetschen wie einen Käfer!\"\n- M.O.D.O.K."
+  },
+  {
+    "code": "50115",
+    "name": "Fokuskristall",
+    "text": "Hänge diese Karte an M.O.D.O.K. an.\n<b>Erzwungene Reaktion:</b> Nachdem M.O.D.O.K.s Lebenspunkte zurückgesetzt worden sind, lege diese Karte ab.",
+    "flavor": "M.O.D.O.K. kanalisiert seine psionischen Kräfte mithilfe des Kristalls auf seiner riesigen Stirn."
+  },
+  {
+    "code": "50116",
+    "name": "Nanobots",
+    "text": "Hänge diese Karte an M.O.D.O.K. an.\n[star] <b>Erzwungene Reaktion:</b> Nachdem M.O.D.O.K. aktiviert worden ist, heile 1 Schaden von ihm.\n<b>Erzwungene Reaktion:</b> Nachdem M.O.D.O.K.s Lebenspunkte zurückgesetzt worden sind, lege diese Karte ab.",
+    "traits": "Tech.",
+    "flavor": "Mikroskopisch kleine Maschinen halten den Doomsday Chair in Betrieb."
+  },
+  {
+    "code": "50117",
+    "name": "Psionisches Kraftfeld",
+    "text": "Hänge diese Karte an M.O.D.O.K. an.\nDer Gegner mit diesem Anhang erhält Gestählt.\n<b>Erzwungene Unterbrechung:</b> Sobald der Gegner mit diesem Anhang eine beliebige Menge an Schaden nehmen würde, platziere den Schaden stattdessen hier. Falls hier dann mindestens 5 Schaden liegt, lege diese Karte ab.\n[star] <b>Boost:</b> Hänge diese Karte an den aktivierenden Gegner an."
+  },
+  {
+    "code": "50118",
+    "name": "Psionische Macheten",
+    "text": "Hänge diese Karte an M.O.D.O.K. an.\n[star] M.O.D.O.K.s Angriffe erhalten Durchdringend.\n<b>Erzwungene Reaktion:</b> Nachdem M.O.D.O.K.s Lebenspunkte zurückgesetzt worden sind, lege diese Karte ab.\n[star] <b>Boost:</b> Falls diese Aktivierung ein Angriff ist, erhält er Durchdringend."
+  },
+  {
+    "code": "50119",
+    "name": "Nachbau",
+    "text": "Hänge diese Karte an M.O.D.O.K. an.\n★ X sind die aufgedruckten Kosten der unter diese Karte geschobenen Karte.\n<b>Sobald aufgedeckt:</b> Schiebe ein Upgrade unter deiner Kontrolle unter diese Karte. Ansonsten schiebe die oberste Karte deines Decks unter diese Karte.\n<b>Erzwungene Reaktion:</b> Nachdem M.O.D.O.K.s Lebenspunkte zurückgesetzt worden sind, lege diese Karte ab."
+  },
+  {
+    "code": "50120",
+    "name": "A.I.M.-Gefängniswärter",
+    "text": "Wache.\n<b>Sobald aufgedeckt:</b> A.I.M.-Gefängniswärter greift den <i>GERETTET</i>-Verbündeten mit den wenigsten verbleibenden Lebenspunkten an. Platziere ansonsten 1 Schließmarker auf einer Gefängniszelle.",
+    "traits": "A.I.M."
+  },
+  {
+    "code": "50121",
+    "name": "Geiselnahme",
+    "text": "M.O.D.O.K. kann keinen Schaden nehmen.\n<b>Sobald aufgedeckt:</b> Hänge 1 <i>GERETTET</i>-Verbündeten offen an diese Karte an. Der angehängte Verbündete ist nicht unter der Kontrolle eines Spielers <i>(aber immer noch im Spiel)</i>.\n<b>Sobald besiegt:</b> Der Spieler, der den Plan besiegt hat, übernimmt die Kontrolle über den hier angehängten Verbündeten."
+  },
+  {
+    "code": "50122",
+    "name": "Psionische Verstärkung",
+    "text": "Hindernis 1[per_hero].\n[star] <b>Boost:</b> Gib dem aktivierenden Gegner 1 zusätzliche Boost-Karte."
+  },
+  {
+    "code": "50123",
+    "name": "„Es lebt!\"",
+    "text": "<b>Sobald aufgedeckt:</b> Jeder Spieler durchsucht das Begegnungsdeck und den Ablagestapel nach einem <i>ADAPTOID</i>-Schergen und deckt ihn auf. <i>(Mische.)</i> Teile jedem Spieler, der nicht auf diese Weise mit einem Schergen in einen Kampf verwickelt wurde, 1 verdeckte Begegnungskarte zu."
   }
 ]

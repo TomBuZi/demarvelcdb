@@ -512,5 +512,158 @@
     "code": "50175",
     "name": "Geistiger Wettstreit",
     "text": "<b>Sobald aufgedeckt:</b> Baron Zemo treibt den Plan voran. Falls diese Aktivierung Bedrohung auf dem Hauptplan platzieren würde, darfst du X [mental]-Ressourcen ausgeben, um X Bedrohung davon zu verhindern und insgesamt X Geheimnismarker von <i>DIREKTORIUMSMITGLIED</i>-Umgebungen zu entfernen."
+  },
+  {
+    "code": "50176",
+    "name": "Macht geht vor Recht",
+    "text": "<b>Sobald aufgedeckt (Alter Ego):</b> Platziere 2 Geheimnismarker auf der <i>DIREKTORIUMSMITGLIED</i>-Umgebung mit den wenigsten Geheimnismarkern.\n<b>Sobald aufgedeckt (Held):</b> Baron Zemo greift dich an. Falls kein Charakter Schaden durch diesen Angriff nimmt, entferne insgesamt 3 Geheimnismarker von <i>DIREKTORIUMSMITGLIED</i>-Umgebungen."
+  },
+  {
+    "code": "50177",
+    "name": "Der Zweck heiligt die Mittel",
+    "text": "<b>Sobald aufgedeckt:</b> Wähle:\n• Baron Zemo besiegt den Schergen mit den wenigsten verbleibenden Lebenspunkten. Baron Zemo treibt den Plan voran.\n• Lege einen Verbündeten oder Vorteil unter deiner Kontrolle ab → entferne Geheimnismarker von <i>DIREKTORIUMSMITGLIED</i>-Umgebungen in Höhe der aufgedruckten Ressourcenkosten der abgelegten Karte."
+  },
+  {
+    "code": "50178",
+    "name": "S.H.I.E.L.D.-Truppler",
+    "text": "Patrouille. Anfällig.\n<b>Sobald besiegt:</b> Der Spieler im Kampf mit diesem Schergen legt 1 S.H.I.E.L.D.-Verbündeten oder -Vorteil unter seiner Kontrolle ab. Platziere ansonsten 2 Bedrohung auf dem Hauptplan.",
+    "traits": "S.H.I.E.L.D.",
+    "flavor": "„Kommen Sie freiwillig mit und niemand wird verletzt.\""
+  },
+  {
+    "code": "50179",
+    "name": "Haftbefehl",
+    "text": "<b>Alter Ego - Aktion:</b> Erschöpfe deine Identität oder 1 S.H.I.E.L.D.-Karte unter deiner Kontrolle → durchsuche das Begegnungsdeck und den Ablagestapel nach einem S.H.I.E.L.D.-Schergen und decke ihn auf. <i>(Mische.)</i> Lege diese Karte ab.",
+    "traits": "S.H.I.E.L.D."
+  },
+  {
+    "code": "50180",
+    "name": "Verleugnet",
+    "text": "Erhöhe die Ressourcenkosten, um S.H.I.E.L.D.-Karten zu spielen, um 1.\n<b>Sobald aufgedeckt:</b> Platziere hier für jede S.H.I.E.L.D.-Karte im Spiel 1 Bedrohung.",
+    "flavor": "Das S.H.I.E.L.D.-Direktorium hat jegliche Kenntnis eurer Aktivitäten geleugnet und euch von allen Ressourcen abgeschnitten."
+  },
+  {
+    "code": "50185",
+    "name": "Medizinische Unterlagen",
+    "text": "<b>Spielaufbau</b>: Jeder Spieler darf einer <i>DIREKTORIUMSMITGLIED</i>-Umgebung 1 Geheimnismarker hinzufügen, um seine Sammlung nach einem unterschiedlichen Schutz-Verbündeten zu durchsuchen und ihn in sein Deck zu mischen. Jeder Spieler darf dem Hauptplan 1 Bedrohung hinzufügen, um sein Deck nach einem Schutz-Verbündeten zu durchsuchen und ihn auf die Hand zu nehmen. <i>(Mische.)</i>"
+  },
+  {
+    "code": "50186",
+    "name": "Abhördaten",
+    "text": "<b>Spielaufbau</b>: Jeder Spieler darf einer <i>DIREKTORIUMSMITGLIED</i>-Umgebung 1 Geheimnismarker hinzufügen, um seine Sammlung nach einem unterschiedlichen Gerechtigkeit-Verbündeten zu durchsuchen und ihn in sein Deck zu mischen. Jeder Spieler darf dem Hauptplan 1 Bedrohung hinzufügen, um sein Deck nach einem Gerechtigkeit-Verbündeten zu durchsuchen und ihn auf die Hand zu nehmen. <i>(Mische.)</i>"
+  },
+  {
+    "code": "50187",
+    "name": "Sicherheitsscanner",
+    "text": "<b>Spielaufbau</b>: Jeder Spieler darf einer <i>DIREKTORIUMSMITGLIED</i>-Umgebung 1 Geheimnismarker hinzufügen, um seine Sammlung nach einem unterschiedlichen Aggression-Verbündeten zu durchsuchen und ihn in sein Deck zu mischen. Jeder Spieler darf dem Hauptplan 1 Bedrohung hinzufügen, um sein Deck nach einem Aggression-Verbündeten zu durchsuchen und ihn auf die Hand zu nehmen. <i>(Mische.)</i>"
+  },
+  {
+    "code": "50188",
+    "name": "Geld",
+    "text": "<b>Spielaufbau</b>: Jeder Spieler darf einer <i>DIREKTORIUMSMITGLIED</i>-Umgebung 1 Geheimnismarker hinzufügen, um seine Sammlung nach einem unterschiedlichen Schutz-Upgrade zu durchsuchen und ihn in sein Deck zu mischen. Jeder Spieler darf dem Hauptplan 1 Bedrohung hinzufügen, um sein Deck nach einem Schutz-Upgrade zu durchsuchen und es auf die Hand zu nehmen. <i>(Mische.)</i>"
+  },
+  {
+    "code": "50189",
+    "name": "Erpressung",
+    "text": "<b>Spielaufbau</b>: Jeder Spieler darf einer <i>DIREKTORIUMSMITGLIED</i>-Umgebung 1 Geheimnismarker hinzufügen, um seine Sammlung nach einem unterschiedlichen Gerechtigkeit-Upgrade zu durchsuchen und ihn in sein Deck zu mischen. Jeder Spieler darf dem Hauptplan 1 Bedrohung hinzufügen, um sein Deck nach einem Gerechtigkeit-Upgrade zu durchsuchen und es auf die Hand zu nehmen. <i>(Mische.)</i>"
+  },
+  {
+    "code": "50190",
+    "name": "Ideologie",
+    "text": "<b>Spielaufbau</b>: Jeder Spieler darf einer <i>DIREKTORIUMSMITGLIED</i>-Umgebung 1 Geheimnismarker hinzufügen, um seine Sammlung nach einem unterschiedlichen Aggression-Upgrade zu durchsuchen und ihn in sein Deck zu mischen. Jeder Spieler darf dem Hauptplan 1 Bedrohung hinzufügen, um sein Deck nach einem Aggression-Upgrade zu durchsuchen und es auf die Hand zu nehmen. <i>(Mische.)</i>"
+  },
+  {
+    "code": "50191",
+    "name": "Sicherheitsfreigabe",
+    "text": "<b>Spielaufbau</b>: Jeder Spieler darf einer <i>DIREKTORIUMSMITGLIED</i>-Umgebung 1 Geheimnismarker hinzufügen, um seine Sammlung nach einem unterschiedlichen Schutz-Vorteil zu durchsuchen und ihn in sein Deck zu mischen. Jeder Spieler darf dem Hauptplan 1 Bedrohung hinzufügen, um sein Deck nach einem Schutz-Vorteil zu durchsuchen und ihn auf die Hand zu nehmen. <i>(Mische.)</i>"
+  },
+  {
+    "code": "50192",
+    "name": "Dienstreise",
+    "text": "<b>Spielaufbau</b>: Jeder Spieler darf einer <i>DIREKTORIUMSMITGLIED</i>-Umgebung 1 Geheimnismarker hinzufügen, um seine Sammlung nach einem unterschiedlichen Gerechtigkeit-Vorteil zu durchsuchen und ihn in sein Deck zu mischen. Jeder Spieler darf dem Hauptplan 1 Bedrohung hinzufügen, um sein Deck nach einem Gerechtigkeit-Vorteil zu durchsuchen und ihn auf die Hand zu nehmen. <i>(Mische.)</i>"
+  },
+  {
+    "code": "50193",
+    "name": "Machtbefugnis",
+    "text": "<b>Spielaufbau</b>: Jeder Spieler darf einer <i>DIREKTORIUMSMITGLIED</i>-Umgebung 1 Geheimnismarker hinzufügen, um seine Sammlung nach einem unterschiedlichen Aggression-Vorteil zu durchsuchen und ihn in sein Deck zu mischen. Jeder Spieler darf dem Hauptplan 1 Bedrohung hinzufügen, um sein Deck nach einem Aggression-Vorteil zu durchsuchen und ihn auf die Hand zu nehmen. <i>(Mische.)</i>"
+  },
+  {
+    "code": "50080",
+    "name": "A.I.M.-Entführer",
+    "text": "<b>Sobald aufgedeckt:</b> Schiebe den Verbündeten unter deiner Kontrolle mit den meisten verbleibenden Lebenspunkten unter den Nebenplan Superhumans entführen. Platziere ansonsten 2 Bedrohung auf Superhumans entführen. Falls der Nebenplan Superhumans entführen nicht im Spiel ist, finde ihn und bringe ihn ins Spiel.",
+    "traits": "A.I.M."
+  },
+  {
+    "code": "50181b",
+    "name": "Medizinische Untersuchung",
+    "text": "Hänge diese Karte an den Schurken an. Dauerhaft.\n<b>Erzwungene Reaktion:</b> Nachdem hier ein Geheimnismarker platziert worden ist, heile entweder 2 Schaden vom Schurken oder füge dem befreundeten Charakter mit den wenigsten verbleibenden Lebenspunkten 1 Schaden zu.\nFalls 3 <i>DIREKTORIUMSMITGLIED</i>-Anhänge im Spiel sind, verlieren die Spieler das Spiel.",
+    "traits": "Direktoriumsmitglied."
+  },
+  {
+    "code": "50182a",
+    "name": "Leitung der Überwachung",
+    "text": "Spielaufbau.\nFalls hier 4 oder mehr Geheimnismarker liegen <i>(stattdessen 3 oder mehr im Expertenmodus)</i>, drehe diese Karte um.\n<b>Held - Aktion:</b> Gib [physical][mental]-Ressourcen aus → entferne 1 Geheimnismarker von dieser Karte. Entferne dann 2 Bedrohung von einem Plan.",
+    "traits": "Direktoriumsmitglied."
+  },
+  {
+    "code": "50183a",
+    "name": "Taktische Leitung",
+    "text": "Spielaufbau.\nFalls hier 4 oder mehr Geheimnismarker liegen <i>(stattdessen 3 oder mehr im Expertenmodus)</i>, drehe diese Karte um.\n<b>Held - Aktion:</b> Gib [physical][physical]-Ressourcen aus → entferne 1 Geheimnismarker von dieser Karte. Füge dann einem Gegner 2 Schaden zu.",
+    "traits": "Direktoriumsmitglied."
+  },
+  {
+    "code": "50184a",
+    "name": "A.I.M.-Einmischung",
+    "text": "Anstacheln 1.\n<b>Sobald aufgedeckt:</b> Platziere 1 Geheimnismarker auf jeder <i>DIREKTORIUMSMITGLIED</i>-Karte. Du darfst X [energy]-Ressourcen ausgeben, um zu verhindern, dass X dieser Marker platziert werden.\n[star] <b>Boost:</b> Handle die „Sobald aufgedeckt\"-Fähigkeit dieser Karte ab."
+  },
+  {
+    "code": "50184b",
+    "name": "A.I.M.-Einmischung",
+    "text": "Anstacheln 1.\n<b>Sobald aufgedeckt:</b> Platziere 1 Geheimnismarker auf jeder <i>DIREKTORIUMSMITGLIED</i>-Karte. Du darfst X [mental]-Ressourcen ausgeben, um zu verhindern, dass X dieser Marker platziert werden.\n[star] <b>Boost:</b> Handle die „Sobald aufgedeckt\"-Fähigkeit dieser Karte ab."
+  },
+  {
+    "code": "50184c",
+    "name": "A.I.M.-Einmischung",
+    "text": "Anstacheln 1.\n<b>Sobald aufgedeckt:</b> Platziere 1 Geheimnismarker auf jeder <i>DIREKTORIUMSMITGLIED</i>-Karte. Du darfst X [physical]-Ressourcen ausgeben, um zu verhindern, dass X dieser Marker platziert werden.\n[star] <b>Boost:</b> Handle die „Sobald aufgedeckt\"-Fähigkeit dieser Karte ab."
+  },
+  {
+    "code": "50081",
+    "name": "Superhumans entführen",
+    "text": "Nachrüsten.\n<b>Erzwungene Unterbrechung:</b> Sobald ein Verbündeter das Spiel verlässt, schiebe ihn unter diese Karte und platziere hier Bedrohung in Höhe seiner Kosten. Dann platziere hier 1 Beschleunigungsmarker.\n<b>Sobald besiegt:</b> Bringe jeden Verbündeten, der unter diese Karte geschoben ist, unter der Kontrolle seines Besitzers ins Spiel."
+  },
+  {
+    "code": "50082",
+    "name": "Erwischt!",
+    "text": "<b>Sobald aufgedeckt:</b> Falls der Nebenplan Superhumans entführen nicht im Spiel ist, finde ihn und bringe ihn ins Spiel. Lege Karten von deinem Deck ab, bis ein Verbündeter abgelegt wird, und schiebe ihn unter Superhumans entführen. Platziere Bedrohung in Höhe seiner Kosten und 1 Beschleunigungsmarker auf Superhumans entführen."
+  },
+  {
+    "code": "50083",
+    "name": "A.I.M.-Wissenschaftler",
+    "text": "Nachrüsten. Anfällig. <i>(Lege diesen Charakter ab, falls er betäubt oder verwirrt wird.)</i>\nSolange der Spieler im Kampf mit diesem Schergen mit einem weiteren Schergen im Kampf ist, kann A.I.M.-Wissenschaftler nicht angegriffen werden.",
+    "traits": "A.I.M."
+  },
+  {
+    "code": "50084",
+    "name": "A.I.M.-Soldat",
+    "text": "Patrouille.\n<b>Sobald aufgedeckt:</b> Finde A.I.M.-Wissenschaftler und bringe ihn mit dir im Kampf ins Spiel. <i>(Falls er bereits im Spiel ist, verwickelt er dich in einen Kampf.)</i> Falls A.I.M.-Wissenschaftler auf diese Weise nicht ins Spiel gekommen ist, platziere 1 Bedrohung auf dem Hauptplan.",
+    "traits": "A.I.M."
+  },
+  {
+    "code": "50181a",
+    "name": "Medizinische Leitung",
+    "text": "Spielaufbau.\nFalls hier 4 oder mehr Geheimnismarker liegen <i>(stattdessen 3 oder mehr im Expertenmodus)</i>, drehe diese Karte um.\n<b>Held - Aktion:</b> Gib [energy][energy]-Ressourcen aus → entferne 1 Geheimnismarker von dieser Karte. Heile dann 1 Schaden von einem befreundeten Charakter.",
+    "traits": "Direktoriumsmitglied."
+  },
+  {
+    "code": "50182b",
+    "name": "Überwachungsunterstützung",
+    "text": "Hänge diese Karte an den Schurken an. Dauerhaft.\n<b>Erzwungene Reaktion:</b> Nachdem hier ein Geheimnismarker platziert worden ist, platziere 2 Bedrohung auf dem Hauptplan.\nFalls 3 <i>DIREKTORIUMSMITGLIED</i>-Anhänge im Spiel sind, verlieren die Spieler das Spiel.",
+    "traits": "Direktoriumsmitglied."
+  },
+  {
+    "code": "50183b",
+    "name": "Taktische Unterstützung",
+    "text": "Hänge diese Karte an den Schurken an. Dauerhaft.\n<b>Erzwungene Reaktion:</b> Nachdem hier ein Geheimnismarker platziert worden ist, füge einem befreundeten Charakter 2 Schaden zu.\nFalls 3 <i>DIREKTORIUMSMITGLIED</i>-Anhänge im Spiel sind, verlieren die Spieler das Spiel.",
+    "traits": "Direktoriumsmitglied."
   }
 ]

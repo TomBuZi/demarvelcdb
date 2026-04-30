@@ -342,5 +342,175 @@
     "code": "50123",
     "name": "„Es lebt!\"",
     "text": "<b>Sobald aufgedeckt:</b> Jeder Spieler durchsucht das Begegnungsdeck und den Ablagestapel nach einem <i>ADAPTOID</i>-Schergen und deckt ihn auf. <i>(Mische.)</i> Teile jedem Spieler, der nicht auf diese Weise mit einem Schergen in einen Kampf verwickelt wurde, 1 verdeckte Begegnungskarte zu."
+  },
+  {
+    "code": "50124",
+    "name": "Psionischer Strahl",
+    "text": "<b>Sobald aufgedeckt (Alter Ego):</b> Du wirst verwirrt. M.O.D.O.K. treibt den Plan voran.\n<b>Sobald aufgedeckt (Held):</b> Nimm X indirekten Schaden. X ist M.O.D.O.K.s PLA-Wert. Verwirre jeden Charakter, der auf diese Weise Schaden nimmt."
+  },
+  {
+    "code": "50129a",
+    "name": "Citizen V",
+    "text": "Citizen V kann nicht besiegt werden, es sei denn, es ist mindestens 1[per_hero] <i>THUNDERBOLT</i>-Scherge im Siegpunktestapel.\n[star] <b>Erzwungene Unterbrechung:</b> Sobald Citizen V im zweiten Schritt der Schurkenphase gegen dich aktiviert werden würde und falls du mit einem <i>THUNDERBOLT</i>-Schergen im Kampf bist, wird Citizen V nicht aktiviert und heilt stattdessen 4 Schaden.",
+    "traits": "Thunderbolt."
+  },
+  {
+    "code": "50130a",
+    "name": "Festnahme abtrünniger Agenten",
+    "text": "<b>Inhalt</b>: Citizen V (A) <i>(stattdessen Citizen V (B) im Expertenmodus)</i>. Thunderbolts- und Standard-Begegnungssets.\n<b>Spielaufbau</b>: Wähle 1 modulares Set plus 1[per_hero] zusätzliches modulares Set mit jeweils einem Schergen mit den Merkmalen <i>ELITE</i> und <i>THUNDERBOLT</i>. Lege jeden dieser Schergen beiseite und mische den Rest seines Sets in das Begegnungsdeck. Decke die Umgebung Blitzschnelle Gerechtigkeit auf."
+  },
+  {
+    "code": "50131a",
+    "name": "Blitzschnelle Gerechtigkeit",
+    "text": "<b>Sobald aufgedeckt:</b> Jeder Spieler deckt einen zufälligen beiseitegelegten <i>THUNDERBOLT</i>-Schergen auf. Decke den verbleibenden beiseitegelegten <i>THUNDERBOLT</i>-Schergen auf und hänge ihn offen hier an. Gib jedem dieser Schergen im Expertenmodus eine Zäh-Statuskarte. Drehe diese Karte um.",
+    "flavor": "„Die Gerechtigkeit sollte schnell sein wie ein Blitz; Wenigen Menschen zum Verderben, aber allen Menschen zur Furcht.\"\n- Thomas Randolph"
+  },
+  {
+    "code": "50132",
+    "name": "Citizen V's Schwert",
+    "text": "<b>Sobald aufgedeckt:</b> Hänge diese Karte an Citizen V an. Er wird gegen dich aktiviert.\n<b>Held - Reaktion:</b> Nachdem du Citizen V angegriffen und ihm Schaden zugefügt hast, gib [physical][physical]-Ressourcen aus → lege diese Karte ab.",
+    "traits": "Waffe."
+  },
+  {
+    "code": "50133",
+    "name": "Jolt",
+    "text": "Schurkisch.\n<b>Sobald besiegt:</b> Platziere 3 Bedrohung auf dem Hauptplan.\n<b>Held - Aktion:</b> Erschöpfe deinen Helden → platziere 1 Verhandlungsmarker auf Jolt. Falls hier 3 oder mehr Verhandlungsmarker liegen, entferne Jolt aus dem Spiel. <i>(Sie ist nicht besiegt.)</i>",
+    "traits": "Thunderbolt."
+  },
+  {
+    "code": "50134",
+    "name": "Unschuldige Passanten",
+    "text": "Anwendungen <i>(4 Passantenmarker)</i>.\n<b>Erzwungene Reaktion:</b> Nachdem du einen Gegner angegriffen oder ein Gegner dich angegriffen hat, gib entweder 1 beliebige Ressource aus oder platziere 1 Bedrohung auf dem Hauptplan <i>(2 Bedrohung stattdessen im Expertenmodus)</i>. Entferne 1 Passantenmarker von dieser Karte."
+  },
+  {
+    "code": "50129b",
+    "name": "Citizen V",
+    "text": "Citizen V kann nicht besiegt werden, es sei denn, es ist mindestens 1[per_hero] <i>THUNDERBOLT</i>-Scherge im Siegpunktestapel.\n[star] <b>Erzwungene Unterbrechung:</b> Sobald Citizen V im zweiten Schritt der Schurkenphase gegen dich aktiviert werden würde und falls du mit einem <i>THUNDERBOLT</i>-Schergen im Kampf bist, wird Citizen V nicht aktiviert und heilt stattdessen 6 Schaden.",
+    "traits": "Thunderbolt."
+  },
+  {
+    "code": "50130b",
+    "name": "Festnahme abtrünniger Agenten",
+    "text": "Jeder <i>THUNDERBOLT</i>-Scherge erhält Wache.\n<b>Erzwungene Reaktion:</b> Nachdem ein Spieler einen <i>THUNDERBOLT</i>-Schergen angegriffen hat, verwickelt der Scherge den Spieler in einen Kampf.\nFalls dieser Abschnitt vollendet ist, verlieren die Spieler das Spiel.",
+    "flavor": "„Wir können das hier auf die einfache Art lösen - oder auf die unterhaltsame.\"\n- Citizen V"
+  },
+  {
+    "code": "50131b",
+    "name": "Thunderbolt-Verstärkung",
+    "text": "<i>(Der hier angehängte Scherge ist im Spiel und kann Ziel von Angriffen und Fähigkeiten sein.)</i>\n<b>Erzwungene Unterbrechung:</b> Sobald die Runde endet, hänge den <i>THUNDERBOLT</i>-Schergen mit dem meisten Schaden hier an <i>(tausche ihn ggf. mit dem Schergen, der bereits hier angehängt ist)</i>. Heile 1[per_hero] Schaden von dem Schergen, der hier angehängt ist. Heile im Expertenmodus 1[per_hero] zusätzlichen Schaden von jenem Schergen und gib ihm eine Zäh-Statuskarte."
+  },
+  {
+    "code": "50135",
+    "name": "Der aufziehende Sturm",
+    "text": "<b>Sobald aufgedeckt:</b> Jeder Spieler verwickelt jeden Schergen in einen Kampf, der mit dem Spieler zu seiner Linken im Kampf ist.",
+    "flavor": "„Thunderbolts, lasst uns diese Vigilanten ihrer gerechten Strafe zuführen!\"\n- Songbird"
+  },
+  {
+    "code": "50136",
+    "name": "Rollender Donner",
+    "text": "<b>Sobald aufgedeckt:</b> Jeder Spieler verwickelt jeden Schergen in einen Kampf, der mit dem Spieler zu seiner Linken im Kampf ist."
+  },
+  {
+    "code": "50137",
+    "name": "Am Boden, aber nicht am Ende",
+    "text": "<b>Sobald aufgedeckt:</b> Wähle einen zufälligen <i>THUNDERBOLT</i>-Schergen im Siegpunktestapel und decke ihn auf. Platziere so viel Schaden auf dem Schergen, bis er 5 verbleibende Lebenspunkte hat. Entferne dann diese Karte aus dem Spiel. Falls auf diese Weise kein Scherge ins Spiel gekommen ist, erhält diese Karte Nachrüsten."
+  },
+  {
+    "code": "50138",
+    "name": "Einspringen",
+    "text": "<b>Sobald aufgedeckt:</b> Verwickle den <i>THUNDERBOLT</i>-Schergen mit dem wenigsten Schaden, der nicht mit dir im Kampf ist, in einen Kampf. Der Scherge wird gegen dich aktiviert. Falls auf diese Weise kein Scherge aktiviert wurde, wird Citizen V gegen dich aktiviert.",
+    "flavor": "„Keine Sorge, Batroc. Ich übernehme das.\"\n- Moonstone"
+  },
+  {
+    "code": "50165a",
+    "name": "Baron Zemo",
+    "text": "<b>Erzwungene Unterbrechung:</b> Sobald Baron Zemo besiegt werden würde, setze stattdessen seine Lebenspunkte auf 12 zurück. Entferne insgesamt 3 Geheimnismarker von <i>DIREKTORIUMSMITGLIED</i>-Umgebungen.",
+    "traits": "Thunderbolt.",
+    "flavor": "„Verhaftet sie auf Befehl des Direktoriums!\""
+  },
+  {
+    "code": "50166a",
+    "name": "Baron Zemo",
+    "text": "<b>Erzwungene Unterbrechung:</b> Sobald Baron Zemo besiegt werden würde, setze stattdessen seine Lebenspunkte auf 16 zurück. Entferne insgesamt 3 Geheimnismarker von <i>DIREKTORIUMSMITGLIED</i>-Umgebungen.",
+    "traits": "Thunderbolt.",
+    "flavor": "„Verhaftet sie auf Befehl des Direktoriums!\""
+  },
+  {
+    "code": "50167a",
+    "name": "Zemos Manipulationen",
+    "text": "<b>Inhalt</b>: Baron Zemo (A1) <i>(stattdessen Baron Zemo (B1) im Expertenmodus)</i>. „Baron Zemo\", S.H.I.E.L.D.-Direktorium\", „Beweise gegen das Direktorium\"- und Standard-Begegnungssets. Zwei modulare Begegnungssets <i>(Oberster Wissenschaftler und S.H.I.E.L.D.)</i>.\n<b>Spielaufbau</b>: Bereite die Beweise vor <i>(siehe Regelheft S. 18)</i>. Bringe jede <i>DIREKTORIUMSMITGLIED</i>-Umgebung ins Spiel. Falls nicht im Kampagnenmodus gespielt wird, platziere 2 Geheimnismarker auf jeder <i>DIREKTORIUMSMITGLIED</i>-Umgebung."
+  },
+  {
+    "code": "50168a",
+    "name": "Die Anschuldigung",
+    "text": "<b>Sobald aufgedeckt:</b> Äußere eine Anschuldigung, indem du ein Mittel, ein Motiv und eine Gelegenheit nennst, zusammen mit dem Direktoriumsmitglied, das im Kampagnenlogbuch mit dieser Kombination verknüpft ist. Dieses Direktoriumsmitglied ist der Angeklagte <i>(siehe Regelheft S. 19)</i>.",
+    "flavor": "Ihr habt alle Beweise gesammelt, die ihr finden konntet. Jetzt bleibt nur noch, eure Anschuldigungen vorzubringen."
+  },
+  {
+    "code": "50169a",
+    "name": "Zemo bekämpfen",
+    "text": "<b>Sobald aufgedeckt:</b> Drehe Baron Zemo auf seine <i>DEMASKIERT</i>-Seite um und setze seine Lebenspunkte auf den aufgedruckten Lebenspunktewert zurück. Finde Baron Zemos Schwert und hänge es an ihn an.",
+    "flavor": "Ihr entlarvt Zemos Machenschaften und deckt die Identität seines Komplizen auf."
+  },
+  {
+    "code": "50170",
+    "name": "Baron Zemos Schwert",
+    "text": "Hänge diese Karte an Baron Zemo an.\n[star] <b>Erzwungene Reaktion:</b> Nachdem Baron Zemo einen Charakter angegriffen und besiegt hat, platziere 1 Geheimnismarker auf der <i>DIREKTORIUMSMITGLIED</i>-Umgebung mit den wenigsten Geheimnismarkern.\n<b>Held - Aktion:</b> Gib [physical][physical][physical]- oder [energy][mental][wild]-Ressourcen aus → entferne 1 Geheimnismarker von einer <i>DIREKTORIUMSMITGLIED</i>-Umgebung und lege diese Karte ab.",
+    "traits": "Waffe."
+  },
+  {
+    "code": "50171",
+    "name": "Feind wider Willen",
+    "text": "Behandle den Helden mit diesem Anhang als <i>ELITE</i>-Schergen, dessen PLA-Wert dem aufgedruckten WID-Wert entspricht. Ersetze sein aufgedrucktes Textfeld durch: „Schurkisch. <b>Sobald besiegt:</b> Entferne diesen Helden und Feind wider Willen aus dem Spiel.\"\n<b>Sobald aufgedeckt:</b> Durchsuche deine Sammlung nach einem Helden, dessen Name nicht mit einem Charakter im Spiel übereinstimmt, und bringe ihn mit dir im Kampf ins Spiel. Hänge diese Karte an ihn an."
+  },
+  {
+    "code": "50172",
+    "name": "S.H.I.E.L.D.-Agent",
+    "text": "Erstschlag. Anfällig.\n[star] <b>Erzwungene Unterbrechung:</b> Sobald S.H.I.E.L.D.-Agent aktiviert oder besiegt wird, füge der <i>DIREKTORIUMSMITGLIED</i>-Umgebung mit den wenigsten Geheimnismarkern 1 Geheimnismarker hinzu.",
+    "traits": "S.H.I.E.L.D."
+  },
+  {
+    "code": "50165b",
+    "name": "Baron Zemo",
+    "text": "[star] <b>Erzwungene Unterbrechung:</b> Sobald Baron Zemo gegen dich aktiviert wird, platziere entweder 1 Geheimnismarker auf einer <i>DIREKTORIUMSMITGLIED</i>-Karte oder gib Baron Zemo für diese Aktivierung 1 zusätzliche Boost-Karte.",
+    "traits": "Demaskiert. Thunderbolt."
+  },
+  {
+    "code": "50166b",
+    "name": "Baron Zemo",
+    "text": "Standhaft.\n[star] <b>Erzwungene Unterbrechung:</b> Sobald Baron Zemo gegen dich aktiviert wird, platziere entweder 2 Geheimnismarker auf einer <i>DIREKTORIUMSMITGLIED</i>-Karte oder gib Baron Zemo für diese Aktivierung 1 zusätzliche Boost-Karte.",
+    "traits": "Demaskiert. Thunderbolt."
+  },
+  {
+    "code": "50167b",
+    "name": "Zemos Manipulationen",
+    "text": "<b>Reaktion:</b> Nachdem die Spielerphase beendet ist, darf der Startspieler 2 Geheimnismarker auf einer <i>DIREKTORIUMSMITGLIED</i>-Umgebung ohne Geheimnismarker platzieren, um 2 Karten aus dem S.H.I.E.L.D.-Umschlag zu erhalten <i>(1 Karte stattdessen im Kampagnenmodus)</i>. Die Spieler dürfen zu Abschnitt 2A vorrücken, um ihre Anschuldigung vorzubringen.\nFalls dieser Abschnitt vollendet ist, verlieren die Spieler das Spiel."
+  },
+  {
+    "code": "50168b",
+    "name": "Die Anschuldigung",
+    "text": "<b>Sobald aufgedeckt:</b> Tue Folgendes:\n1. Identifiziere mithilfe der Karten im A.I.M.-Umschlag den Maulwurf.\n2. Platziere für jede falsche Vermutung 1 Geheimnismarker auf jeder <i>DIREKTORIUMSMITGLIED</i>-Karte.\n3. Falls das falsche Direktoriumsmitglied angeschuldigt wurde, platziere 3 Geheimnismarker auf dem Angeklagten.\n4. Rücke zu Abschnitt 3A vor."
+  },
+  {
+    "code": "50169b",
+    "name": "Zemo bekämpfen",
+    "text": "<b>Sobald aufgedeckt:</b> Drehe den Maulwurf auf seine Anhang-Seite um und hänge ihn an Baron Zemo an. Platziere hier 1[per_hero] Bedrohung für jeden Geheimnismarker auf jedem <i>DIREKTORIUMSMITGLIED</i>-Anhang.\nFalls dieser Abschnitt vollendet ist, verlieren die Spieler das Spiel.",
+    "flavor": "Zieht Baron Zemo und seinen Komplizen zur Rechenschaft!"
+  },
+  {
+    "code": "50173",
+    "name": "Geteilte Loyalität",
+    "text": "Hindernis 1[per_hero].\nAls zusätzliche Kosten, damit ein Spieler mit einem Verbündeten angreifen, Widerstand leisten oder verteidigen kann, muss der Spieler 1 beliebige Ressource ausgeben.\n<b>Sobald besiegt:</b> Entferne insgesamt 1[per_hero] Geheimnismarker von <i>DIREKTORIUMSMITGLIED</i>-Umgebungen."
+  },
+  {
+    "code": "50174",
+    "name": "Ressourcen abschneiden",
+    "text": "Hindernis 1[per_hero].\nAls zusätzliche Kosten, damit ein Spieler einen Vorteil spielbereit machen kann, muss der Spieler 1 beliebige Ressource ausgeben.\n<b>Sobald besiegt:</b> Entferne insgesamt 1[per_hero] Geheimnismarker von <i>DIREKTORIUMSMITGLIED</i>-Umgebungen.",
+    "flavor": "„S.H.I.E.L.D. folgt jetzt meinen Befehlen!\"\n- Baron Zemo"
+  },
+  {
+    "code": "50175",
+    "name": "Geistiger Wettstreit",
+    "text": "<b>Sobald aufgedeckt:</b> Baron Zemo treibt den Plan voran. Falls diese Aktivierung Bedrohung auf dem Hauptplan platzieren würde, darfst du X [mental]-Ressourcen ausgeben, um X Bedrohung davon zu verhindern und insgesamt X Geheimnismarker von <i>DIREKTORIUMSMITGLIED</i>-Umgebungen zu entfernen."
   }
 ]

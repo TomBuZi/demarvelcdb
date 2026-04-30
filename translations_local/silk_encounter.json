@@ -1,0 +1,23 @@
+[
+  {
+    "code": "52035",
+    "name": "Atlas",
+    "text": "Schurkisch. Sieg 1.\n[star] Atlas bekommt für jeden Wachstumsmarker auf ihm +2 Lebenspunkte.\n<b>Erzwungene Reaktion:</b> Nachdem die Schurkenphase beendet ist, platziere 1 Wachstumsmarker auf Atlas.",
+    "traits": "Elite. Thunderbolt."
+  },
+  {
+    "code": "52036",
+    "name": "Unverwundbar werden",
+    "text": "<b>Sobald aufgedeckt:</b> Platziere hier für jeden Wachstumsmarker auf Atlas 1 zusätzliche Bedrohung.\nFalls 10 oder mehr Wachstumsmarker auf Atlas liegen, verlieren die Spieler das Spiel."
+  },
+  {
+    "code": "52037",
+    "name": "Stärker werden",
+    "text": "<b>Sobald aufgedeckt:</b> Finde Atlas und decke ihn auf. <i>(Falls er bereits im Spiel ist, verwickelt er dich in einen Kampf.)</i> Atlas wird gegen dich aktiviert. Falls auf diese Weise kein Gegner aktiviert wurde, erhält diese Karte Nachrüsten.\n[star] <b>Boost:</b> Gib dem aktivierenden Gegner 1 Zäh-Statuskarte."
+  },
+  {
+    "code": "52038",
+    "name": "Titanische Ausmasse",
+    "text": "<b>Sobald aufgedeckt:</b> Die Spieler nehmen als Gruppe X indirekten Schaden, wobei X die Anzahl an Wachstumsmarkern auf Atlas ist. Falls X kleiner als 3 ist, erhält diese Karte Nachrüsten.\n[star] <b>Boost:</b> Falls Atlas im Spiel ist, platziere 1 Wachstumsmarker auf ihm."
+  }
+]

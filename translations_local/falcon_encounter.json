@@ -1,0 +1,32 @@
+[
+  {
+    "code": "53038",
+    "name": "Fixer",
+    "text": "Schurkisch. Sieg 1.\n<b>Erzwungene Unterbrechung:</b> Sobald ein nicht-szenariospezifischer <i>TECH</i>-Anhang an den Schurken angehängt werden würde, hänge ihn stattdessen an Fixer an. Sämtlicher Text auf der Karte, der sich auf „den Schurken\" bezieht, bezieht sich stattdessen auf Fixer.",
+    "traits": "Elite. Genie. Thunderbolt."
+  },
+  {
+    "code": "53039",
+    "name": "Raketenrucksack",
+    "text": "Hänge diese Karte an Fixer an. Ansonsten hänge sie an den Schurken an.\nDer Gegner mit diesem Anhang erhält das Merkmal <i>FLIEGEND</i>.\n<b>Erzwungene Unterbrechung:</b> Sobald der Charakter mit diesem Anhang 3 oder mehr Schaden nehmen würde, verhindere allen Schaden davon und lege Raketenrucksack ab.",
+    "traits": "Tech.",
+    "flavor": "Wrrruuuuuuum!"
+  },
+  {
+    "code": "53040",
+    "name": "Tech-Pac",
+    "text": "Hänge diese Karte an Fixer an. Ansonsten hänge sie an den Schurken an.\n[star] Der Gegner mit diesem Anhang bekommt für jeden anderen <i>TECH</i>-Anhang, den er hat, +1 ANG.\n<b>Held - Aktion:</b> Erschöpfe eine beliebige Anzahl an Charakteren unter deiner Kontrolle mit einem kombinierten WID-Wert, der größer ist als der PLA-Wert des Gegners mit diesem Anhang → lege diese Karte ab.",
+    "traits": "Tech."
+  },
+  {
+    "code": "53041",
+    "name": "Technologische Innovation",
+    "text": "<b>Sobald aufgedeckt:</b> Durchsuche das Begegnungsdeck und den Ablagestapel nach einem <i>TECH</i>-Anhang und decke ihn auf. Platziere für jede <i>TECH</i>-Karte im Spiel 1 zusätzliche Bedrohung auf dieser Karte.",
+    "flavor": "„Ich werde ihre Technologie gegen sie verwenden!\"\n- Fixer"
+  },
+  {
+    "code": "53042",
+    "name": "Techno",
+    "text": "<b>Sobald aufgedeckt:</b> Finde Fixer und decke ihn auf. <i>(Falls er bereits im Spiel ist, verwickelt er dich in einen Kampf.)</i> Fixer wird gegen dich aktiviert. Falls auf diese Weise kein Gegner aktiviert wurde, erhält diese Karte Nachrüsten.\n[star] <b>Boost:</b> Falls diese Aktivierung ein Angriff ist, erhält er Durchdringend."
+  }
+]

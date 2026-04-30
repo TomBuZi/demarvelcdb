@@ -1,0 +1,25 @@
+[
+  {
+    "code": "51039",
+    "name": "Joystick",
+    "text": "Schurkisch. Sieg 1.\n[star] <b>Erzwungene Unterbrechung:</b> Sobald Joystick gegen dich aktiviert wird, wähle:\n• Gib ihr für diese Aktivierung 1 zusätzliche Boost-Karte und ziehe 1 Karte.\n• Gib ihr eine Zäh-Statuskarte.",
+    "traits": "Elite. Thunderbolt."
+  },
+  {
+    "code": "51040",
+    "name": "Energiestab",
+    "text": "Hänge diese Karte an Joystick an. Ansonsten hänge sie an den Schurken an.\n[star] Die Angriffe des Gegners mit diesem Anhang erhalten Durchdringend.\n<b>Held - Aktion:</b> Der Gegner mit diesem Anhang greift dich an. Lege diese Karte nach diesem Angriff ab und ziehe 1 Karte.",
+    "traits": "Tech. Waffe."
+  },
+  {
+    "code": "51041",
+    "name": "Ich spiele, um zu gewinnen",
+    "text": "Jede Identität bekommt +1 Handlimit.\n<b>Erzwungene Unterbrechung:</b> Sobald ein Gegner aktiviert wird, gib ihm für diese Aktivierung 1 Boost-Karte <i>(zusätzlich zu allen anderen Boost-Karten, die er bekommt)</i>.",
+    "flavor": "„Versuch einfach mitzuhalten.\"\n- Joystick"
+  },
+  {
+    "code": "51042",
+    "name": "Extremes Risiko",
+    "text": "<b>Sobald aufgedeckt:</b> Finde Joystick und decke sie auf. <i>(Falls sie bereits im Spiel ist, verwickelt sie dich in einen Kampf.)</i> Joystick wird gegen dich aktiviert. Falls auf diese Weise kein Gegner aktiviert wurde, erhält diese Karte Nachrüsten.\n[star] <b>Boost:</b> Du darfst dem aktivierenden Gegner 1 zusätzliche Boost-Karte geben. Falls du das tust, ziehe 1 Karte."
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "code": "54034",
+    "name": "Blizzard",
+    "text": "Schurkisch. Sieg 1.\n[star] <b>Erzwungene Reaktion:</b> Nachdem Blizzard einen Charakter angegriffen hat, durchsuche das Begegnungsdeck und den Ablagestapel nach einem Anhang In Eis eingeschlossen und hänge ihn an den Charakter an. <i>(Mische.)</i> Ansonsten betäube den angegriffenen Charakter.",
+    "traits": "Elite. Thunderbolt."
+  },
+  {
+    "code": "54035",
+    "name": "In Eis eingeschlossen",
+    "text": "Hänge diese Karte an deine Identität an.\nDer Charakter mit diesem Anhang kann keine Gegner außer diese Karte angreifen.\nJeder Spieler kann diese Karte angreifen, als ob sie ein Scherge wäre. Falls auf dieser Karte 3 oder mehr Schaden liegt, verschiebe allen Schaden über 3 von hier auf den Charakter mit diesem Anhang und lege diese Karte ab.",
+    "traits": "Eis."
+  },
+  {
+    "code": "54036",
+    "name": "Rutschgefahr",
+    "text": "<b>Erzwungene Reaktion:</b> Nachdem ein Verbündeter ins Spiel gekommen ist, erschöpfe ihn.",
+    "flavor": "„Pass auf, wo du hintrittst!\"\n- Blizzard"
+  },
+  {
+    "code": "54037",
+    "name": "Schneesturm",
+    "text": "<b>Sobald aufgedeckt:</b> Finde Blizzard und decke ihn auf. <i>(Falls er bereits im Spiel ist, verwickelt er dich in einen Kampf.)</i> Blizzard wird gegen dich aktiviert. Falls auf diese Weise kein Gegner aktiviert wurde, erhält diese Karte Nachrüsten.\n[star] <b>Boost:</b> Du wirst betäubt. Falls du bereits betäubt bist, nimm 1 Schaden."
+  }
+]

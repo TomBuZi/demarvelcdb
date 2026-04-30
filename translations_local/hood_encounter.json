@@ -203,7 +203,7 @@
   {
     "code": "24039",
     "name": "Jetpack",
-    "text": "Hänge diese Karte an den Schergen mit den meisten verbleibenden Lebenspunkten an. Falls du das nicht kannst, erhält diese Karte Nachrüsten.\n<b>Erzwungene Unterbrechung</b>: Sobald der Scherge mit diesem Anhang eine beliebige Menge an Schaden durch einen Angriff nehmen würde, lege die oberste Karte des Begegnungsdecks ab. Senke den Schaden des Angriffs um die Anzahl der auf diese Weise abgelegten Boost-Symbole ([star]).",
+    "text": "Hänge diese Karte an den Schergen mit den meisten verbleibenden Lebenspunkten an. Falls du das nicht kannst, erhält diese Karte Nachrüsten.\n<b>Erzwungene Unterbrechung</b>: Sobald der Scherge mit diesem Anhang eine beliebige Menge an Schaden durch einen Angriff nehmen würde, lege die oberste Karte des Begegnungsdecks ab. Senke den Schaden des Angriffs um die Anzahl der auf diese Weise abgelegten Boost-Symbole ([boost]).",
     "traits": "Gegenstand. Tech."
   },
   {
@@ -337,7 +337,7 @@
   {
     "code": "24069",
     "name": "Gemeinsame Anstrengung",
-    "text": "<b>Sobald aufgedeckt</b>: Jeder <i>Elite</i>-Scherge im Spiel wird aktiviert. Falls auf diese Weise kein Scherge aktiviert wurde, erhält diese Karte Nachrüsten.\n[star] <b>Boost</b>: Für jeden <i>Elite</i>-Schergen im Spiel bekommt diese Karte für diese Aktivierung +1 Boost-Symbol ([star])."
+    "text": "<b>Sobald aufgedeckt</b>: Jeder <i>Elite</i>-Scherge im Spiel wird aktiviert. Falls auf diese Weise kein Scherge aktiviert wurde, erhält diese Karte Nachrüsten.\n[star] <b>Boost</b>: Für jeden <i>Elite</i>-Schergen im Spiel bekommt diese Karte für diese Aktivierung +1 Boost-Symbol ([boost])."
   },
   {
     "code": "24068",

@@ -49,7 +49,8 @@
   {
     "code": "50067b",
     "name": "Im Netz der Witwe",
-    "text": "Ihr verfolgt die Spur der vermissten S.H.I.E.L.D.-Spezialistin zu einem stillgelegten U-Bahn-Tunnel und entdeckt die Operationsbasis ihrer Entführer.\nX ist die Nummer von Black Widows Schurkenabschnitt.\nFalls dieser Abschnitt vollendet ist, verlieren die Spieler das Spiel."
+    "text": "X ist die Nummer von Black Widows Schurkenabschnitt.\nFalls dieser Abschnitt vollendet ist, verlieren die Spieler das Spiel.",
+    "flavor": "Ihr verfolgt die Spur der vermissten S.H.I.E.L.D.-Spezialistin zu einem stillgelegten U-Bahn-Tunnel und entdeckt die Operationsbasis ihrer Entführer."
   },
   {
     "code": "50072",
@@ -320,7 +321,7 @@
   {
     "code": "50119",
     "name": "Nachbau",
-    "text": "Hänge diese Karte an M.O.D.O.K. an.\n★ X sind die aufgedruckten Kosten der unter diese Karte geschobenen Karte.\n<b>Sobald aufgedeckt:</b> Schiebe ein Upgrade unter deiner Kontrolle unter diese Karte. Ansonsten schiebe die oberste Karte deines Decks unter diese Karte.\n<b>Erzwungene Reaktion:</b> Nachdem M.O.D.O.K.s Lebenspunkte zurückgesetzt worden sind, lege diese Karte ab."
+    "text": "Hänge diese Karte an M.O.D.O.K. an.\n[star] X sind die aufgedruckten Kosten der unter diese Karte geschobenen Karte.\n<b>Sobald aufgedeckt:</b> Schiebe ein Upgrade unter deiner Kontrolle unter diese Karte. Ansonsten schiebe die oberste Karte deines Decks unter diese Karte.\n<b>Erzwungene Reaktion:</b> Nachdem M.O.D.O.K.s Lebenspunkte zurückgesetzt worden sind, lege diese Karte ab."
   },
   {
     "code": "50120",
@@ -455,7 +456,7 @@
   {
     "code": "50170",
     "name": "Baron Zemos Schwert",
-    "text": "Hänge diese Karte an Baron Zemo an.\n[star] <b>Erzwungene Reaktion:</b> Nachdem Baron Zemo einen Charakter angegriffen und besiegt hat, platziere 1 Geheimnismarker auf der <i>DIREKTORIUMSMITGLIED</i>-Umgebung mit den wenigsten Geheimnismarkern.\n<b>Held - Aktion:</b> Gib [physical][physical][physical]- oder [energy][mental][wild]-Ressourcen aus → entferne 1 Geheimnismarker von einer <i>DIREKTORIUMSMITGLIED</i>-Umgebung und lege diese Karte ab.",
+    "text": "Hänge diese Karte an Baron Zemo an.\n[star] <b>Erzwungene Reaktion:</b> Nachdem Baron Zemo einen Charakter angegriffen und besiegt hat, platziere 1 Geheimnismarker auf der <i>DIREKTORIUMSMITGLIED</i>-Umgebung mit den wenigsten Geheimnismarkern.\n<b>Held - Aktion:</b> Gib [physical][physical][physical]- oder [energy][energy][energy]-Ressourcen aus → entferne 1 Geheimnismarker von einer <i>DIREKTORIUMSMITGLIED</i>-Umgebung und lege diese Karte ab.",
     "traits": "Waffe."
   },
   {
@@ -602,7 +603,7 @@
   {
     "code": "50182a",
     "name": "Leitung der Überwachung",
-    "text": "Spielaufbau.\nFalls hier 4 oder mehr Geheimnismarker liegen <i>(stattdessen 3 oder mehr im Expertenmodus)</i>, drehe diese Karte um.\n<b>Held - Aktion:</b> Gib [physical][mental]-Ressourcen aus → entferne 1 Geheimnismarker von dieser Karte. Entferne dann 2 Bedrohung von einem Plan.",
+    "text": "Spielaufbau.\nFalls hier 4 oder mehr Geheimnismarker liegen <i>(stattdessen 3 oder mehr im Expertenmodus)</i>, drehe diese Karte um.\n<b>Held - Aktion:</b> Gib [mental][mental]-Ressourcen aus → entferne 1 Geheimnismarker von dieser Karte. Entferne dann 2 Bedrohung von einem Plan.",
     "traits": "Direktoriumsmitglied."
   },
   {
@@ -789,7 +790,7 @@
   {
     "code": "50157",
     "name": "Blaster",
-    "text": "Hänge diese Karte an MACH-IV an. Hänge sie ansonsten an den Gegner mit dem höchsten ANG-Wert an.\n[star] Die Angriffe des Gegners mit diesem Anhang erhalten Overkill und Fernkampf.\n<b>Held - Reaktion:</b> Nachdem du den Gegner mit diesem Anhang angegriffen und ihm Schaden zugefügt hast, gib [physical][physical]-Ressourcen aus → lege diese Karte ab.",
+    "text": "Hänge diese Karte an MACH-IV an. Hänge sie ansonsten an den Gegner mit dem höchsten ANG-Wert an.\n[star] Die Angriffe des Gegners mit diesem Anhang erhalten Overkill und Fernkampf.\n<b>Held - Reaktion:</b> Nachdem du den Gegner mit diesem Anhang angegriffen und ihm Schaden zugefügt hast, gib [energy][energy]-Ressourcen aus → lege diese Karte ab.",
     "traits": "Tech. Waffe."
   },
   {
@@ -818,7 +819,7 @@
   {
     "code": "50162",
     "name": "Coup de Foudre",
-    "text": "<b>Erzwungene Unterbrechung:</b> Sobald ein Scherge einen Spieler in einen Kampf verwickelt, legt der Spieler die obersten X Karten seines Decks ab. X ist die Anzahl der Boost-Symbole [boost] auf dem Schergen. Platziere hier für jede auf diese Weise abgelegte aufgedruckte [wild]-Ressource 1 Bedrohung."
+    "text": "<b>Erzwungene Unterbrechung:</b> Sobald ein Scherge einen Spieler in einen Kampf verwickelt, legt der Spieler die obersten X Karten seines Decks ab. X ist die Anzahl der Boost-Symbole [boost] auf dem Schergen. Platziere hier für jede auf diese Weise abgelegte aufgedruckte [energy]-Ressource 1 Bedrohung."
   },
   {
     "code": "50163",

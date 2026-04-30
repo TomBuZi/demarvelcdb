@@ -2,19 +2,19 @@
   {
     "code": "45059",
     "name": "Unus",
-    "text": "Zähigkeit.\nFalls auf dem Nebenplan Genpool mindestens so viel Bedrohung liegt:\n• 3 - Unus erhält Vergeltung 1.\n• 6 - Unus erhält außerdem Gestählt.\n• 9 - Unus erhält außerdem ein [boost]-Symbol.",
+    "text": "Zähigkeit.\nFalls auf dem Nebenplan Genpool mindestens so viel Bedrohung liegt:\n• 3 - Unus erhält Vergeltung 1.\n• 6 - Unus erhält außerdem Gestählt.\n• 9 - Unus erhält außerdem ein [amplify]-Symbol.",
     "traits": "Prälat."
   },
   {
     "code": "45060",
     "name": "Unus",
-    "text": "Zähigkeit.\nFalls auf dem Nebenplan Genpool mindestens so viel Bedrohung liegt:\n• 3 - Unus erhält Vergeltung 1.\n• 6 - Unus erhält außerdem Gestählt.\n• 9 - Unus erhält außerdem ein [boost]-Symbol.",
+    "text": "Zähigkeit.\nFalls auf dem Nebenplan Genpool mindestens so viel Bedrohung liegt:\n• 3 - Unus erhält Vergeltung 1.\n• 6 - Unus erhält außerdem Gestählt.\n• 9 - Unus erhält außerdem ein [amplify]-Symbol.",
     "traits": "Prälat."
   },
   {
     "code": "45061",
     "name": "Unus",
-    "text": "Zähigkeit.\nFalls auf dem Nebenplan Genpool mindestens so viel Bedrohung liegt:\n• 3 - Unus erhält Vergeltung 1.\n• 6 - Unus erhält außerdem Gestählt.\n• 9 - Unus erhält außerdem ein [boost]-Symbol.",
+    "text": "Zähigkeit.\nFalls auf dem Nebenplan Genpool mindestens so viel Bedrohung liegt:\n• 3 - Unus erhält Vergeltung 1.\n• 6 - Unus erhält außerdem Gestählt.\n• 9 - Unus erhält außerdem ein [amplify]-Symbol.",
     "traits": "Prälat."
   },
   {
@@ -25,7 +25,7 @@
   {
     "code": "45063",
     "name": "Prälaten-Pistole",
-    "text": "Hänge diese Karte an Unus an.\n[star] <b>Erzwungene Reaktion</b>: Nachdem Unus einen Verbündeten angegriffen und besiegt hat, platziere 1 Bedrohung auf dem Nebenplan Genpool.\n<b>Held - Reaktion</b>: Nachdem du einen Basisangriff gegen Unus durchgeführt hast, gib [physical][mental]-Ressourcen aus → lege diese Karte ab.",
+    "text": "Hänge diese Karte an Unus an.\n[star] <b>Erzwungene Reaktion</b>: Nachdem Unus einen Verbündeten angegriffen und besiegt hat, platziere 1 Bedrohung auf dem Nebenplan Genpool.\n<b>Held - Reaktion</b>: Nachdem du einen Basisangriff gegen Unus durchgeführt hast, gib [energy][physical]-Ressourcen aus → lege diese Karte ab.",
     "traits": "Waffe."
   },
   {
@@ -800,13 +800,13 @@
   {
     "code": "45182a",
     "name": "Sugar Man",
-    "text": "Sieg 5.\nKann keinen Schaden nehmen, solange ein anderer Scherge auf Mission ist.\n<b>Missionsreaktion</b>: Nachdem du Karten abgelegt hast, heile für jede abgelegte [energy]-Ressource 3 Schaden von Sugar Man.",
+    "text": "Sieg 5.\nKann keinen Schaden nehmen, solange ein anderer Scherge auf Mission ist.\n<b>Missionsreaktion</b>: Nachdem du Karten abgelegt hast, heile für jede abgelegte [physical]-Ressource 3 Schaden von Sugar Man.",
     "traits": "Aufseher. Elite."
   },
   {
     "code": "45183a",
     "name": "Mikhail Rasputin",
-    "text": "Sieg 5.\nKann keinen Schaden nehmen, solange ein anderer Scherge auf Mission ist.\n<b>Missionsreaktion</b>: Nachdem du Karten abgelegt hast, füge einem Verbündeten auf Mission für jede abgelegte [physical]-Ressource 1 Schaden zu.",
+    "text": "Sieg 5.\nKann keinen Schaden nehmen, solange ein anderer Scherge auf Mission ist.\n<b>Missionsreaktion</b>: Nachdem du Karten abgelegt hast, füge einem Verbündeten auf Mission für jede abgelegte [energy]-Ressource 1 Schaden zu.",
     "traits": "Aufseher. Elite."
   },
   {
@@ -882,15 +882,15 @@
   {
     "code": "45102b",
     "name": "Apocalypse",
-    "text": "[star] Apocalypses Angriffe erhalten Overkill.\n\n<b>Erzwungene Unterbrechung:</b> Sobald der Hauptplan vollendet ist, verlieren die Spieler das Spiel.",
-    "traits": "Gestählt. Zähigkeit.",
+    "text": "Gestählt. Zähigkeit.\n[star] Apocalypses Angriffe erhalten Overkill.\n\n<b>Erzwungene Unterbrechung:</b> Sobald der Hauptplan vollendet ist, verlieren die Spieler das Spiel.",
+    "traits": "Mutant.",
     "flavor": "„Ich werde diese Welt mit Feuer reinigen. Nur die Starken werden überleben.\""
   },
   {
     "code": "45101b",
     "name": "Apocalypse",
-    "text": "<b>Erzwungene Unterbrechung:</b> Sobald der Hauptplan vollendet ist, entferne alle Bedrohung von ihm (ignoriere dabei alle Krisensymbole [crisis]). Entferne diese Karte aus dem Spiel und decke Apocalypse (III) auf.",
-    "traits": "Standhaft. Zähigkeit.",
+    "text": "Standhaft. Zähigkeit.\n<b>Erzwungene Unterbrechung:</b> Sobald der Hauptplan vollendet ist, entferne alle Bedrohung von ihm (ignoriere dabei alle Krisensymbole [crisis]). Entferne diese Karte aus dem Spiel und decke Apocalypse (III) auf.",
+    "traits": "Mutant.",
     "flavor": "„Du bist töricht, dich mir zu widersetzen.\""
   },
   {

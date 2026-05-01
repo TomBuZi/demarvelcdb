@@ -2,7 +2,7 @@
   {
     "code": "24009",
     "name": "The Hood's Pistole",
-    "text": "Hänge diese Karte an The Hood an.\n<b>Held – Aktion</b>: Gib [physical][mental]-Ressourcen aus → lege diese Karte ab.\n★ <b>Boost</b>: Decke diese Karte auf.",
+    "text": "Hänge diese Karte an The Hood an.\n<b>Held – Aktion</b>: Gib [physical][mental]-Ressourcen aus → lege diese Karte ab.\n[star] <b>Boost</b>: Decke diese Karte auf.",
     "traits": "Waffe.",
     "subname": "Anhang"
   },
@@ -70,7 +70,7 @@
   {
     "code": "24012",
     "name": "Feldrekrutierung",
-    "text": "<b>Sobald aufgedeckt</b>: Bestimme zufällig 1 beiseitegelegtes modulares Begegnungsset und mische es dann in das Begegnungsdeck. Handle The Hoods <i>„Falsches Spiel\"</i>-Fähigkeit ab. Entferne diese Karte aus dem Spiel.\n★ <b>Boost</b>: Nachdem diese Aktivierung beendet ist, handle The Hoods <i>„Falsches Spiel\"</i>-Fähigkeit ab.",
+    "text": "<b>Sobald aufgedeckt</b>: Bestimme zufällig 1 beiseitegelegtes modulares Begegnungsset und mische es dann in das Begegnungsdeck. Handle The Hoods <i>„Falsches Spiel\"</i>-Fähigkeit ab. Entferne diese Karte aus dem Spiel.\n[star] <b>Boost</b>: Nachdem diese Aktivierung beendet ist, handle The Hoods <i>„Falsches Spiel\"</i>-Fähigkeit ab.",
     "subname": "Verrat"
   },
   {
@@ -89,7 +89,7 @@
   {
     "code": "24006b",
     "name": "Verbrechensherrschaft",
-    "text": "★ <b>Erzwungene Reaktion</b>: Nachdem der erste Schritt der Schurkenphase abgehandelt worden ist, muss jeder Spieler in Spielerreihenfolge The Hoods <i>„Falsches Spiel\"</i>-Fähigkeit abhandeln.\nFalls dieser Abschnitt vollendet ist, verlieren die Spieler das Spiel.",
+    "text": "[star] <b>Erzwungene Reaktion</b>: Nachdem der erste Schritt der Schurkenphase abgehandelt worden ist, muss jeder Spieler in Spielerreihenfolge The Hoods <i>„Falsches Spiel\"</i>-Fähigkeit abhandeln.\nFalls dieser Abschnitt vollendet ist, verlieren die Spieler das Spiel.",
     "subname": "Hauptplan"
   },
   {
@@ -108,35 +108,35 @@
   {
     "code": "24021",
     "name": "Lähmender Sternenstaub",
-    "text": "Hänge diese Karte an einen <i>Mystiker</i>-Schergen an. Falls du das nicht kannst, hänge sie an den Schurken an.\n★ <b>Erzwungene Reaktion</b>: Nachdem der Gegner mit diesem Anhang gegen dich aktiviert worden ist, lege diese Karte ab → betäube deine Identität und teile dir selbst 1 verdeckte Begegnungskarte zu.",
+    "text": "Hänge diese Karte an einen <i>Mystiker</i>-Schergen an. Falls du das nicht kannst, hänge sie an den Schurken an.\n[star] <b>Erzwungene Reaktion</b>: Nachdem der Gegner mit diesem Anhang gegen dich aktiviert worden ist, lege diese Karte ab → betäube deine Identität und teile dir selbst 1 verdeckte Begegnungskarte zu.",
     "traits": "Gegenstand.",
     "subname": "Anhang"
   },
   {
     "code": "24020",
     "name": "Ätzende Eierbombe",
-    "text": "Hänge diese Karte an einen <i>Mystiker</i>-Schergen an. Falls du das nicht kannst, hänge sie an den Schurken an.\n★ <b>Erzwungene Reaktion</b>: Nachdem der Gegner mit diesem Anhang gegen dich aktiviert worden ist, lege diese Karte ab → nimm 3 indirekten Schaden und teile dir selbst 1 verdeckte Begegnungskarte zu.",
+    "text": "Hänge diese Karte an einen <i>Mystiker</i>-Schergen an. Falls du das nicht kannst, hänge sie an den Schurken an.\n[star] <b>Erzwungene Reaktion</b>: Nachdem der Gegner mit diesem Anhang gegen dich aktiviert worden ist, lege diese Karte ab → nimm 3 indirekten Schaden und teile dir selbst 1 verdeckte Begegnungskarte zu.",
     "traits": "Gegenstand.",
     "subname": "Anhang"
   },
   {
     "code": "24019",
     "name": "Amsel-Kugeln",
-    "text": "Hänge diese Karte an einen <i>Mystiker</i>-Schergen an. Falls du das nicht kannst, hänge sie an den Schurken an.\n★ <b>Erzwungene Reaktion</b>: Nachdem der Gegner mit diesem Anhang gegen dich aktiviert worden ist, lege diese Karte ab → lege 1 zufällige Karte von deiner Hand ab und teile dir selbst 1 verdeckte Begegnungskarte zu.",
+    "text": "Hänge diese Karte an einen <i>Mystiker</i>-Schergen an. Falls du das nicht kannst, hänge sie an den Schurken an.\n[star] <b>Erzwungene Reaktion</b>: Nachdem der Gegner mit diesem Anhang gegen dich aktiviert worden ist, lege diese Karte ab → lege 1 zufällige Karte von deiner Hand ab und teile dir selbst 1 verdeckte Begegnungskarte zu.",
     "traits": "Gegenstand.",
     "subname": "Anhang"
   },
   {
     "code": "24018",
     "name": "Brothers Grimm",
-    "text": "★ <b>Erzwungene Unterbrechung</b>: Sobald die Brothers Grimm gegen dich aktiviert werden, lege Karten vom Begegnungsdeck ab, bis ein Anhang abgelegt wird. Decke die Karte auf.\n★ <b>Boost</b>: Nachdem diese Aktivierung beendet ist, bringe die Brothers Grimm mit dem Startspieler im Kampf ins Spiel.",
+    "text": "[star] <b>Erzwungene Unterbrechung</b>: Sobald die Brothers Grimm gegen dich aktiviert werden, lege Karten vom Begegnungsdeck ab, bis ein Anhang abgelegt wird. Decke die Karte auf.\n[star] <b>Boost</b>: Nachdem diese Aktivierung beendet ist, bringe die Brothers Grimm mit dem Startspieler im Kampf ins Spiel.",
     "traits": "Masters of Evil. Mystiker.",
     "subname": "Scherge"
   },
   {
     "code": "24017",
     "name": "Ärger im Doppelpack",
-    "text": "<b>Sobald aufgedeckt</b>: Betäube einen Charakter unter deiner Kontrolle. Verwirre einen Charakter unter deiner Kontrolle.\n★ <b>Boost</b>: Handle die <i>„Sobald aufgedeckt\"</i>-Fähigkeit dieser Karte ab.",
+    "text": "<b>Sobald aufgedeckt</b>: Betäube einen Charakter unter deiner Kontrolle. Verwirre einen Charakter unter deiner Kontrolle.\n[star] <b>Boost</b>: Handle die <i>„Sobald aufgedeckt\"</i>-Fähigkeit dieser Karte ab.",
     "subname": "Verrat"
   },
   {
@@ -149,7 +149,7 @@
   {
     "code": "24015",
     "name": "Griffin",
-    "text": "Erstschlag.\n★ <b>Erzwungene Reaktion</b>: Nachdem Griffin einen Charakter angegriffen und ihm Schaden zugefügt hat, betäube den Charakter.\n<b>Sobald besiegt</b>: Falls ein betäubter befreundeter Charakter im Spiel ist, mische Griffin in das Begegnungsdeck.",
+    "text": "Erstschlag.\n[star] <b>Erzwungene Reaktion</b>: Nachdem Griffin einen Charakter angegriffen und ihm Schaden zugefügt hat, betäube den Charakter.\n<b>Sobald besiegt</b>: Falls ein betäubter befreundeter Charakter im Spiel ist, mische Griffin in das Begegnungsdeck.",
     "traits": "Masters of Evil. Schläger.",
     "subname": "Scherge"
   },
@@ -182,28 +182,28 @@
   {
     "code": "24027",
     "name": "Mister Fear",
-    "text": "Als zusätzliche Kosten, damit der Spieler im Kampf mit Mister Fear einen Helden oder Verbündeten unter seiner Kontrolle spielbereit machen kann, muss er eine [mental]-Ressource ausgeben.\n★ <b>Boost</b>: Lege Karten von deinem Deck ab, bis du einen Verbündeten ablegst.",
+    "text": "Als zusätzliche Kosten, damit der Spieler im Kampf mit Mister Fear einen Helden oder Verbündeten unter seiner Kontrolle spielbereit machen kann, muss er eine [mental]-Ressource ausgeben.\n[star] <b>Boost</b>: Lege Karten von deinem Deck ab, bis du einen Verbündeten ablegst.",
     "traits": "Crossfires Crew. Krimineller.",
     "subname": "Scherge"
   },
   {
     "code": "24026",
     "name": "Crossfire",
-    "text": "Erstschlag.\n★ <b>Erzwungene Unterbrechung</b>: Sobald Crossfire angreift, greift er den befreundeten Charakter mit den wenigsten verbleibenden Lebenspunkten an. Der Angriff erhält Overkill und Fernkampf.",
+    "text": "Erstschlag.\n[star] <b>Erzwungene Unterbrechung</b>: Sobald Crossfire angreift, greift er den befreundeten Charakter mit den wenigsten verbleibenden Lebenspunkten an. Der Angriff erhält Overkill und Fernkampf.",
     "traits": "Crossfires Crew. Masters of Evil.",
     "subname": "Scherge"
   },
   {
     "code": "24025",
     "name": "Corruptor",
-    "text": "<b>Sobald aufgedeckt</b>: Erschöpfe jeden Verbündeten unter deiner Kontrolle. Platziere für jeden auf diese Weise erschöpften Verbündeten 1 Bedrohung auf dem Hauptplan.\n★ <b>Boost</b>: Wähle einen Charakter unter deiner Kontrolle und erschöpfe ihn.",
+    "text": "<b>Sobald aufgedeckt</b>: Erschöpfe jeden Verbündeten unter deiner Kontrolle. Platziere für jeden auf diese Weise erschöpften Verbündeten 1 Bedrohung auf dem Hauptplan.\n[star] <b>Boost</b>: Wähle einen Charakter unter deiner Kontrolle und erschöpfe ihn.",
     "traits": "Crossfires Crew. Krimineller.",
     "subname": "Scherge"
   },
   {
     "code": "24024",
     "name": "Controller",
-    "text": "★ <b>Erzwungene Unterbrechung</b>: Sobald Controllers Angriff einem Charakter eine beliebige Menge an Schaden zufügen würde, erhöhe die Menge um den ANG-Wert des angegriffenen Charakters.",
+    "text": "[star] <b>Erzwungene Unterbrechung</b>: Sobald Controllers Angriff einem Charakter eine beliebige Menge an Schaden zufügen würde, erhöhe die Menge um den ANG-Wert des angegriffenen Charakters.",
     "traits": "Crossfires Crew. Schläger.",
     "flavor": "<i>„Niemand kann sich der Kontrolle durch meine teuflischen Scheiben entziehen!\"</i>",
     "subname": "Scherge"
@@ -211,13 +211,13 @@
   {
     "code": "24023",
     "name": "Auf Blut aus",
-    "text": "<b>Sobald aufgedeckt</b>: Füge dem befreundeten Charakter mit den wenigsten verbleibenden Lebenspunkten 1 Schaden zu. Falls der Charakter auf diese Weise besiegt wird, wiederhole den Effekt.\n★ <b>Boost</b>: Handle die <i>„Sobald aufgedeckt\"</i>-Fähigkeit dieser Karte ab.",
+    "text": "<b>Sobald aufgedeckt</b>: Füge dem befreundeten Charakter mit den wenigsten verbleibenden Lebenspunkten 1 Schaden zu. Falls der Charakter auf diese Weise besiegt wird, wiederhole den Effekt.\n[star] <b>Boost</b>: Handle die <i>„Sobald aufgedeckt\"</i>-Fähigkeit dieser Karte ab.",
     "subname": "Nebenplan"
   },
   {
     "code": "24022",
     "name": "Reissfester Faden",
-    "text": "Hänge diese Karte an einen <i>Mystiker</i>-Schergen an. Falls du das nicht kannst, hänge sie an den Schurken an.\n★ <b>Erzwungene Reaktion</b>: Nachdem der Gegner mit diesem Anhang gegen dich aktiviert worden ist, lege diese Karte ab → wähle 1 Verbündeten, Vorteil oder Upgrade unter deiner Kontrolle, lege die gewählte Karte ab und teile dir selbst 1 verdeckte Begegnungskarte zu.",
+    "text": "Hänge diese Karte an einen <i>Mystiker</i>-Schergen an. Falls du das nicht kannst, hänge sie an den Schurken an.\n[star] <b>Erzwungene Reaktion</b>: Nachdem der Gegner mit diesem Anhang gegen dich aktiviert worden ist, lege diese Karte ab → wähle 1 Verbündeten, Vorteil oder Upgrade unter deiner Kontrolle, lege die gewählte Karte ab und teile dir selbst 1 verdeckte Begegnungskarte zu.",
     "traits": "Gegenstand.",
     "subname": "Anhang"
   },
@@ -231,14 +231,14 @@
   {
     "code": "24040",
     "name": "Tech-Fäuste",
-    "text": "Hänge diese Karte an den Schergen mit den meisten verbleibenden Lebenspunkten an. Falls du das nicht kannst, erhält diese Karte Nachrüsten.\nDer Scherge mit diesem Anhang bekommt +3 Lebenspunkte.\n★ Die Angriffe des Schergen mit diesem Anhang erhalten Overkill.",
+    "text": "Hänge diese Karte an den Schergen mit den meisten verbleibenden Lebenspunkten an. Falls du das nicht kannst, erhält diese Karte Nachrüsten.\nDer Scherge mit diesem Anhang bekommt +3 Lebenspunkte.\n[star] Die Angriffe des Schergen mit diesem Anhang erhalten Overkill.",
     "traits": "Tech. Waffe.",
     "subname": "Anhang"
   },
   {
     "code": "24039",
     "name": "Jetpack",
-    "text": "Hänge diese Karte an den Schergen mit den meisten verbleibenden Lebenspunkten an. Falls du das nicht kannst, erhält diese Karte Nachrüsten.\n<b>Erzwungene Unterbrechung</b>: Sobald der Scherge mit diesem Anhang eine beliebige Menge an Schaden durch einen Angriff nehmen würde, lege die oberste Karte des Begegnungsdecks ab. Senke den Schaden des Angriffs um die Anzahl der auf diese Weise abgelegten Boost-Symbole (★).",
+    "text": "Hänge diese Karte an den Schergen mit den meisten verbleibenden Lebenspunkten an. Falls du das nicht kannst, erhält diese Karte Nachrüsten.\n<b>Erzwungene Unterbrechung</b>: Sobald der Scherge mit diesem Anhang eine beliebige Menge an Schaden durch einen Angriff nehmen würde, lege die oberste Karte des Begegnungsdecks ab. Senke den Schaden des Angriffs um die Anzahl der auf diese Weise abgelegten Boost-Symbole ([boost]).",
     "traits": "Gegenstand. Tech.",
     "subname": "Anhang"
   },
@@ -252,7 +252,7 @@
   {
     "code": "24037",
     "name": "Flammenwerfer",
-    "text": "Hänge diese Karte an den Schergen mit den meisten verbleibenden Lebenspunkten an. Falls du das nicht kannst, durchsuche das Begegnungsdeck und den Ablagestapel nach einem Schergen, bringe ihn mit dir im Kampf ins Spiel und hänge diese Karte an ihn an. <i>(Mische.)</i>\n★ Die Angriffe des Schergen mit diesem Anhang fügen indirekten Schaden zu.",
+    "text": "Hänge diese Karte an den Schergen mit den meisten verbleibenden Lebenspunkten an. Falls du das nicht kannst, durchsuche das Begegnungsdeck und den Ablagestapel nach einem Schergen, bringe ihn mit dir im Kampf ins Spiel und hänge diese Karte an ihn an. <i>(Mische.)</i>\n[star] Die Angriffe des Schergen mit diesem Anhang fügen indirekten Schaden zu.",
     "traits": "Tech. Waffe.",
     "subname": "Anhang"
   },
@@ -293,35 +293,35 @@
   {
     "code": "24047",
     "name": "White Rabbit",
-    "text": "★ <b>Erzwungene Unterbrechung</b>: Sobald White Rabbit dich angreift, lege 1 zufällige Karte von deiner Hand ab.\n★ <b>Boost</b>: Wähle 1 identitätsspezifische Karte von deiner Hand und lege sie ab.",
+    "text": "[star] <b>Erzwungene Unterbrechung</b>: Sobald White Rabbit dich angreift, lege 1 zufällige Karte von deiner Hand ab.\n[star] <b>Boost</b>: Wähle 1 identitätsspezifische Karte von deiner Hand und lege sie ab.",
     "traits": "Krimineller.",
     "subname": "Scherge"
   },
   {
     "code": "24046",
     "name": "Speed Demon",
-    "text": "<b>Erzwungene Unterbrechung</b>: Sobald ein Charakter Speed Demon angreift, greift Speed Demon den Charakter an. <i>(Handle Speed Demons Angriff zuerst ab.)</i>\n★ <b>Boost</b>: Lege den Vorteil unter deiner Kontrolle mit den niedrigsten Kosten ab.",
+    "text": "<b>Erzwungene Unterbrechung</b>: Sobald ein Charakter Speed Demon angreift, greift Speed Demon den Charakter an. <i>(Handle Speed Demons Angriff zuerst ab.)</i>\n[star] <b>Boost</b>: Lege den Vorteil unter deiner Kontrolle mit den niedrigsten Kosten ab.",
     "traits": "Krimineller.",
     "subname": "Scherge"
   },
   {
     "code": "24045",
     "name": "Shocker",
-    "text": "<b>Erzwungene Reaktion</b>: Nachdem Shocker angegriffen worden ist, betäube den angreifenden Charakter.\n★ <b>Boost</b>: Betäube den Charakter unter deiner Kontrolle mit dem höchsten ANG-Wert.",
+    "text": "<b>Erzwungene Reaktion</b>: Nachdem Shocker angegriffen worden ist, betäube den angreifenden Charakter.\n[star] <b>Boost</b>: Betäube den Charakter unter deiner Kontrolle mit dem höchsten ANG-Wert.",
     "traits": "Krimineller. Masters of Evil.",
     "subname": "Scherge"
   },
   {
     "code": "24044",
     "name": "Boomerang",
-    "text": "★ <b>Erzwungene Reaktion</b>: Nachdem Boomerang dich angegriffen hat, füge jedem Verbündeten unter deiner Kontrolle 1 Schaden zu.\n★ <b>Boost</b>: Füge jedem Verbündeten unter deiner Kontrolle 2 Schaden zu.",
+    "text": "[star] <b>Erzwungene Reaktion</b>: Nachdem Boomerang dich angegriffen hat, füge jedem Verbündeten unter deiner Kontrolle 1 Schaden zu.\n[star] <b>Boost</b>: Füge jedem Verbündeten unter deiner Kontrolle 2 Schaden zu.",
     "traits": "Krimineller. Masters of Evil.",
     "subname": "Scherge"
   },
   {
     "code": "24043",
     "name": "Beetle",
-    "text": "★ <b>Erzwungene Reaktion</b>: Nachdem Beetle dich angegriffen und dir Schaden zugefügt hat, lege das Upgrade unter deiner Kontrolle mit den niedrigsten Kosten ab.\n★ <b>Boost</b>: Wähle ein Upgrade unter deiner Kontrolle und lege es ab.",
+    "text": "[star] <b>Erzwungene Reaktion</b>: Nachdem Beetle dich angegriffen und dir Schaden zugefügt hat, lege das Upgrade unter deiner Kontrolle mit den niedrigsten Kosten ab.\n[star] <b>Boost</b>: Wähle ein Upgrade unter deiner Kontrolle und lege es ab.",
     "traits": "Krimineller.",
     "subname": "Scherge"
   },
@@ -369,7 +369,7 @@
   {
     "code": "24059",
     "name": "Stadtweite Krise",
-    "text": "<b>Sobald aufgedeckt</b>: Handle jede <i>„Sobald aufgedeckt\"</i>-Fähigkeit auf jedem Nebenplan im Spiel ab. Falls auf diese Weise keine <i>„Sobald aufgedeckt\"</i>-Fähigkeit abgehandelt wurde, platziere 2 Bedrohung auf jedem Plan.\n★ <b>Boost</b>: Handle die <i>„Sobald aufgedeckt\"</i>-Fähigkeit dieser Karte ab.",
+    "text": "<b>Sobald aufgedeckt</b>: Handle jede <i>„Sobald aufgedeckt\"</i>-Fähigkeit auf jedem Nebenplan im Spiel ab. Falls auf diese Weise keine <i>„Sobald aufgedeckt\"</i>-Fähigkeit abgehandelt wurde, platziere 2 Bedrohung auf jedem Plan.\n[star] <b>Boost</b>: Handle die <i>„Sobald aufgedeckt\"</i>-Fähigkeit dieser Karte ab.",
     "subname": "Verrat"
   },
   {
@@ -395,13 +395,13 @@
   {
     "code": "24069",
     "name": "Gemeinsame Anstrengung",
-    "text": "<b>Sobald aufgedeckt</b>: Jeder <i>Elite</i>-Scherge im Spiel wird aktiviert. Falls auf diese Weise kein Scherge aktiviert wurde, erhält diese Karte Nachrüsten.\n★ <b>Boost</b>: Für jeden <i>Elite</i>-Schergen im Spiel bekommt diese Karte für diese Aktivierung +1 Boost-Symbol (★).",
+    "text": "<b>Sobald aufgedeckt</b>: Jeder <i>Elite</i>-Scherge im Spiel wird aktiviert. Falls auf diese Weise kein Scherge aktiviert wurde, erhält diese Karte Nachrüsten.\n[star] <b>Boost</b>: Für jeden <i>Elite</i>-Schergen im Spiel bekommt diese Karte für diese Aktivierung +1 Boost-Symbol ([boost]).",
     "subname": "Verrat"
   },
   {
     "code": "24068",
     "name": "Thunderball",
-    "text": "Schurkisch. <i>(Sobald dieser Scherge aktiviert wird, gib ihm eine Boost-Karte.)</i>\n★ <b>Erzwungene Reaktion</b>: Nachdem Thunderball dich angegriffen hat, füge jedem Charakter unter deiner Kontrolle 1 Schaden zu.",
+    "text": "Schurkisch. <i>(Sobald dieser Scherge aktiviert wird, gib ihm eine Boost-Karte.)</i>\n[star] <b>Erzwungene Reaktion</b>: Nachdem Thunderball dich angegriffen hat, füge jedem Charakter unter deiner Kontrolle 1 Schaden zu.",
     "traits": "Elite. Schläger.",
     "flavor": "<i>„Na los, komm her! Es ist Abrisszeit!\"</i>",
     "subname": "Scherge"
@@ -417,7 +417,7 @@
   {
     "code": "24066",
     "name": "Bulldozer",
-    "text": "Schurkisch. <i>(Sobald dieser Scherge aktiviert wird, gib ihm eine Boost-Karte.)</i>\n★ Bulldozers Angriffe erhalten Overkill.",
+    "text": "Schurkisch. <i>(Sobald dieser Scherge aktiviert wird, gib ihm eine Boost-Karte.)</i>\n[star] Bulldozers Angriffe erhalten Overkill.",
     "traits": "Elite. Schläger.",
     "flavor": "<i>„Nichts stellt sich dem Bulldozer in den Weg!\"</i>",
     "subname": "Scherge"
@@ -425,7 +425,7 @@
   {
     "code": "24065",
     "name": "Wrecker",
-    "text": "Schurkisch. <i>(Sobald dieser Scherge aktiviert wird, gib ihm eine Boost-Karte.)</i>\n★ Solange Wrecker angreift und falls der Angriff unverteidigt ist, bekommt er +2 ANG.",
+    "text": "Schurkisch. <i>(Sobald dieser Scherge aktiviert wird, gib ihm eine Boost-Karte.)</i>\n[star] Solange Wrecker angreift und falls der Angriff unverteidigt ist, bekommt er +2 ANG.",
     "traits": "Elite. Schläger.",
     "flavor": "<i>„Du bist totes Fleisch, das darauf wartet, weichgeklopft zu werden!\"</i>",
     "subname": "Scherge"

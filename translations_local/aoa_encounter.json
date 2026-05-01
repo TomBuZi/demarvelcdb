@@ -924,7 +924,7 @@
   {
     "code": "45026",
     "name": "Trevor Fitzroy",
-    "text": "Erstschlag.\n<b>Erzwungene Reaktion:</b> Nachdem Trevor Fitzroy einen Verbündeten angegriffen und besiegt hat und falls der Nebenplan Portal durch die Zeit im Spiel ist, platziere 2 Bedrohung darauf. Ansonsten finde den Nebenplan und decke ihn auf.",
+    "text": "Erstschlag.\n<b>Erzwungene Reaktion:</b> Nachdem Trevor Fitzroy einen Verbündeten angegriffen und besiegt hat und falls der Nebenplan Portal durch die Zeit im Spiel ist, platziere 2 Bedrohung darauf. Ansonsten finde den Nebenplan und decke ihn auf.\n<i>(Bishops Erzfeind-Scherge.)</i>",
     "traits": "Elite. Temporal.",
     "flavor": "(Bishops Erzfeind-Scherge.)"
   },
@@ -956,7 +956,7 @@
   {
     "code": "45054",
     "name": "Belasco",
-    "text": "Schurkisch.\n[star] <b>Erzwungene Reaktion:</b> Nachdem Belasco gegen dich aktiviert worden ist, lege die obersten 3 Karten deines Decks ab. Falls der Nebenplan Herrscher des Limbo im Spiel ist, hänge die Karten verdeckt daran an.",
+    "text": "Schurkisch.\n[star] <b>Erzwungene Reaktion:</b> Nachdem Belasco gegen dich aktiviert worden ist, lege die obersten 3 Karten deines Decks ab. Falls der Nebenplan Herrscher des Limbo im Spiel ist, hänge die Karten verdeckt daran an.\n<i>(Magiks Erzfeind-Scherge.)</i>",
     "traits": "Elite. Limbo.",
     "flavor": "(Magiks Erzfeind-Scherge.)"
   },

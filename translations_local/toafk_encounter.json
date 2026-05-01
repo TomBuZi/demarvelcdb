@@ -1,0 +1,332 @@
+[
+  {
+    "code": "11001",
+    "name": "Kang (Der Eroberer)",
+    "text": "Zähigkeit.\n[star] <b>Erzwungene Unterbrechung</b>: Sobald Kang dich angreift, platziere entweder 1 Bedrohung auf dem Hauptplan oder er bekommt für diesen Angriff +2 ANG.\n<b>Sobald besiegt</b>: Rücke am Ende der Phase zu Abschnitt 2 vor.",
+    "traits": "Temporal."
+  },
+  {
+    "code": "11002",
+    "name": "Kang (Immortus)",
+    "text": "Zähigkeit.\nDieser Schurke kann keinen Schaden nehmen, solange ein Scherge im Spiel ist.\n<b>Sobald besiegt</b>: Entferne Chronopolis aus dem Spiel. Tritt am Ende der Phase einem anderen Spielbereich bei.",
+    "traits": "Temporal."
+  },
+  {
+    "code": "11003",
+    "name": "Kang (Iron Lad)",
+    "text": "Vergeltung 1. Zähigkeit.\n<b>Sobald besiegt</b>: Entferne Unaufhaltsames Schicksal aus dem Spiel. Tritt am Ende der Phase einem anderen Spielbereich bei.",
+    "traits": "Temporal."
+  },
+  {
+    "code": "11004",
+    "name": "Kang (Rama-Tut)",
+    "text": "Zähigkeit.\n[star] Dieser Schurke bekommt +1 ANG für jede Verpflichtung im Spiel.\n<b>Sobald besiegt</b>: Entferne Das Reich des Rama-Tut aus dem Spiel. Tritt am Ende der Phase einem anderen Spielbereich bei.",
+    "traits": "Temporal."
+  },
+  {
+    "code": "11005",
+    "name": "Kang (Scarlet Centurion)",
+    "text": "Zähigkeit.\n[star] Die Angriffe dieses Schurken erhalten Durchdringend.\n<b>Sobald besiegt</b>: Entferne Krieg zwischen Gegenwart und Zukunft aus dem Spiel. Tritt am Ende der Phase einem anderen Spielbereich bei.",
+    "traits": "Temporal."
+  },
+  {
+    "code": "11006",
+    "name": "Kang (Der Eroberer)",
+    "text": "Zähigkeit.\n[star] <b>Erzwungene Unterbrechung</b>: Sobald Kang dich angreift, platziere entweder 1 Bedrohung auf dem Hauptplan oder er bekommt für diesen Angriff +2 ANG.\n<b>Sobald besiegt</b>: Die Spieler gewinnen das Spiel.",
+    "traits": "Temporal."
+  },
+  {
+    "code": "11007a",
+    "name": "Kangs Ankunft",
+    "text": "<b>Inhalt</b>: Kang (I), alle Kang (II)- und Kang (III)-Karten und das Kang- und Standard-Begegnungssets. Ein modulares Begegnungsset <i>(Zeitversetzt.)</i>\n<b>Spielaufbau</b>: Lege alle Kang (II)-Karten, Kang (III) und alle Nebenpläne Kangs Herrschaftsgebiet beiseite. Entferne die Verpflichtungskarten jedes Spielers aus dem Spiel. Mische das Begegnungsdeck."
+  },
+  {
+    "code": "11007b",
+    "name": "Kangs Ankunft",
+    "text": "<b>Sobald aufgedeckt</b>: Teile jedem Spieler eine Begegnungskarte zu.\n<b>Falls dieser Abschnitt vollendet ist, verlieren die Spieler das Spiel.</b>",
+    "flavor": "Kang glaubt, dass er, wenn er die mächtigsten Helden der Erde besiegt, sich der Rest des Planeten seiner Herrschaft unterwerfen wird."
+  },
+  {
+    "code": "11008a",
+    "name": "Der Meister der Zeit",
+    "text": "<b>Sobald aufgedeckt</b>: Platziere hier 1 Beschleunigungsmarker für jeden Nebenplan im Spiel. Lege dann jeden Nebenplan ab. Jeder Spieler deckt in Spielerreihenfolge einen zufälligen Abschnitt 3A auf. Entferne alle nicht verwendeten Abschnitt-3-Pläne aus dem Spiel.",
+    "flavor": "Kang gerät ins Straucheln, aber rettet sich, indem er die Helden in Zeit und Raum voneinander trennt."
+  },
+  {
+    "code": "11008b",
+    "name": "Der Meister der Zeit",
+    "text": "<b>Erzwungene Unterbrechung</b>: Sobald ein Beschleunigungsmarker auf einem anderen Plan platziert werden würde, platziere ihn stattdessen hier.\n<b>Spieler können diesem Spielbereich nicht beitreten, es sei denn, es gibt keine anderen verbleibenden Spielbereiche. Sobald alle Spieler diesem Spielbereich beigetreten sind, rücke zu Abschnitt 4A vor.</b>"
+  },
+  {
+    "code": "11009a",
+    "name": "Chronopolis",
+    "text": "<b>Sobald aufgedeckt</b>: Erschaffe deinen eigenen Spielbereich und platziere diesen Plan darin. Füge Kang (Immortus) dem Spielbereich hinzu und teile dir selbst eine Begegnungskarte zu."
+  },
+  {
+    "code": "11009b",
+    "name": "Chronopolis",
+    "text": "<b>Erzwungene Reaktion</b>: Nachdem dieser Abschnitt vollendet worden ist, platziere 1 beiseitegelegten Nebenplan Kangs Herrschaftsgebiet verdeckt unter Abschnitt 4A. Entferne Kang (Immortus) und diesen Abschnitt am Ende der Phase aus dem Spiel und verbinde deinen Spielbereich mit einem anderen Spielbereich.\n<b>Falls alle Spieler in diesem Abschnitt besiegt werden, ist dieser Abschnitt vollendet.</b>"
+  },
+  {
+    "code": "11010a",
+    "name": "Unaufhaltsames Schicksal",
+    "text": "<b>Sobald aufgedeckt</b>: Erschaffe deinen eigenen Spielbereich und platziere diesen Plan darin. Füge Kang (Iron Lad) dem Spielbereich hinzu und teile dir selbst eine Begegnungskarte zu."
+  },
+  {
+    "code": "11010b",
+    "name": "Unaufhaltsames Schicksal",
+    "text": "<b>Erzwungene Reaktion</b>: Nachdem dieser Abschnitt vollendet worden ist, platziere 1 beiseitegelegten Nebenplan Kangs Herrschaftsgebiet verdeckt unter Abschnitt 4A. Entferne Kang (Iron Lad) und diesen Abschnitt am Ende der Phase aus dem Spiel und verbinde deinen Spielbereich mit einem anderen Spielbereich.\n<b>Falls alle Spieler in diesem Abschnitt besiegt werden, ist dieser Abschnitt vollendet.</b>"
+  },
+  {
+    "code": "11011a",
+    "name": "Das Reich des Rama-Tut",
+    "text": "<b>Sobald aufgedeckt</b>: Erschaffe deinen eigenen Spielbereich und platziere diesen Plan darin. Füge Kang (Rama-Tut) dem Spielbereich hinzu und teile dir selbst eine Begegnungskarte zu."
+  },
+  {
+    "code": "11011b",
+    "name": "Das Reich des Rama-Tut",
+    "text": "<b>Erzwungene Reaktion</b>: Nachdem dieser Abschnitt vollendet worden ist, platziere 1 beiseitegelegten Nebenplan Kangs Herrschaftsgebiet verdeckt unter Abschnitt 4A. Entferne Kang (Rama-Tut) und diesen Abschnitt am Ende der Phase aus dem Spiel und verbinde deinen Spielbereich mit einem anderen Spielbereich.\n<b>Falls alle Spieler in diesem Abschnitt besiegt werden, ist dieser Abschnitt vollendet.</b>"
+  },
+  {
+    "code": "11012a",
+    "name": "Krieg zwischen Gegenwart und Zukunft",
+    "text": "<b>Sobald aufgedeckt</b>: Erschaffe deinen eigenen Spielbereich und platziere diesen Plan darin. Füge Kang (Scarlet Centurion) dem Spielbereich hinzu und teile dir selbst eine Begegnungskarte zu."
+  },
+  {
+    "code": "11012b",
+    "name": "Krieg zwischen Gegenwart und Zukunft",
+    "text": "<b>Erzwungene Reaktion</b>: Nachdem dieser Abschnitt vollendet worden ist, platziere 1 beiseitegelegten Nebenplan Kangs Herrschaftsgebiet verdeckt unter Abschnitt 4A. Entferne Kang (Scarlet Centurion) und diesen Abschnitt am Ende der Phase aus dem Spiel und verbinde deinen Spielbereich mit einem anderen Spielbereich.\n<b>Falls alle Spieler in diesem Abschnitt besiegt werden, ist dieser Abschnitt vollendet.</b>"
+  },
+  {
+    "code": "11013a",
+    "name": "Kangs Zorn",
+    "text": "<b>Sobald aufgedeckt</b>: Decke Kang (III) auf und füge ihn dem Spielbereich hinzu. Decke jeden verdeckten Nebenplan Kangs Herrschaftsgebiet unter diesem Abschnitt auf.",
+    "flavor": "Ihr habt die Technologie eures Gegners genutzt, um euch in der Gegenwart wieder zu vereinen, gerade rechtzeitig, um Kangs Angriff auf die Erde abzuwehren."
+  },
+  {
+    "code": "11013b",
+    "name": "Kangs Zorn",
+    "text": "<b>Sobald aufgedeckt</b>: Jeder Spieler durchsucht das Begegnungsdeck, den Ablagestapel und die beiseitegelegten Karten nach seinem Erzfeind-Schergen und bringt ihn im Kampf mit sich ins Spiel. Mische das Begegnungsdeck.\n<b>Falls dieser Abschnitt vollendet ist, verlieren die Spieler das Spiel.</b>"
+  },
+  {
+    "code": "11014",
+    "name": "Temporaler Schild",
+    "text": "Hänge diese Karte an Kang an.\n<b>Erzwungene Unterbrechung</b>: Sobald Kang angegriffen wird, lege Temporaler Schild ab → verhindere allen Schaden durch diesen Angriff und füge dem Angreifer 1 Schaden zu. (Max. 1 pro Angriff.)",
+    "traits": "Tech.",
+    "flavor": "\"Legt eure kindischen Waffen weg! Sie sind nicht mehr als Spielzeuge für mich!\" - Kang"
+  },
+  {
+    "code": "11015",
+    "name": "Waffe aus der Zukunft",
+    "text": "Hänge diese Karte an Kang an.\n[star] <b>Erzwungene Unterbrechung</b>: Sobald Kang angreift, erhält der Angriff Overkill. Falls dieser Angriff einem Helden Schaden zufügt, wird der Held betäubt. Lege Waffe aus der Zukunft nach diesem Angriff ab.",
+    "traits": "Tech. Waffe.",
+    "flavor": "\"Genau wie ich weißt du, dass ein Kampf etwas bedeutet, und Ehre noch viel mehr!\" - Kang"
+  },
+  {
+    "code": "11016",
+    "name": "In der Zeit eingefroren",
+    "text": "Hänge diese Karte an deine Identität an.\n<b>Erzwungene Unterbrechung</b>: Sobald der Charakter mit diesem Anhang spielbereit gemacht werden würde, lege stattdessen diese Karte ab.\n<hr />\n[star] <b>Boost</b>: Hänge diese Karte an deine Identität an.",
+    "traits": "Temporal."
+  },
+  {
+    "code": "11017",
+    "name": "Macrobots",
+    "text": "Wache. Vergeltung 1.\n<hr />\n[star] <b>Boost</b>: Gib Kang eine Zäh-Statuskarte.",
+    "traits": "Roboter. Temporal."
+  },
+  {
+    "code": "11018",
+    "name": "Geschwächt",
+    "text": "<b>Erzwungene Reaktion</b>: Nachdem du eine Helden-Basiskraft verwendet hast, nimm 1 Schaden.\n<b>Alter Ego - Aktion</b>: Lege eine [physical]-Ressource von deiner Hand ab → lege diese Verpflichtung ab.",
+    "traits": "Temporal.",
+    "flavor": "\"Geschichte wird geschrieben! Geschaffen durch die Taten der Starken! Der Tapferen! Und Schicksal wird geschmiedet!\" - Kang"
+  },
+  {
+    "code": "11019",
+    "name": "Gestohlene Erinnerungen",
+    "text": "<b>Sobald aufgedeckt</b>: Platziere die obersten 8 Karten deines Decks verdeckt unter dieser Karte.\n<b>Alter Ego - Aktion</b>: Lege eine [mental]-Ressource von deiner Hand ab → lege diese Verpflichtung ab. <i>(Lege jede verdeckte Karte unter dieser Verpflichtung ab.)</i>",
+    "traits": "Temporal."
+  },
+  {
+    "code": "11020",
+    "name": "Entkräftet",
+    "text": "Du kannst keine heldenspezifischen Karten spielen.\n<b>Alter Ego - Aktion</b>: Lege eine heldenspezifische Karte von deiner Hand ab → lege diese Verpflichtung ab.",
+    "traits": "Temporal.",
+    "flavor": "\"Größere Männer als du haben vor meinem Namen gezittert. Geringere Männer sind bei seiner Erwähnung in Ohnmacht gefallen!\" - Kang"
+  },
+  {
+    "code": "11021",
+    "name": "Zeitreise-Paradoxon",
+    "text": "<b>Sobald aufgedeckt</b>: Lege die Karte mit den höchsten Kosten unter deiner Kontrolle ab. Platziere sie dann verdeckt unter dieser Karte.\n<b>Alter Ego - Aktion</b>: Lege eine [energy]-Ressource von deiner Hand ab → lege diese Verpflichtung ab. <i>(Lege jede verdeckte Karte unter dieser Verpflichtung ab.)</i>",
+    "traits": "Temporal."
+  },
+  {
+    "code": "11022",
+    "name": "Zerrissener Zeitstrom",
+    "text": "Spieler können keine \"<b>Alter Ego - Aktion</b>\"-Fähigkeiten auf Verpflichtungen auslösen.\n<b>Sobald aufgedeckt</b>: Jeder Spieler muss entweder 1 zufällige Karte von seiner Hand ablegen oder hier 2 Bedrohung platzieren."
+  },
+  {
+    "code": "11023",
+    "name": "Kangs Herrschaftsgebiet",
+    "text": "Kang kann keinen Schaden nehmen.\n<b>Sobald besiegt</b>: Teile dem Spieler, der diesen Plan besiegt hat, eine Begegnungskarte zu.",
+    "flavor": "\"Die Zukunft gehört Kang! KANG!\" - Kang"
+  },
+  {
+    "code": "11024",
+    "name": "Festgenagelt",
+    "text": "<b>Sobald aufgedeckt</b>: Platziere hier 2 Bedrohung für jede Verpflichtung im Spiel."
+  },
+  {
+    "code": "11025",
+    "name": "Zerstörungswut",
+    "text": "<b>Sobald besiegt</b>: Lege Karten vom Begegnungsdeck ab, bis ein Scherge abgelegt wird. Bringe den Schergen mit dem Spieler im Kampf ins Spiel, der diesen Plan besiegt hat."
+  },
+  {
+    "code": "11026",
+    "name": "Energiestrahl",
+    "text": "<b>Sobald aufgedeckt (Alter Ego)</b>: Lege einen Verbündeten oder Vorteil unter deiner Kontrolle ab. Falls du das nicht kannst, erhält diese Karte Nachrüsten.\n<b>Sobald aufgedeckt (Held)</b>: Kang greift dich an."
+  },
+  {
+    "code": "11027",
+    "name": "Manipulierter Zeitstrom",
+    "text": "<b>Sobald aufgedeckt</b>: Lege jedes Ereignis von deiner Hand ab. Falls auf diese Weise keine Ereignisse abgelegt wurden, erhält diese Karte Nachrüsten.",
+    "flavor": "\"Es sind die Eroberer, die die Welt verändern.\" - Kang"
+  },
+  {
+    "code": "11028",
+    "name": "Zeitreise-Taktiken",
+    "text": "Nachrüsten.\n<b>Sobald aufgedeckt</b>: Jeder Spieler nimmt 1 indirekten Schaden für jede Verpflichtung in seiner Spielzone.\n<hr />\n[star] <b>Boost</b>: Diese Karte erhält 1 Boost-Symbol ([boost]) für jede Verpflichtung in deiner Spielzone."
+  },
+  {
+    "code": "11029",
+    "name": "Frühere Machenschaften",
+    "text": "Anstacheln 1. <i>(Platziere 1 Bedrohung auf dem Hauptplan, sobald diese Karte aufgedeckt wird.)</i>\n<b>Sobald aufgedeckt</b>: Jeder Spieler durchsucht das Begegnungsdeck und den Ablagestapel nach einer unterschiedlichen Verpflichtung und deckt sie auf. Mische das Begegnungsdeck."
+  },
+  {
+    "code": "11030",
+    "name": "Uralter Krieger",
+    "text": "Erstschlag.\n<hr />\n[star] <b>Boost</b>: Du wirst betäubt.",
+    "traits": "Soldat. Temporal."
+  },
+  {
+    "code": "11031",
+    "name": "Chitauri-Soldat",
+    "text": "[star] <b>Erzwungene Unterbrechung</b>: Sobald Chitauri-Soldat dich angreift, lege die oberste Karte des Begegnungsdecks ab → nimm indirekten Schaden in Höhe der Anzahl an Boost-Symbolen auf der Karte.",
+    "traits": "Soldat. Temporal."
+  },
+  {
+    "code": "11032",
+    "name": "Tyrannosaurus Rex",
+    "text": "Zähigkeit.\n[star] Tyrannosaurus Rex' Angriffe erhalten Durchdringend.",
+    "traits": "Kreatur. Temporal."
+  },
+  {
+    "code": "11033",
+    "name": "Zeitportal",
+    "text": "<b>Erzwungene Unterbrechung</b>: Sobald dieser Plan besiegt wird, mische ihn in das Begegnungsdeck, anstatt ihn abzulegen."
+  },
+  {
+    "code": "11034",
+    "name": "Kang (Der Eroberer)",
+    "text": "Zähigkeit.\n[star] <b>Erzwungene Unterbrechung</b>: Sobald Kang dich angreift, platziere entweder 1 Bedrohung auf dem Hauptplan oder er bekommt für diesen Angriff +2 ANG.\n<b>Sobald besiegt</b>: Rücke am Ende der Phase zu Abschnitt 2 vor.",
+    "traits": "Temporal."
+  },
+  {
+    "code": "11035",
+    "name": "Kang (Immortus)",
+    "text": "Zähigkeit.\nDieser Schurke kann keinen Schaden nehmen, solange ein Scherge im Spiel ist.\n<b>Sobald besiegt</b>: Entferne Chronopolis aus dem Spiel. Tritt am Ende der Phase einem anderen Spielbereich bei.",
+    "traits": "Temporal."
+  },
+  {
+    "code": "11036",
+    "name": "Kang (Iron Lad)",
+    "text": "Vergeltung 1. Zähigkeit.\n<b>Sobald besiegt</b>: Entferne Unaufhaltsames Schicksal aus dem Spiel. Tritt am Ende der Phase einem anderen Spielbereich bei.",
+    "traits": "Temporal."
+  },
+  {
+    "code": "11037",
+    "name": "Kang (Rama-Tut)",
+    "text": "Zähigkeit.\n[star] Dieser Schurke bekommt +1 ANG für jede Verpflichtung im Spiel.\n<b>Sobald besiegt</b>: Entferne Das Reich des Rama-Tut aus dem Spiel. Tritt am Ende der Phase einem anderen Spielbereich bei.",
+    "traits": "Temporal."
+  },
+  {
+    "code": "11038",
+    "name": "Kang (Scarlet Centurion)",
+    "text": "Zähigkeit.\n[star] Die Angriffe dieses Schurken erhalten Durchdringend.\n<b>Sobald besiegt</b>: Entferne Krieg zwischen Gegenwart und Zukunft aus dem Spiel. Tritt am Ende der Phase einem anderen Spielbereich bei.",
+    "traits": "Temporal."
+  },
+  {
+    "code": "11039",
+    "name": "Kang (Der Eroberer)",
+    "text": "Zähigkeit.\n[star] <b>Erzwungene Unterbrechung</b>: Sobald Kang dich angreift, platziere entweder 1 Bedrohung auf dem Hauptplan oder er bekommt für diesen Angriff +2 ANG.\n<b>Sobald besiegt</b>: Die Spieler gewinnen das Spiel.",
+    "traits": "Temporal."
+  },
+  {
+    "code": "11040",
+    "name": "Apocryphus",
+    "text": "<b>Sobald aufgedeckt</b>: Lege einen Verbündeten oder Vorteil unter deiner Kontrolle ab.\n<hr />\n[star] <b>Boost</b>: Erschöpfe einen Charakter unter deiner Kontrolle. Gib diesem Gegner eine weitere Boost-Karte.",
+    "traits": "Elite. Temporal."
+  },
+  {
+    "code": "11041",
+    "name": "Deathunt 9000",
+    "text": "Zähigkeit. Schurkisch. <i>(Sobald dieser Scherge aktiviert wird, gib ihm eine Boost-Karte.)</i>\n<hr />\n[star] <b>Boost</b>: Gib diesem Gegner eine Zäh-Statuskarte und eine weitere Boost-Karte.",
+    "traits": "Elite. Temporal."
+  },
+  {
+    "code": "11042",
+    "name": "Sir Raston",
+    "text": "Wache. Vergeltung 1.\n<hr />\n[star] <b>Boost</b>: Nimm 1 Schaden. Gib diesem Gegner eine weitere Boost-Karte.",
+    "traits": "Elite. Temporal."
+  },
+  {
+    "code": "11043",
+    "name": "Terminatrix",
+    "text": "Erstschlag.\n[star] Terminatrix' Angriffe erhalten Durchdringend.\n<hr />\n[star] <b>Boost</b>: Gib diesem Gegner 2 weitere Boost-Karten.",
+    "traits": "Elite. Temporal."
+  },
+  {
+    "code": "11044",
+    "name": "Wildrun",
+    "text": "<b>Sobald aufgedeckt</b>: Lege 1 zufällige Karte von deiner Hand ab.\n<hr />\n[star] <b>Boost</b>: Lege 1 zufällige Karte von deiner Hand ab. Gib diesem Gegner eine weitere Boost-Karte.",
+    "traits": "Elite. Temporal."
+  },
+  {
+    "code": "11045",
+    "name": "Die Anachronauten",
+    "text": "<b>Sobald besiegt</b>: Mische jede <i>Temporal</i>-Karte im Begegnungs-Ablagestapel in das Begegnungsdeck."
+  },
+  {
+    "code": "11046",
+    "name": "Kangs Auserwählter",
+    "text": "Anstacheln 1. <i>(Sobald aufgedeckt, platziere 1 Bedrohung auf dem Hauptplan.)</i>\n<b>Sobald aufgedeckt</b>: Lege Karten vom Begegnungsdeck ab, bis ein <i>Temporal</i>-Scherge abgelegt wird. Decke den Schergen auf."
+  },
+  {
+    "code": "11047",
+    "name": "Kang (Meister der Zeit)",
+    "text": "Zähigkeit. Schurkisch. <i>(Sobald dieser Scherge aktiviert wird, gib ihm eine Boost-Karte.)</i>\nKang (Meister der Zeit) bekommt +1 PLA und +1 ANG für jede Verpflichtung in deiner Spielzone.",
+    "traits": "Elite. Temporal."
+  },
+  {
+    "code": "11048",
+    "name": "Zeitversetzter Soldat",
+    "text": "Anstacheln 1. Nachrüsten.\n<hr />\n[star] <b>Boost</b>: Teile dir selbst 1 verdeckte Begegnungskarte zu.",
+    "traits": "Elite. Temporal."
+  },
+  {
+    "code": "11049",
+    "name": "Furcht vor Kang",
+    "text": "Du kannst Kang nicht angreifen.\n<b>Alter Ego - Aktion</b>: Lege eine zufällige Karte von deiner Hand ab → lege diese Verpflichtung ab.",
+    "traits": "Temporal."
+  },
+  {
+    "code": "11050",
+    "name": "Lichtsphäre der Jahrhunderte",
+    "text": "<b>Sobald besiegt</b>: Lege Karten vom Begegnungsdeck ab, bis ein Scherge abgelegt wird. Bringe den Schergen mit dem Spieler im Kampf ins Spiel, der diesen Plan besiegt hat."
+  },
+  {
+    "code": "11051",
+    "name": "Uralter Groll",
+    "text": "<b>Sobald aufgedeckt</b>: Kang (Meister der Zeit) wird gegen dich aktiviert. Falls Kang (Meister der Zeit) nicht im Spiel ist, durchsuche das Begegnungsdeck und den Ablagestapel nach Kang (Meister der Zeit) und bringe ihn im Kampf mit dir ins Spiel. Mische das Begegnungsdeck."
+  }
+]

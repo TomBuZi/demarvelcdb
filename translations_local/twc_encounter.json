@@ -1,0 +1,324 @@
+[
+  {
+    "code": "07001a",
+    "name": "Ausbruch",
+    "text": "<b>Inhalt des Szenarios</b>: Wrecker A, Thunderball A, Piledriver A und Bulldozer A als Schurken. <i>(Version B für erhöhten Schwierigkeitsgrad.)</i> Wrecker-, Thunderball-, Piledriver- und Bulldozer-Begegnungsdecks.\n<b>Spielaufbau</b>: Bringe die Nebenpläne „Tag der Abrechnung\", „Euch stampf ich ein!\" und „Den Weg freimachen\" ins Spiel. Platziere den Aktivmarker auf Wrecker. Rücke zu Abschnitt 1B vor."
+  },
+  {
+    "code": "07001b",
+    "name": "Ausbruch",
+    "text": "[star] <b>Erzwungene Reaktion</b>: Platziere nach Schritt 1 der Schurkenphase 1 Bedrohung auf jedem Nebenplan. Verschiebe den Aktivmarker auf den Schurken, dessen Plan die meiste Bedrohung hat. <i>(Bei Gleichstand entscheidet der Startspieler.)</i>\n<b>Falls dieser Abschnitt vollendet ist, verlieren die Spieler das Spiel.</b>"
+  },
+  {
+    "code": "07002",
+    "name": "Wrecker",
+    "text": "[star] Sobald Wrecker den Plan vorantreibt, platziere die Bedrohung auf seinem Nebenplan anstatt auf dem Hauptplan.\n[star] Solange Wrecker angreift, bekommt er +2 ANG, falls der Angriff unverteidigt ist.",
+    "traits": "Wrecking Crew."
+  },
+  {
+    "code": "07003",
+    "name": "Wrecker",
+    "text": "[star] Sobald Wrecker den Plan vorantreibt, platziere die Bedrohung auf seinem Nebenplan anstatt auf dem Hauptplan.\n[star] Solange Wrecker angreift, bekommt er +2 ANG, falls der Angriff unverteidigt ist.",
+    "traits": "Wrecking Crew."
+  },
+  {
+    "code": "07004",
+    "name": "Tag der Abrechnung",
+    "text": "<b>Wreckers Nebenplan.</b>\nDiese Karte kann das Spiel nicht verlassen, solange Wrecker im Spiel ist.\nÜbler Schläger - <b>Erzwungene Reaktion</b>: Nachdem hier Bedrohung platziert worden ist und falls dadurch 10 oder mehr Bedrohung auf diesem Plan liegen, füge jedem befreundeten Charakter 2 Schaden zu. Entferne alle Bedrohung bis auf 3 von diesem Plan."
+  },
+  {
+    "code": "07005",
+    "name": "Geiselnahme",
+    "text": "Hänge diese Karte an den Nebenplan des aktiven Schurken an.\nVon dem Plan mit diesem Anhang kann keine Bedrohung durch Widerstandleisten entfernt werden.\n<b>Held - Aktion</b>: Der Schurke, an dessen Nebenplan diese Karte angehängt ist, greift dich an. Lege dann diese Karte ab."
+  },
+  {
+    "code": "07006",
+    "name": "Magische Brechstange",
+    "text": "Hänge diese Karte an Wrecker an.\n[star] <b>Erzwungene Reaktion</b>: Nachdem Wrecker angegriffen hat, platziere 1 Bedrohung auf dem Nebenplan mit der wenigsten Bedrohung.\n<b>Held - Aktion</b>: Erschöpfe deinen Helden und lege 1 zufällige Karte von deiner Hand ab → lege diese Karte ab.",
+    "traits": "Waffe."
+  },
+  {
+    "code": "07007",
+    "name": "Wreckers Kommando",
+    "text": "Hänge diese Karte an Wrecker an.\n[star] <b>Erzwungene Reaktion</b>: Nachdem Wrecker den Plan vorangetrieben hat, platziere 1 Bedrohung auf dem Nebenplan jedes anderen Schurken.\n<b>Held - Aktion</b>: Gib [physical] [physical]-Ressourcen aus → lege diese Karte ab.",
+    "traits": "Zustand."
+  },
+  {
+    "code": "07008",
+    "name": "Korrupter Gefängniswärter",
+    "text": "Wache. <i>(Solange dieser Scherge mit dir im Kampf ist, kannst du den Schurken nicht angreifen.)</i>",
+    "traits": "Verräter."
+  },
+  {
+    "code": "07009",
+    "name": "Entflohener Sträfling",
+    "text": "Nachrüsten.\n<hr />\n[star] <b>Boost</b>: Verschiebe den Aktivmarker auf den Schurken, dessen Nebenplan die wenigste Bedrohung hat. Falls du in Heldengestalt bist, greift dich jener Schurke nach diesem Angriff an. Jener Angriff bekommt keine Boost-Karte.",
+    "traits": "Krimineller."
+  },
+  {
+    "code": "07010",
+    "name": "Nur mit meinem Buddy",
+    "text": "<b>Sobald aufgedeckt</b>: Wähle den Schurken, dessen Nebenplan die wenigste Bedrohung hat. Decke die oberste Karte seines Decks auf (die obersten 2 Karten stattdessen, falls er der einzige Schurke im Spiel ist).\n<hr />\n[star] <b>Boost</b>: Verschiebe den Aktivmarker auf den Schurken, dessen Nebenplan die wenigste Bedrohung hat."
+  },
+  {
+    "code": "07011",
+    "name": "Chaos im Gefängnis",
+    "text": "<b>Sobald aufgedeckt</b>: Wähle: Lege entweder ein Upgrade unter deiner Kontrolle ab oder platziere für jedes Upgrade unter deiner Kontrolle 1 Bedrohung auf dem Nebenplan des aktiven Schurken. Falls du keine Upgrades kontrollierst, erhält diese Karte Nachrüsten.\n<hr />\n[star] <b>Boost</b>: Falls dieser Angriff unverteidigt ist, lege ein Upgrade unter deiner Kontrolle ab."
+  },
+  {
+    "code": "07012",
+    "name": "Brechstangenwurf",
+    "text": "<b>Sobald aufgedeckt (Alter Ego)</b>: Wrecker treibt den Plan voran. Verschiebe dann den Aktivmarker auf den Schurken, dessen Nebenplan die wenigste Bedrohung hat.\n<b>Sobald aufgedeckt (Held)</b>: Wrecker greift dich an. Verschiebe dann den Aktivmarker auf den Schurken, dessen Nebenplan die wenigste Bedrohung hat."
+  },
+  {
+    "code": "07013",
+    "name": "Wir machen euch fertig!",
+    "text": "<b>Sobald aufgedeckt (Alter Ego)</b>: Der Schurke, dessen Nebenplan die meiste Bedrohung hat, treibt den Plan voran.\n<b>Sobald aufgedeckt (Held)</b>: Der Schurke, dessen Nebenplan die wenigste Bedrohung hat, greift dich an."
+  },
+  {
+    "code": "07014",
+    "name": "„Darauf hab ich gewartet!“",
+    "text": "<b>Sobald aufgedeckt</b>: Der aktive Schurke heilt 3 Schaden. Gib ihm eine Zäh-Statuskarte.\n<hr />\n[star] <b>Boost</b>: Verschiebe den Aktivmarker auf den Schurken, dessen Nebenplan die wenigste Bedrohung hat. Jener Schurke treibt den Plan voran."
+  },
+  {
+    "code": "07015",
+    "name": "Mystische Verbindung",
+    "text": "<b>Sobald aufgedeckt</b>: Platziere 2 Bedrohung auf jedem Nebenplan.\n[star] <b>Boost</b>: Wrecker bekommt für diese Aktivierung +3 ANG, es sei denn, du platzierst 2 Bedrohung auf seinem Nebenplan."
+  },
+  {
+    "code": "07016",
+    "name": "„Du bist so gut wie tot!“",
+    "text": "<b>Sobald aufgedeckt</b>: Füge dem Helden oder Verbündeten mit den wenigsten verbleibenden Lebenspunkten 1 Schaden zu. Falls der Charakter auf diese Weise besiegt wird, platziere 3 Bedrohung auf Wreckers Nebenplan."
+  },
+  {
+    "code": "07017",
+    "name": "Thunderball",
+    "text": "[star] Sobald Thunderball den Plan vorantreibt, platziere die Bedrohung auf seinem Nebenplan anstatt auf dem Hauptplan.\n[star] <b>Erzwungene Reaktion</b>: Nachdem Thunderball dich angegriffen hat, füge jedem Charakter unter deiner Kontrolle 1 Schaden zu.",
+    "traits": "Wrecking Crew."
+  },
+  {
+    "code": "07018",
+    "name": "Thunderball",
+    "text": "[star] Sobald Thunderball den Plan vorantreibt, platziere die Bedrohung auf seinem Nebenplan anstatt auf dem Hauptplan.\n[star] <b>Erzwungene Reaktion</b>: Nachdem Thunderball dich angegriffen hat, füge jedem Charakter unter deiner Kontrolle 1 Schaden zu.",
+    "traits": "Wrecking Crew."
+  },
+  {
+    "code": "07019",
+    "name": "Die Kugel geben",
+    "text": "<b>Thunderballs Nebenplan.</b>\nDiese Karte kann das Spiel nicht verlassen, solange Thunderball im Spiel ist.\nGamma-Stoß - <b>Erzwungene Reaktion</b>: Nachdem hier Bedrohung platziert worden ist und falls dadurch 10 oder mehr Bedrohung auf diesem Plan liegen, betäube jeden befreundeten Charakter. Entferne alle Bedrohung bis auf 3 von diesem Plan."
+  },
+  {
+    "code": "07020",
+    "name": "Kettenkugel",
+    "text": "Hänge diese Karte an Thunderball an.\n[star] <b>Erzwungene Reaktion</b>: Nachdem Thunderball angegriffen hat, platziere 1 Bedrohung auf dem Hauptplan.\n<b>Held - Aktion</b>: Erschöpfe deinen Helden und lege eine zufällige 1 Karte von deiner Hand ab → lege diese Karte ab.",
+    "traits": "Waffe."
+  },
+  {
+    "code": "07021",
+    "name": "Geiselnahme",
+    "text": "Hänge diese Karte an den Nebenplan des aktiven Schurken an.\nVon dem Plan mit diesem Anhang kann keine Bedrohung durch Widerstandleisten entfernt werden.\n<b>Held - Aktion</b>: Der Schurke, an dessen Nebenplan diese Karte angehängt ist, greift dich an. Lege dann diese Karte ab."
+  },
+  {
+    "code": "07022",
+    "name": "Konzentrierte Radioaktivität",
+    "text": "Hänge diese Karte an Thunderball an.\nÜberschüssiger Schaden, den Thunderball zufügt, wird als Bedrohung auf seinem zugehörigen Nebenplan platziert.\n[star] <b>Erzwungene Reaktion</b>: Nachdem Thunderball angegriffen hat, lege diese Karte ab.",
+    "traits": "Zustand."
+  },
+  {
+    "code": "07023",
+    "name": "Korrupter Gefängniswärter",
+    "text": "Wache. <i>(Solange dieser Scherge mit dir im Kampf ist, kannst du den Schurken nicht angreifen.)</i>",
+    "traits": "Verräter."
+  },
+  {
+    "code": "07024",
+    "name": "Entflohener Sträfling",
+    "text": "Nachrüsten.\n<hr />\n[star] <b>Boost</b>: Verschiebe den Aktivmarker auf den Schurken, dessen Nebenplan die wenigste Bedrohung hat. Falls du in Heldengestalt bist, greift dich jener Schurke nach diesem Angriff an. Jener Angriff bekommt keine Boost-Karte.",
+    "traits": "Krimineller."
+  },
+  {
+    "code": "07025",
+    "name": "Nur mit meinem Buddy",
+    "text": "<b>Sobald aufgedeckt</b>: Wähle den Schurken, dessen Nebenplan die wenigste Bedrohung hat. Decke die oberste Karte seines Decks auf (die obersten 2 Karten stattdessen, falls er der einzige Schurke im Spiel ist).\n<hr />\n[star] <b>Boost</b>: Verschiebe den Aktivmarker auf den Schurken, dessen Nebenplan die wenigste Bedrohung hat."
+  },
+  {
+    "code": "07026",
+    "name": "Chaos im Gefängnis",
+    "text": "<b>Sobald aufgedeckt</b>: Wähle: Lege entweder ein Upgrade unter deiner Kontrolle ab oder platziere für jedes Upgrade unter deiner Kontrolle 1 Bedrohung auf dem Nebenplan des aktiven Schurken. Falls du keine Upgrades kontrollierst, erhält diese Karte Nachrüsten.\n<hr />\n[star] <b>Boost</b>: Falls dieser Angriff unverteidigt ist, lege ein Upgrade unter deiner Kontrolle ab."
+  },
+  {
+    "code": "07027",
+    "name": "Energieprojektile",
+    "text": "<b>Sobald aufgedeckt</b>: Füge jedem befreundeten Charakter unter deiner Kontrolle 1 Schaden zu.\n<hr />\n[star] <b>Boost</b>: Füge dem verteidigenden Charakter 1 Schaden zu."
+  },
+  {
+    "code": "07028",
+    "name": "Wir machen euch fertig!",
+    "text": "<b>Sobald aufgedeckt (Alter Ego)</b>: Der Schurke, dessen Nebenplan die meiste Bedrohung hat, treibt den Plan voran.\n<b>Sobald aufgedeckt (Held)</b>: Der Schurke, dessen Nebenplan die wenigste Bedrohung hat, greift dich an."
+  },
+  {
+    "code": "07029",
+    "name": "„Darauf hab ich gewartet!“",
+    "text": "<b>Sobald aufgedeckt</b>: Der aktive Schurke heilt 3 Schaden. Gib ihm eine Zäh-Statuskarte.\n<hr />\n[star] <b>Boost</b>: Verschiebe den Aktivmarker auf den Schurken, dessen Nebenplan die wenigste Bedrohung hat. Jener Schurke treibt den Plan voran."
+  },
+  {
+    "code": "07030",
+    "name": "Blitzexplosion",
+    "text": "<b>Sobald aufgedeckt (Alter Ego)</b>: Platziere 3 Bedrohung auf dem Nebenplan mit der meisten Bedrohung.\n<b>Sobald aufgedeckt (Held)</b>: Thunderball greift dich an. Falls der Angriff unverteidigt ist, platziere 3 Bedrohung auf Thunderballs Nebenplan."
+  },
+  {
+    "code": "07031",
+    "name": "Taktisches Geschick",
+    "text": "<b>Sobald aufgedeckt</b>: Verschiebe alle Bedrohung vom Nebenplan mit der wenigsten Bedrohung auf den Nebenplan mit der meisten Bedrohung. Falls die \"Erzwungene Reaktion\"-Fähigkeit jenes Plans nicht auf diese Weise ausgelöst wird, erhält diese Karte Nachrüsten."
+  },
+  {
+    "code": "07032",
+    "name": "Piledriver",
+    "text": "Vergeltung 1.\n[star] Sobald Piledriver den Plan vorantreibt, platziere die Bedrohung auf seinem Nebenplan anstatt auf dem Hauptplan.",
+    "traits": "Wrecking Crew."
+  },
+  {
+    "code": "07033",
+    "name": "Piledriver",
+    "text": "Vergeltung 1.\n[star] Sobald Piledriver den Plan vorantreibt, platziere die Bedrohung auf seinem Nebenplan anstatt auf dem Hauptplan.",
+    "traits": "Wrecking Crew."
+  },
+  {
+    "code": "07034",
+    "name": "Euch stampf ich ein!",
+    "text": "<b>Piledrivers Nebenplan.</b>\nDiese Karte kann das Spiel nicht verlassen, solange Piledriver im Spiel ist.\nEinrammen - <b>Erzwungene Reaktion</b>: Nachdem hier Bedrohung platziert worden ist und falls dadurch 10 oder mehr Bedrohung auf diesem Plan liegen, legt jeder Spieler den Vorteil oder den Support unter seiner Kontrolle mit den höchsten Kosten ab. Entferne alle Bedrohung bis auf 3 von diesem Plan."
+  },
+  {
+    "code": "07035",
+    "name": "Ablenkender Spott",
+    "text": "Hänge diese Karte an Piledriver an.\nPiledriver bekommt +3 Lebenspunkte. Spieler können keine anderen Schurken angreifen.\n<b>Reaktion</b>: Nachdem dein Held Piledriver angegriffen hat, gib [physical] [physical]-Ressourcen aus → lege diese Karte ab."
+  },
+  {
+    "code": "07036",
+    "name": "Geiselnahme",
+    "text": "Hänge diese Karte an den Nebenplan des aktiven Schurken an.\nVon dem Plan mit diesem Anhang kann keine Bedrohung durch Widerstandleisten entfernt werden.\n<b>Held - Aktion</b>: Der Schurke, an dessen Nebenplan diese Karte angehängt ist, greift dich an. Lege dann diese Karte ab."
+  },
+  {
+    "code": "07037",
+    "name": "Korrupter Gefängniswärter",
+    "text": "Wache. <i>(Solange dieser Scherge mit dir im Kampf ist, kannst du den Schurken nicht angreifen.)</i>",
+    "traits": "Verräter."
+  },
+  {
+    "code": "07038",
+    "name": "Entflohener Sträfling",
+    "text": "Nachrüsten.\n<hr />\n[star] <b>Boost</b>: Verschiebe den Aktivmarker auf den Schurken, dessen Nebenplan die wenigste Bedrohung hat. Falls du in Heldengestalt bist, greift dich jener Schurke nach diesem Angriff an. Jener Angriff bekommt keine Boost-Karte.",
+    "traits": "Krimineller."
+  },
+  {
+    "code": "07039",
+    "name": "Nur mit meinem Buddy",
+    "text": "<b>Sobald aufgedeckt</b>: Wähle den Schurken, dessen Nebenplan die wenigste Bedrohung hat. Decke die oberste Karte seines Decks auf (die obersten 2 Karten stattdessen, falls er der einzige Schurke im Spiel ist).\n<hr />\n[star] <b>Boost</b>: Verschiebe den Aktivmarker auf den Schurken, dessen Nebenplan die wenigste Bedrohung hat."
+  },
+  {
+    "code": "07040",
+    "name": "Wir machen euch fertig!",
+    "text": "<b>Sobald aufgedeckt (Alter Ego)</b>: Der Schurke, dessen Nebenplan die meiste Bedrohung hat, treibt den Plan voran.\n<b>Sobald aufgedeckt (Held)</b>: Der Schurke, dessen Nebenplan die wenigste Bedrohung hat, greift dich an."
+  },
+  {
+    "code": "07041",
+    "name": "„Darauf hab ich gewartet!“",
+    "text": "<b>Sobald aufgedeckt</b>: Der aktive Schurke heilt 3 Schaden. Gib ihm eine Zäh-Statuskarte.\n<hr />\n[star] <b>Boost</b>: Verschiebe den Aktivmarker auf den Schurken, dessen Nebenplan die wenigste Bedrohung hat. Jener Schurke treibt den Plan voran."
+  },
+  {
+    "code": "07042",
+    "name": "Übergrosse Hände",
+    "text": "<b>Sobald aufgedeckt</b>: Lege den Vorteil unter deiner Kontrolle mit den höchsten Kosten ab. Falls auf diese Weise kein Vorteil abgelegt wurde, platziere 2 Bedrohung auf dem Plan des aktiven Schurken.\n<hr />\n[star] <b>Boost</b>: Lege einen Vorteil unter deiner Kontrolle ab."
+  },
+  {
+    "code": "07043",
+    "name": "Fluchtplan",
+    "text": "<b>Sobald aufgedeckt</b>: Du wirst verwirrt. Falls du bereits verwirrt bist, treibt Piledriver den Plan voran.\n<hr />\n[star] <b>Boost</b>: Gib dem aktiven Schurken eine Zäh-Statuskarte. Falls dieser bereits eine Zäh-Statuskarte hat, platziere 2 Bedrohung auf seinem Plan."
+  },
+  {
+    "code": "07044",
+    "name": "Mit den Fäusten bearbeiten",
+    "text": "<b>Sobald aufgedeckt (Alter Ego)</b>: Piledriver treibt den Plan voran. Falls Piledriver zäh ist, bekommt er für diese Aktivierung +2 PLA.\n<b>Sobald aufgedeckt (Held)</b>: Piledriver greift dich an. Falls Piledriver zäh ist, bekommt er für diese Aktivierung +2 ANG."
+  },
+  {
+    "code": "07045",
+    "name": "Unheimlich widerstandsfähig",
+    "text": "<b>Sobald aufgedeckt</b>: Entferne jede Betäubt- und Verwirrt-Statuskarte von jedem Schurken. Falls auf diese Weise keine Statuskarten entfernt wurden, erhält diese Karte Nachrüsten.\n<hr />\n[star] <b>Boost</b>: Du wirst verwirrt."
+  },
+  {
+    "code": "07046",
+    "name": "Bulldozer",
+    "text": "[star] Sobald Bulldozer den Plan vorantreibt, platziere die Bedrohung auf seinem Nebenplan anstatt auf dem Hauptplan.\n[star] <b>Erzwungene Unterbrechung</b>: Sobald Bulldozer angreift, erhält der Angriff Overkill.",
+    "traits": "Wrecking Crew."
+  },
+  {
+    "code": "07047",
+    "name": "Bulldozer",
+    "text": "[star] Sobald Bulldozer den Plan vorantreibt, platziere die Bedrohung auf seinem Nebenplan anstatt auf dem Hauptplan.\n[star] <b>Erzwungene Unterbrechung</b>: Sobald Bulldozer angreift, erhält der Angriff Overkill.",
+    "traits": "Wrecking Crew."
+  },
+  {
+    "code": "07048",
+    "name": "Den Weg freimachen",
+    "text": "<b>Bulldozers Nebenplan.</b>\nDiese Karte kann das Spiel nicht verlassen, solange Bulldozer im Spiel ist.\nAus dem Weg! - <b>Erzwungene Reaktion</b>: Nachdem hier Bedrohung platziert worden ist und falls dadurch 10 oder mehr Bedrohung auf diesem Plan liegen, muss jeder Spieler die obersten 10 Karten seines Decks ablegen. Entferne alle Bedrohung bis auf 3 von diesem Plan."
+  },
+  {
+    "code": "07049",
+    "name": "Bulldozers Helm",
+    "text": "Hänge diese Karte an Bulldozer an.\n[star] <b>Erzwungene Reaktion</b>: Nachdem Bulldozer dich angegriffen hat, lege für jeden Schadenspunkt durch diesen Angriff 1 Karte oben von deinem Deck ab.\n<b>Held - Aktion</b>: Erschöpfe deinen Helden und lege 1 zufällige Karte von deiner Hand ab → lege diese Karte ab.",
+    "traits": "Rüstung."
+  },
+  {
+    "code": "07050",
+    "name": "Geiselnahme",
+    "text": "Hänge diese Karte an den Nebenplan des aktiven Schurken an.\nVon dem Plan mit diesem Anhang kann keine Bedrohung durch Widerstandleisten entfernt werden.\n<b>Held - Aktion</b>: Der Schurke, an dessen Nebenplan diese Karte angehängt ist, greift dich an. Lege dann diese Karte ab."
+  },
+  {
+    "code": "07051",
+    "name": "Rammgeschwindigkeit",
+    "text": "Hänge diese Karte an Bulldozer an.\n[star] <b>Erzwungene Unterbrechung</b>: Sobald Bulldozer dich angreift, musst du gegen Bulldozers Angriff mit einem Verbündeten unter deiner Kontrolle verteidigen, falls möglich.\n[star] <b>Erzwungene Reaktion</b>: Nachdem Bulldozer dich angegriffen hat, lege diese Karte ab.",
+    "traits": "Zustand."
+  },
+  {
+    "code": "07052",
+    "name": "Korrupter Gefängniswärter",
+    "text": "Wache. <i>(Solange dieser Scherge mit dir im Kampf ist, kannst du den Schurken nicht angreifen.)</i>",
+    "traits": "Verräter."
+  },
+  {
+    "code": "07053",
+    "name": "Entflohener Sträfling",
+    "text": "Nachrüsten.\n<hr />\n[star] <b>Boost</b>: Verschiebe den Aktivmarker auf den Schurken, dessen Nebenplan die wenigste Bedrohung hat. Falls du in Heldengestalt bist, greift dich jener Schurke nach diesem Angriff an. Jener Angriff bekommt keine Boost-Karte.",
+    "traits": "Krimineller."
+  },
+  {
+    "code": "07054",
+    "name": "Nur mit meinem Buddy",
+    "text": "<b>Sobald aufgedeckt</b>: Wähle den Schurken, dessen Nebenplan die wenigste Bedrohung hat. Decke die oberste Karte seines Decks auf (die obersten 2 Karten stattdessen, falls er der einzige Schurke im Spiel ist).\n<hr />\n[star] <b>Boost</b>: Verschiebe den Aktivmarker auf den Schurken, dessen Nebenplan die wenigste Bedrohung hat."
+  },
+  {
+    "code": "07055",
+    "name": "Wie ein wilder Stier",
+    "text": "<b>Sobald aufgedeckt (Alter Ego)</b>: Bulldozer treibt den Plan voran. Lege für jede durch diese Aktivierung platzierte Bedrohung 1 Karte oben von deinem Deck ab.\n<b>Sobald aufgedeckt (Held)</b>: Bulldozer greift dich an. Lege für jeden durch diesen Angriff zugefügten Schaden 1 Karte oben von deinem Deck ab."
+  },
+  {
+    "code": "07056",
+    "name": "Chaos im Gefängnis",
+    "text": "<b>Sobald aufgedeckt</b>: Wähle: Lege entweder ein Upgrade unter deiner Kontrolle ab oder platziere für jedes Upgrade unter deiner Kontrolle 1 Bedrohung auf dem Nebenplan des aktiven Schurken. Falls du keine Upgrades kontrollierst, erhält diese Karte Nachrüsten.\n<hr />\n[star] <b>Boost</b>: Falls dieser Angriff unverteidigt ist, lege ein Upgrade unter deiner Kontrolle ab."
+  },
+  {
+    "code": "07057",
+    "name": "Wir machen euch fertig!",
+    "text": "<b>Sobald aufgedeckt (Alter Ego)</b>: Der Schurke, dessen Nebenplan die meiste Bedrohung hat, treibt den Plan voran.\n<b>Sobald aufgedeckt (Held)</b>: Der Schurke, dessen Nebenplan die wenigste Bedrohung hat, greift dich an."
+  },
+  {
+    "code": "07058",
+    "name": "Kopfstoß",
+    "text": "<b>Sobald aufgedeckt</b>: Lege 1 zufällige Karte von deiner Hand ab. Falls du in Heldengestalt bist, nimm Schaden in Höhe der aufgedruckten Kosten der Karte. Falls du in Alter-Ego-Gestalt bist, platziere Bedrohung auf Bulldozers Nebenplan in Höhe der aufgedruckten Kosten der Karte."
+  },
+  {
+    "code": "07059",
+    "name": "Den Angriff anführen",
+    "text": "<b>Sobald aufgedeckt</b>: Lege die obersten X Karten deines Decks ab. X ist Bulldozers ANG-Wert. Platziere 1 Bedrohung auf Bulldozers Nebenplan für jeden unterschiedlichen Kartentyp, der auf diese Weise abgelegt wurde."
+  }
+]

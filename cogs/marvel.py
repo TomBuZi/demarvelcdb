@@ -11,6 +11,33 @@ RULE_COLOR = 0x8B0000
 
 _DE_FIELDS = ("name", "text", "traits", "flavor", "subname")
 
+# Mehrseitige Karten haben Codes wie `45062a` / `45062b` (manche `…c`/`…d`).
+# Wir erkennen sie an einem Buchstaben-Suffix nach den Ziffern.
+_FLIP_CODE_RE = re.compile(r"^(\d+)([a-d])$")
+
+
+def _flip_siblings(card: dict, cards: list[dict]) -> list[dict]:
+    """Liefert alle Karten mit demselben Zahlen-Präfix wie `card`, sortiert
+    nach Suffix (a → b → c → d). Leere Liste, wenn die Karte keinen
+    Buchstaben-Suffix hat oder es keine weitere Seite gibt."""
+    m = _FLIP_CODE_RE.match(card.get("code", ""))
+    if not m:
+        return []
+    prefix = m.group(1)
+    siblings: list[dict] = []
+    seen_codes: set[str] = set()
+    for c in cards:
+        code = c.get("code", "")
+        cm = _FLIP_CODE_RE.match(code)
+        if not cm or cm.group(1) != prefix:
+            continue
+        if code in seen_codes:
+            continue
+        seen_codes.add(code)
+        siblings.append(c)
+    siblings.sort(key=lambda c: c["code"])
+    return siblings if len(siblings) > 1 else []
+
 
 def _apply_errata(card: dict, errata: dict) -> dict:
     patch = errata.get(card.get("code", ""))
@@ -148,16 +175,34 @@ class CardView(discord.ui.View):
     die zuletzt gewählte Variante.
     """
 
-    def __init__(self, card: dict, errata: dict, emojis: dict, requester_id: int):
+    def __init__(
+        self,
+        card: dict,
+        errata: dict,
+        emojis: dict,
+        requester_id: int,
+        siblings: list[dict] | None = None,
+    ):
         super().__init__(timeout=120)
-        self.card         = card
         self.errata       = errata
         self.emojis       = emojis
         self.requester_id = requester_id
         self.message: discord.Message | None = None
 
-        self.has_de     = _has_german_overlay(card)
-        self.has_errata = card.get("code", "") in errata
+        # Mehrseitige Karten: vollständige Sequenz + Index der aktuell gezeigten Seite.
+        # Bei einseitigen Karten bleibt `siblings` leer und der Flip-Button erscheint nicht.
+        self.siblings = siblings or []
+        if self.siblings:
+            self.idx = next(
+                (i for i, c in enumerate(self.siblings) if c.get("code") == card.get("code")),
+                0,
+            )
+            self.card = self.siblings[self.idx]
+        else:
+            self.idx  = 0
+            self.card = card
+
+        self._recompute_card_flags()
 
         # Initialer Zustand: zeige immer DE wenn vorhanden, mit Errata wenn vorhanden.
         self.lang            = "de"
@@ -165,13 +210,26 @@ class CardView(discord.ui.View):
 
         self._rebuild()
 
+    def _recompute_card_flags(self) -> None:
+        """Sprach- und Errata-Verfügbarkeit hängen an der aktuell gezeigten
+        Seite — beim Umdrehen müssen beide neu bestimmt werden."""
+        self.has_de     = _has_german_overlay(self.card)
+        self.has_errata = self.card.get("code", "") in self.errata
+
     def _rebuild(self) -> None:
         """Setzt die Buttons passend zum aktuellen State neu zusammen.
 
         Errata-Button erscheint nur in DE-Modus (Errata patcht deutsche Felder).
         Sprach-Button erscheint nur, wenn überhaupt eine deutsche Übersetzung
-        vorhanden ist."""
+        vorhanden ist. Flip-Button nur, wenn mindestens eine weitere Seite
+        existiert."""
         self.clear_items()
+
+        if len(self.siblings) > 1:
+            label = "Karte umdrehen" if self.lang == "de" else "Flip card"
+            btn = discord.ui.Button(label=label, style=discord.ButtonStyle.secondary)
+            btn.callback = self._flip
+            self.add_item(btn)
 
         if self.has_errata and self.lang == "de":
             label = "Original anzeigen" if self.errata_applied else "Errata anzeigen"
@@ -186,7 +244,7 @@ class CardView(discord.ui.View):
             self.add_item(btn)
 
         # Hide-Button immer dabei, wenn überhaupt einer der Toggles existiert.
-        if self.has_de or self.has_errata:
+        if self.has_de or self.has_errata or len(self.siblings) > 1:
             hide_label = "Buttons ausblenden" if self.lang == "de" else "Hide buttons"
             btn = discord.ui.Button(label=hide_label, style=discord.ButtonStyle.danger)
             btn.callback = self._hide
@@ -210,6 +268,17 @@ class CardView(discord.ui.View):
             await interaction.response.send_message(msg, ephemeral=True)
             return False
         return True
+
+    async def _flip(self, interaction: discord.Interaction):
+        self.idx  = (self.idx + 1) % len(self.siblings)
+        self.card = self.siblings[self.idx]
+        self._recompute_card_flags()
+        # Pro Seite gilt der Default: Errata anwenden, wenn vorhanden.
+        self.errata_applied = self.has_errata
+        self._rebuild()
+        await interaction.response.edit_message(
+            embed=build_embed(self._displayed_card(), self.emojis, lang=self.lang), view=self,
+        )
 
     async def _toggle_errata(self, interaction: discord.Interaction):
         self.errata_applied = not self.errata_applied
@@ -237,16 +306,24 @@ class CardView(discord.ui.View):
                 pass
 
 
-async def _send_card(send, card: dict, errata: dict, emojis: dict, requester_id: int) -> None:
+async def _send_card(
+    send,
+    card: dict,
+    errata: dict,
+    emojis: dict,
+    requester_id: int,
+    all_cards: list[dict] | None = None,
+) -> None:
     has_de     = _has_german_overlay(card)
     has_errata = card.get("code", "") in errata
+    siblings   = _flip_siblings(card, all_cards) if all_cards else []
 
     # Initiale Anzeige spiegelt den Default-State der View: DE + (Errata wenn vorhanden).
     initial = _apply_errata(card, errata) if has_errata else card
     embed   = build_embed(initial, emojis)
 
-    if has_de or has_errata:
-        view = CardView(card, errata, emojis, requester_id)
+    if has_de or has_errata or siblings:
+        view = CardView(card, errata, emojis, requester_id, siblings=siblings)
         view.message = await send(embed=embed, view=view)
     else:
         await send(embed=embed)
@@ -261,6 +338,7 @@ class CardSelectView(discord.ui.View):
         future: asyncio.Future | None = None,
         custom_emojis: dict | None = None,
         errata: dict | None = None,
+        all_cards: list[dict] | None = None,
     ):
         super().__init__(timeout=60)
         self.matches       = matches
@@ -269,6 +347,7 @@ class CardSelectView(discord.ui.View):
         self.future        = future
         self.custom_emojis = custom_emojis or {}
         self.errata        = errata or {}
+        self.all_cards     = all_cards or []
 
         page    = matches[offset:offset + PAGE_SIZE]
         total   = len(matches)
@@ -313,13 +392,15 @@ class CardSelectView(discord.ui.View):
 
         if value == "__prev__":
             new_view = CardSelectView(self.matches, max(0, self.offset - PAGE_SIZE),
-                                      self.requester_id, self.future, self.custom_emojis, self.errata)
+                                      self.requester_id, self.future, self.custom_emojis, self.errata,
+                                      all_cards=self.all_cards)
             await interaction.response.edit_message(view=new_view)
             return
 
         if value == "__next__":
             new_view = CardSelectView(self.matches, self.offset + PAGE_SIZE,
-                                      self.requester_id, self.future, self.custom_emojis, self.errata)
+                                      self.requester_id, self.future, self.custom_emojis, self.errata,
+                                      all_cards=self.all_cards)
             await interaction.response.edit_message(view=new_view)
             return
 
@@ -336,7 +417,8 @@ class CardSelectView(discord.ui.View):
         else:
             # Einzel-Modus: Embed direkt senden
             await interaction.response.edit_message(content=None, view=self)
-            await _send_card(interaction.followup.send, card, self.errata, self.custom_emojis, self.requester_id)
+            await _send_card(interaction.followup.send, card, self.errata, self.custom_emojis,
+                             self.requester_id, all_cards=self.all_cards)
 
         self.stop()
 
@@ -456,7 +538,8 @@ class Marvel(commands.Cog):
 
         emojis = self._custom_emojis()
         if len(matches) == 1 and kind != "fuzzy":
-            await _send_card(message.channel.send, matches[0], self.bot.errata, emojis, message.author.id)
+            await _send_card(message.channel.send, matches[0], self.bot.errata, emojis,
+                             message.author.id, all_cards=cards)
             return
 
         if kind == "fuzzy":
@@ -464,7 +547,7 @@ class Marvel(commands.Cog):
         else:
             prompt = f'**{len(matches)} Treffer** für "{query}" – bitte eine Karte wählen:'
         view = CardSelectView(matches, offset=0, requester_id=message.author.id,
-                              custom_emojis=emojis, errata=self.bot.errata)
+                              custom_emojis=emojis, errata=self.bot.errata, all_cards=cards)
         await message.channel.send(prompt, view=view)
 
     async def _handle_multi(self, message: discord.Message, cards: list, queries: list[str]):
@@ -492,7 +575,8 @@ class Marvel(commands.Cog):
 
             future: asyncio.Future = loop.create_future()
             view = CardSelectView(matches, offset=0, requester_id=message.author.id,
-                                  future=future, custom_emojis=emojis, errata=self.bot.errata)
+                                  future=future, custom_emojis=emojis, errata=self.bot.errata,
+                                  all_cards=cards)
             if kind == "fuzzy":
                 prompt = f'Keine direkten Treffer für „{query}" – ähnlichste Karten:'
             else:
@@ -514,7 +598,8 @@ class Marvel(commands.Cog):
         # Alle gefundenen Karten in Originalreihenfolge anzeigen
         for card in slots:
             if card is not None:
-                await _send_card(message.channel.send, card, self.bot.errata, emojis, message.author.id)
+                await _send_card(message.channel.send, card, self.bot.errata, emojis,
+                                 message.author.id, all_cards=cards)
 
 
 async def setup(bot):

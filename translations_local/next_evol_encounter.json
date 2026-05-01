@@ -1,0 +1,840 @@
+[
+  {
+    "code": "40070a",
+    "name": "Arclight",
+    "text": "[star] <b>Erzwungene Unterbrechung</b>: Sobald Arclight dich oder einen Verbündeten unter deiner Kontrolle angreift, wähle:\n• Verwirre einen Charakter unter deiner Kontrolle.\n• Arclight bekommt für diesen Angriff +2 ANG.",
+    "traits": "Ungeheuer. Marauder."
+  },
+  {
+    "code": "40070b",
+    "name": "Arclight",
+    "text": "[star] <b>Erzwungene Unterbrechung</b>: Sobald Arclight dich oder einen Verbündeten unter deiner Kontrolle angreift, wähle:\n• Verwirre den Charakter unter deiner Kontrolle mit dem höchsten WID-Wert.\n• Arclight bekommt für diesen Angriff +2 ANG.",
+    "traits": "Ungeheuer. Marauder."
+  },
+  {
+    "code": "40071a",
+    "name": "Blockbuster",
+    "text": "[star] <b>Erzwungene Unterbrechung</b>: Sobald Blockbuster dich oder einen Verbündeten unter deiner Kontrolle angreift, wähle:\n• Gib Blockbuster eine Zäh-Statuskarte.\n• Blockbuster bekommt für diesen Angriff +2 ANG.",
+    "traits": "Ungeheuer. Marauder."
+  },
+  {
+    "code": "40071b",
+    "name": "Blockbuster",
+    "text": "[star] <b>Erzwungene Unterbrechung</b>: Sobald Blockbuster dich oder einen Verbündeten unter deiner Kontrolle angreift, wähle:\n• Gib Blockbuster eine Zäh-Statuskarte.\n• Blockbuster bekommt für diesen Angriff +2 ANG und der Angriff erhält Overkill.",
+    "traits": "Ungeheuer. Marauder."
+  },
+  {
+    "code": "40072a",
+    "name": "Chimera",
+    "text": "[star] <b>Erzwungene Unterbrechung</b>: Sobald Chimera dich oder einen Verbündeten unter deiner Kontrolle angreift, wähle:\n• Gib eine [mental]-Ressource aus.\n• Chimera bekommt für diesen Angriff +2 ANG.",
+    "traits": "Marauder. Psionisch."
+  },
+  {
+    "code": "40072b",
+    "name": "Chimera",
+    "text": "[star] <b>Erzwungene Unterbrechung</b>: Sobald Chimera dich oder einen Verbündeten unter deiner Kontrolle angreift, wähle:\n• Gib [mental][mental]-Ressourcen aus.\n• Chimera bekommt für diesen Angriff +2 ANG.",
+    "traits": "Marauder. Psionisch."
+  },
+  {
+    "code": "40073a",
+    "name": "Greycrow",
+    "text": "[star] <b>Erzwungene Unterbrechung</b>: Sobald Greycrow dich oder einen Verbündeten unter deiner Kontrolle angreift, wähle:\n• Lege die Karte unter deiner Kontrolle mit den höchsten Kosten ab.\n• Greycrow bekommt für diesen Angriff +X ANG. X ist der Aufdruck-Kostenwert der Karte unter deiner Kontrolle mit den höchsten Kosten.",
+    "traits": "Marauder. Söldner."
+  },
+  {
+    "code": "40073b",
+    "name": "Greycrow",
+    "text": "[star] <b>Erzwungene Unterbrechung</b>: Sobald Greycrow dich oder einen Verbündeten unter deiner Kontrolle angreift, wähle:\n• Lege jede Karte unter deiner Kontrolle mit den höchsten Kosten ab.\n• Greycrow bekommt für diesen Angriff +X ANG. X ist der Aufdruck-Kostenwert der Karte unter deiner Kontrolle mit den höchsten Kosten.",
+    "traits": "Marauder. Söldner."
+  },
+  {
+    "code": "40074a",
+    "name": "Harpoon",
+    "text": "[star] <b>Erzwungene Unterbrechung</b>: Sobald Harpoon dich oder einen Verbündeten unter deiner Kontrolle angreift, wähle:\n• Nimm 2 indirekten Schaden.\n• Gib Harpoon für diesen Angriff 1 zusätzliche verdeckte Boost-Karte.",
+    "traits": "Ungeheuer. Marauder."
+  },
+  {
+    "code": "40074b",
+    "name": "Harpoon",
+    "text": "[star] <b>Erzwungene Unterbrechung</b>: Sobald Harpoon dich oder einen Verbündeten unter deiner Kontrolle angreift, wähle:\n• Nimm 3 indirekten Schaden.\n• Gib Harpoon für diesen Angriff 1 zusätzliche verdeckte Boost-Karte. Dieser Angriff erhält Overkill.",
+    "traits": "Ungeheuer. Marauder."
+  },
+  {
+    "code": "40075a",
+    "name": "Riptide",
+    "text": "[star] <b>Erzwungene Unterbrechung</b>: Sobald Riptide dich oder einen Verbündeten unter deiner Kontrolle angreift, wähle:\n• Platziere 2 Bedrohung auf dem Hauptplan und 1 Bedrohung auf jedem Nebenplan.\n• Riptide bekommt für diesen Angriff +2 ANG.",
+    "traits": "Attentäter. Marauder."
+  },
+  {
+    "code": "40075b",
+    "name": "Riptide",
+    "text": "[star] <b>Erzwungene Unterbrechung</b>: Sobald Riptide dich oder einen Verbündeten unter deiner Kontrolle angreift, wähle:\n• Platziere 3 Bedrohung auf dem Hauptplan und 1 Bedrohung auf jedem Nebenplan.\n• Riptide bekommt für diesen Angriff +2 ANG und dieser Angriff erhält Fernkampf und Durchdringend.",
+    "traits": "Attentäter. Marauder."
+  },
+  {
+    "code": "40076a",
+    "name": "Vertigo",
+    "text": "[star] <b>Erzwungene Unterbrechung</b>: Sobald Vertigo dich oder einen Verbündeten unter deiner Kontrolle angreift, wähle:\n• Betäube einen Charakter unter deiner Kontrolle.\n• Vertigo bekommt für diesen Angriff +2 ANG.",
+    "traits": "Marauder. Mutante."
+  },
+  {
+    "code": "40076b",
+    "name": "Vertigo",
+    "text": "[star] <b>Erzwungene Unterbrechung</b>: Sobald Vertigo dich oder einen Verbündeten unter deiner Kontrolle angreift, wähle:\n• Betäube den Charakter unter deiner Kontrolle mit dem höchsten ANG-Wert.\n• Vertigo bekommt für diesen Angriff +2 ANG.",
+    "traits": "Marauder. Mutante."
+  },
+  {
+    "code": "40077a",
+    "name": "Klopf, Klopf",
+    "text": "<b>Inhalt des Szenarios</b>: Marauder (Seite A) <i>(Seite B für erhöhten Schwierigkeitsgrad)</i>. Schergen des Morlockbefall und Standard-Begegnungssets. Zwei modulare Begegnungssets <i>(Militärische Ausrüstung und Mutantenjäger)</i>.\n<b>Spielaufbau</b>: Bringe die Umgebung \"Vertrieben\" ins Spiel. Lege den Verrat \"Versteckt euch!\" und jeden Morlock-Verbündeten beiseite. Mische die Schurken zusammen <i>(ohne hineinzusehen)</i> und erstelle so das Schurken-Deck. Die oberste Karte dieses Decks ist im Spiel."
+  },
+  {
+    "code": "40077b",
+    "name": "Klopf, Klopf",
+    "text": "[star] <b>Erzwungene Reaktion</b>: Nachdem Schritt 1 der Schurkenphase abgehandelt worden ist, platziere 1 Klopfmarker hier. Falls sich hier mindestens 3 Klopfmarker befinden, rücke zu Abschnitt 2A vor.\n<b>Falls sich 3 Schurken unter \"Vertrieben\" befinden, gewinnen die Spieler das Spiel.</b>"
+  },
+  {
+    "code": "40078a",
+    "name": "Mutanten-Massaker",
+    "text": "<b>Sobald aufgedeckt</b>: Jeder Spieler bringt 1 beiseitegestellten Morlock-Verbündeten unter seiner Kontrolle ins Spiel (stattdessen 2 beiseitegestellte Morlock-Verbündete bei einem Einzelspieler-Spiel). Mische den Verrat \"Versteckt euch!\" in das Begegnungsdeck. Falls der vorherige Abschnitt durch Klopfmarker vorangebracht wurde, gib jedem Morlock-Verbündeten eine Zäh-Statuskarte."
+  },
+  {
+    "code": "40078b",
+    "name": "Mutanten-Massaker",
+    "text": "<b>Aktion</b>: Erschöpfe einen <i>Morlock</i>-Verbündeten → mische \"Versteckt euch!\" aus dem Begegnungsablage in das Begegnungsdeck.\n<b>Falls sich 3 Schurken unter \"Vertrieben\" befinden, gewinnen die Spieler das Spiel.\nFalls dieser Abschnitt vollendet ist oder sich keine Morlock-Verbündeten im Spiel befinden, verlieren die Spieler das Spiel.</b>"
+  },
+  {
+    "code": "40079",
+    "name": "Morlock",
+    "text": "Sieg -1.\nZählt nicht gegen dein Verbündeten-Limit. Kartenfähigkeiten können diesen Verbündeten nicht aus dem Spiel entfernen.\n<b>Erzwungene Unterbrechung</b>: Sobald ein Feind dich angreift, greift er stattdessen einen Morlock unter deiner Kontrolle an.",
+    "traits": "Morlock. Mutant."
+  },
+  {
+    "code": "40080",
+    "name": "Versteckt euch!",
+    "text": "Nachrüsten.\n<b>Sobald aufgedeckt</b>: Gib 1 <i>Morlock</i>-Verbündeten eine Zäh-Statuskarte.\n<hr />\n[star] <b>Boost</b>: Gib 1 <i>Morlock</i>-Verbündeten eine Zäh-Statuskarte. Gib dem Schurken für diese Aktivierung 1 zusätzliche Boost-Karte."
+  },
+  {
+    "code": "40081a",
+    "name": "Vertrieben",
+    "text": "<b>Nur im Standardmodus.</b>\nKarten unter dieser Umgebung befinden sich nicht im Spiel.\n<b>Erzwungene Reaktion</b>: Nachdem der Schurke besiegt worden ist, lege ihn hierunter. Lege jeden Schergen ab, der denselben Namen wie der oberste Schurke des Schurken-Decks trägt. <i>(Jener Schurke ist im Spiel.)</i> Der Schurke aktiviert sich gegen jeden Spieler in Spielerreihenfolge."
+  },
+  {
+    "code": "40081b",
+    "name": "Vertrieben",
+    "text": "<b>Nur im Expertenmodus.</b>\nKarten unter dieser Umgebung befinden sich nicht im Spiel. Der Schurke erhält Vergeltung 1 für jede Karte hierunter.\n<b>Erzwungene Reaktion</b>: Nachdem der Schurke besiegt worden ist, lege ihn hierunter. Lege jeden Schergen ab, der denselben Namen wie der oberste Schurke des Schurken-Decks trägt. <i>(Jener Schurke ist im Spiel.)</i> Der Schurke aktiviert sich gegen jeden Spieler in Spielerreihenfolge."
+  },
+  {
+    "code": "40082",
+    "name": "Vom Zorn gestärkt",
+    "text": "Hänge diese Karte an den Schurken an.\n<b>Held - Aktion</b>: Erschöpfe einen Charakter unter deiner Kontrolle und gib X Ressourcen beliebigen Typs aus, wobei X die Anzahl der Schurken unter \"Vertrieben\" ist → lege diese Karte ab.\n<hr />\n[star] <b>Boost</b>: Diese Karte bekommt +X Boost-Symbole ([boost]), wobei X die Anzahl der Schurken unter \"Vertrieben\" ist.",
+    "traits": "Zustand."
+  },
+  {
+    "code": "40083",
+    "name": "Bis an die Grenzen getrieben",
+    "text": "Hänge diese Karte an den Schurken an.\nSolange sich genau 1 Schurke unter \"Vertrieben\" befindet, erhält der angehängte Schurke Standhaft.\nSolange sich genau 2 Schurken unter \"Vertrieben\" befinden, erhält der angehängte Schurke Gestählt.\n<b>Held - Aktion</b>: Der angehängte Schurke greift dich an → lege diese Karte ab.",
+    "traits": "Zustand."
+  },
+  {
+    "code": "40084",
+    "name": "Mit allen Mitteln",
+    "text": "<b>Sobald aufgedeckt</b>: Platziere für jeden Schurken unter \"Vertrieben\" 1[per_hero] zusätzliche Bedrohung hier."
+  },
+  {
+    "code": "40085",
+    "name": "Inmitten des Chaos",
+    "text": "<b>Sobald aufgedeckt</b>: Platziere für jeden Schurken unter \"Vertrieben\" 1[per_hero] zusätzliche Bedrohung hier."
+  },
+  {
+    "code": "40086",
+    "name": "Marodern ist nicht leicht",
+    "text": "<b>Sobald aufgedeckt</b>: Platziere für jeden Schurken unter \"Vertrieben\" 1[per_hero] zusätzliche Bedrohung hier."
+  },
+  {
+    "code": "40087",
+    "name": "Gebietskontrolle",
+    "text": "Ansturm. <i>(Einfaches Widerstandleisten gegen diesen Plan nutzt statt WID den ANG-Wert.)</i>\n<b>Sobald aufgedeckt</b>: Platziere für jeden Schurken unter \"Vertrieben\" 1[per_hero] zusätzliche Bedrohung hier."
+  },
+  {
+    "code": "40088",
+    "name": "Wieder im Einsatz",
+    "text": "<b>Sobald aufgedeckt</b>: Gib dem Schurken eine Zäh-Statuskarte. Platziere so viel Bedrohung auf dem Hauptplan, wie Schurken unter \"Vertrieben\" liegen.\n<hr />\n[star] <b>Boost</b>: Falls du einen Morlock-Verbündeten kontrollierst, wähle: Füge ihm entweder 1 Schaden zu oder gib 1 beliebige Ressource aus."
+  },
+  {
+    "code": "40089",
+    "name": "Die Schwachen aufspüren",
+    "text": "<b>Sobald aufgedeckt (Alter Ego)</b>: Diese Karte erhält Nachrüsten.\n<b>Sobald aufgedeckt (Held)</b>: Der Schurke greift dich an. Falls sich mindestens 1 Schurke unter \"Vertrieben\" befindet, erhält dieser Angriff Overkill.\n<hr />\n[star] <b>Boost</b>: Falls diese Aktivierung ein Angriff ist, erhält er Overkill."
+  },
+  {
+    "code": "40090",
+    "name": "Schwere Bewaffnung",
+    "text": "Hänge diese Karte an den Gegner mit dem höchsten ANG-Wert an.\nDer angehängte Gegner erhält Vergeltung 2.\n<b>Held - Reaktion</b>: Nachdem dein Held den angehängten Gegner angegriffen hat, gib 2 Ressourcen desselben Typs aus → lege diese Karte ab.",
+    "traits": "Waffe."
+  },
+  {
+    "code": "40091",
+    "name": "Titan-Exoskelett",
+    "text": "Hänge diese Karte an den Gegner mit den wenigsten verbleibenden Lebenspunkten an.\nDer angehängte Gegner kann durch einen einzelnen Angriff nicht mehr als 2 Schaden nehmen.\n<b>Held - Aktion</b>: Wähle: Gib entweder 3 Ressourcen beliebigen Typs aus oder entferne eine Verwirrt- oder Betäubt-Statuskarte vom angehängten Gegner → lege diese Karte ab.",
+    "traits": "Rüstung. Technik."
+  },
+  {
+    "code": "40092",
+    "name": "Hemmkragen",
+    "text": "Hänge diese Karte an deine Identität an.\nBehandle das aufgedruckte Textfeld deiner Identität so, als ob es leer wäre <i>(außer für Merkmale)</i>.\n<b>Aktion</b>: Wähle: Erschöpfe entweder einen Charakter unter deiner Kontrolle oder nimm 3 Schaden → lege diese Karte ab. Jeder Spieler kann dies tun.",
+    "traits": "Technik."
+  },
+  {
+    "code": "40093",
+    "name": "Mit Unterstützung des Senators",
+    "text": "Hindernis 1[per_hero].\n<b>Sobald besiegt</b>: Der Startspieler legt Karten vom Begegnungsdeck ab, bis ein Anhang abgelegt wird, und deckt die Karte auf.",
+    "flavor": "Diese Art von Ausrüstung findet man nicht auf dem Schwarzmarkt. Jemand von ganz oben in der US-Regierung muss sie liefern."
+  },
+  {
+    "code": "40094",
+    "name": "Arclight",
+    "text": "Vergeltung 1.\n[star] <b>Erzwungene Unterbrechung</b>: Sobald Arclight dich oder einen Verbündeten unter deiner Kontrolle angreift, wähle:\n• Verwirre einen Charakter unter deiner Kontrolle.\n• Arclight bekommt für diesen Angriff +2 ANG.",
+    "traits": "Ungeheuer. Marauder."
+  },
+  {
+    "code": "40095",
+    "name": "Blockbuster",
+    "text": "Wache.\n[star] <b>Erzwungene Unterbrechung</b>: Sobald Blockbuster dich oder einen Verbündeten unter deiner Kontrolle angreift, wähle:\n• Gib Blockbuster eine Zäh-Statuskarte.\n• Blockbuster bekommt für diesen Angriff +2 ANG.",
+    "traits": "Ungeheuer. Marauder."
+  },
+  {
+    "code": "40096",
+    "name": "Chimera",
+    "text": "Patrouille.\n[star] <b>Erzwungene Unterbrechung</b>: Sobald Chimera dich oder einen Verbündeten unter deiner Kontrolle angreift, wähle:\n• Gib eine [mental]-Ressource aus.\n• Chimera bekommt für diesen Angriff +2 ANG.",
+    "traits": "Marauder. Psionisch."
+  },
+  {
+    "code": "40097",
+    "name": "Greycrow",
+    "text": "Vergeltung 1.\n[star] <b>Erzwungene Unterbrechung</b>: Sobald Greycrow dich oder einen Verbündeten unter deiner Kontrolle angreift, wähle:\n• Lege die Karte unter deiner Kontrolle mit den höchsten Kosten ab.\n• Greycrow bekommt für diesen Angriff +X ANG. X ist der Aufdruck-Kostenwert der Karte unter deiner Kontrolle mit den höchsten Kosten.",
+    "traits": "Marauder. Söldner."
+  },
+  {
+    "code": "40098",
+    "name": "Harpoon",
+    "text": "Wache.\n[star] <b>Erzwungene Unterbrechung</b>: Sobald Harpoon dich oder einen Verbündeten unter deiner Kontrolle angreift, wähle:\n• Nimm 2 indirekten Schaden.\n• Harpoon bekommt für diesen Angriff +2 ANG und dieser Angriff erhält Durchdringend.",
+    "traits": "Ungeheuer. Marauder."
+  },
+  {
+    "code": "40099",
+    "name": "Riptide",
+    "text": "Patrouille.\n[star] <b>Erzwungene Unterbrechung</b>: Sobald Riptide dich oder einen Verbündeten unter deiner Kontrolle angreift, wähle:\n• Platziere 2 Bedrohung auf dem Hauptplan und 1 Bedrohung auf jedem Nebenplan.\n• Riptide bekommt für diesen Angriff +2 ANG.",
+    "traits": "Attentäter. Marauder."
+  },
+  {
+    "code": "40100",
+    "name": "Vertigo",
+    "text": "Wache.\n[star] <b>Erzwungene Unterbrechung</b>: Sobald Vertigo dich oder einen Verbündeten unter deiner Kontrolle angreift, wähle:\n• Betäube einen Charakter unter deiner Kontrolle.\n• Vertigo bekommt für diesen Angriff +2 ANG.",
+    "traits": "Marauder. Mutante."
+  },
+  {
+    "code": "40101",
+    "name": "Mutantenschlächter",
+    "text": "Jeder <i>Marauder</i>-Scherge erhält Erstschlag.\n<b>Sobald aufgedeckt</b>: Platziere hier für jeden Charakter im Spiel, der mindestens 1 der folgenden Merkmale hat, 1 zusätzliche Bedrohung: <i>Mutant</i>, <i>X-Factor</i>, <i>X-Force</i> oder <i>X-Men</i>."
+  },
+  {
+    "code": "40102",
+    "name": "Geschäftlich gebunden",
+    "text": "<b>Sobald aufgedeckt</b>: Lege Karten vom Begegnungsdeck oben ab, bis ein <i>Marauder</i>-Scherge abgelegt wird, der keinen Namen mit einer Karte im Spiel teilt. Bringe jenen Schergen mit dir im Kampf ins Spiel."
+  },
+  {
+    "code": "40103a",
+    "name": "Gedeckter Rückzug",
+    "text": "<b>Inhalt des Szenarios</b>: Marauder (Seite A) <i>(Seite B für erhöhten Schwierigkeitsgrad)</i>. Auf der Flucht, Mutantenjäger und Standard-Begegnungssets. Zwei modulare Begegnungssets <i>(Militärische Ausrüstung und Nasty Boys)</i>.\n<b>Spielaufbau</b>: Bringe 1 zufälligen <i>Marauder</i>-Schurken ins Spiel. Entferne den Schergen mit demselben Namen wie der Schurke sowie jeden anderen Schurken aus dem Spiel. Hänge den Anhang \"Hopes Entführer\" an den Schurken, <i>Überzeugt</i>-Seite nach oben."
+  },
+  {
+    "code": "40103b",
+    "name": "Gedeckter Rückzug",
+    "text": "Jeder <i>Marauder</i>-Scherge erhält Standhaft.\n<b>Sobald aufgedeckt</b>: Jeder Spieler durchsucht das Begegnungsdeck nach einem <i>Marauder</i>-Schergen und bringt ihn mit sich im Kampf ins Spiel. <i>(Mische.)</i>\n<b>Falls dieser Abschnitt vollendet ist, verlieren die Spieler das Spiel.</b>"
+  },
+  {
+    "code": "40104a",
+    "name": "Mit Hope entkommen",
+    "text": "<b>Sobald aufgedeckt</b>: Jeder Spieler durchsucht das Begegnungsdeck und den Begegnungsablage nach einem <i>Marauder</i>-Schergen und bringt jenen Schergen mit sich im Kampf ins Spiel. <i>(Mische.)</i> Gib jedem <i>Marauder</i>-Gegner eine Zäh-Statuskarte."
+  },
+  {
+    "code": "40104b",
+    "name": "Mit Hope entkommen",
+    "text": "Jeder <i>Marauder</i>-Scherge erhält Wache und Standhaft. Im Expertenmodus erhält der Schurke Standhaft.\n<b>Falls der Schurke besiegt wird, gewinnen die Spieler das Spiel.</b>\n<b>Falls dieser Abschnitt vollendet ist, verlieren die Spieler das Spiel.</b>"
+  },
+  {
+    "code": "40105a",
+    "name": "Hopes Entführer",
+    "text": "Dauerhaft.\n[star] <b>Erzwungene Unterbrechung</b>: Sobald der Schurke dich angreifen würde und ein <i>Marauder</i>-Scherge mit dir im Kampf ist, plant der Schurke stattdessen.\n<b>Erzwungene Unterbrechung</b>: Sobald der Schurke besiegt würde, setze die Lebenspunkte des angehängten Schurken stattdessen auf seinen aufgedruckten Wert zurück. Wende diese Karte und decke sie auf.",
+    "traits": "Überzeugt."
+  },
+  {
+    "code": "40105b",
+    "name": "Hopes Entführer",
+    "text": "Dauerhaft.\nDer Schurke bekommt +6[per_hero] Lebenspunkte.\n<b>Sobald aufgedeckt</b>: Rücke den Hauptplan zu Abschnitt 2A vor. Dieser Effekt kann nicht annulliert werden.\n[star] <b>Erzwungene Unterbrechung</b>: Sobald der Schurke dich angreifen würde und ein <i>Marauder</i>-Scherge mit dir im Kampf ist, plant der Schurke stattdessen.",
+    "traits": "Verzweifelt."
+  },
+  {
+    "code": "40106",
+    "name": "Versteckt im Durcheinander",
+    "text": "Hänge diese Karte an den Gegner mit den wenigsten verbleibenden Lebenspunkten an.\n<b>Erzwungene Unterbrechung</b>: Sobald dem angehängten Gegner Schaden zugefügt werden würde, platziere diesen Schaden hier. Falls sich hier mindestens 3 Schaden befinden, greift der angehängte Gegner den Spieler an, der den soeben hier platzierten Schaden zugefügt hat. Lege dann diese Karte ab.",
+    "traits": "Zustand."
+  },
+  {
+    "code": "40107",
+    "name": "Bevorzugte Waffe",
+    "text": "Hänge diese Karte an Greycrow oder Harpoon an. Andernfalls hänge diese Karte an den <i>Marauder</i>-Gegner mit dem niedrigsten ANG-Wert an.\n[star] Angriffe des angehängten Gegners erhalten Overkill, Durchdringend und Fernkampf.\n<b>Held - Reaktion</b>: Nachdem dein Held einen Angriff des angehängten Gegners verteidigt hat und dabei keinen Schaden nimmt → lege diese Karte ab.",
+    "traits": "Waffe."
+  },
+  {
+    "code": "40108",
+    "name": "In einen Hinterhalt locken",
+    "text": "<b>Sobald besiegt</b>: Der Spieler, der diesen Plan besiegt hat, durchsucht das Begegnungsdeck und den Begegnungsablage nach einem <i>Marauder</i>-Schergen und bringt jenen Schergen mit sich im Kampf ins Spiel. <i>(Mische.)</i>"
+  },
+  {
+    "code": "40109",
+    "name": "Rohe Gewalt",
+    "text": "Solange Blockbuster im Spiel ist, erhält dieser Plan das Krisen-Symbol ([crisis]).\nSolange Chimera im Spiel ist, erhält dieser Plan das Verstärkungs-Symbol ([amplify])."
+  },
+  {
+    "code": "40110",
+    "name": "Schwindelerregende Taten",
+    "text": "<b>Sobald aufgedeckt</b>: Erschöpfe einen Charakter unter deiner Kontrolle. Falls die folgenden Feinde im Spiel sind:\n• Arclight - Betäube einen Charakter unter deiner Kontrolle.\n• Riptide - Nimm 3 indirekten Schaden.\n• Vertigo - Verwirre einen Charakter unter deiner Kontrolle."
+  },
+  {
+    "code": "40111",
+    "name": "Tag Team",
+    "text": "<b>Sobald aufgedeckt</b>: Wähle:\n• Jeder <i>Marauder</i>-Scherge, der mit dir im Kampf ist, aktiviert sich gegen dich.\n• Lege 7 Karten vom Begegnungsdeck oben ab. Bringe den obersten <i>Marauder</i>-Schergen im Begegnungsablage mit dir im Kampf ins Spiel."
+  },
+  {
+    "code": "40132",
+    "name": "Black Tom Cassidy",
+    "text": "Schurkisch.\nSolange eine Kriechende Weide im Spiel ist, kann Black Tom Cassidy keinen Schaden nehmen.\n<b>Sobald aufgedeckt</b>: Durchsuche das Begegnungsdeck und den Ablagestapel nach 1 Kriechenden Weide und bringe sie mit dir im Kampf ins Spiel. <i>(Mische.)</i>",
+    "traits": "Elite. Krimineller."
+  },
+  {
+    "code": "40133",
+    "name": "Kriechende Weide",
+    "text": "Erstschlag. Wache.\n[star] <b>Erzwungene Reaktion</b>: Nachdem Kriechende Weide einen Charakter angegriffen und ihm Schaden zugefügt hat, betäube ihn.\n<hr />\n[star] <b>Boost</b>: Du wirst betäubt.",
+    "traits": "Holz."
+  },
+  {
+    "code": "40134",
+    "name": "Begrünen",
+    "text": "Hindernis 2[per_hero].\nJede Kriechende Weide erhält Nachrüsten."
+  },
+  {
+    "code": "40135",
+    "name": "Eine ordentliche Abreibung",
+    "text": "<b>Sobald aufgedeckt</b>: Jede Kriechende Weide greift den Spieler an, mit dem sie im Kampf ist <i>(selbst in Alter-Ego-Gestalt)</i>. Falls du auf diese Weise nicht angegriffen wurdest, durchsuche das Begegnungsdeck und den Ablagestapel nach 1 Kriechenden Weide und decke sie auf. <i>(Mische.)</i>"
+  },
+  {
+    "code": "40180",
+    "name": "Strobe",
+    "text": "Patrouille.\n<b>Sobald aufgedeckt</b>: Wähle:\n• Betäube jeden Charakter unter deiner Kontrolle.\n• Füge jedem Charakter unter deiner Kontrolle 1 Schaden zu.",
+    "traits": "Mutant Liberation Front."
+  },
+  {
+    "code": "40181",
+    "name": "Tempo",
+    "text": "Solange Tempo mit dir im Kampf ist, bekommst du +1 Handlimit.\n[star] <b>Erzwungene Reaktion</b>: Nachdem Tempo gegen dich aktiviert hat, lege Karten vom obersten Teil deines Decks ab in Höhe der zweifachen Anzahl an Karten auf deiner Hand.",
+    "traits": "Mutant Liberation Front."
+  },
+  {
+    "code": "40182",
+    "name": "Thumbelina",
+    "text": "Senke die Menge an Schaden, die Thumbelina durch jeden Angriff erhält um 1, es sei denn, der Angreifer hat das Merkmal <i>Winzig</i>.\n<b>Sobald aufgedeckt</b>: Schicke das Upgrade unter deiner Kontrolle mit den höchsten Kosten auf die Hand seines Besitzers zurück.",
+    "traits": "Mutant Liberation Front."
+  },
+  {
+    "code": "40183",
+    "name": "Wildside",
+    "text": "<b>Sobald aufgedeckt</b>: Wähle:\n• Wildside greift dich an.\n• Schicke das Vorteil unter deiner Kontrolle mit den höchsten Kosten auf die Hand seines Besitzers zurück.",
+    "traits": "Mutant Liberation Front."
+  },
+  {
+    "code": "40184",
+    "name": "Extreme Maßnahmen",
+    "text": "Hindernis 2[per_hero].\n<b>Erzwungene Reaktion</b>: Nachdem eine Spielerkarte ins Spiel gekommen ist, nimmt ihr Kontrolleur indirekten Schaden in Höhe der aufgedruckten Kosten dieser Karte."
+  },
+  {
+    "code": "40151",
+    "name": "Flugfähigkeit",
+    "text": "Spielaufbau. Hänge diese Karte an den Schurken an.\nDauerhaft.\nDer Schurke mit diesem Anhang erhält das Merkmal <i>Fliegend</i>.\n[star] Die Angriffe des Schurken mit diesem Anhang erhalten Overkill.",
+    "traits": "Superkraft."
+  },
+  {
+    "code": "40152",
+    "name": "Luftbombardement",
+    "text": "Hänge diese Karte an den Schurken an.\n[star] Der Schurke mit diesem Anhang bekommt +1 ANG und ignoriert das Merkmal Vergeltung, solange er einen Nicht-<i>Fliegend</i>-Charakter angreift.\n<b>Held - Aktion</b>: Erschöpfe deinen Helden und gib [mental][mental]-Ressourcen aus → lege diese Karte ab.",
+    "traits": "Zustand."
+  },
+  {
+    "code": "40153",
+    "name": "Außer Reichweite",
+    "text": "Hänge diese Karte an den Schurken an.\nDer Schurke kann keinen Schaden nehmen, es sei denn, der Angreifer oder Angriff hat das Merkmal <i>Fliegend</i> oder der Angriff hat Fernkampf.\n<b>Held - Aktion</b>: Erschöpfe deinen Helden und gib [energy][energy]-Ressourcen aus → lege diese Karte ab.",
+    "traits": "Zustand."
+  },
+  {
+    "code": "40154",
+    "name": "Überlegene Position",
+    "text": "<b>Sobald aufgedeckt</b>: Lege jede Zäh-Statuskarte von jedem befreundeten Charakter ab. Die Spieler nehmen als Gruppe 2 indirekten Schaden (4 indirekten Schaden stattdessen, falls der Schurke das Merkmal <i>Ungeheuer</i> hat).\n<hr />\n[star] <b>Boost</b>: Falls der Schurke angreift, erhält dieser Angriff Durchdringend."
+  },
+  {
+    "code": "40130",
+    "name": "Hope Summers",
+    "text": "Spielaufbau. Der Startspieler kontrolliert Hope Summers. Sie zählt nicht gegen dein Verbündetenlimit.\n[star] Hope Summers' WID- und ANG-Basiswerte entsprechen denen deines Helden.\n<b>Falls Hope Summers das Spiel verlässt, verlieren die Spieler das Spiel.</b>",
+    "traits": "Psionisch. X-Force. X-Men."
+  },
+  {
+    "code": "40131",
+    "name": "Die entführte Hope",
+    "text": "Hope Summers kann nicht spielbereit gemacht werden.\n<b>Sobald aufgedeckt</b>: Erschöpfe Hope Summers.",
+    "flavor": "„Schon gut, schon gut. Ich kenne die Regeln\", murrt Hope in Richtung ihres Entführers, „ist nicht das erste Mal, dass ich entführt werde.\""
+  },
+  {
+    "code": "40118",
+    "name": "Juggernaut",
+    "text": "[star] Juggernaut bekommt für jeden Momentummarker auf ihm +1 ANG.\n<b>Sobald aufgedeckt</b>: Platziere hier 1 Momentummarker. Gib Juggernaut eine Zäh-Statuskarte.",
+    "traits": "Ungeheuer.",
+    "flavor": "„Niemand - überhaupt niemand - kann mich aufhalten!\""
+  },
+  {
+    "code": "40119",
+    "name": "Juggernaut",
+    "text": "[star] Juggernaut bekommt für jeden Momentummarker auf ihm +1 ANG.\n<b>Sobald aufgedeckt</b>: Platziere hier 1 Momentummarker. Falls Juggernaut entblößt im Spiel ist, drehe diese Karte um. Ansonsten gib Juggernaut eine Zäh-Statuskarte.",
+    "traits": "Ungeheuer."
+  },
+  {
+    "code": "40120",
+    "name": "Juggernaut",
+    "text": "[star] Juggernaut bekommt für jeden Momentummarker auf ihm +1 ANG.\n<b>Sobald aufgedeckt</b>: Durchsuche das Begegnungsdeck und den Ablagestapel nach Hitzkopf und decke ihn auf. <i>(Mische.)</i> Falls Juggernaut entblößt im Spiel ist, drehe diese Karte um. Ansonsten gib Juggernaut eine Zäh-Statuskarte.",
+    "traits": "Ungeheuer."
+  },
+  {
+    "code": "40121a",
+    "name": "Der unaufhaltsame Juggernaut",
+    "text": "<b>Inhalt</b>: Juggernaut (I) und Juggernaut (II) <i>(Juggernaut (II) und Juggernaut (III) im Expertenmodus)</i>. Juggernaut-, Hope-Summers- und Standard-Begegnungsset. Ein modulares Begegnungsset <i>(Black Tom Cassidy)</i>.\n<b>Spielaufbau</b>: Hänge Juggernauts Helm an Juggernaut an. Bringe Hope Summers unter der Kontrolle des Startspielers ins Spiel."
+  },
+  {
+    "code": "40121b",
+    "name": "Der unaufhaltsame Juggernaut",
+    "text": "[star] <b>Erzwungene Unterbrechung</b>: Sobald dieser Plan vollendet werden würde, führe stattdessen Folgendes der Reihe nach durch:\n1. Entferne die gesamte Bedrohung von hier.\n2. Falls Juggernaut entblößt im Spiel ist, drehe diese Karte um.\n3. Platziere 1 Momentummarker auf Juggernaut.\n4. Juggernaut greift jeden Spieler in Spielerreihenfolge an <i>(auch falls sie in Alter-Ego-Gestalt sind)</i>."
+  },
+  {
+    "code": "40122a",
+    "name": "Juggernauts Helm",
+    "text": "Dauerhaft. Hänge diese Karte an Juggernaut an.\nJuggernaut erhält Gestählt und seine Angriffe erhalten Overkill.\n<b>Held - Aktion</b>: Gib 3 gleiche Ressourcen aus → entferne alle Momentummarker von Juggernaut. Drehe diese Karte um.",
+    "traits": "Rüstung."
+  },
+  {
+    "code": "40122b",
+    "name": "Juggernaut entblößt",
+    "text": "Dauerhaft. Hänge diese Karte an Juggernaut an.\nJuggernaut nimmt durch Karten mit aufgedruckter [mental]-Ressource 1 zusätzlichen Schaden.\n[star] <b>Erzwungene Reaktion</b>: Nachdem Juggernaut den Plan vorangetrieben hat, platziere 1 Momentummarker auf Juggernaut. Drehe diese Karte um."
+  },
+  {
+    "code": "40123",
+    "name": "Hitzkopf",
+    "text": "Juggernaut erhält Vergeltung X. X ist die Anzahl an Momentummarkern auf Juggernaut.\n<b>Sobald aufgedeckt</b>: Hänge Hitzkopf an Juggernaut an und platziere 1 Momentummarker auf ihm.\n<b>Held - Reaktion</b>: Nachdem Juggernaut dich angegriffen hat, gib für jeden durch diesen Angriff zugefügten Schaden 1 Ressource aus → lege diese Karte ab."
+  },
+  {
+    "code": "40124",
+    "name": "Momentum aufbauen",
+    "text": "<b>Held - Reaktion</b>: Nachdem du dich gegen einen Angriff von Juggernaut verteidigt hast, entferne 1 Bedrohung von diesem Plan."
+  },
+  {
+    "code": "40125",
+    "name": "Durchbruch",
+    "text": "<b>Sobald aufgedeckt</b>: Wähle:\n• Nimm Schaden in Höhe von Juggernauts ANG-Wert.\n• Lege das Upgrade oder den Vorteil unter deiner Kontrolle mit den höchsten Kosten ab.",
+    "flavor": "„Oooh ja!\" -Juggernaut"
+  },
+  {
+    "code": "40126",
+    "name": "Plattmachen",
+    "text": "<b>Sobald aufgedeckt</b>: Wähle: Nimm entweder Schaden in Höhe von Juggernauts ANG-Wert oder platziere 1 Momentummarker auf ihm.\n<hr />\n[star] <b>Boost</b>: Gib Juggernaut eine Zäh-Statuskarte."
+  },
+  {
+    "code": "40127",
+    "name": "Bodenschlag",
+    "text": "<b>Sobald aufgedeckt</b>: Die Spieler nehmen als Gruppe indirekten Schaden in Höhe von Juggernauts ANG-Wert.\n<hr />\n[star] <b>Boost</b>: Nimm 1 indirekten Schaden."
+  },
+  {
+    "code": "40128",
+    "name": "Niedertrampeln",
+    "text": "<b>Sobald aufgedeckt (Alter Ego)</b>: Nimm 2 indirekten Schaden.\n<b>Sobald aufgedeckt (Held)</b>: Juggernaut greift den Verbündeten mit den wenigsten verbleibenden Lebenspunkten an.\n<hr />\n[star] <b>Boost</b>: Füge einem Verbündeten unter deiner Kontrolle 1 Schaden zu."
+  },
+  {
+    "code": "40129",
+    "name": "Avatar von Cyttorak",
+    "text": "Im Expertenmodus erhält diese Karte Anstacheln 1.\n<b>Sobald aufgedeckt</b>: Falls Juggernaut entblößt im Spiel ist, drehe diese Karte um und platziere 1 Momentummarker auf Juggernaut. Ansonsten platziere Bedrohung auf dem Hauptplan in Höhe von Juggernauts ANG-Wert."
+  },
+  {
+    "code": "40136",
+    "name": "Mister Sinister",
+    "text": "<b>Erzwungene Reaktion</b>: Nachdem Mister Sinister eine Statuskarte erhalten hat, platziere 1 Bedrohung auf dem Hauptplan.",
+    "traits": "Genie.",
+    "flavor": "„Visionär, Retter, Wahnsinniger. Es ist alles egal. Ich bin SINISTER.\""
+  },
+  {
+    "code": "40137",
+    "name": "Mister Sinister",
+    "text": "<b>Sobald aufgedeckt</b>: Platziere 1[per_hero] Bedrohung auf dem Hauptplan (2[per_hero] Bedrohung stattdessen, falls Mister Sinister weniger als 2 <i>Superkraft</i>-Anhänge hat).\n<b>Erzwungene Reaktion</b>: Nachdem Mister Sinister eine Statuskarte erhalten hat, platziere 2 Bedrohung auf dem Hauptplan.",
+    "traits": "Genie."
+  },
+  {
+    "code": "40138",
+    "name": "Mister Sinister",
+    "text": "<b>Sobald aufgedeckt</b>: Platziere 2[per_hero] Bedrohung auf dem Hauptplan (3[per_hero] Bedrohung stattdessen, falls Mister Sinister weniger als 2 <i>Superkraft</i>-Anhänge hat).\n<b>Erzwungene Reaktion</b>: Nachdem Mister Sinister eine Statuskarte erhalten hat, platziere 3 Bedrohung auf dem Hauptplan.",
+    "traits": "Genie."
+  },
+  {
+    "code": "40139a",
+    "name": "Sinistre Absichten",
+    "text": "<b>Inhalt</b>: Mister Sinister (I) und Mister Sinister (II) <i>(Mister Sinister (II) und Mister Sinister (III) im Expertenmodus)</i>. Mister-Sinister-, Flugfähigkeit-, Superkräfte-, Telepathie-, Hope-Summers- und Standard-Begegnungsset. Ein modulares Begegnungsset <i>(Nasty Boys)</i>.\n<b>Spielaufbau</b>: Lege die Begegnungssets Flugfähigkeit, Superkräfte und Telepathie beiseite. Bringe Hope Summers unter der Kontrolle des Startspielers ins Spiel."
+  },
+  {
+    "code": "40139b",
+    "name": "Sinistre Absichten",
+    "text": "<b>Sobald aufgedeckt</b>: Entferne 1 zufälligen Abschnitt 2 aus dem Spiel. Rücke dann zu einem zufälligen Abschnitt 2A vor.",
+    "flavor": "Das geheime Labor tief unter dem verlassenen Waisenhaus ist voller Tanks, in denen unschuldige Mutanten als Versuchsobjekte für Sinisters Experimente schweben."
+  },
+  {
+    "code": "40140a",
+    "name": "Sinistre Experimente",
+    "flavor": "Mister Sinister geht daran, die DNA eines weiteren Mutanten in sein eigenes Genom zu integrieren."
+  },
+  {
+    "code": "40140b",
+    "name": "Abheben",
+    "text": "<b>Sobald aufgedeckt</b>: Hänge den Anhang Flugfähigkeit an Mister Sinister an und mische den Rest des Begegnungssets Flugfähigkeit in das Begegnungsdeck.\n<b>Sobald vollendet</b>: Rücke zum anderen Abschnitt 2A vor. Falls dies nicht möglich ist, rücke zu Abschnitt 3A vor."
+  },
+  {
+    "code": "40141a",
+    "name": "Sinistre Experimente",
+    "flavor": "Mister Sinister geht daran, die DNA eines weiteren Mutanten in sein eigenes Genom zu integrieren."
+  },
+  {
+    "code": "40141b",
+    "name": "Muskelaufbau",
+    "text": "<b>Sobald aufgedeckt</b>: Hänge den Anhang Superkräfte an Mister Sinister an und mische den Rest des Begegnungssets Superkräfte in das Begegnungsdeck.\n<b>Sobald vollendet</b>: Rücke zum anderen Abschnitt 2A vor. Falls dies nicht möglich ist, rücke zu Abschnitt 3A vor."
+  },
+  {
+    "code": "40142a",
+    "name": "Sinistre Experimente",
+    "flavor": "Mister Sinister geht daran, die DNA eines weiteren Mutanten in sein eigenes Genom zu integrieren."
+  },
+  {
+    "code": "40142b",
+    "name": "Innere Konzentration",
+    "text": "<b>Sobald aufgedeckt</b>: Hänge den Anhang Telepathie an Mister Sinister an und mische den Rest des Begegnungssets Telepathie in das Begegnungsdeck.\n<b>Sobald vollendet</b>: Rücke zum anderen Abschnitt 2A vor. Falls dies nicht möglich ist, rücke zu Abschnitt 3A vor."
+  },
+  {
+    "code": "40143a",
+    "name": "Sinistre Ziele",
+    "text": "<b>Sobald aufgedeckt</b>: Teile jedem Spieler 1 verdeckte Begegnungskarte zu.",
+    "flavor": "„Schaut auf meine Macht und verzweifelt!\" lacht Sinister. „Sobald ich Hopes Mutation in meinen genetischen Code aufgenommen habe, werde ich in der Lage sein, die Kräfte jedes beliebigen Mutanten zu imitieren und damit Perfektion erreicht haben!\""
+  },
+  {
+    "code": "40143b",
+    "name": "Sinistre Ziele",
+    "text": "<b>Erzwungene Unterbrechung</b>: Sobald Mister Sinister angreift, greift er stattdessen Hope Summers an. <i>(Andere Charaktere dürfen den Angriff verteidigen.)</i>\n<b>Falls dieser Abschnitt vollendet ist, verlieren die Spieler das Spiel.</b>",
+    "flavor": "„Ich sollte mich bei euch bedanken\", höhnt Sinister. „Ihr habt geschafft, was meine stümpernden Handlanger nicht hinbekommen haben: Ihr habt mir Hope gebracht.\""
+  },
+  {
+    "code": "40144",
+    "name": "Sinistre Verkleidung",
+    "text": "Hänge diese Karte an Mister Sinister an.\n<b>Erzwungene Unterbrechung</b>: Sobald ein Spieler Mister Sinister Schaden zufügen würde, darf dieser Spieler [mental][mental]-Ressourcen ausgeben. Falls er das nicht tut, fügt er stattdessen diesen Schaden dem befreundeten Charakter mit den wenigsten verbleibenden Lebenspunkten zu. Lege diese Karte ab <i>(unabhängig davon, ob die Ressourcen ausgegeben wurden oder nicht)</i>.",
+    "traits": "Zustand."
+  },
+  {
+    "code": "40145",
+    "name": "Sinistrer Soldat",
+    "text": "[star] Sinistrer Soldat bekommt für jeden <i>Superkraft</i>-Anhang an Mister Sinister +1 PLA und +1 ANG.\n<hr />\n[star] <b>Boost</b>: Für diese Aktivierung bekommt Mister Sinister für jeden <i>Superkraft</i>-Anhang an ihm +1 PLA und +1 ANG.",
+    "traits": "Klon."
+  },
+  {
+    "code": "40146",
+    "name": "Wegteleportiert",
+    "text": "Hindernis 1[per_hero].\nMister Sinister kann keinen Schaden nehmen.\n<b>Erzwungene Unterbrechung</b>: Sobald Mister Sinister angreifen würde, treibt er stattdessen den Plan voran."
+  },
+  {
+    "code": "40147",
+    "name": "Meister der Genetik",
+    "text": "<b>Sobald aufgedeckt</b>: Falls Mister Sinister die folgenden Merkmale hat:\n• <i>Fliegend</i> - Nimm 2 indirekten Schaden.\n• <i>Ungeheuer</i> - Erschöpfe deine Identität.\n• <i>Psionisch</i> - Platziere 2 Bedrohung auf dem Hauptplan."
+  },
+  {
+    "code": "40148",
+    "name": "Molekulare Kontrolle",
+    "text": "<b>Sobald aufgedeckt</b>: Gib Mister Sinister eine Zäh-Statuskarte. Falls er das Merkmal <i>Ungeheuer</i> hat, heilt er 4 Schaden.\n<hr />\n[star] <b>Boost</b>: Gib Mister Sinister eine Zäh-Statuskarte."
+  },
+  {
+    "code": "40149",
+    "name": "Sinistre Pläne",
+    "text": "<b>Sobald aufgedeckt</b>: Mister Sinister treibt den Plan voran. Falls er das Merkmal <i>Psionisch</i> hat, wirst du verwirrt.\n<hr />\n[star] <b>Boost</b>: Du wirst verwirrt."
+  },
+  {
+    "code": "40150",
+    "name": "Sinistrer Stoß",
+    "text": "<b>Sobald aufgedeckt (Alter Ego)</b>: Diese Karte erhält Nachrüsten.\n<b>Sobald aufgedeckt (Held)</b>: Mister Sinister greift dich an. Falls er das Merkmal <i>Fliegend</i> hat, wirst du betäubt.\n<hr />\n[star] <b>Boost</b>: Du wirst betäubt."
+  },
+  {
+    "code": "40185",
+    "name": "Dragoness",
+    "text": "[star] <b>Erzwungene Unterbrechung</b>: Sobald Dragoness gegen dich aktiviert, bekommt sie für diese Aktivierung +X PLA und +X ANG. X ist die Anzahl an [energy]-Ressourcen auf deiner Hand.",
+    "traits": "Mutant Liberation Front."
+  },
+  {
+    "code": "40186",
+    "name": "Forearm",
+    "text": "[star] <b>Erzwungene Reaktion</b>: Nachdem Forearm dich angegriffen hat, lege X Karten vom obersten Teil deines Decks ab. X ist die Anzahl an [physical]-Ressourcen auf deiner Hand.",
+    "traits": "Mutant Liberation Front.",
+    "flavor": "„Sie nennen mich Forearm, weil ich gut Rücken massieren kann.\""
+  },
+  {
+    "code": "40187",
+    "name": "Reaper",
+    "text": "[star] <b>Erzwungene Unterbrechung</b>: Sobald Reaper dich angreift und falls du mindestens:\n• [mental][mental]-Ressourcen auf deiner Hand hast, betäube deine Identität.\n• [mental][mental][mental][mental]-Ressourcen auf deiner Hand hast, erschöpfe deine Identität.",
+    "traits": "Mutant Liberation Front."
+  },
+  {
+    "code": "40188",
+    "name": "Samurai",
+    "text": "[star] <b>Erzwungene Reaktion</b>: Nachdem Samurai dich angegriffen hat, platziere hier 1 Ladungsmarker. Wähle:\n• Nimm Schaden in Höhe der Ladungsmarker auf Samurai.\n• Lege 1 Karte unter deiner Kontrolle ab, deren aufgedruckte Kosten gleich oder höher sind als die Anzahl an Ladungsmarkern auf Samurai.",
+    "traits": "Mutant Liberation Front."
+  },
+  {
+    "code": "40189",
+    "name": "Aufstand der Mutanten",
+    "text": "Angriff. <i>(Einfache Versuche, diesem Plan zu widerstehen, nutzen den ANG-Wert anstatt des WID-Werts.)</i>\nJeder Scherge erhält Zähigkeit.\n<b>Sobald aufgedeckt</b>: Platziere hier für jeden <i>Mutant Liberation Front</i>-Charakter im Spiel 2 zusätzliche Bedrohung. Falls auf diese Weise keine zusätzliche Bedrohung platziert wurde, erhält diese Karte Nachrüsten."
+  },
+  {
+    "code": "40112",
+    "name": "Gorgeous George",
+    "text": "Zusammenarbeit (<i>Nasty Boy</i>).\n[star] <b>Erzwungene Unterbrechung</b>: Sobald Gorgeous George dich angreift, erschöpfe einen Charakter unter deiner Kontrolle.\n<hr />\n[star] <b>Boost</b>: Erschöpfe einen Charakter unter deiner Kontrolle.",
+    "traits": "Nasty Boy."
+  },
+  {
+    "code": "40113",
+    "name": "Hairbag",
+    "text": "Nachrüsten. Zusammenarbeit (<i>Nasty Boy</i>).\n<hr />\n[star] <b>Boost</b>: Mische Hairbag nach dieser Aktivierung in das Begegnungsdeck.",
+    "traits": "Nasty Boy."
+  },
+  {
+    "code": "40114",
+    "name": "Ramrod",
+    "text": "Vergeltung 1. Zusammenarbeit (<i>Nasty Boy</i>).\n[star] Ramrods Angriffe erhalten Durchdringend.\n<hr />\n[star] <b>Boost</b>: Falls der Schurke angreift, erhält dieser Angriff Durchdringend.",
+    "traits": "Nasty Boy."
+  },
+  {
+    "code": "40115",
+    "name": "Ruckus",
+    "text": "Zusammenarbeit (<i>Nasty Boy</i>).\n<b>Sobald aufgedeckt</b>: Betäube jeden Charakter unter deiner Kontrolle.\n<hr />\n[star] <b>Boost</b>: Du wirst betäubt.",
+    "traits": "Nasty Boy."
+  },
+  {
+    "code": "40116",
+    "name": "Slab",
+    "text": "Zähigkeit. Zusammenarbeit (<i>Nasty Boy</i>).\n[star] <b>Erzwungene Unterbrechung</b>: Sobald Slab angreift, platziere 1 Wachstumsmarker auf ihm. Slab bekommt für diesen Angriff +1 ANG für jeden Wachstumsmarker auf ihm.",
+    "traits": "Nasty Boy."
+  },
+  {
+    "code": "40117",
+    "name": "Gemeinsame Sache machen",
+    "text": "Jeder Scherge bekommt +1 ANG.\n<b>Sobald aufgedeckt</b>: Platziere hier für jeden Schergen im Spiel 1 Bedrohung (2 Bedrohung stattdessen für jeden <i>Nasty Boy</i>). Durchsuche das Begegnungsdeck und den Ablagestapel nach einem <i>Nasty Boy</i>-Schergen und decke ihn auf. <i>(Mische.)</i>"
+  },
+  {
+    "code": "40198",
+    "name": "Lady Mastermind",
+    "text": "Nachrüsten.\n<b>Sobald aufgedeckt</b>: Nimm X Schaden, wobei X die aufgedruckten Kosten des Ereignisses auf deiner Hand mit den höchsten Kosten sind.\n<hr />\n[star] <b>Boost</b>: Lege ein Ereignis von deiner Hand ab.",
+    "traits": "Marauder."
+  },
+  {
+    "code": "40199",
+    "name": "Malice",
+    "text": "Nachrüsten.\n<b>Sobald besiegt</b>: Hänge Malice an den Nicht-<i>Psionisch</i>-Verbündeten mit den höchsten Kosten an. Er wird mit dem Spieler, der ihn kontrolliert, in einen Kampf verwickelt. Behandle den Verbündeten als einen <i>Besessen</i>-Schergen mit leerem Textfeld <i>(mit Ausnahme von <i>Merkmalen</i>)</i>. Sein PLA-Wert entspricht seinem WID-Wert und er nimmt keinen Folgeschaden.",
+    "traits": "Marauder."
+  },
+  {
+    "code": "40200",
+    "name": "Scrambler",
+    "text": "Nachrüsten.\n<b>Sobald aufgedeckt</b>: Lege ein Upgrade unter deiner Kontrolle ab.",
+    "traits": "Marauder.",
+    "flavor": "„Gar nicht mehr so taff ohne deine Kräfte, was?\""
+  },
+  {
+    "code": "40201",
+    "name": "Vanisher",
+    "text": "Nachrüsten.\n<b>Sobald aufgedeckt</b>: Schicke den Vorteil unter deiner Kontrolle mit den höchsten Kosten zurück auf deine Hand.\n<hr />\n[star] <b>Boost</b>: Schicke den Vorteil unter deiner Kontrolle mit den höchsten Kosten zurück auf deine Hand.",
+    "traits": "Marauder."
+  },
+  {
+    "code": "40202",
+    "name": "Unter Druck",
+    "text": "Nachrüsten.\n<hr />\n[star] <b>Boost</b>: Gib dem Schurken für diese Aktivierung 1 zusätzliche Boost-Karte."
+  },
+  {
+    "code": "40203",
+    "name": "Überladen",
+    "text": "Nachrüsten.\n<b>Sobald aufgedeckt</b>: Wähle: Lege entweder 1 Ressourcenkarte von deiner Hand ab oder nimm 2 Schaden.\n<hr />\n[star] <b>Boost</b>: Wähle: Lege entweder 1 Ressourcenkarte von deiner Hand ab oder nimm 2 Schaden."
+  },
+  {
+    "code": "40163",
+    "name": "Stryfe",
+    "text": "[star] Solange Stryfe dich angreift, bekommt er +X ANG. X ist die Anzahl der Karten des häufigsten Kartentyps auf deiner Hand.",
+    "traits": "Mutant Liberation Front. Psionisch.",
+    "flavor": "„Knie nieder vor deinem Überlegenen!\""
+  },
+  {
+    "code": "40164",
+    "name": "Stryfe",
+    "text": "[star] Solange Stryfe dich angreift, bekommt er +X ANG. X ist die Anzahl der Karten des häufigsten Kartentyps auf deiner Hand.\n<b>Sobald aufgedeckt</b>: Jeder Spieler legt Karten vom obersten Teil des Begegnungsdecks ab, bis ein <i>Psionisch</i>-Anhang abgelegt wurde, und deckt diese Karte auf.",
+    "traits": "Mutant Liberation Front. Psionisch."
+  },
+  {
+    "code": "40165",
+    "name": "Stryfe",
+    "text": "[star] Solange Stryfe dich angreift, bekommt er +X ANG. X ist die Anzahl der Karten des häufigsten Kartentyps auf deiner Hand.\n<b>Erzwungene Reaktion</b>: Nachdem du Stryfe angegriffen hast, nimm X Schaden. X ist die Anzahl der Karten des häufigsten Kartentyps auf deiner Hand.",
+    "traits": "Mutant Liberation Front. Psionisch."
+  },
+  {
+    "code": "40166a",
+    "name": "Unkontrollierbare Macht",
+    "text": "<b>Inhalt</b>: Stryfe (I) und Stryfe (II) <i>(Stryfe (II) und Stryfe (III) im Expertenmodus)</i>. Stryfe-, Hope-Summers- und Standard-Begegnungsset. Zwei modulare Begegnungssets <i>(Extreme Maßnahmen und Aufstand der Mutanten)</i>.\n<b>Spielaufbau</b>: Bringe Hope Summers unter der Kontrolle des Startspielers ins Spiel. Decke Stryfes Griff auf."
+  },
+  {
+    "code": "40166b",
+    "name": "Unkontrollierbare Macht",
+    "text": "[star] <b>Erzwungene Reaktion</b>: Nachdem Schritt 1 der Schurkenphase ausgeführt worden ist, platziert jeder Spieler hier X Bedrohung. X ist die Anzahl der Karten des häufigsten Kartentyps auf seiner Hand. Jeder Spieler darf 1 Karte von seiner Hand ablegen, bevor der Wert von X bestimmt wird.\n<b>Falls dieser Abschnitt vollendet ist, verlieren die Spieler das Spiel.</b>",
+    "flavor": "Hope versucht, Stryfes Fähigkeiten nachzuahmen, wird aber rasch von der Macht überwältigt."
+  },
+  {
+    "code": "40167a",
+    "name": "Eurem Schicksal überlassen",
+    "flavor": "Hope befreit sich aus Stryfes Griff, doch sie hat Mühe, seine mächtigen psionischen Energien zu kontrollieren.\n„Ich überlasse Hope den Job, euch alle zu töten\", lacht Stryfe. „Ich habe zu tun und werde die Apokalypse herbeiführen!\""
+  },
+  {
+    "code": "40167b",
+    "name": "Eurem Schicksal überlassen",
+    "text": "Stryfe erhält Gestählt.\nJede Identität bekommt +2 Handlimit. Erhöhe die Ressourcenkosten zum Spielen jeder Spielerkarte um 1.\n<b>Falls dieser Abschnitt vollendet ist, verlieren die Spieler das Spiel.</b>",
+    "flavor": "Stryfe versucht, in die Vergangenheit zu fliehen. Wer weiß, welches Chaos er anrichten wird?"
+  },
+  {
+    "code": "40168a",
+    "name": "In Stryfes Griff",
+    "text": "Dauerhaft. Hindernis 6[per_hero].\nHope Summers kann nur Stryfe angreifen und nur diesem Plan widerstehen.\n<b>Erzwungene Reaktion</b>: Nachdem Stryfe besiegt wurde oder die letzte Bedrohung von diesem Plan entfernt wurde, drehe diese Karte um und decke Lebende Bombe auf. Platziere etwaige Bedrohung von hier auf Lebende Bombe."
+  },
+  {
+    "code": "40168b",
+    "name": "Lebende Bombe",
+    "text": "Sieg 1.\nStryfe kann nicht besiegt werden.\n<b>Sobald aufgedeckt</b>: Rücke beim Hauptplan zu Abschnitt 2A vor. Dieser Effekt kann nicht aufgehoben werden.",
+    "flavor": "Stryfes Macht zu imitieren, ist zu viel für Hope, um sie zu kontrollieren, und droht, sie zu überwältigen ... mit explosiven Folgen!"
+  },
+  {
+    "code": "40169",
+    "name": "Mentale Übertragung",
+    "text": "Falls In Stryfes Griff im Spiel ist, hänge diese Karte an Hope Summers an. Ansonsten hänge diese Karte an deine Identität an.\n<b>Erzwungene Reaktion</b>: Nachdem Stryfe eine beliebige Menge an Schaden genommen hat, nimmt der Charakter mit diesem Anhang die gleiche Menge an Schaden. Lege diese Karte ab.",
+    "traits": "Zustand. Psionisch."
+  },
+  {
+    "code": "40170",
+    "name": "Bewusstseinsveränderung",
+    "text": "Hänge diese Karte an deine Identität an.\n<b>Erzwungene Reaktion</b>: Nachdem du ein Ereignis oder Upgrade gespielt hast, nimm 1 Schaden.\n<b>Reaktion</b>: Nachdem du dich erholt hast, gib eine [mental]-Ressource aus → lege diese Karte ab.",
+    "traits": "Zustand. Psionisch."
+  },
+  {
+    "code": "40171",
+    "name": "Gedankenfalle",
+    "text": "Hänge diese Karte an deine Identität an.\nDeine Verbündeten, Upgrades und Vorteile kommen erschöpft ins Spiel.\n<b>Alter Ego - Aktion</b>: Erschöpfe 3 Karten unter deiner Kontrolle → lege diese Karte ab.",
+    "traits": "Zustand. Psionisch."
+  },
+  {
+    "code": "40172",
+    "name": "Psionische Amnesie",
+    "text": "Hänge diese Karte an deine Identität an.\nErhöhe die Ressourcenkosten jedes Verbündeten und Vorteils, den du spielst, um 2.\n<b>Reaktion</b>: Nachdem du einen Verbündeten oder Vorteil gespielt hast, erschöpfe deine Identität → lege diese Karte ab.",
+    "traits": "Zustand. Psionisch."
+  },
+  {
+    "code": "40173",
+    "name": "Geistige Trägheit",
+    "text": "Hänge diese Karte an deine Identität an.\n<b>Held - Aktion</b>: Falls dein Held in dieser Phase angegriffen und Plänen widerstanden hat → lege diese Karte ab.",
+    "traits": "Zustand. Psionisch.",
+    "flavor": "„Es ist ... als ob ... etwas ... Caliban ... zurückhält!\" -Caliban"
+  },
+  {
+    "code": "40174",
+    "name": "Zero",
+    "text": "Wache. Patrouille. Zähigkeit.\n<b>Sobald besiegt</b>: Falls der Spieler, der Zero besiegt hat, nicht mindestens 3 Karten des gleichen Typs auf seiner Hand hat, mische Zero in das Begegnungsdeck.",
+    "traits": "Mutant Liberation Front."
+  },
+  {
+    "code": "40175",
+    "name": "Zerebrale Auslöschung",
+    "text": "<b>Sobald aufgedeckt</b>: Schicke ein Upgrade oder einen Vorteil unter deiner Kontrolle zurück auf die Hand seines Besitzers.\n<b>Sobald besiegt</b>: Der Spieler, der diesen Plan besiegt hat, schickt ein Upgrade oder einen Vorteil unter seiner Kontrolle zurück auf die Hand seines Besitzers."
+  },
+  {
+    "code": "40176",
+    "name": "Telepathische Tarnung",
+    "text": "<b>Sobald aufgedeckt</b>: Jeder Spieler platziert hier X Bedrohung. X ist die Anzahl der Karten des häufigsten Kartentyps auf seiner Hand."
+  },
+  {
+    "code": "40177",
+    "name": "Psionische Welle",
+    "text": "<b>Sobald aufgedeckt</b>: Lege die obersten X Karten des Begegnungsdecks ab. X ist die Anzahl der Karten des häufigsten Kartentyps auf deiner Hand. Teile jede <i>Psionisch</i>-Karte, die auf diese Weise abgelegt wurde, dir selbst als verdeckte Begegnungskarte zu."
+  },
+  {
+    "code": "40178",
+    "name": "Psychische Überschreibung",
+    "text": "<b>Sobald aufgedeckt</b>: Wähle einen Kartentyp, lege dann jede Karte von deiner Hand ab, die nicht von diesem Typ ist. Ziehe Karten bis zu deinem Handlimit. Platziere für jede Karte des gewählten Typs auf deiner Hand 1 Bedrohung auf dem Hauptplan.\n<hr />\n[star] <b>Boost</b>: Lege 1 Karte von deiner Hand ab. Ziehe dann 1 Karte.",
+    "traits": "Psionisch."
+  },
+  {
+    "code": "40179",
+    "name": "Telekinetische Welle",
+    "text": "<b>Sobald aufgedeckt</b>: Schicke ein Upgrade oder einen Vorteil unter deiner Kontrolle auf deine Hand zurück. Stryfe aktiviert gegen dich.\n<hr />\n[star] <b>Boost</b>: Falls du mindestens 3 Karten auf deiner Hand hast, die einen gemeinsamen Typ haben, platziere 3 Bedrohung auf dem Hauptplan.",
+    "traits": "Psionisch."
+  },
+  {
+    "code": "40155",
+    "name": "Superkräfte",
+    "text": "Spielaufbau. Hänge diese Karte an den Schurken an.\nDauerhaft.\nDer Schurke mit diesem Anhang erhält das Merkmal <i>Ungeheuer</i> und Standhaft. <i>(Standhafte Charaktere benötigen 2 Statuskarten des gleichen Typs, um betäubt oder verwirrt zu werden.)</i>",
+    "traits": "Superkraft."
+  },
+  {
+    "code": "40156",
+    "name": "Undurchdringlich",
+    "text": "Hänge diese Karte an den Schurken an.\nSenke die Menge an Schaden, die der Schurke mit diesem Anhang durch jeden Angriff erhält um 1.\n<b>Held - Aktion</b>: Gib [physical][physical]-Ressourcen aus → gib dem Schurken eine Zäh-Statuskarte und lege diese Karte ab."
+  },
+  {
+    "code": "40157",
+    "name": "Wurfobjekt",
+    "text": "Hänge diese Karte an den Schurken an.\n[star] Die Angriffe des Schurken mit diesem Anhang erhalten Fernkampf.\n[star] <b>Erzwungene Reaktion</b>: Nachdem der Schurke angegriffen hat, lege diese Karte ab.",
+    "traits": "Gegenstand."
+  },
+  {
+    "code": "40158",
+    "name": "„Das nehme ich!\"",
+    "text": "<b>Sobald aufgedeckt</b>: Lege das Upgrade unter deiner Kontrolle mit den niedrigsten Kosten ab (mit den höchsten Kosten stattdessen, falls der Schurke das Merkmal <i>Psionisch</i> hat). Falls auf diese Weise kein Upgrade abgelegt wurde, erhält diese Karte Nachrüsten."
+  },
+  {
+    "code": "40159",
+    "name": "Telepathie",
+    "text": "Spielaufbau. Hänge diese Karte an den Schurken an.\nDauerhaft.\nDer Schurke mit diesem Anhang erhält das Merkmal <i>Psionisch</i> und Vergeltung 1. <i>(Nachdem dieser Charakter angegriffen wurde, füge dem angreifenden Charakter 1 Schaden zu.)</i>",
+    "traits": "Superkraft."
+  },
+  {
+    "code": "40160",
+    "name": "Künstliches Drama",
+    "text": "Vorteile unter deiner Kontrolle können nicht bereitgemacht werden.\n<b>Sobald aufgedeckt</b>: Erschöpfe jeden Vorteil unter deiner Kontrolle. Falls auf diese Weise keine Vorteile erschöpft wurden, erhält diese Karte Nachrüsten.\n<b>Alter Ego - Aktion</b>: Erschöpfe deine Identität und lege für jeden Vorteil unter deiner Kontrolle 1 Karte vom obersten Teil deines Decks ab → lege diese Karte ab."
+  },
+  {
+    "code": "40161",
+    "name": "Zwietracht säen",
+    "text": "Verbündete unter deiner Kontrolle können nicht bereitgemacht werden.\n<b>Sobald aufgedeckt</b>: Erschöpfe jeden Verbündeten unter deiner Kontrolle. Falls auf diese Weise keine Verbündeten erschöpft wurden, erhält diese Karte Nachrüsten.\n<b>Alter Ego - Aktion</b>: Gib [mental][mental]-Ressourcen aus → lege diese Karte ab.",
+    "flavor": "„Wage es noch einmal, mich ‚Süße' zu nennen!\" -Domino"
+  },
+  {
+    "code": "40162",
+    "name": "Einen Schritt voraus",
+    "text": "<b>Sobald aufgedeckt</b>: Lege 1 zufällige Karte von deiner Hand ab (2 zufällige Karten stattdessen, falls der Schurke das Merkmal <i>Fliegend</i> hat).\n<hr />\n[star] <b>Boost</b>: Falls der Schurke angreift, erhält dieser Angriff Overkill."
+  }
+]

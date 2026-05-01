@@ -255,7 +255,8 @@
   {
     "code": "40104a",
     "name": "Mit Hope entkommen",
-    "text": "<b>Sobald aufgedeckt</b>: Jeder Spieler durchsucht das Begegnungsdeck und den Begegnungsablage nach einem <i>Marauder</i>-Schergen und bringt jenen Schergen mit sich im Kampf ins Spiel. <i>(Mische.)</i> Gib jedem <i>Marauder</i>-Gegner eine Zäh-Statuskarte."
+    "text": "<b>Sobald aufgedeckt</b>: Jeder Spieler durchsucht das Begegnungsdeck und den Begegnungsablage nach einem <i>Marauder</i>-Schergen und bringt jenen Schergen mit sich im Kampf ins Spiel. <i>(Mische.)</i> Gib jedem <i>Marauder</i>-Gegner eine Zäh-Statuskarte.",
+    "flavor": "Nachdem die Marauders eine Niederlage einstecken mussten, verdoppeln sie ihre Anstrengungen, um ihrer Gefangenen zu entkommen."
   },
   {
     "code": "40104b",

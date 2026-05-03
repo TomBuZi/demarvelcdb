@@ -1,0 +1,488 @@
+[
+  {
+    "code": "39001a",
+    "name": "MaGog",
+    "text": "[star] <b>Erzwungene Reaktion:</b> Nachdem MaGog einen Charakter angegriffen und ihm Schaden zugefügt hat, platziere 1 Beliebtheitsmarker auf Der Champion.\n<b>Erzwungene Unterbrechung:</b> Sobald MaGog besiegt werden würde, setze stattdessen seine Lebenspunkte auf 10[per_hero] zurück. Platziere 3[per_hero] Beliebtheitsmarker auf Die Herausforderer und teile jedem Spieler 1 verdeckte Begegnungskarte zu.",
+    "traits": "Schläger."
+  },
+  {
+    "code": "39001b",
+    "name": "MaGog",
+    "text": "[star] <b>Erzwungene Reaktion:</b> Nachdem MaGog einen Charakter angegriffen und ihm Schaden zugefügt hat, platziere 2 Beliebtheitsmarker auf Der Champion.\n<b>Erzwungene Unterbrechung:</b> Sobald MaGog besiegt werden würde, setze stattdessen seine Lebenspunkte auf 10[per_hero] zurück. Platziere 2[per_hero] Beliebtheitsmarker auf Die Herausforderer und teile jedem Spieler 1 verdeckte Begegnungskarte zu.",
+    "traits": "Schläger."
+  },
+  {
+    "code": "39002a",
+    "name": "Kampf im Mojo-seum",
+    "text": "<b>Inhalt:</b> MaGog (A) <i>(stattdessen MaGog (B) im Expertenmodus)</i>. MaGog- und Standard-Begegnungssets. Ein modulares Begegnungsset <i>(1 zufälliges modulares Set aus dem Szenario-Pack MojoMania)</i>.\n<b>Spielaufbau:</b> Bringe die Umgebungen Der Champion und Die Herausforderer jeweils mit ihrer <i>BUHENDES PUBLIKUM</i>-Seite nach oben ins Spiel."
+  },
+  {
+    "code": "39002b",
+    "name": "Kampf im Mojo-seum",
+    "text": "Die Spieler können das Spiel nicht gewinnen, ohne als Die Herausforderer das Publikum zu begeistern.\n[star] <b>Erzwungene Unterbrechung:</b> Sobald dieser Plan vollendet werden würde, platziere stattdessen 2[per_hero] Beliebtheitsmarker auf Der Champion und entferne alle Bedrohung von hier.",
+    "flavor": "In eine bizarre Arena teleportiert müsst ihr nun für die Unterhaltung des Publikums kämpfen ... und um euer Leben!"
+  },
+  {
+    "code": "39003a",
+    "name": "Der Champion",
+    "text": "Falls hier mindestens 5[per_hero] Beliebtheitsmarker liegen, drehe diese Umgebung um <i>(ohne Beliebtheitsmarker zu entfernen)</i>.",
+    "traits": "Buhendes Publikum.",
+    "flavor": "„In dieser Ecke haben wir den neunundneunzigfachen Titelverteidiger des Mojoverse, den mächtigen MaGog!\" - Mojo"
+  },
+  {
+    "code": "39003b",
+    "name": "Der Champion",
+    "traits": "Jubelndes Publikum.",
+    "text": "Die Außenseiter - <b>Erzwungene Reaktion:</b> Nachdem Der Champion auf diese Seite umgedreht worden ist, zieht jeder Spieler 1 Karte.\n<b>Falls hier mindestens 10[per_hero] Beliebtheitsmarker liegen, gewinnt MaGog erneut und die Spieler verlieren das Spiel.</b>"
+  },
+  {
+    "code": "39004a",
+    "name": "Die Herausforderer",
+    "text": "Falls hier mindestens 5[per_hero] Beliebtheitsmarker liegen, drehe diese Umgebung um <i>(ohne Beliebtheitsmarker zu entfernen)</i>.\n<i>(Die Spieler begeistern das Publikum, indem sie hier Beliebtheitsmarker platzieren.)</i>",
+    "traits": "Buhendes Publikum.",
+    "flavor": "„Und in dieser Ecke, vom kleinen, unbedeutenden Planeten Erde kommend: unsere Herausforderer!\" - Mojo"
+  },
+  {
+    "code": "39004b",
+    "name": "Die Herausforderer",
+    "traits": "Jubelndes Publikum.",
+    "text": "Tag Team - <b>Erzwungene Reaktion:</b> Nachdem Die Herausforderer auf diese Seite umgedreht worden ist, durchsuche das Begegnungsdeck und den Ablagestapel nach Überraschungskämpfer und bringe ihn mit dem Startspieler im Kampf ins Spiel. Falls er bereits im Spiel ist, gib ihm eine Zäh-Statuskarte.\n<b>Falls hier mindestens 10[per_hero] Beliebtheitsmarker liegen, ist das Publikum begeistert und ihr gewinnt das Spiel.</b>"
+  },
+  {
+    "code": "39005",
+    "name": "Adrenalinrausch",
+    "text": "Hänge diese Karte an MaGog an.\nMaGog erhält Vergeltung 1 und Gestählt.\n<b>Erzwungene Reaktion:</b> Nachdem MaGogs Lebenspunkte zurückgesetzt worden sind, platziere 1[per_hero] Beliebtheitsmarker auf Die Herausforderer und lege diese Karte ab.\n<hr />\n[star] <b>Boost:</b> Decke diese Karte auf.",
+    "traits": "Zustand."
+  },
+  {
+    "code": "39006",
+    "name": "Aggressionsschub",
+    "text": "Hänge diese Karte an MaGog an.\n<b>Erzwungene Reaktion:</b> Nachdem MaGogs Lebenspunkte zurückgesetzt worden sind, platziere 1[per_hero] Beliebtheitsmarker auf Die Herausforderer und lege diese Karte ab.\n<hr />\n[star] <b>Boost:</b> Decke diese Karte auf.",
+    "traits": "Zustand.",
+    "flavor": "„Bleib stehen, damit ich dich zermalmen kann!\" - MaGog"
+  },
+  {
+    "code": "39007",
+    "name": "Überraschungskämpfer",
+    "text": "Schurkisch.\n[star] <b>Erzwungene Reaktion:</b> Nachdem Überraschungskämpfer einen Charakter angegriffen und ihm Schaden zugefügt hat, platziere 1 Beliebtheitsmarker auf Der Champion.\n<b>Sobald besiegt:</b> Platziere 2[per_hero] Beliebtheitsmarker auf Die Herausforderer.",
+    "traits": "Elite. Klon."
+  },
+  {
+    "code": "39008",
+    "name": "Die Menge zum Toben bringen",
+    "text": "<b>Sobald aufgedeckt:</b> Falls Der Champion mit der <i>JUBELNDES PUBLIKUM</i>-Seite nach oben liegt, platziere hier zusätzlich 1[per_hero] Bedrohung.\n<b>Sobald besiegt:</b> Platziere 1[per_hero] Beliebtheitsmarker auf Die Herausforderer.",
+    "flavor": "„MaGog hat was ganz Großes für euch vorbereitet!\" - MaGog"
+  },
+  {
+    "code": "39009",
+    "name": "Hals- und Beinbruch!",
+    "text": "<b>Sobald aufgedeckt:</b> Du wirst betäubt. Nimm 2 Schaden (4 Schaden stattdessen, falls mehr Beliebtheitsmarker auf Die Herausforderer liegen als auf Der Champion). Du darfst beliebig viele Beliebtheitsmarker auf Der Champion platzieren, um diesen Schaden für jeden auf diese Weise platzierten Marker um 1 zu senken."
+  },
+  {
+    "code": "39010",
+    "name": "Den Titel verteidigen",
+    "text": "<b>Sobald aufgedeckt (Alter Ego):</b> Platziere 2 Beliebtheitsmarker auf Der Champion.\n<b>Sobald aufgedeckt (Held):</b> MaGog greift dich an. Falls ein Held gegen diesen Angriff verteidigt und keinen Schaden nimmt, platziere 2 Beliebtheitsmarker auf Die Herausforderer.",
+    "flavor": "„Fühlt ihr euch nicht unterhalten?!?\" - MaGog"
+  },
+  {
+    "code": "39011",
+    "name": "Lampenfieber",
+    "text": "<b>Sobald aufgedeckt:</b> Du wirst verwirrt. Platziere 2 Bedrohung auf dem Hauptplan (4 Bedrohung stattdessen, falls mehr Beliebtheitsmarker auf Die Herausforderer liegen als auf Der Champion).\n<hr />\n[star] <b>Boost:</b> Du wirst verwirrt."
+  },
+  {
+    "code": "39012a",
+    "name": "Spiral",
+    "text": "Spiral kann weder Schaden nehmen noch betäubt werden. Vom Hauptplan kann keine Bedrohung entfernt werden.\n[star] <b>Erzwungene Unterbrechung:</b> Sobald Spiral angreifen würde, treibt sie stattdessen den Plan voran.",
+    "traits": "Entkommen. Mystiker."
+  },
+  {
+    "code": "39013a",
+    "name": "Spiral",
+    "text": "Spiral kann weder Schaden nehmen noch betäubt werden. Vom Hauptplan kann keine Bedrohung entfernt werden.\n[star] <b>Erzwungene Unterbrechung:</b> Sobald Spiral angreifen würde, treibt sie stattdessen den Plan voran.",
+    "traits": "Entkommen. Mystiker."
+  },
+  {
+    "code": "39012b",
+    "name": "Spiral",
+    "text": "Falls hier mindestens 3[per_hero] Teleportationsmarker liegen, entferne alle und drehe Spiral um.\n[star] <b>Erzwungene Reaktion:</b> Nachdem Spiral aktiviert worden ist, platziere hier 1 Teleportationsmarker.",
+    "traits": "In die Ecke gedrängt. Mystiker."
+  },
+  {
+    "code": "39013b",
+    "name": "Spiral",
+    "text": "Falls hier mindestens 2[per_hero] Teleportationsmarker liegen, entferne alle und drehe Spiral um.\n[star] <b>Erzwungene Reaktion:</b> Nachdem Spiral aktiviert worden ist, platziere hier 1 Teleportationsmarker.",
+    "traits": "In die Ecke gedrängt. Mystiker."
+  },
+  {
+    "code": "39014a",
+    "name": "Spiral",
+    "text": "Spiral kann weder Schaden nehmen noch betäubt werden. Vom Hauptplan kann keine Bedrohung entfernt werden.\n[star] <b>Erzwungene Unterbrechung:</b> Sobald Spiral angreifen würde, treibt sie stattdessen den Plan voran.",
+    "traits": "Entkommen. Mystiker."
+  },
+  {
+    "code": "39015a",
+    "name": "Durch das Mojoverse",
+    "text": "<b>Inhalt:</b> Spiral (I) und (II) <i>(stattdessen Spiral (II) und (III) im Expertenmodus)</i>. Spiral- und Standard-Begegnungssets. 3 modulare Begegnungssets aus dem Szenario-Pack MojoMania.\n<b>Spielaufbau:</b> Bringe den Nebenplan Die Suche nach Spiral und 1 zufällige <i>SHOW</i>-Umgebung ins Spiel. Mische jede andere <i>SHOW</i>-Umgebung zusammen mit dem Verrat In die Ecke gedrängt in das Showdeck. <i>(Siehe Regelheft S. 11.)</i> Drehe Spiral auf ihre <i>ENTKOMMEN</i>-Seite um."
+  },
+  {
+    "code": "39016",
+    "name": "Die Suche nach Spiral",
+    "text": "Dauerhaft.\n<b>Erzwungene Reaktion:</b> Nachdem die letzte Bedrohung von hier entfernt worden ist, deckt der Spieler, der die Bedrohung entfernt hat, die oberste Karte des Showdecks auf und platziert hier 3[per_hero] Bedrohung.\n<b>Held - Aktion:</b> Nimm 2 Schaden. Entferne 3 Bedrohung von hier.",
+    "flavor": "Spiral versteckt sich in einer der zahlreichen TV-Shows, die Mojo produziert."
+  },
+  {
+    "code": "39017",
+    "name": "In die Ecke gedrängt!",
+    "text": "<b>Sobald aufgedeckt:</b> Drehe Spiral auf ihre <i>IN DIE ECKE GEDRÄNGT</i>-Seite um. <i>(Ihr „Sobald aufgedeckt\"-Text wird abgehandelt, falls vorhanden.)</i> Decke die oberste Karte des Showdecks auf. Mische diesen Verrat in das Showdeck. Dieser Effekt kann nicht aufgehoben werden.",
+    "flavor": "„Warum lasst ihr mich nicht einfach in Ruhe?!?\" - Spiral"
+  },
+  {
+    "code": "39018",
+    "name": "Spirals Schwerter",
+    "traits": "Waffe.",
+    "text": "Hänge diese Karte an Spiral an.\nAnwendungen (3 Schwertmarker).\n[star] Spiral bekommt für jeden Schwertmarker auf dieser Karte +1 ANG.\n<b>Held - Aktion:</b> Falls Spiral auf ihrer <i>IN DIE ECKE GEDRÄNGT</i>-Seite ist, gib [physical] [physical]-Ressourcen aus → entferne 1 Schwertmarker von dieser Karte.",
+    "flavor": "„Weiß nicht, wie sie es schafft, keinen Arm zu verlieren.\" - Gambit"
+  },
+  {
+    "code": "39019",
+    "name": "Unkontrollierte Teleportation",
+    "text": "Nachrüsten.\n<b>Sobald aufgedeckt:</b> Falls Spiral auf ihrer <i>IN DIE ECKE GEDRÄNGT</i>-Seite ist, platziere 1 Teleportationsmarker auf ihr. Falls Spiral auf ihrer <i>ENTKOMMEN</i>-Seite ist, darfst du eine [mental]-Ressource ausgeben, um dir die oberste Karte des Showdecks anzusehen und sie auf oder unter das Deck zu legen."
+  },
+  {
+    "code": "39014b",
+    "name": "Spiral",
+    "text": "Falls hier mindestens 3[per_hero] Teleportationsmarker liegen, entferne alle und drehe Spiral um.\n<b>Sobald aufgedeckt:</b> Spiral greift jeden Spieler in Spielerreihenfolge an <i>(selbst wenn der Spieler in Alter-Ego-Gestalt ist)</i>.\n[star] <b>Erzwungene Reaktion:</b> Nachdem Spiral aktiviert worden ist, platziere hier 1 Teleportationsmarker.",
+    "traits": "In die Ecke gedrängt. Mystiker."
+  },
+  {
+    "code": "39015b",
+    "name": "Durch das Mojoverse",
+    "text": "<b>Erzwungene Unterbrechung:</b> Sobald eine <i>SHOW</i>-Umgebung abgelegt werden würde, platziere sie stattdessen unter dem Showdeck.\n<b>Falls dieser Abschnitt vollendet ist, verlieren die Spieler das Spiel.</b>",
+    "flavor": "Um nach Hause zurückzukehren, braucht ihr die Hilfe der Teleportationszauberin Spiral. Aber zuerst ist ein wenig Überzeugungsarbeit nötig."
+  },
+  {
+    "code": "39020",
+    "name": "Die Show muss weitergehen",
+    "text": "<b>Sobald aufgedeckt:</b> Jeder Spieler durchsucht das Begegnungsdeck und den Ablagestapel nach einer Karte aus demselben Begegnungsset wie die derzeitige <i>SHOW</i>-Umgebung und teilt sich die Karte selbst als verdeckte Begegnungskarte zu. <i>(Mische.)</i>"
+  },
+  {
+    "code": "39021",
+    "name": "Alle Hände voll zu tun",
+    "text": "<b>Sobald aufgedeckt:</b> Falls ein Exemplar von Spirals Schwerter an Spiral angehängt ist, greift sie dich an <i>(selbst wenn du in deiner Alter-Ego-Gestalt bist)</i>. Durchsuche ansonsten das Begegnungsdeck und den Ablagestapel nach einem Exemplar von Spirals Schwerter und hänge es an sie an. <i>(Mische.)</i>"
+  },
+  {
+    "code": "39022",
+    "name": "Mojo",
+    "text": "<b>Erzwungene Reaktion (Held):</b> Nachdem dein Zug beendet ist, lege die obersten 3 Karten des Begegnungsdecks ab. Platziere für jede auf diese Weise abgelegte Karte, die nicht zum Mojo-Begegnungsset gehört, 1 Bedrohung auf deinem Helden.",
+    "traits": "Rückgratlos."
+  },
+  {
+    "code": "39023",
+    "name": "Mojo",
+    "text": "<b>Sobald aufgedeckt:</b> Platziere 2 Bedrohung auf jedem befreundeten Charakter.\n<b>Erzwungene Reaktion (Held):</b> Nachdem dein Zug beendet ist, lege die obersten 4 Karten des Begegnungsdecks ab. Platziere für jede auf diese Weise abgelegte Karte, die nicht zum Mojo-Begegnungsset gehört, 1 Bedrohung auf deinem Helden.",
+    "traits": "Rückgratlos."
+  },
+  {
+    "code": "39024",
+    "name": "Mojo",
+    "text": "<b>Sobald aufgedeckt:</b> Platziere 3 Bedrohung auf jedem befreundeten Charakter.\n<b>Erzwungene Reaktion (Held):</b> Nachdem dein Zug beendet ist, lege die obersten 5 Karten des Begegnungsdecks ab. Platziere für jede auf diese Weise abgelegte Karte, die nicht zum Mojo-Begegnungsset gehört, 1 Bedrohung auf deinem Helden.",
+    "traits": "Rückgratlos."
+  },
+  {
+    "code": "39025a",
+    "name": "MojoMania",
+    "text": "<b>Inhalt:</b> Mojo (I) und (II) <i>(stattdessen Mojo (II) und (III) im Expertenmodus)</i>. Mojo- und Standard-Begegnungssets.\n<b>Spielaufbau:</b> Wähle 1 modulares Set plus 1[per_hero] zusätzliches modulares Set aus dem Szenario-Pack MojoMania und lege sie beiseite. Bringe die Umgebung Rad der Genres mit der <i>DREHEND</i>-Seite nach oben ins Spiel."
+  },
+  {
+    "code": "39025b",
+    "name": "MojoMania",
+    "text": "<b>Sobald aufgedeckt:</b> Bestimme zufällig 1 beiseitegelegtes Begegnungsset, decke dessen <i>SHOW</i>-Umgebung auf und mische die restlichen Karten in das Begegnungsdeck.\n<b>Erzwungene Unterbrechung:</b> Sobald ein Charakter umgedreht wird oder das Spiel verlässt, verschiebe alle Bedrohung von dem Charakter auf diesen Plan.\nFalls dieser Abschnitt vollendet ist, verlieren die Spieler das Spiel."
+  },
+  {
+    "code": "39026a",
+    "name": "Rad der Genres",
+    "text": "<b>Erzwungene Reaktion:</b> Nachdem das Begegnungsdeck zurückgesetzt worden ist und <b>falls kein beiseitegelegtes modulares Begegnungsset übrig ist, verlieren die Spieler das Spiel</b>. Drehe ansonsten diese Karte um.",
+    "traits": "Drehend.",
+    "flavor": "„Die Einschaltquoten stagnieren. Eine Crossover-Episode sollte für neuen Schwung sorgen!\" - Mojo"
+  },
+  {
+    "code": "39027",
+    "name": "Major Domo",
+    "text": "Hänge diese Karte an Mojo an.\n[star] <b>Erzwungene Reaktion:</b> Nachdem Mojo angegriffen hat, lege so viele Karten vom Begegnungsdeck ab, wie durch den Angriff Schaden zugefügt wurde.\n<b>Held - Aktion:</b> Gib [energy] [mental] [physical]-Ressourcen aus → lege diese Karte ab.",
+    "traits": "Person.",
+    "flavor": "„Ich lebe, um Euch zu dienen, Eure Erhabene Rückgratlosigkeit.\""
+  },
+  {
+    "code": "39028",
+    "name": "Stachelschwanz",
+    "text": "Hänge diese Karte an Mojo an.\nMojo erhält Vergeltung 2.\n<b>Erzwungene Unterbrechung:</b> Sobald Mojo eine beliebige Menge an Schaden zugefügt werden würde, platziere ihn stattdessen hier. Falls sich dann mindestens 5 Schaden auf dieser Karte befinden, lege Stachelschwanz ab.\n<hr />\n[star] <b>Boost:</b> Hänge diese Karte an Mojo an.",
+    "traits": "Waffe."
+  },
+  {
+    "code": "39029",
+    "name": "Nebendarsteller",
+    "text": "[star] <b>Erzwungene Reaktion:</b> Nachdem Nebendarsteller gegen dich aktiviert worden ist, platziere hier 2 Bedrohung.\n<hr />\n<b>Boost:</b> Platziere 1 Bedrohung auf jedem Charakter unter deiner Kontrolle.",
+    "traits": "Mime. Roboter.",
+    "flavor": "„Sie sind billiger als echte Schauspieler.\" - Mojo"
+  },
+  {
+    "code": "39030",
+    "name": "Paparazzi",
+    "text": "Hindernis 10.\n<b>Aktion:</b> Wähle: Erschöpfe entweder einen Charakter unter deiner Kontrolle oder lege 1 Karte von deiner Hand ab → entferne 2 Bedrohung von hier (3 Bedrohung stattdessen, falls du in Alter-Ego-Gestalt bist).\n<b>Erzwungene Unterbrechung:</b> Sobald dein Zug endet, verschiebe alle Bedrohung von hier auf den Hauptplan und lege Paparazzi ab."
+  },
+  {
+    "code": "39031",
+    "name": "Undercover Mojo",
+    "text": "Hindernis 2[per_hero].\n<b>Erzwungene Unterbrechung:</b> Sobald Mojo eine beliebige Menge an Schaden nehmen würde, entferne stattdessen so viel Bedrohung von dieser Karte.",
+    "flavor": "„Sie werden mich niemals erkennen.\" - Mojo"
+  },
+  {
+    "code": "39032",
+    "name": "Ruf vor den Vorhang",
+    "text": "<b>Sobald aufgedeckt:</b> Verschiebe alle Bedrohung vom Charakter mit der meisten Bedrohung auf den Hauptplan. Falls auf diese Weise keine Bedrohung verschoben wurde, platziere 1 Bedrohung auf jedem Charakter unter deiner Kontrolle.\n<hr />\n[star] <b>Boost:</b> Decke diese Karte auf."
+  },
+  {
+    "code": "39026b",
+    "name": "Rad der Genres",
+    "text": "<b>Erzwungene Unterbrechung:</b> Bestimme zu Beginn von Schritt 3 der Schurkenphase <i>(Begegnungskarten zuteilen)</i> zufällig 1 beiseitegelegtes modulares Set und decke dessen <i>SHOW</i>-Umgebung auf. Mische den Rest des Sets und lege die Karten auf das Begegnungsdeck. Teile dem Startspieler 2 verdeckte Begegnungskarten zu und drehe diese Karte um.",
+    "traits": "Angehalten."
+  },
+  {
+    "code": "39033",
+    "name": "Regieanweisungen",
+    "text": "<b>Sobald aufgedeckt:</b> Wähle eines:\n• Gib 2 unterschiedliche Ressourcen aus.\n• Mojo treibt den Plan voran.\n• Nimm für jede Bedrohung auf deiner Identität 1 Schaden. Falls du auf diese Weise weniger als 2 Schaden nimmst, erhält diese Karte Nachrüsten."
+  },
+  {
+    "code": "39034",
+    "name": "Die neuen Stars",
+    "text": "<b>Sobald aufgedeckt:</b> Heile 1 Schaden von jedem Charakter unter deiner Kontrolle. Platziere 2 Bedrohung auf jedem Charakter unter deiner Kontrolle.\n<hr />\n[star] <b>Boost:</b> Platziere 1 Bedrohung auf jedem Charakter unter deiner Kontrolle."
+  },
+  {
+    "code": "39035",
+    "name": "Bei Anruf Mojo",
+    "text": "Jede andere Begegnungskarte erhält Anstacheln 1.\nJeder befreundete Charakter bekommt +1 WID.\n<b>Sobald aufgedeckt:</b> Lege jede andere <i>SCHAUPLATZ</i>-Umgebung im Spiel ab. Falls diese Karte vom Begegnungsdeck aufgedeckt wurde, erhält sie Nachrüsten.",
+    "traits": "Schauplatz. Show."
+  },
+  {
+    "code": "39036",
+    "name": "Suche nach Beweisen",
+    "text": "<b>Erzwungene Reaktion:</b> Nachdem ein Nebenplan besiegt worden ist, platziere hier 1 Indizienmarker. Falls hier dann mindestens 3 Indizienmarker liegen, lege diese Karte ab."
+  },
+  {
+    "code": "39037",
+    "name": "CSI: Mojo",
+    "text": "Hindernis 1[per_hero].\nVon anderen Plänen kann keine Bedrohung entfernt werden.\n<b>Held - Aktion:</b> Gib X [mental]-Ressourcen aus → entferne X Bedrohung von diesem Plan.",
+    "flavor": "„Das Opfer wurde offenbar vom Glück verlassen.\"\n„Man könnte auch sagen, es hat sein Mojo verloren.\" - Ermittler-Duo Domo und Mojo"
+  },
+  {
+    "code": "39038",
+    "name": "Law & Order",
+    "text": "Hindernis 1[per_hero].\nJeder befreundete Charakter bekommt -2 ANG.\n<b>Held - Aktion:</b> Gib X [energy]-Ressourcen aus → entferne X Bedrohung von diesem Plan.",
+    "flavor": "„Ich verurteile beide Mitches wegen Missachtung des Gerichts!\" - Richter Mojo"
+  },
+  {
+    "code": "39039",
+    "name": "Mojos Polizeibericht",
+    "text": "Hindernis 1[per_hero].\nDer Schurke kann keinen Schaden nehmen.\n<b>Held - Aktion:</b> Gib X [physical]-Ressourcen aus → entferne X Bedrohung von diesem Plan.",
+    "flavor": "„Ich war niemals hier.\" - Boss Mojo"
+  },
+  {
+    "code": "39040",
+    "name": "„Elementar, mein lieber Mojo\"",
+    "text": "<b>Sobald aufgedeckt:</b> Wähle eines:\n• Verschiebe alle Bedrohung von einem Nebenplan auf den Hauptplan. <i>(Der Nebenplan wird dadurch besiegt.)</i>\n• Lege Karten vom Begegnungsdeck ab, bis ein Nebenplan abgelegt wird. Decke den Nebenplan auf."
+  },
+  {
+    "code": "39041",
+    "name": "A Game of Mojo's",
+    "text": "Jeder Spieler bekommt +1 Handlimit.\n<b>Sobald aufgedeckt:</b> Lege jede andere <i>SCHAUPLATZ</i>-Umgebung im Spiel ab. Falls diese Karte vom Begegnungsdeck aufgedeckt wurde, erhält sie Nachrüsten.",
+    "traits": "Schauplatz. Show."
+  },
+  {
+    "code": "39042",
+    "name": "Drache",
+    "text": "Vergeltung 1. Zähigkeit.\nVerdopple die Menge an Schaden, die dieser Scherge durch Karten mit einer aufgedruckten [energy]-Ressource nimmt.\n<b>Sobald besiegt:</b> Jeder Spieler zieht 4 Karten.",
+    "traits": "Drache. Elite."
+  },
+  {
+    "code": "39043",
+    "name": "Goblin",
+    "text": "Nachrüsten.\nDieser Scherge kann nur durch Karten mit einer aufgedruckten [physical]-Ressource Schaden nehmen.\n<b>Sobald besiegt:</b> Entferne 2 Bedrohung von einem Plan.",
+    "traits": "Goblin."
+  },
+  {
+    "code": "39044",
+    "name": "Troll",
+    "text": "Zähigkeit.\nDieser Scherge nimmt durch jede Karte mit einer aufgedruckten [mental]-Ressource 1 zusätzlichen Schaden.\n<b>Sobald besiegt:</b> Der Spieler, der diesen Schergen besiegt hat, darf 1 Verbündeten von seinem Ablagestapel ins Spiel bringen.",
+    "traits": "Schläger. Troll."
+  },
+  {
+    "code": "39045",
+    "name": "Nervige Nebenquest",
+    "text": "Nachrüsten.\n<b>Sobald besiegt:</b> In Spielerreihenfolge darf jeder Spieler sein Deck nach einer Karte durchsuchen und sie kostenlos spielen. <i>(Mische.)</i>\n<hr />\n[star] <b>Boost:</b> Bringe diese Karte ins Spiel.",
+    "flavor": "„So bringet mir diverse Zweige!\" - Sir Mojo"
+  },
+  {
+    "code": "39046",
+    "name": "Manaentzug",
+    "text": "<b>Sobald aufgedeckt:</b> Wähle einen Ressourcentyp, außer Joker ([wild]). Dann zieht jeder Spieler 2 Karten. Jeder Spieler muss jede Karte mit dem gewählten Ressourcentyp von seiner Hand ablegen.\n<hr />\n[star] <b>Boost:</b> Lege 1 Karte von deiner Hand ab."
+  },
+  {
+    "code": "39047",
+    "name": "Akte Mojo",
+    "text": "Jeder Scherge erhält Erstschlag.\nJeder Verbündete nimmt -1 Folgeschaden ([cost]), nachdem er einen Schergen angegriffen hat.\n<b>Sobald aufgedeckt:</b> Lege jede andere <i>SCHAUPLATZ</i>-Umgebung im Spiel ab. Falls diese Karte vom Begegnungsdeck aufgedeckt wurde, erhält sie Nachrüsten.",
+    "traits": "Schauplatz. Show."
+  },
+  {
+    "code": "39048",
+    "name": "Gurt mit Pflöcken",
+    "text": "Nachrüsten. Anwendungen (3 Pflockmarker).\n<b>Sobald aufgedeckt:</b> Du darfst 1 beliebige Ressource ausgeben, um diese Karte an deine Identität anzuhängen. Lege ansonsten diese Karte ab.\n<b>Held - Unterbrechung:</b> Sobald dein Held einen Basisangriff durchführt, entferne 1 Pflockmarker von hier → dein Held bekommt für den Angriff +1 ANG und der Angriff erhält Durchdringend.",
+    "traits": "Gegenstand."
+  },
+  {
+    "code": "39049",
+    "name": "Kultist",
+    "text": "[star] <b>Erzwungene Reaktion:</b> Nachdem Kultist gegen dich aktiviert worden ist, durchsuche das Begegnungsdeck und den Ablagestapel nach Der Krake und bringe ihn mit dir im Kampf ins Spiel. <i>(Mische.)</i> Lege dann Kultist ab.",
+    "traits": "Mystiker.",
+    "flavor": "„Befrei den Kraken!\""
+  },
+  {
+    "code": "39050",
+    "name": "Der Krake",
+    "text": "[star] <b>Erzwungene Reaktion:</b> Nachdem Der Krake aktiviert worden ist, nimmt jeder andere Charakter 1 Schaden.\n<b>Sobald besiegt:</b> Heile 1 Schaden von jedem befreundeten Charakter.",
+    "traits": "Elite. Kreatur.",
+    "flavor": "„Rraaarhh!\""
+  },
+  {
+    "code": "39051",
+    "name": "Vampir",
+    "text": "Angriffe mit Durchdringend fügen Vampir doppelten Schaden zu.\n[star] <b>Erzwungene Reaktion:</b> Nachdem Vampir einen Charakter angegriffen und ihm Schaden zugefügt hat, heile allen Schaden von Vampir. Falls auf diese Weise kein Schaden geheilt wurde, gib Vampir eine Zäh-Statuskarte.",
+    "traits": "Vampir."
+  },
+  {
+    "code": "39052",
+    "name": "Werwolfrudel",
+    "text": "<b>Sobald aufgedeckt:</b> Besiege einen Verbündeten unter deiner Kontrolle und platziere ihn verdeckt unter Werwolfrudel.\n<b>Erzwungene Unterbrechung:</b> Sobald Werwolfrudel besiegt werden würde, lege stattdessen einen Verbündeten unter ihm ab. Heile dann allen Schaden von Werwolfrudel.",
+    "traits": "Werwolf."
+  },
+  {
+    "code": "39053",
+    "name": "Mojo Runner",
+    "text": "Jeder Scherge und Verbündete erhält Zähigkeit.\n<b>Sobald aufgedeckt:</b> Lege jede andere <i>SCHAUPLATZ</i>-Umgebung im Spiel ab. Falls diese Karte vom Begegnungsdeck aufgedeckt wurde, erhält sie Nachrüsten.",
+    "traits": "Schauplatz. Show.",
+    "flavor": ">Passwort akzeptiert. Server-Anmeldung läuft.\n>Willkommen bei MojoCorp! Ihre Aktivitäten werden aufgezeichnet."
+  },
+  {
+    "code": "39054",
+    "name": "Avalanche 9.0",
+    "text": "<b>Erzwungene Reaktion:</b> Nachdem dich Avalanche 9.0 in einen Kampf verwickelt hat, erschöpfe einen Charakter unter deiner Kontrolle und füge dem Charakter 1 Schaden zu.\n<hr />\n[star] <b>Boost:</b> Erschöpfe einen Charakter unter deiner Kontrolle.",
+    "traits": "Programm.",
+    "flavor": ">Gebe CPU-Zyklen nicht identifizierter Prozesse frei."
+  },
+  {
+    "code": "39055",
+    "name": "Blob 3.14",
+    "text": "Blob 3.14 kann nicht mehr als 2 Schaden durch jeden Angriff nehmen.\n<hr />\n[star] <b>Boost:</b> Du wirst betäubt.",
+    "traits": "Programm.",
+    "flavor": ">Puffere ...\n>Puffere ...\n>Puffere ..."
+  },
+  {
+    "code": "39056",
+    "name": "Magneto 2.6",
+    "text": "Schurkisch.\n[star] <b>Erzwungene Reaktion:</b> Nachdem Magneto 2.6 gegen dich aktiviert worden ist, platziere 1 Magnetisch-Marker auf ihm. Wähle dann für jeden Magnetisch-Marker auf Magneto 2.6 eine Karte von deiner Hand und lege sie ab.",
+    "traits": "Elite. Programm.",
+    "flavor": ">Formatiere infizierte Festplatte neu."
+  },
+  {
+    "code": "39057",
+    "name": "Pyro 4.0",
+    "text": "[star] <b>Erzwungene Unterbrechung:</b> Sobald Pyro 4.0 dich angreift, nimm 2 indirekten Schaden.\n<hr />\n[star] <b>Boost:</b> Nimm 2 indirekten Schaden.",
+    "traits": "Programm.",
+    "flavor": ">Lösche unbekanntes Programm."
+  },
+  {
+    "code": "39058",
+    "name": "Toad 2.0",
+    "text": "<b>Erzwungene Reaktion:</b> Nachdem dich Toad 2.0 in einen Kampf verwickelt hat, platziere 1 Upgrade unter deiner Kontrolle verdeckt unter Toad 2.0.\n<b>Sobald besiegt:</b> Schicke jede Karte unter Toad 2.0 auf die Hand ihres Besitzers zurück.",
+    "traits": "Programm.",
+    "flavor": ">Isoliere gefährliche Subroutine."
+  },
+  {
+    "code": "39059",
+    "name": "ICE-Teroid M",
+    "text": "Jeder Scherge erhält Wache und Patrouille.\n<b>Erzwungene Unterbrechung:</b> Am Ende der Runde <i>(nachdem der Startspielermarker weitergegeben worden ist)</i> durchsucht der Startspieler das Begegnungsdeck und den Ablagestapel nach einem Schergen und bringt ihn mit sich im Kampf ins Spiel. <i>(Mische.)</i>",
+    "flavor": ">Invasive Programme entdeckt.\n>Intrusion Counter Electronics aktiviert."
+  },
+  {
+    "code": "39060",
+    "name": "Mojo Mittendrin",
+    "text": "Jede Verpflichtung erhält 1 Beschleunigungssymbol ([acceleration]).\n<b>Reaktion:</b> Nachdem ein Spieler eine Verpflichtung abgelegt hat, zieht er 1 Karte.\n<b>Sobald aufgedeckt:</b> Lege jede andere <i>SCHAUPLATZ</i>-Umgebung im Spiel ab. Falls diese Karte vom Begegnungsdeck aufgedeckt wurde, erhält sie Nachrüsten.",
+    "traits": "Schauplatz. Show."
+  },
+  {
+    "code": "39061",
+    "name": "Alle unter einem Dach",
+    "text": "Behandle das aufgedruckte Textfeld jedes Vorteils unter deiner Kontrolle, als ob es leer wäre <i>(mit Ausnahme von <i>MERKMALEN</i>)</i>.\n<b>Alter Ego - Aktion:</b> Erschöpfe deine Identität und jeden Vorteil unter deiner Kontrolle → lege diese Verpflichtung ab.",
+    "flavor": "„Ich werde niemals wie du sein!\"\n„Du bist mein Klon!\" - X-23 und Wolverine"
+  },
+  {
+    "code": "39062",
+    "name": "Unser lautes Heim",
+    "text": "Erhöhe die Kosten, um deine Upgrades zu spielen, um je 2.\n<b>Alter Ego - Aktion:</b> Lege ein Upgrade unter deiner Kontrolle oder von deiner Hand ab. Falls du mehr Upgrades in deinem Ablagestapel als im Spiel hast, lege diese Verpflichtung ab.",
+    "flavor": "„Das war nicht meine Schuld!\" - Hope Summers"
+  },
+  {
+    "code": "39063",
+    "name": "Ein seltsames Paar",
+    "text": "Senke dein Verbündetenlimit um 2.\n<b>Alter Ego - Aktion:</b> Erschöpfe 2 Charaktere unter deiner Kontrolle → mische einen Verbündeten aus deinem Ablagestapel in dein Deck und lege diese Verpflichtung ab.",
+    "flavor": "„Das räum ich später auf.\" - Jubilee"
+  },
+  {
+    "code": "39064",
+    "name": "Die Folge mit der Trennung",
+    "text": "Jede Begegnungskarte erhält Wagnis.\n<b>Alter Ego - Aktion:</b> Lege 3 Karten von deiner Hand ab und wähle einen Spieler → der gewählte Spieler zieht 1 Karte und du legst diese Verpflichtung ab."
+  },
+  {
+    "code": "39065",
+    "name": "Schau mir beim Spielen zu",
+    "text": "Anstacheln 3. Wagnis.\n<b>Erzwungene Unterbrechung:</b> Sobald du eine Regel nachliest, wirst du verwirrt.\n<b>Alter Ego - Aktion:</b> Erschöpfe deine Identität und lege eine Verwirrt-Statuskarte von ihr ab → lege diese Verpflichtung ab.",
+    "flavor": "„Was genau bedeutet ‚du' noch mal?!\" - Deadpool"
+  },
+  {
+    "code": "39066",
+    "name": "Wild Wild Mojo",
+    "text": "Jeder Angriff eines Gegners erhält Overkill.\n<b>Erzwungene Unterbrechung:</b> Sobald ein Charakter Schaden nimmt, erhöhe den Schaden um 1.\n<b>Sobald aufgedeckt:</b> Lege jede andere <i>SCHAUPLATZ</i>-Umgebung im Spiel ab. Falls diese Karte vom Begegnungsdeck aufgedeckt wurde, erhält sie Nachrüsten.",
+    "traits": "Schauplatz. Show."
+  },
+  {
+    "code": "39067",
+    "name": "Tot oder lebendig",
+    "text": "Hänge diese Karte an den Schergen mit den meisten aufgedruckten Lebenspunkten an. Ansonsten erhält diese Karte Nachrüsten.\nDer Scherge mit diesem Anhang bekommt +3[per_hero] Lebenspunkte.\n<b>Erzwungene Unterbrechung:</b> Sobald der Scherge mit diesem Anhang besiegt wird, nimmt jeder Spieler 1 Karte aus seinem Ablagestapel auf seine Hand.",
+    "traits": "Kopfgeld."
+  },
+  {
+    "code": "39068",
+    "name": "Kartenhai",
+    "text": "[star] <b>Erzwungene Reaktion:</b> Nachdem Kartenhai dich angegriffen hat, lege die obersten 3 Karten deines Decks ab. Nimm indirekten Schaden in Höhe der unterschiedlichen aufgedruckten Ressourcentypen ([energy], [physical], [mental] oder [wild]), die auf diese Weise abgelegt wurden.",
+    "traits": "Elite. Kreatur.",
+    "flavor": "Er macht nichts anderes als schwimmen, fressen und beim Kartenspielen gewinnen."
+  },
+  {
+    "code": "39069",
+    "name": "Revolverheld",
+    "text": "Erstschlag.\n<b>Erzwungene Unterbrechung:</b> Sobald dich dieser Scherge in einen Kampf verwickelt <i>(bevor Erstschlag abgehandelt wird)</i>, darfst du [energy] [energy]-Ressourcen ausgeben. Falls du das tust, füge diesem Schergen Schaden in Höhe des ANG-Wertes deines Helden zu.",
+    "traits": "Gesetzloser.",
+    "flavor": "„Zieh!\""
+  },
+  {
+    "code": "39070",
+    "name": "Eine Partie Karten",
+    "text": "<b>Sobald aufgedeckt:</b> Ziehe 5 Karten. Wähle 5 Karten von deiner Hand und lege sie ab. Lege für jeden unterschiedlichen aufgedruckten Ressourcentyp ([energy], [physical], [mental] oder [wild]), der auf diese Weise abgelegt wurde, ein Upgrade oder einen Vorteil unter deiner Kontrolle ab.",
+    "flavor": "Wenn man eine Partie Karten spielt, gewinnt man ... oder man verliert."
+  },
+  {
+    "code": "39071",
+    "name": "Longshot",
+    "text": "[star] Longshots Angriffe erhalten Durchdringend.\nLongshot zählt nicht gegen dein Verbündetenlimit.\n<b>Sobald aufgedeckt:</b> Bringe Longshot unter deiner Kontrolle ins Spiel. Diese Karte erhält Nachrüsten. Dieser Effekt kann nicht aufgehoben werden.",
+    "traits": "X-Men."
+  }
+]

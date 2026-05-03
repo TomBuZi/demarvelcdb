@@ -196,7 +196,7 @@
   {
     "code": "39025b",
     "name": "MojoMania",
-    "text": "<b>Sobald aufgedeckt:</b> Bestimme zufällig 1 beiseitegelegtes Begegnungsset, decke dessen <i>SHOW</i>-Umgebung auf und mische die restlichen Karten in das Begegnungsdeck.\n<b>Erzwungene Unterbrechung:</b> Sobald ein Charakter umgedreht wird oder das Spiel verlässt, verschiebe alle Bedrohung von dem Charakter auf diesen Plan.\nFalls dieser Abschnitt vollendet ist, verlieren die Spieler das Spiel."
+    "text": "<b>Sobald aufgedeckt:</b> Bestimme zufällig 1 beiseitegelegtes Begegnungsset, decke dessen <i>SHOW</i>-Umgebung auf und mische die restlichen Karten in das Begegnungsdeck.\n<b>Erzwungene Unterbrechung:</b> Sobald ein Charakter umgedreht wird oder das Spiel verlässt, verschiebe alle Bedrohung von dem Charakter auf diesen Plan.\n<b>Falls dieser Abschnitt vollendet ist, verlieren die Spieler das Spiel.</b>"
   },
   {
     "code": "39026a",

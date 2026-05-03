@@ -1,0 +1,443 @@
+[
+  {
+    "code": "55001",
+    "name": "Enchantress",
+    "text": "[star] <b>Erzwungene Reaktion:</b> Nachdem Enchantress dich angegriffen hat, platziere 1 Zaubermarker auf der <i>VERZAUBERUNG</i>-Karte in deiner Spielzone.",
+    "traits": "Asgard. Mystiker."
+  },
+  {
+    "code": "55002",
+    "name": "Enchantress",
+    "text": "Standhaft. Zähigkeit.\n<b>Sobald aufgedeckt:</b> Bringe im Standardmodus den beiseitegelegten Nebenplan Zukunft ohne Hoffnung ins Spiel. Platziere dann 3[per_hero] zusätzliche Bedrohung auf ihm.\n[star] <b>Erzwungene Reaktion:</b> Nachdem Enchantress dich angegriffen hat, platziere 1 Zaubermarker auf der <i>VERZAUBERUNG</i>-Karte in deiner Spielzone.",
+    "traits": "Asgard. Mystiker."
+  },
+  {
+    "code": "55003",
+    "name": "Enchantress",
+    "text": "Standhaft. Zähigkeit.\n<b>Sobald aufgedeckt:</b> Bringe den beiseitegelegten Nebenplan Zukunft ohne Hoffnung ins Spiel. Platziere dann 4[per_hero] zusätzliche Bedrohung auf ihm.\n[star] <b>Erzwungene Reaktion:</b> Nachdem Enchantress dich angegriffen hat, platziere 1 Zaubermarker auf der <i>VERZAUBERUNG</i>-Karte in deiner Spielzone.",
+    "traits": "Asgard. Mystiker."
+  },
+  {
+    "code": "55004a",
+    "name": "Grundbesitz in bester Lage",
+    "text": "<b>Inhalt:</b> Enchantress (I) und (II) <i>(Enchantress (II) und (III) im Expertenmodus)</i>. Enchantress- und Standard-Begegnungssets. Ein modulares Begegnungsset <i>(Trickster-Magie)</i>.\n<b>Spielaufbau:</b> Lege den Nebenplan Zukunft ohne Hoffnung beiseite. Hänge ein zufälliges Exemplar von Hypnotisierender Blick an jede Identität an <i>(ihr dürft euch die Rückseiten nicht ansehen)</i>. Lege jedes übrige Exemplar beiseite."
+  },
+  {
+    "code": "55005a",
+    "name": "Herrschende Zauberin",
+    "text": "<b>Sobald aufgedeckt:</b> Falls der Anhang Krone der Enchantress im Spiel ist, betäube jede Identität. Durchsuche ansonsten das Begegnungsdeck und den Ablagestapel nach Krone der Enchantress und decke sie auf. <i>(Mische.)</i>"
+  },
+  {
+    "code": "55006",
+    "name": "Zukunft ohne Hoffnung",
+    "text": "Enchantress erhält Gestählt und kann keinen Schaden nehmen.\n<b>Sobald aufgedeckt:</b> Platziere 1 Zaubermarker auf jeder <i>VERZAUBERUNG</i>-Karte im Spiel."
+  },
+  {
+    "code": "55007b",
+    "name": "Trance des Neids",
+    "text": "Dauerhaft.\nDeine Identität erhält das Merkmal <i>BEZAUBERT</i>.\n<b>Sobald aufgedeckt:</b> Lege eine Karte unter deiner Kontrolle ab. Ansonsten lege die obersten 8 Karten deines Decks ab.\n<b>Erzwungene Aktion:</b> Erschöpfe diese Karte → gib Enchantress eine verdeckte Boost-Karte. Mache deine Identität spielbereit.",
+    "traits": "Verzauberung."
+  },
+  {
+    "code": "55008b",
+    "name": "Trance der Habgier",
+    "text": "Dauerhaft.\nDeine Identität erhält das Merkmal <i>BEZAUBERT</i>.\n<b>Sobald aufgedeckt:</b> Du wirst verwirrt. Nimm ansonsten 2 Schaden.\n<b>Erzwungene Aktion:</b> Erschöpfe diese Karte → ziehe 1 Karte, dann spiele sie <i>(bezahle ihre Kosten)</i>. Falls du das nicht kannst, nimm 1 Schaden.",
+    "traits": "Verzauberung."
+  },
+  {
+    "code": "55009b",
+    "name": "Trance des Stolzes",
+    "text": "Dauerhaft.\nDeine Identität erhält das Merkmal <i>BEZAUBERT</i>.\n<b>Sobald aufgedeckt:</b> Erschöpfe deine Identität. Lege ansonsten 1 zufällige Karte von deiner Hand ab.\n<b>Erzwungene Aktion:</b> Erschöpfe diese Karte → platziere 1 Bedrohung auf dem Hauptplan. Entferne 2 Bedrohung von einem Nebenplan.",
+    "traits": "Verzauberung."
+  },
+  {
+    "code": "55004b",
+    "name": "Grundbesitz in bester Lage",
+    "text": "<b>Erzwungene Unterbrechung:</b> Sobald ein Zaubermarker auf der <i>VERZAUBERUNG</i>-Karte in deiner Spielzone platziert werden würde und falls deine Identität das Merkmal <i>BEZAUBERT</i> hat, platziere stattdessen 1 Bedrohung auf dieser Karte.",
+    "flavor": "Enchantress will Südamerika erobern und alle, die sich ihr widersetzen, zu betörten, willenlosen Lakaien machen."
+  },
+  {
+    "code": "55005b",
+    "name": "Herrschende Zauberin",
+    "text": "<b>Erzwungene Unterbrechung:</b> Sobald ein Zaubermarker auf der <i>VERZAUBERUNG</i>-Karte in deiner Spielzone platziert werden würde und falls deine Identität das Merkmal <i>BEZAUBERT</i> hat, platziere stattdessen 1 Bedrohung auf dieser Karte.\n<b>Falls dieser Abschnitt vollendet ist, verlieren die Spieler das Spiel.</b>"
+  },
+  {
+    "code": "55007a",
+    "name": "Hypnotisierender Blick",
+    "text": "Dauerhaft.\nDeine Identität erhält das Merkmal <i>TROTZEND</i>.\nFalls hier 5 oder mehr Zaubermarker liegen, entferne jeden Zaubermarker von dieser Karte und drehe sie um.",
+    "traits": "Verzauberung."
+  },
+  {
+    "code": "55008a",
+    "name": "Hypnotisierender Blick",
+    "text": "Dauerhaft.\nDeine Identität erhält das Merkmal <i>TROTZEND</i>.\nFalls hier 5 oder mehr Zaubermarker liegen, entferne jeden Zaubermarker von dieser Karte und drehe sie um.",
+    "traits": "Verzauberung."
+  },
+  {
+    "code": "55009a",
+    "name": "Hypnotisierender Blick",
+    "text": "Dauerhaft.\nDeine Identität erhält das Merkmal <i>TROTZEND</i>.\nFalls hier 5 oder mehr Zaubermarker liegen, entferne jeden Zaubermarker von dieser Karte und drehe sie um.",
+    "traits": "Verzauberung."
+  },
+  {
+    "code": "55010a",
+    "name": "Hypnotisierender Blick",
+    "text": "Dauerhaft.\nDeine Identität erhält das Merkmal <i>TROTZEND</i>.\nFalls hier 5 oder mehr Zaubermarker liegen, entferne jeden Zaubermarker von dieser Karte und drehe sie um.",
+    "traits": "Verzauberung."
+  },
+  {
+    "code": "55010b",
+    "name": "Trance der Trägheit",
+    "text": "Dauerhaft.\nDeine Identität erhält das Merkmal <i>BEZAUBERT</i>.\n<b>Sobald aufgedeckt:</b> Du wirst betäubt. Platziere ansonsten 2 Bedrohung auf dem Hauptplan.\n<b>Erzwungene Aktion:</b> Erschöpfe diese Karte → heile 1 Schaden von Enchantress. Ziehe 1 Karte, dann lege 1 Karte ab.",
+    "traits": "Verzauberung."
+  },
+  {
+    "code": "55011a",
+    "name": "Hypnotisierender Blick",
+    "text": "Dauerhaft.\nDeine Identität erhält das Merkmal <i>TROTZEND</i>.\nFalls hier 5 oder mehr Zaubermarker liegen, entferne jeden Zaubermarker von dieser Karte und drehe sie um.",
+    "traits": "Verzauberung."
+  },
+  {
+    "code": "55011b",
+    "name": "Trance des Zorns",
+    "text": "Dauerhaft.\nDeine Identität erhält das Merkmal <i>BEZAUBERT</i>.\n<b>Sobald aufgedeckt:</b> Durchsuche die obersten 5 Karten des Begegnungsdecks nach einer Karte und decke sie auf. <i>(Mische.)</i>\n<b>Erzwungene Aktion:</b> Erschöpfe diese Karte → nimm 1 indirekten Schaden. Füge einem Schergen 2 Schaden zu.",
+    "traits": "Verzauberung."
+  },
+  {
+    "code": "55012",
+    "name": "Verlockender Ruf",
+    "text": "Hänge diese Karte an deine Identität an.\n<b>Erzwungene Aktion:</b> Erschöpfe diese Karte → platziere 1 Zaubermarker auf der <i>VERZAUBERUNG</i>-Karte in deiner Spielzone. Spiele eine Karte von deiner Hand und senke dabei ihre Ressourcenkosten um 1.\n<b>Alter Ego - Aktion:</b> Erschöpfe diese Karte → lege diese Karte ab.\n<hr />\n[star] <b>Boost:</b> Decke diese Karte auf.",
+    "traits": "Verführung."
+  },
+  {
+    "code": "55013",
+    "name": "Verführender Kuss",
+    "text": "Hänge diese Karte an deine Identität an.\n<b>Erzwungene Aktion:</b> Erschöpfe diese Karte → platziere 1 Zaubermarker auf der <i>VERZAUBERUNG</i>-Karte in deiner Spielzone. Ziehe 1 Karte, dann lege 1 Karte von deiner Hand ab.\n<b>Alter Ego - Aktion:</b> Erschöpfe diese Karte → lege diese Karte ab.\n<hr />\n[star] <b>Boost:</b> Decke diese Karte auf.",
+    "traits": "Verführung."
+  },
+  {
+    "code": "55037",
+    "name": "Draugr-Kumpan",
+    "text": "Wache.\n<b>Sobald besiegt:</b> Der Spieler, der diesen Schergen besiegt, legt die oberste Karte des Begegnungsdecks ab. Falls die Karte ein Verrat ist, teile dem Spieler Draugr-Kumpan als verdeckte Begegnungskarte zu.",
+    "traits": "Untot."
+  },
+  {
+    "code": "55038",
+    "name": "Grendell",
+    "text": "Wache.\n[star] <b>Erzwungene Unterbrechung:</b> Sobald Grendell angreift, lege die obersten 3 Karten des Begegnungsdecks ab. Grendell bekommt für diesen Angriff für jeden auf diese Weise abgelegten Verrat +1 ANG.\n<b>Sobald besiegt:</b> Platziere 3 Splittermarker auf dem <i>AVATAR VON LOKI</i>-Schurken.",
+    "traits": "Dunkelelf. Schläger."
+  },
+  {
+    "code": "55039",
+    "name": "Malekith",
+    "text": "Vergeltung 1.\n[star] <b>Erzwungene Reaktion:</b> Nachdem Malekith dich angegriffen hat, lege die oberste Karte des Begegnungsdecks ab. Falls die Karte ein Verrat ist, teile sie dir selbst als verdeckte Begegnungskarte zu.\n<b>Sobald besiegt:</b> Platziere 2 Splittermarker auf dem <i>AVATAR VON LOKI</i>-Schurken.",
+    "traits": "Dunkelelf."
+  },
+  {
+    "code": "55040",
+    "name": "Minotaur",
+    "text": "Zähigkeit.\n<b>Sobald aufgedeckt:</b> Falls 5 oder mehr Verratskarten im Begegnungs-Ablagestapel liegen, wird Minotaur gegen dich aktiviert.\n<b>Sobald besiegt:</b> Platziere 2 Splittermarker auf dem <i>AVATAR VON LOKI</i>-Schurken.",
+    "traits": "Kreatur. Schläger."
+  },
+  {
+    "code": "55041",
+    "name": "Mangog",
+    "text": "Sieg 1.\nJeder Spieler in deinem Cluster kann Mangog angreifen, als ob er in dessen Spielbereich wäre.\n<b>Sobald besiegt:</b> Jede Gruppe in deinem Cluster platziert 3 Splittermarker auf ihrem <i>AVATAR VON LOKI</i>-Schurken und 1 Synergiemarker auf einer ihrer <i>SYNERGIE</i>-Umgebungen.",
+    "traits": "Elite. Kreatur. Schläger."
+  },
+  {
+    "code": "55042",
+    "name": "Fenriswolf",
+    "text": "Wache. Patrouille.\n<b>Sobald besiegt:</b> Platziere 3 Splittermarker auf dem <i>AVATAR VON LOKI</i>-Schurken. Wähle eine Gruppe in deinem Cluster. Platziere dann 1 Synergiemarker auf ihrer „Wachsender Widerstand\"-Umgebung.",
+    "traits": "Elite. Kreatur."
+  },
+  {
+    "code": "55014",
+    "name": "Liebestrank",
+    "text": "Hänge diese Karte an deine Identität an.\n<b>Erzwungene Aktion:</b> Erschöpfe diese Karte → platziere 1 Zaubermarker auf der <i>VERZAUBERUNG</i>-Karte in deiner Spielzone. Mache deine Identität spielbereit.\n<b>Alter Ego - Aktion:</b> Erschöpfe diese Karte → lege diese Karte ab.\n<hr />\n[star] <b>Boost:</b> Decke diese Karte auf.",
+    "traits": "Gegenstand. Verführung."
+  },
+  {
+    "code": "55015",
+    "name": "Verführt",
+    "text": "Hänge diese Karte an deine Identität an.\nDu kannst keine Basisangriffe durchführen oder <i>ANGRIFF</i>-Ereignisse spielen.\n<b>Alter Ego - Aktion:</b> Gib [energy] [mental]-Ressourcen aus → lege diese Karte ab.",
+    "traits": "Zustand.",
+    "flavor": "„Du liebst mich doch, oder?\" - Enchantress"
+  },
+  {
+    "code": "55016",
+    "name": "Krone der Enchantress",
+    "text": "Hänge diese Karte an Enchantress an.\nIm Expertenmodus erhält Enchantress Gestählt.\n[star] <b>Erzwungene Reaktion:</b> Nachdem Enchantress den Plan gegen dich vorangetrieben hat, platziere 1 Zaubermarker auf der <i>VERZAUBERUNG</i>-Karte in deiner Spielzone.\n<b>Held - Aktion:</b> Jeder Spieler erschöpft seine Identität und nimmt 1 Schaden → lege diese Karte ab.",
+    "traits": "Gegenstand."
+  },
+  {
+    "code": "55017",
+    "name": "Bezauberter Lakai",
+    "text": "Erstschlag.\n[star] <b>Erzwungene Reaktion:</b> Nachdem dieser Scherge dich angegriffen hat, platziere 1 Zaubermarker auf der <i>VERZAUBERUNG</i>-Karte in deiner Spielzone.\n<hr />\n[star] <b>Boost:</b> Wähle: Platziere entweder 1 Zaubermarker auf der <i>VERZAUBERUNG</i>-Karte in deiner Spielzone oder verwirre deine Identität.",
+    "traits": "Bezaubert."
+  },
+  {
+    "code": "55018",
+    "name": "Bezauberte Schlägerin",
+    "text": "Wache.\n[star] Solange dieser Scherge mit einem Spieler im Kampf ist, dessen Identität das Merkmal <i>BEZAUBERT</i> hat, bekommt dieser Scherge +3 Lebenspunkte.\n<hr />\n[star] <b>Boost:</b> Wähle: Platziere entweder 1 Zaubermarker auf der <i>VERZAUBERUNG</i>-Karte in deiner Spielzone oder erschöpfe deine Identität.",
+    "traits": "Bezaubert. Schläger."
+  },
+  {
+    "code": "55019",
+    "name": "Sindr",
+    "text": "[star] Sindrs Angriffe fügen indirekten Schaden zu.\n<b>Sobald aufgedeckt:</b> Falls deine Identität das Merkmal <i>TROTZEND</i> hat, wird Sindr gegen dich aktiviert. Falls deine Identität das Merkmal <i>BEZAUBERT</i> hat, gib Sindr eine Zäh-Statuskarte.",
+    "traits": "Elite. Riesig."
+  },
+  {
+    "code": "55020",
+    "name": "Ulik",
+    "text": "Im Expertenmodus erhält Ulik Zähigkeit.\n<b>Erzwungene Reaktion:</b> Nachdem ein Spieler Enchantress eine beliebige Menge an Schaden zugefügt hat, greift Ulik den Spieler an.\n<b>Sobald besiegt:</b> Enchantress greift den Spieler an, der Ulik besiegt hat, und bekommt für den Angriff +1 ANG.",
+    "traits": "Schläger. Troll."
+  },
+  {
+    "code": "55021",
+    "name": "Gesetz der Anziehung",
+    "text": "<b>Sobald aufgedeckt:</b> Lege Karten vom Begegnungsdeck ab, bis ein <i>BEZAUBERT</i>-Scherge abgelegt wird. Decke den Schergen auf.\n<hr />\n[star] <b>Boost:</b> Platziere 1 Zaubermarker auf der <i>VERZAUBERUNG</i>-Karte in deiner Spielzone."
+  },
+  {
+    "code": "55022",
+    "name": "Zauberbann",
+    "text": "<b>Sobald besiegt:</b> Jeder Spieler, dessen Identität das Merkmal <i>TROTZEND</i> hat, platziert 1 Zaubermarker auf der <i>VERZAUBERUNG</i>-Karte in seiner Spielzone. Jeder Spieler, dessen Identität das Merkmal <i>BEZAUBERT</i> hat, legt eine Karte unter seiner Kontrolle ab."
+  },
+  {
+    "code": "55023",
+    "name": "„Tu, was ich dir sage\"",
+    "text": "<b>Sobald aufgedeckt:</b> Falls deine Identität das Merkmal <i>TROTZEND</i> hat, wähle 1. Falls deine Identität das Merkmal <i>BEZAUBERT</i> hat, führe beides in beliebiger Reihenfolge durch:\n• Durchsuche das Begegnungsdeck und den Ablagestapel nach einem Schergen und decke ihn auf. <i>(Mische.)</i>\n• Durchsuche das Begegnungsdeck und den Ablagestapel nach einem Nebenplan und decke ihn auf. <i>(Mische.)</i>"
+  },
+  {
+    "code": "55024",
+    "name": "Magische Fesselung",
+    "text": "<b>Sobald aufgedeckt:</b> Falls deine Identität das Merkmal <i>TROTZEND</i> hat, wähle 1. Falls deine Identität das Merkmal <i>BEZAUBERT</i> hat, führe beides in beliebiger Reihenfolge durch:\n• Du wirst betäubt. Platziere 1 Zaubermarker auf der <i>VERZAUBERUNG</i>-Karte in deiner Spielzone.\n• Du wirst verwirrt. Platziere 1 Zaubermarker auf der <i>VERZAUBERUNG</i>-Karte in deiner Spielzone."
+  },
+  {
+    "code": "55025",
+    "name": "Zauberstrahl",
+    "text": "<b>Sobald aufgedeckt:</b> Falls deine Identität das Merkmal <i>TROTZEND</i> hat, wähle 1. Falls deine Identität das Merkmal <i>BEZAUBERT</i> hat, führe beides in beliebiger Reihenfolge durch:\n• Enchantress treibt den Plan voran (mit +1 PLA im Expertenmodus).\n• Enchantress greift dich an (mit +1 ANG im Expertenmodus)."
+  },
+  {
+    "code": "55026",
+    "name": "Zaubersplitter",
+    "text": "<b>Sobald aufgedeckt:</b> Nimm 3 indirekten Schaden. Falls deine Identität auf diese Weise eine beliebige Menge an Schaden genommen hat, platziere 1 Zaubermarker auf der <i>VERZAUBERUNG</i>-Karte in deiner Spielzone.\n<hr />\n[star] <b>Boost:</b> Platziere 1 Zaubermarker auf der <i>VERZAUBERUNG</i>-Karte in deiner Spielzone."
+  },
+  {
+    "code": "55027a",
+    "name": "Loki, Gott der Lügen",
+    "text": "Falls Loki, Gott der Lügen, 10[per_hero] oder weniger verbleibende Lebenspunkte hat, drehe diese Karte um.",
+    "traits": "Asgard. Mystiker.",
+    "flavor": "„Kniet nieder.\""
+  },
+  {
+    "code": "55028a",
+    "name": "Zusammenprall der Welten",
+    "text": "<b>Inhalt:</b> Loki, Gott der Lügen (1). „Gott der Lügen\"- und Standard-Begegnungssets. Ein modulares Begegnungsset <i>(Trickster-Magie)</i>.\n<b>Spielaufbau:</b> Erschafft für jede Spielergruppe einen eigenen Spielbereich <i>(siehe S. 9 im Regelheft)</i>. Jede Gruppe befolgt die Anweisungen auf Unheil und Chaos (1A)."
+  },
+  {
+    "code": "55029a",
+    "name": "Loki der Schelm",
+    "text": "[star] <b>Erzwungene Reaktion:</b> Nachdem du während der Aktivierung von Loki der Schelm eine Boost-Karte abgehandelt hast und falls jene Karte ein Verrat ist, teile sie entweder dir selbst als verdeckte Begegnungskarte zu oder gib 1 beliebige Ressource aus.\n<b>Erzwungene Unterbrechung:</b> Sobald dieser Schurke besiegt werden würde, platziere stattdessen 5[per_hero] Splittermarker auf dieser Karte und drehe sie um.",
+    "traits": "Avatar von Loki."
+  },
+  {
+    "code": "55030a",
+    "name": "Loki der Bösewicht",
+    "text": "<b>Erzwungene Reaktion:</b> Nachdem du einen Verrat abgehandelt hast, platziere 1 Bedrohung auf dem Hauptplan und 1 Bedrohung auf einem Nebenplan.\n<b>Erzwungene Unterbrechung:</b> Sobald dieser Schurke besiegt werden würde, platziere stattdessen 5[per_hero] Splittermarker auf dieser Karte und drehe sie um.",
+    "traits": "Avatar von Loki."
+  },
+  {
+    "code": "55031a",
+    "name": "Loki der Gauner",
+    "text": "<b>Erzwungene Reaktion:</b> Nachdem du einen Verrat abgehandelt hast, füge deiner Identität und einem Verbündeten unter deiner Kontrolle je 1 Schaden zu.\n<b>Erzwungene Unterbrechung:</b> Sobald dieser Schurke besiegt werden würde, platziere stattdessen 5[per_hero] Splittermarker auf dieser Karte und drehe sie um.",
+    "traits": "Avatar von Loki."
+  },
+  {
+    "code": "55032a",
+    "name": "Loki der Schuft",
+    "text": "[star] <b>Erzwungene Unterbrechung:</b> Sobald Loki der Schuft gegen dich aktiviert wird, lege die oberste Karte des Begegnungsdecks ab. Falls auf diese Weise ein Verrat abgelegt wurde, bekommt Loki der Schuft für diese Aktivierung +1 PLA und +1 ANG.\n<b>Erzwungene Unterbrechung:</b> Sobald dieser Schurke besiegt werden würde, platziere stattdessen 5[per_hero] Splittermarker auf dieser Karte und drehe sie um.",
+    "traits": "Avatar von Loki."
+  },
+  {
+    "code": "55033a",
+    "name": "Unheil und Chaos",
+    "text": "<b>Spielaufbau:</b> Nachdem du Zusammenprall der Welten (A) abgehandelt hast, befolge diese Schritte:\n1. Bringe einen zufälligen <i>AVATAR VON LOKI</i>-Schurken ins Spiel. Lege jeden anderen <i>AVATAR VON LOKI</i>-Schurken und die Karte „Die Illusion zerschlagen\" beiseite.\n2. Bringe jede <i>SYNERGIE</i>-Umgebung ins Spiel.\n3. Lege im Standardmodus den Anhang Starker Fokus beiseite. Hänge ihn im Expertenmodus an den <i>AVATAR VON LOKI</i>-Schurken im Spiel an."
+  },
+  {
+    "code": "55027b",
+    "name": "Loki, Gott der Lügen",
+    "text": "<b>Sobald aufgedeckt:</b> Im Standardmodus hängt jede Gruppe ihren beiseitegelegten „Starker Fokus\"-Anhang an den <i>AVATAR VON LOKI</i>-Schurken in ihrem Spielbereich an. Im Expertenmodus dreht jede Gruppe ihren „Starker Fokus\"-Anhang auf seine „Absoluter Fokus\"-Seite um.\n<b>Falls Loki, Gott der Lügen, besiegt wird, gewinnen alle Spieler in allen Gruppen das Spiel.</b>",
+    "traits": "Asgard. Mystiker."
+  },
+  {
+    "code": "55028b",
+    "name": "Zusammenprall der Welten",
+    "text": "Jedes [per_hero]-Symbol auf Loki, Gott der Lügen, ist die Gesamtzahl aller Spieler in allen Spielbereichen.\nJedes [per_group]-Symbol auf diesem Plan ist die Gesamtzahl aller Gruppen in allen Clustern.\nKarten können diesen Plan oder Loki, Gott der Lügen, nicht beeinflussen, es sei denn, sie verweisen namentlich auf diese Karten.\n<b>Falls dieser Abschnitt vollendet ist, verlieren die Spieler das Spiel.</b>"
+  },
+  {
+    "code": "55029b",
+    "name": "Verblassendes Figment",
+    "text": "<b>Sobald aufgedeckt:</b> Zerschlage die Illusion <i>(siehe beiseitegelegte Regelkarte)</i>. Wähle eine Gruppe in deinem Cluster. Platziere dann so viele Synergiemarker auf ihrer „Vereinte Front\"-Umgebung, wie die Gruppe Spieler hat.",
+    "traits": "Illusion."
+  },
+  {
+    "code": "55030b",
+    "name": "Verblassendes Figment",
+    "text": "<b>Sobald aufgedeckt:</b> Zerschlage die Illusion <i>(siehe beiseitegelegte Regelkarte)</i>. Wähle eine Gruppe in deinem Cluster. Platziere dann so viele Synergiemarker auf ihrer „Wachsender Widerstand\"-Umgebung, wie die Gruppe Spieler hat.",
+    "traits": "Illusion."
+  },
+  {
+    "code": "55031b",
+    "name": "Verblassendes Figment",
+    "text": "<b>Sobald aufgedeckt:</b> Zerschlage die Illusion <i>(siehe beiseitegelegte Regelkarte)</i>. Wähle eine Gruppe in deinem Cluster. Platziere dann so viele Synergiemarker auf ihrer „Dominierende Kraft\"-Umgebung, wie die Gruppe Spieler hat.",
+    "traits": "Illusion."
+  },
+  {
+    "code": "55032b",
+    "name": "Verblassendes Figment",
+    "text": "<b>Sobald aufgedeckt:</b> Zerschlage die Illusion <i>(siehe beiseitegelegte Regelkarte)</i>. Wähle eine Gruppe in deinem Cluster. Platziere dann so viele Synergiemarker auf ihrer „Vorgetäuschter Rückzug\"-Umgebung, wie die Gruppe Spieler hat.",
+    "traits": "Illusion."
+  },
+  {
+    "code": "55033b",
+    "name": "Unheil und Chaos",
+    "text": "<b>Erzwungene Unterbrechung:</b> Sobald dieser Plan vollendet werden würde, entferne stattdessen alle Bedrohung von dieser Karte und platziere 1 Bedrohung auf Zusammenprall der Welten.\n<b>Erzwungene Unterbrechung:</b> Sobald eine Identität besiegt werden würde, wechsle stattdessen ihre Gestalt zu ihrem Alter Ego, stelle ihren Lebenspunktezähler auf 1 ein und platziere 1 Bedrohung auf Zusammenprall der Welten."
+  },
+  {
+    "code": "55034a",
+    "name": "Starker Fokus",
+    "text": "Dauerhaft.\nDer <i>AVATAR VON LOKI</i>-Schurke bekommt +2[per_hero] Lebenspunkte und erhält Standhaft.\n<b>Sobald aufgedeckt:</b> Lege im Standardmodus die obersten 2[per_hero] Karten des Begegnungsdecks und die obersten 5 Karten jedes Spielerdecks ab.",
+    "traits": "Zustand."
+  },
+  {
+    "code": "55034b",
+    "name": "Absoluter Fokus",
+    "text": "Dauerhaft.\nDer <i>AVATAR VON LOKI</i>-Schurke bekommt +3[per_hero] Lebenspunkte und erhält Standhaft.\n<b>Sobald aufgedeckt:</b> Lege die obersten 2[per_hero] Karten des Begegnungsdecks und die obersten 5 Karten jedes Spielerdecks ab. Finde Dunkles Zepter und decke es auf. Falls Dunkles Zepter auf diese Weise nicht ins Spiel gekommen ist, gib dem <i>AVATAR VON LOKI</i>-Schurken 1 Zäh-Statuskarte.",
+    "traits": "Zustand."
+  },
+  {
+    "code": "55035",
+    "name": "In Ketten gelegt",
+    "text": "Hänge diese Karte an deine Identität an.\nDie Identität mit diesem Anhang kann nicht spielbereit gemacht werden.\n<b>Sobald aufgedeckt:</b> Erschöpfe deine Identität.\n<b>Held - Aktion:</b> Gib 2 gleiche Ressourcen aus → lege diese Karte ab. Platziere 1 Splittermarker auf dem <i>AVATAR VON LOKI</i>-Schurken.",
+    "traits": "Zustand."
+  },
+  {
+    "code": "55036",
+    "name": "Dunkles Zepter",
+    "text": "Hänge diese Karte an den <i>AVATAR VON LOKI</i>-Schurken an.\nDer <i>AVATAR VON LOKI</i>-Schurke erhält Gestählt.\nVerratskarten können nicht aufgehoben werden.\n<b>Held - Reaktion:</b> Nachdem du einen Verrat abgehandelt hast, gib 2 gleiche Ressourcen aus → lege diese Karte ab.",
+    "traits": "Gegenstand. Waffe."
+  },
+  {
+    "code": "55043",
+    "name": "Hraesvelgr",
+    "text": "<b>Sobald aufgedeckt:</b> Lege die obersten 3 Karten des Begegnungsdecks ab. Falls auf diese Weise ein Verrat abgelegt wurde, nimm 2 indirekten Schaden.\n<b>Sobald besiegt:</b> Platziere 3 Splittermarker auf dem <i>AVATAR VON LOKI</i>-Schurken. Wähle eine Gruppe in deinem Cluster. Platziere dann 1 Synergiemarker auf ihrer „Dominierende Kraft\"-Umgebung.",
+    "traits": "Elite. Kreatur."
+  },
+  {
+    "code": "55044",
+    "name": "Laufey",
+    "text": "<b>Erzwungene Reaktion:</b> Nachdem ein Charakter Laufey angegriffen hat, lege die oberste Karte des Begegnungsdecks ab. Falls die Karte ein Verrat ist, betäube den Angreifer.\n<b>Sobald besiegt:</b> Platziere 3 Splittermarker auf dem <i>AVATAR VON LOKI</i>-Schurken. Wähle eine Gruppe in deinem Cluster. Platziere dann 1 Synergiemarker auf ihrer „Vereinte Front\"-Umgebung.",
+    "traits": "Elite. Riesig."
+  },
+  {
+    "code": "55045",
+    "name": "Aura der Stasis",
+    "text": "<b>Sobald aufgedeckt:</b> Lege die obersten 2 Karten des Begegnungsdecks ab (die obersten 3 Karten stattdessen im Expertenmodus). Falls auf diese Weise ein Verrat abgelegt wurde, erschöpfe deine Identität."
+  },
+  {
+    "code": "55046",
+    "name": "Tor zwischen den Welten",
+    "text": "Sieg 1.\nJeder Spieler in deinem Cluster kann gegen den Nebenplan Tor zwischen den Welten Widerstand leisten, als ob er in dessen Spielbereich wäre.\n<b>Sobald besiegt:</b> Jede Gruppe in deinem Cluster platziert 3 Splittermarker auf ihrem <i>AVATAR VON LOKI</i>-Schurken und 1 Synergiemarker auf einer ihrer <i>SYNERGIE</i>-Umgebungen."
+  },
+  {
+    "code": "55047",
+    "name": "Hochgesteckte Ziele",
+    "text": "<b>Sobald besiegt:</b> Platziere 2 Splittermarker auf dem <i>AVATAR VON LOKI</i>-Schurken.\n<hr />\n[star] <b>Boost:</b> Nimm für jeden Charakter unter deiner Kontrolle 1 indirekten Schaden."
+  },
+  {
+    "code": "55048",
+    "name": "New Jotunheim",
+    "text": "<b>Sobald besiegt:</b> Platziere 3 Splittermarker auf dem <i>AVATAR VON LOKI</i>-Schurken. Wähle eine Gruppe in deinem Cluster. Platziere dann 1 Synergiemarker auf ihrer „Vorgetäuschter Rückzug\"-Umgebung."
+  },
+  {
+    "code": "55049",
+    "name": "Dunkle Künste",
+    "text": "Im Expertenmodus erhält diese Karte Anstacheln 1.\n<b>Sobald aufgedeckt:</b> Durchsuche den Begegnungs-Ablagestapel nach einem Schergen und decke ihn auf. Platziere ansonsten 3 Bedrohung auf dem Hauptplan.\n<hr />\n[star] <b>Boost:</b> Platziere für jeden Charakter unter deiner Kontrolle 1 Bedrohung auf dem Hauptplan."
+  },
+  {
+    "code": "55050",
+    "name": "Schmutziger Trick",
+    "text": "<b>Sobald aufgedeckt:</b> Entferne 1 Splittermarker vom <i>AVATAR VON LOKI</i>-Schurken. Nimm 2 Schaden (3 Schaden stattdessen im Expertenmodus).\n<hr />\n[star] <b>Boost:</b> Nimm für jeden Charakter unter deiner Kontrolle 1 indirekten Schaden."
+  },
+  {
+    "code": "55051",
+    "name": "Märchen und Lügen",
+    "text": "<b>Sobald aufgedeckt:</b> Tausche den <i>AVATAR VON LOKI</i>-Schurken im Spiel gegen einen zufälligen beiseitegelegten <i>AVATAR VON LOKI</i>-Schurken aus. Dann:\n• Falls Loki der Gauner oder Loki der Bösewicht im Spiel ist, treibt er den Plan voran (mit +1 PLA im Expertenmodus).\n• Falls Loki der Schelm oder Loki der Schuft im Spiel ist, greift er dich an (mit +1 ANG im Expertenmodus)."
+  },
+  {
+    "code": "55052",
+    "name": "Dominierende Kraft",
+    "text": "Dauerhaft.\nMax. 1[per_hero] Synergiemarker auf dieser Karte.\n<b>Unterbrechung:</b> Sobald ein befreundeter Charakter angreift, entferne 1 Synergiemarker von dieser Karte → der Angriff fügt 4 zusätzlichen Schaden zu.",
+    "traits": "Synergie."
+  },
+  {
+    "code": "55053",
+    "name": "Vorgetäuschter Rückzug",
+    "text": "Dauerhaft.\nMax. 1[per_hero] Synergiemarker auf dieser Karte.\n<b>Unterbrechung:</b> Sobald eine Identität eine beliebige Menge an Schaden nehmen würde, entferne 1 Synergiemarker von dieser Karte → verhindere 4 Schaden davon.",
+    "traits": "Synergie."
+  },
+  {
+    "code": "55054",
+    "name": "Wachsender Widerstand",
+    "text": "Dauerhaft.\nMax. 1[per_hero] Synergiemarker auf dieser Karte.\n<b>Unterbrechung:</b> Sobald ein befreundeter Charakter Widerstand leistet, entferne 1 Synergiemarker von dieser Karte → das Widerstandleisten entfernt 4 zusätzliche Bedrohung.",
+    "traits": "Synergie."
+  },
+  {
+    "code": "55055",
+    "name": "Vereinte Front",
+    "text": "Dauerhaft.\nMax. 1[per_hero] Synergiemarker auf dieser Karte.\n<b>Ressource:</b> Entferne 1 Synergiemarker von dieser Karte → erzeuge [wild] [wild]-Ressourcen.",
+    "traits": "Synergie."
+  },
+  {
+    "code": "55056",
+    "name": "Absorbing Man",
+    "text": "Wache. Sieg 1.\n[star] Solange Absorbing Man mit dir im Kampf ist, bekommt er +X ANG. X sind die aufgedruckten Kosten der Karte unter deiner Kontrolle mit den höchsten Kosten.\n<b>Sobald besiegt:</b> Der Spieler, der diesen Schergen besiegt hat, bringt den beiseitegelegten Verbündeten Absorbing Man unter seiner Kontrolle ins Spiel.",
+    "traits": "Bezaubert. Elite. Schläger."
+  },
+  {
+    "code": "55057",
+    "name": "Titania",
+    "text": "Standhaft. Sieg 1.\n[star] Titanias Angriffe erhalten Overkill.\n<b>Sobald besiegt:</b> Der Spieler, der diesen Schergen besiegt hat, bringt den beiseitegelegten Verbündeten Titania unter seiner Kontrolle ins Spiel.",
+    "traits": "Bezaubert. Elite. Schläger."
+  },
+  {
+    "code": "55058",
+    "name": "Whirlwind",
+    "text": "Erstschlag. Sieg 1.\n[star] <b>Erzwungene Reaktion:</b> Nachdem Whirlwind dich angegriffen hat, nimm für jeden Nebenplan im Spiel 1 indirekten Schaden.\n<b>Sobald besiegt:</b> Der Spieler, der diesen Schergen besiegt hat, bringt den beiseitegelegten Verbündeten Whirlwind unter seiner Kontrolle ins Spiel.",
+    "traits": "Bezaubert. Elite."
+  },
+  {
+    "code": "55059",
+    "name": "Zzzax",
+    "text": "Vergeltung 1. Sieg 1.\n<b>Sobald aufgedeckt:</b> Lege die obersten 4 Karten deines Decks ab. Nimm für jede aufgedruckte [energy]-Ressource, die auf diese Weise abgelegt wurde, 1 indirekten Schaden.\n<b>Sobald besiegt:</b> Der Spieler, der diesen Schergen besiegt hat, bringt den beiseitegelegten Verbündeten Zzzax unter seiner Kontrolle ins Spiel.",
+    "traits": "Bezaubert. Elite."
+  },
+  {
+    "code": "55060",
+    "name": "Der Trickster-Tango",
+    "text": "Der Schurke erhält Gestählt. <i>(Er kann nicht betäubt oder verwirrt werden.)</i>\n<hr />\n[star] <b>Boost:</b> Falls diese Aktivierung ein Angriff ist, erhält er Overkill."
+  },
+  {
+    "code": "55061",
+    "name": "Puppenspieler",
+    "text": "Im Expertenmodus erhält dieser Plan Hindernis 1[per_hero].\nVerbündete können gegen diesen Plan keinen Widerstand leisten und nicht gegen Angriffe des Schurken verteidigen."
+  },
+  {
+    "code": "55062",
+    "name": "Dreiecksbeziehung",
+    "text": "Hänge diese Karte an einen Verbündeten unter deiner Kontrolle an. Ansonsten erhält diese Karte Nachrüsten.\nDer Verbündete mit diesem Anhang kann den Schurken nicht angreifen und kann nicht gegen Angriffe des Schurken verteidigen.\n<b>Alter Ego - Aktion:</b> Erschöpfe den Verbündeten mit diesem Anhang und gib eine [mental]-Ressource aus → lege diese Karte ab.",
+    "traits": "Zustand."
+  }
+]

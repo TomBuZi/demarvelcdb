@@ -1,0 +1,912 @@
+[
+  {
+    "code": "56059",
+    "name": "Iron Man",
+    "text": "[star] Iron Man bekommt +1 SCH für jeden <i>Tech</i>-Anhang an ihm (bis zu einem Maximum von +3 SCH).\n<b>Spielaufbau</b>: Das gegnerische Team durchsucht das Begegnungsdeck nach einem „Iron Man\"-Anhang und dein Team deckt ihn auf.",
+    "traits": "Avenger."
+  },
+  {
+    "code": "56060",
+    "name": "Iron Man",
+    "text": "Standhaft.\n[star] Iron Man bekommt +1 SCH für jeden <i>Tech</i>-Anhang an ihm (bis zu einem Maximum von +3 SCH).\n<b>Sobald aufgedeckt</b>: Teile jedem Spieler eine Begegnungskarte zu. Iron Man kann in dieser Phase keinen Schaden nehmen.",
+    "traits": "Avenger."
+  },
+  {
+    "code": "56061",
+    "name": "Iron Man",
+    "text": "[star] Iron Man bekommt +1 SCH für jeden <i>Tech</i>-Anhang an ihm (bis zu einem Maximum von +3 SCH).\n<b>Sobald aufgedeckt</b>: Das gegnerische Team durchsucht das Begegnungsdeck nach einem „Iron Man\"-Anhang und dein Team deckt ihn auf.",
+    "traits": "Avenger."
+  },
+  {
+    "code": "56062",
+    "name": "Iron Man",
+    "text": "Standhaft.\n[star] Iron Man bekommt +1 SCH für jeden <i>Tech</i>-Anhang an ihm (bis zu einem Maximum von +3 SCH).\n<b>Sobald aufgedeckt</b>: Teile jedem Spieler eine Begegnungskarte zu. Iron Man kann in dieser Phase keinen Schaden nehmen.",
+    "traits": "Avenger."
+  },
+  {
+    "code": "56063a",
+    "name": "Superhelden-Registrierungsgesetz",
+    "text": "<b>Inhalt</b>: Gewählter Anführer (I) und (II) <i>(stattdessen (III) und (IV) im Expertenmodus)</i>. Set des gewählten Anführers, Standard-Begegnungsset und 3-4 modulare Sets.\n<b>Spielaufbau</b>: Im kompetitiven Modus findet das gegnerische Team den Nebenplan Eine Seite wählen und dein Team deckt ihn auf. Finde im kooperativen Modus auf dem Nebenplan des gewählten Anführers und decke ihn auf."
+  },
+  {
+    "code": "56063b",
+    "name": "Unterstützung entziehen",
+    "text": "Falls in deinem Team mehr als 1 Spieler ist, erhält dieser Abschnitt Hindernis 2[per_hero].\n<b>Erzwungene Unterbrechung</b>: Sobald ein Spieler einen Verrat aufdeckt, platziere 1 Bedrohung auf dieser Karte. <i>(Nur ein Mal pro Phase pro Spieler.)</i>",
+    "flavor": "„Die Bevölkerung wird keine Superhelden mehr dulden, die außerhalb des Gesetzes agieren.\" -She-Hulk"
+  },
+  {
+    "code": "56064a",
+    "name": "Pro-Registrierung-Taktiken",
+    "flavor": "Iron Man und seine Avengers haben den Befehl, alle Personen mit Superkräften festzunehmen, die eine Registrierung bei S.H.I.E.L.D. verweigern. Zu diesen gehören auch ehemalige Teamkollegen wie Captain America und Spider-Woman."
+  },
+  {
+    "code": "56064b",
+    "name": "Gefängnis in der Negativzone",
+    "text": "[star] Senke den Ziel-Bedrohungswert dieses Plans für jede verdeckte Karte unter ihm um 1.\n<b>Erzwungene Reaktion</b>: Nachdem ein Verbündeter durch den Angriff eines Gegners besiegt worden ist, platziere den Verbündeten verdeckt unter diesem Plan.\n<b>Falls dieser Abschnitt vollendet ist, verlieren die Spieler das Spiel.</b>"
+  },
+  {
+    "code": "56065",
+    "name": "Repulsor-Handschuhe",
+    "text": "Hänge diese Karte an Iron Man an.\n[star] Iron Mans Angriffe erhalten Fernkampf.\n<b>Held - Reaktion</b>: Nachdem du einen Basisangriff gegen Iron Man durchgeführt hast, gib [physical] [energy]-Ressourcen aus → lege diese Karte ab.\n<hr />\n[star] <b>Boost</b>: Decke diese Karte auf.",
+    "traits": "Rüstung. Tech."
+  },
+  {
+    "code": "56066",
+    "name": "Raketenstiefel",
+    "text": "Hänge diese Karte an Iron Man an.\nIron Man erhält das Merkmal <i>Fliegend</i>.\n<b>Held - Reaktion</b>: Nachdem du einen Basisangriff gegen Iron Man durchgeführt hast, gib [physical] [energy]-Ressourcen aus → lege diese Karte ab.\n<hr />\n[star] <b>Boost</b>: Decke diese Karte auf.",
+    "traits": "Rüstung. Tech."
+  },
+  {
+    "code": "56067",
+    "name": "Mark-V-Helm",
+    "text": "Hänge diese Karte an Iron Man an und gib ihm eine Zäh-Statuskarte.\nIron Man erhält Gestählt.\n<b>Held - Reaktion</b>: Nachdem du einen Basisangriff gegen Iron Man durchgeführt hast, gib [physical] [mental]-Ressourcen aus → lege diese Karte ab.",
+    "traits": "Rüstung. Tech."
+  },
+  {
+    "code": "56068",
+    "name": "Arc-Reaktor",
+    "text": "Hänge diese Karte an Iron Man an und gib ihm eine Zäh-Statuskarte.\nIron Man erhält Vergeltung 1.\n<b>Held - Reaktion</b>: Nachdem du einen Basisangriff gegen Iron Man durchgeführt hast, gib [physical] [mental]-Ressourcen aus → lege diese Karte ab.",
+    "traits": "Rüstung. Tech."
+  },
+  {
+    "code": "56069",
+    "name": "Mark-V-Rüstung",
+    "text": "Hänge diese Karte an Iron Man an.\n<b>Erzwungene Unterbrechung</b>: Sobald Iron Man eine beliebige Menge an Schaden nehmen würde, platziere ihn stattdessen hier. Falls dann mindestens 5 Schaden auf dieser Karte liegt, lege diese Karte ab.\n<hr />\n[star] <b>Boost</b>: Decke diese Karte auf.",
+    "traits": "Rüstung. Tech."
+  },
+  {
+    "code": "56070",
+    "name": "Repulsor-Strahl",
+    "text": "<b>Sobald aufgedeckt (Alter Ego)</b>: Lege ein Upgrade oder einen Vorteil unter deiner Kontrolle ab.\n<b>Sobald aufgedeckt (Held)</b>: Lege die obersten 4 Karten deines Decks ab. Füge deinem Helden für jede aufgedruckte [energy]- und [wild]-Ressource, die auf diese Weise abgelegt wurde, 1 Schaden zu."
+  },
+  {
+    "code": "56071",
+    "name": "Überschallschlag",
+    "text": "<b>Sobald aufgedeckt (Alter Ego)</b>: Iron Man treibt den Plan voran. Falls er einen <i>Tech</i>-Anhang hat, wirst du verwirrt.\n<b>Sobald aufgedeckt (Held)</b>: Iron Man greift dich an. Falls er einen <i>Tech</i>-Anhang hat, erhält dieser Angriff Durchdringend.",
+    "flavor": "„Es reicht. Jetzt bin ich sauer!\" -Iron Man"
+  },
+  {
+    "code": "56072",
+    "name": "Stark Tower",
+    "text": "<b>Sobald besiegt</b>: Das gegnerische Team durchsucht das Begegnungsdeck und den Ablagestapel nach einem „Iron Man\"-Anhang und dein Team deckt ihn auf.",
+    "flavor": "Der immense Reichtum von Iron Man verschafft seinen Avengers einen erheblichen Vorteil gegenüber den Geächteten rund um Captain America."
+  },
+  {
+    "code": "56073",
+    "name": "Yellowjacket",
+    "text": "Zähigkeit.\n<b>Sobald aufgedeckt</b>: Gib dem gegnerischen Anführer eine Zäh-Statuskarte.\n<hr />\n[star] <b>Boost</b>: Gib dem gegnerischen Anführer eine Zäh-Statuskarte.",
+    "traits": "Avenger."
+  },
+  {
+    "code": "56074",
+    "name": "Wasp",
+    "text": "Zusammenarbeit (<i>Avenger</i>).\n<b>Sobald aufgedeckt</b>: Platziere 1 Bedrohung auf dem Hauptplan.\n<hr />\n[star] <b>Boost</b>: Platziere 1 Bedrohung auf dem Hauptplan.",
+    "traits": "Avenger. Fliegend."
+  },
+  {
+    "code": "56075",
+    "name": "U.S. Agent",
+    "text": "Vergeltung 1. Zähigkeit.\n<b>Sobald aufgedeckt</b>: Füge deiner Identität 1 Schaden zu.\n<hr />\n[star] <b>Boost</b>: Füge deiner Identität 1 Schaden zu.",
+    "traits": "Avenger."
+  },
+  {
+    "code": "56076",
+    "name": "Mighty Avengers",
+    "text": "<b>Sobald aufgedeckt</b>: Handle die „<b>Sobald aufgedeckt</b>\"-Fähigkeit auf jedem Schergen im Spiel ab. Falls auf diese Weise keine „<b>Sobald aufgedeckt</b>\"-Fähigkeit abgehandelt wurde, erhält diese Karte Nachrüsten.",
+    "flavor": "„Tu uns allen einen Gefallen und bleib liegen!\" -Doc Samson"
+  },
+  {
+    "code": "56077",
+    "name": "Die mächtigsten Helden der Welt",
+    "text": "Hindernis 1[per_hero].\nJeder <i>Avenger</i>-Scherge erhält die aufgedruckten Schlüsselwörter jedes anderen <i>Avenger</i>-Schergen.",
+    "flavor": "„Wir sind euch zahlenmäßig und waffentechnisch überlegen.\" -Iron Man"
+  },
+  {
+    "code": "56078",
+    "name": "Doc Samson",
+    "text": "Wache.\n<b>Sobald aufgedeckt</b>: Du wirst verwirrt. Falls du bereits verwirrt bist, platziere 2 Bedrohung auf dem Hauptplan.\n<hr />\n[star] <b>Boost</b>: Du wirst verwirrt.",
+    "traits": "Avenger. Gamma."
+  },
+  {
+    "code": "56079",
+    "name": "Hellcat",
+    "text": "Erstschlag.\n<b>Sobald aufgedeckt</b>: Du wirst betäubt. Falls du bereits betäubt bist, nimm 2 indirekten Schaden.\n<hr />\n[star] <b>Boost</b>: Du wirst betäubt.",
+    "traits": "Avenger."
+  },
+  {
+    "code": "56080",
+    "name": "Eingezogen",
+    "text": "Der Scherge mit diesem Anhang bekommt +2 Lebenspunkte und erhält das Merkmal <i>Avenger</i>.\n<b>Sobald aufgedeckt</b>: Im kompetitiven Modus hängt das gegnerische Team Eingezogen an einen Schergen im Kampf mit diesem Team an und der Scherge verwickelt dich in einen Kampf. Lege ansonsten Karten vom Begegnungsdeck ab, bis ein Scherge abgelegt wird. Decke den Schergen auf und hänge Eingezogen an ihn an."
+  },
+  {
+    "code": "56081",
+    "name": "Mighty Avengers",
+    "text": "<b>Sobald aufgedeckt</b>: Handle die „<b>Sobald aufgedeckt</b>\"-Fähigkeit auf jedem Schergen im Spiel ab. Falls auf diese Weise keine „<b>Sobald aufgedeckt</b>\"-Fähigkeit abgehandelt wurde, erhält diese Karte Nachrüsten.",
+    "flavor": "„Tu uns allen einen Gefallen und bleib liegen!\" -Doc Samson"
+  },
+  {
+    "code": "56082",
+    "name": "Die Fünfzig-Staaten-Initiative",
+    "text": "Hindernis 1[per_hero].\n<b>Sobald besiegt</b>: Mische jeden <i>Avenger</i>-Schergen im Begegnungs-Ablagestapel in das Begegnungsdeck.",
+    "flavor": "S.H.I.E.L.D. möchte durchsetzen, dass jeder Bundesstaat sein eigenes von der Regierung gesponsertes Superheldenteam erhält."
+  },
+  {
+    "code": "56083",
+    "name": "Maria Hill",
+    "text": "Vergeltung 2.\n<b>Sobald aufgedeckt</b>: Das gegnerische Team durchsucht das Begegnungsdeck und den Ablagestapel nach einem Exemplar von Lebensechter Köder und hängt es an Maria Hill an.",
+    "traits": "Elite. S.H.I.E.L.D.",
+    "flavor": "„Es ist die Aufgabe von S.H.I.E.L.D., die Welt zu beschützen!\""
+  },
+  {
+    "code": "56084",
+    "name": "Lebensechter Köder",
+    "text": "Das gegnerische Team hängt diese Karte an seinen Anführer oder einen Schergen an. <i>(Nur 1 pro Charakter.)</i>\nDer Charakter mit diesem Anhang erhält Gestählt.\n<b>Erzwungene Unterbrechung</b>: Sobald der Charakter mit diesem Anhang durch einen Angriff eine beliebige Menge an Schaden nehmen würde, verhindere den Schaden und lege stattdessen diese Karte ab.",
+    "traits": "Tech."
+  },
+  {
+    "code": "56085",
+    "name": "Vollzugsanordnung",
+    "text": "<b>Sobald aufgedeckt</b>: Platziere 2 Bedrohung auf jedem Plan. Falls Maria Hill im Spiel ist, erhält diese Karte Nachrüsten.\n<hr />\n[star] <b>Boost</b>: Falls Maria Hill im Spiel ist, erhält diese Karte [boost][boost][boost].",
+    "flavor": "„Zurück, Captain. Sie haben hier NICHT das Kommando!\" -Maria Hill"
+  },
+  {
+    "code": "56086",
+    "name": "S.H.I.E.L.D.-Helicarrier",
+    "text": "Hindernis 1[per_hero].\n<b>Sobald besiegt</b>: Der Spieler, der diesen Plan besiegt hat, fügt jedem Charakter unter seiner Kontrolle und jedem Schergen, der mit ihm im Kampf ist, 1 Schaden zu.",
+    "flavor": "Dank seiner Helicarrier kann S.H.I.E.L.D. weltweit agieren und Einfluss ausüben."
+  },
+  {
+    "code": "56087",
+    "name": "Venom",
+    "text": "[star] Venoms Angriffe erhalten Durchdringend.\n<b>Sobald aufgedeckt</b>: Venom greift deinen Anführer an. Ansonsten wird Venom gegen dich aktiviert.",
+    "traits": "Thunderbolt.",
+    "flavor": "„Nur ein Bissen! Daran wirst du schon nicht sterben!\""
+  },
+  {
+    "code": "56088",
+    "name": "Bullseye",
+    "text": "<b>Sobald aufgedeckt</b>: Das gegnerische Team legt einen Anhang von deinem Anführer ab. Lege ansonsten ein Upgrade unter deiner Kontrolle ab.",
+    "traits": "Thunderbolt.",
+    "flavor": "„Es ist zu schön, um wahr zu sein: Ich arbeite für S.H.I.E.L.D. und Daredevil ist der Geächtete!\""
+  },
+  {
+    "code": "56089",
+    "name": "Blitzschnelle Gerechtigkeit",
+    "text": "<b>Sobald aufgedeckt</b>: Jeder Scherge wird gegen den Spieler aktiviert, mit dem er im Kampf ist. Ansonsten wird der gegnerische Anführer gegen dich aktiviert. Gib ihm für diese Aktivierung keine Boost-Karte.",
+    "flavor": "„Wir sind alle schuldig. Hier kommt die Gerechtigkeit!\" -Penance"
+  },
+  {
+    "code": "56090",
+    "name": "Übermäßige Gewalt",
+    "text": "<b>Sobald aufgedeckt</b>: Platziere für jeden Schergen im Spiel 1 Bedrohung auf dem Hauptplan. Ansonsten erhält diese Karte Nachrüsten.\n<hr />\n[star] <b>Boost</b>: Der gegnerische Anführer greift deinen Anführer an <i>(nach dieser Aktivierung)</i>. Gib ihm für diesen Angriff keine Boost-Karte."
+  },
+  {
+    "code": "56091",
+    "name": "Gefährliche Rekruten",
+    "text": "Hindernis 1[per_hero].\n<b>Erzwungene Unterbrechung</b>: Sobald ein Scherge besiegt wird, gib ihn dem gegnerischen Anführer als verdeckte Boost-Karte.",
+    "flavor": "„Sie haben alle ein Sprengstoffimplantat erhalten, um ihre Kooperationsbereitschaft sicherzustellen.\" -Maria Hill"
+  },
+  {
+    "code": "56092",
+    "name": "Captain Marvel",
+    "text": "<b>Spielaufbau</b>: Das gegnerische Team findet den Anhang Energie kanalisieren und hängt ihn an Captain Marvel an.\n<b>Erzwungene Reaktion</b>: Nachdem Captain Marvel einen Charakter angegriffen und ihn besiegt hat, platziere 1 Energiemarker auf Energie kanalisieren.",
+    "traits": "Avenger. Fliegend."
+  },
+  {
+    "code": "56093",
+    "name": "Captain Marvel",
+    "text": "Standhaft.\n<b>Sobald aufgedeckt</b>: Teile jedem Spieler eine Begegnungskarte zu. Captain Marvel kann in dieser Phase keinen Schaden nehmen.\n<b>Erzwungene Reaktion</b>: Nachdem Captain Marvel einen Charakter angegriffen und ihn besiegt hat, platziere 1 Energiemarker auf Energie kanalisieren.",
+    "traits": "Avenger. Fliegend."
+  },
+  {
+    "code": "56094",
+    "name": "Captain Marvel",
+    "text": "<b>Spielaufbau</b>: Das gegnerische Team findet den Anhang Energie kanalisieren und hängt ihn an Captain Marvel an.\n<b>Erzwungene Reaktion</b>: Nachdem Captain Marvel einen Charakter angegriffen und ihn besiegt hat, platziere 1 Energiemarker auf Energie kanalisieren.",
+    "traits": "Avenger. Fliegend."
+  },
+  {
+    "code": "56095",
+    "name": "Captain Marvel",
+    "text": "Standhaft.\n<b>Sobald aufgedeckt</b>: Teile jedem Spieler eine Begegnungskarte zu. Captain Marvel kann in dieser Phase keinen Schaden nehmen.\n<b>Erzwungene Reaktion</b>: Nachdem Captain Marvel einen Charakter angegriffen und ihn besiegt hat, platziere 1 Energiemarker auf Energie kanalisieren.",
+    "traits": "Avenger. Fliegend."
+  },
+  {
+    "code": "56096a",
+    "name": "Superhelden-Registrierungsgesetz",
+    "text": "<b>Inhalt</b>: Gewählter Anführer (I) und (II) <i>(stattdessen (III) und (IV) im Expertenmodus)</i>. Set des gewählten Anführers, Standard-Begegnungsset und 3-4 modulare Sets.\n<b>Spielaufbau</b>: Im kompetitiven Modus findet das gegnerische Team den Nebenplan Eine Seite wählen und dein Team deckt ihn auf. Finde im kooperativen Modus auf dem Nebenplan des gewählten Anführers und decke ihn auf."
+  },
+  {
+    "code": "56096b",
+    "name": "S.H.I.E.L.D.-Rekruten",
+    "text": "Falls in deinem Team mehr als 1 Spieler ist, erhält dieser Abschnitt Hindernis 2[per_hero].\n<b>Sobald aufgedeckt</b>: Das gegnerische Team durchsucht das Begegnungsdeck nach 1[per_hero] Schergen und teilt jedem Spieler in deinem Team einen davon als verdeckte Begegnungskarte zu."
+  },
+  {
+    "code": "56097a",
+    "name": "Pro-Registrierung-Taktiken",
+    "flavor": "Iron Man und seine Avengers haben den Befehl, alle Personen mit Superkräften festzunehmen, die eine Registrierung bei S.H.I.E.L.D. verweigern. Zu diesen gehören auch ehemalige Teamkollegen wie Captain America und Spider-Woman."
+  },
+  {
+    "code": "56097b",
+    "name": "Jagd auf abtrünnige Helden",
+    "text": "Jeder Held erhält das Merkmal <i>Unregistriert</i>.\n<b>Erzwungene Reaktion</b>: Nachdem eine weitere Karte aufgedeckt worden ist, die 1 oder mehr Helden das Merkmal <i>Unregistriert</i> gibt, füge jedem dieser Helden 2 Schaden zu.\n<b>Falls dieser Abschnitt vollendet ist, verlieren die Spieler das Spiel.</b>"
+  },
+  {
+    "code": "56098",
+    "name": "Energie kanalisieren",
+    "text": "Dauerhaft.\n<b>Erzwungene Reaktion</b>: Nachdem ein Anführer, Held oder Verbündeter Captain Marvel angegriffen hat, platziere hier 1 Energiemarker. Falls dann mindestens 4 Energiemarker auf dieser Karte liegen, entferne alle davon → Captain Marvel greift den Charakter an. Dieser Angriff erhält Overkill.",
+    "traits": "Superkraft."
+  },
+  {
+    "code": "56099",
+    "name": "Captain Marvels Helm",
+    "text": "Hänge diese Karte an Captain Marvel an.\nCaptain Marvel erhält Gestählt.\n<b>Held - Reaktion</b>: Nachdem du einen Basisangriff gegen Captain Marvel durchgeführt hast, gib 3 gleiche Ressourcen aus → lege diese Karte ab.\n<hr />\n[star] <b>Boost</b>: Decke diese Karte auf.",
+    "traits": "Rüstung. Tech."
+  },
+  {
+    "code": "56100",
+    "name": "Kosmischer Flug",
+    "text": "Hänge diese Karte an Captain Marvel an.\n<b>Erzwungene Unterbrechung</b>: Sobald Captain Marvel durch einen Angriff mehr als 3 Schaden nehmen würde, senke die Menge an Schaden auf 3. Lege dann diese Karte ab.\n<hr />\n[star] <b>Boost</b>: Decke diese Karte auf.",
+    "traits": "Superkraft."
+  },
+  {
+    "code": "56101",
+    "name": "Photonenstrahl",
+    "text": "<b>Sobald aufgedeckt (Alter Ego)</b>: Lege einen Verbündeten oder Vorteil unter deiner Kontrolle ab.\n<b>Sobald aufgedeckt (Held)</b>: Captain Marvel greift dich an. Platziere 1 Energiemarker auf Energie kanalisieren."
+  },
+  {
+    "code": "56102",
+    "name": "Krisenintervention",
+    "text": "<b>Sobald aufgedeckt (Alter Ego)</b>: Captain Marvel treibt den Plan voran. Platziere 1 Energiemarker auf Energie kanalisieren.\n<b>Sobald aufgedeckt (Held)</b>: Platziere 2 Bedrohung auf jedem Plan."
+  },
+  {
+    "code": "56103",
+    "name": "Energieabsorption",
+    "text": "<b>Sobald aufgedeckt</b>: Platziere 1 Energiemarker auf Energie kanalisieren. Heile für jeden Energiemarker auf Energie kanalisieren 1 Schaden von Captain Marvel.\n<hr />\n[star] <b>Boost</b>: Platziere 1 Energiemarker auf Energie kanalisieren."
+  },
+  {
+    "code": "56104",
+    "name": "Alpha Flight Station",
+    "text": "<b>Sobald besiegt</b>: Platziere 3 Energiemarker auf Energie kanalisieren.",
+    "flavor": "„Halten Sie die Sensoren auf Nordamerika gerichtet. Ich will wissen, wo sich Caps Hauptquartier befindet.\" -Captain Marvel"
+  },
+  {
+    "code": "56105",
+    "name": "Cape-Killer",
+    "text": "Erstschlag.\n[star] <b>Erzwungene Unterbrechung</b>: Sobald Cape-Killer eine Identität mit dem Merkmal <i>Unregistriert</i> angreift, bekommt er für diesen Angriff +2 ANG.",
+    "traits": "S.H.I.E.L.D.",
+    "flavor": "Die neue Eliteeinheit von S.H.I.E.L.D. soll abtrünnige Superhelden aufspüren und verhaften."
+  },
+  {
+    "code": "56106",
+    "name": "Unregistrierter Super",
+    "text": "Deine Identität erhält das Merkmal <i>Unregistriert</i>.\n<b>Alter Ego - Aktion</b>: Lege eine identitätsspezifische Karte von deiner Hand ab → lege diese Karte ab."
+  },
+  {
+    "code": "56107",
+    "name": "Nehmt sie fest",
+    "text": "<b>Sobald aufgedeckt</b>: Erschöpfe jede <i>Unregistriert</i>-Identität. Ansonsten durchsucht das gegnerische Team das Begegnungsdeck und den Ablagestapel nach einem Exemplar von Unregistrierter Super und teilt es dir als verdeckte Begegnungskarte zu."
+  },
+  {
+    "code": "56108",
+    "name": "Inhaftierungsanordnung",
+    "text": "Hindernis 1[per_hero].\n<b>Sobald besiegt</b>: Der Spieler, der diesen Plan besiegt, teilt sich selbst den obersten S.H.I.E.L.D.-Schergen im Begegnungs-Ablagestapel als verdeckte Begegnungskarte zu.",
+    "flavor": "„Das passiert, wenn man sich gegen das Gesetz stellt!\" -S.H.I.E.L.D.-Offizier"
+  },
+  {
+    "code": "56109",
+    "name": "S.H.I.E.L.D.-Soldat",
+    "text": "<b>Sobald aufgedeckt</b>: Bringe den obersten S.H.I.E.L.D.-Schergen im Begegnungs-Ablagestapel mit dir im Kampf ins Spiel.\n<hr />\n[star] <b>Boost</b>: Bringe diesen Schergen mit dir im Kampf ins Spiel.",
+    "traits": "S.H.I.E.L.D."
+  },
+  {
+    "code": "56110",
+    "name": "Schnelles Eingreifen",
+    "text": "<b>Sobald aufgedeckt</b>: Lege Karten vom Begegnungsdeck ab, bis ein Scherge abgelegt wird. Falls du in deiner:\n• Alter-Ego-Gestalt bist, platziere Bedrohung in Höhe des PLA-Wertes des Schergen auf dem Hauptplan.\n• Heldengestalt bist, füge deinem Helden Schaden in Höhe des ANG-Wertes des Schergen zu."
+  },
+  {
+    "code": "56111",
+    "name": "S.H.I.E.L.D.-Patrouille",
+    "text": "Hindernis 1[per_hero].\nJeder Scherge erhält Wache.",
+    "flavor": "„Bleibt wachsam. Caps Avengers wurden zuletzt in diesem Gebiet gesehen.\" -S.H.I.E.L.D.-Offizier"
+  },
+  {
+    "code": "56112",
+    "name": "Colleen Wing",
+    "text": "<b>Sobald aufgedeckt</b>: Wähle einen Verbündeten unter deiner Kontrolle <i>(das gegnerische Team wählt stattdessen, falls du das Merkmal <i>Unregistriert</i> hast)</i>. Lege den Verbündeten ab.",
+    "traits": "Held für Geld.",
+    "flavor": "„Ich mag es nicht, unsere Freunde zu jagen. Aber besser wir ... als die Thunderbolts.\""
+  },
+  {
+    "code": "56113",
+    "name": "Shang-Chi",
+    "text": "<b>Sobald aufgedeckt</b>: Wähle ein Upgrade unter deiner Kontrolle <i>(das gegnerische Team wählt stattdessen, falls du das Merkmal <i>Unregistriert</i> hast)</i>. Lege das Upgrade ab.",
+    "traits": "Held für Geld.",
+    "flavor": "„Es ist keine Schande, sich für eine gerechte Sache einzusetzen.\""
+  },
+  {
+    "code": "56114",
+    "name": "Unregistrierter Super",
+    "text": "Deine Identität erhält das Merkmal <i>Unregistriert</i>.\n<b>Alter Ego - Aktion</b>: Lege eine identitätsspezifische Karte von deiner Hand ab → lege diese Karte ab."
+  },
+  {
+    "code": "56115",
+    "name": "Kopfgeldjagd",
+    "text": "<b>Sobald aufgedeckt</b>: Lege 1 Karte von deiner Hand ab <i>(1 zufällige Karte stattdessen, falls du das Merkmal <i>Unregistriert</i> hast)</i>. Platziere für jedes Ressourcensymbol auf der Karte 1 Bedrohung auf dem Hauptplan.",
+    "flavor": "„Ich bin froh, dass ihr abtrünnig geworden seid. Das wird mir viel Geld einbringen.\" -Paladin"
+  },
+  {
+    "code": "56116",
+    "name": "Helden für Geld",
+    "text": "Hindernis 1[per_hero].\n<b>Sobald besiegt</b>: Das gegnerische Team durchsucht das Begegnungsdeck und den Ablagestapel nach einem Exemplar von Unregistrierter Super und teilt es dem Spieler, der diesen Plan besiegt hat, als verdeckte Begegnungskarte zu."
+  },
+  {
+    "code": "56117",
+    "name": "Paladin",
+    "text": "Erstschlag. Zähigkeit.\n<b>Sobald aufgedeckt</b>: Lege 1 Karte von deiner Hand ab <i>(1 zufällige Karte stattdessen, falls du das Merkmal <i>Unregistriert</i> hast)</i>.",
+    "traits": "Elite. Held für Geld.",
+    "flavor": "„Eure politische Agenda interessiert mich nicht. Mich interessiert nur das Geld.\""
+  },
+  {
+    "code": "56118",
+    "name": "Paladins Pistole",
+    "text": "Hänge diese Karte an Paladin an. Hänge sie ansonsten an den gegnerischen Anführer an.\n[star] <b>Erzwungene Unterbrechung</b>: Sobald der Charakter mit diesem Anhang angreift, erhält dieser Angriff Fernkampf und Overkill. Lege diese Karte nach dem Angriff ab.",
+    "traits": "Waffe."
+  },
+  {
+    "code": "56119",
+    "name": "Kopfgeldjagd",
+    "text": "<b>Sobald aufgedeckt</b>: Lege 1 Karte von deiner Hand ab <i>(1 zufällige Karte stattdessen, falls du das Merkmal <i>Unregistriert</i> hast)</i>. Platziere für jedes Ressourcensymbol auf der Karte 1 Bedrohung auf dem Hauptplan.",
+    "flavor": "„Ich bin froh, dass ihr abtrünnig geworden seid. Das wird mir viel Geld einbringen.\" -Paladin"
+  },
+  {
+    "code": "56120",
+    "name": "In staatlichem Auftrag",
+    "text": "Hindernis 1[per_hero].\nJede Identität erhält das Merkmal <i>Unregistriert</i>.",
+    "flavor": "Als Captain America in den Untergrund ging, beauftragte Iron Man Paladin und die Helden für Geld damit, ihn aufzuspüren."
+  },
+  {
+    "code": "56121a",
+    "name": "Superhelden-Registrierungsgesetz",
+    "text": "<b>Inhalt</b>: Gewählter Anführer (I) und (II) <i>(stattdessen (III) und (IV) im Expertenmodus)</i>. Set des gewählten Anführers, Standard-Begegnungsset und 3-4 modulare Sets.\n<b>Spielaufbau</b>: Im kompetitiven Modus findet das gegnerische Team den Nebenplan Eine Seite wählen und dein Team deckt ihn auf. Finde im kooperativen Modus auf dem Nebenplan des gewählten Anführers und decke ihn auf."
+  },
+  {
+    "code": "56121b",
+    "name": "Heimatschutz",
+    "text": "Falls in deinem Team mehr als 1 Spieler ist, erhält dieser Abschnitt Hindernis 2[per_hero].\nJeder Scherge erhält Wache.",
+    "flavor": "Seitdem bewaffnete S.H.I.E.L.D.-Einheiten auf den Straßen patrouillieren, ist die Kriminalitätsrate auf ein Rekordtief gesunken."
+  },
+  {
+    "code": "56122a",
+    "name": "Superhelden-Registrierungsgesetz",
+    "text": "<b>Inhalt</b>: Gewählter Anführer (I) und (II) <i>(stattdessen (III) und (IV) im Expertenmodus)</i>. Set des gewählten Anführers, Standard-Begegnungsset und 3-4 modulare Sets.\n<b>Spielaufbau</b>: Im kompetitiven Modus findet das gegnerische Team den Nebenplan Eine Seite wählen und dein Team deckt ihn auf. Finde im kooperativen Modus auf dem Nebenplan des gewählten Anführers und decke ihn auf."
+  },
+  {
+    "code": "56122b",
+    "name": "Öffentliche Entrüstung",
+    "text": "Falls in deinem Team mehr als 1 Spieler ist, erhält dieser Abschnitt Hindernis 2[per_hero].\n[star] <b>Erzwungene Reaktion</b>: Nachdem Schritt 1 der Schurkenphase abgehandelt worden ist, legt jeder Spieler die obersten 3 Karten seines Decks ab.",
+    "flavor": "„Es ist einfach ungeheuerlich, dass sich Captain America gegen sein Land gestellt hat!\" -J. Jonah Jameson"
+  },
+  {
+    "code": "56123a",
+    "name": "Pro-Registrierung-Taktiken",
+    "flavor": "Iron Man und seine Avengers haben den Befehl, alle Personen mit Superkräften festzunehmen, die eine Registrierung bei S.H.I.E.L.D. verweigern. Zu diesen gehören auch ehemalige Teamkollegen wie Captain America und Spider-Woman."
+  },
+  {
+    "code": "56123b",
+    "name": "Die Initiative",
+    "text": "<b>Sobald aufgedeckt</b>: Das gegnerische Team durchsucht das Begegnungsdeck und den Ablagestapel nach 1[per_hero] Nebenplan und teilt jedem Spieler in deinem Team einen davon als verdeckte Begegnungskarte zu.\n<b>Falls dieser Abschnitt vollendet ist, verlieren die Spieler das Spiel.</b>",
+    "flavor": "„Wartet ab, bis sie unsere Pläne zum Schutz des Mittleren Westens sehen.\" -Yellowjacket"
+  },
+  {
+    "code": "56124a",
+    "name": "Pro-Registrierung-Taktiken",
+    "flavor": "Iron Man und seine Avengers haben den Befehl, alle Personen mit Superkräften festzunehmen, die eine Registrierung bei S.H.I.E.L.D. verweigern. Zu diesen gehören auch ehemalige Teamkollegen wie Captain America und Spider-Woman."
+  },
+  {
+    "code": "56124b",
+    "name": "Kein Zurück",
+    "text": "Verbündete kommen erschöpft ins Spiel.\n<b>Falls dieser Abschnitt vollendet ist, verlieren die Spieler das Spiel.</b>",
+    "flavor": "„Es kann keine Amnestie mehr für Cap und seine Abtrünnigen geben. Sie sind zu weit gegangen!\" -She-Hulk"
+  },
+  {
+    "code": "56125",
+    "name": "Gerechte Sache",
+    "text": "<b>Sobald aufgedeckt</b>: Der gegnerische Anführer treibt den Plan voran. Falls in deinem Team mehr als 1 Spieler ist, gib dem gegnerischen Anführer für diese Aktivierung eine zusätzliche Boost-Karte.",
+    "flavor": "„Ich war jahrelang Doppelagentin. Für eine gerechte Sache würde ich fast alles tun.\" -Spider-Woman"
+  },
+  {
+    "code": "56126",
+    "name": "Was immer nötig ist",
+    "text": "<b>Sobald aufgedeckt (Alter Ego)</b>: Der gegnerische Anführer greift deinen Anführer an.\n<b>Sobald aufgedeckt (Held)</b>: Der gegnerische Anführer greift dich an.",
+    "flavor": "„Ziel im Visier. Angriff einleiten.\" -Captain Marvel"
+  },
+  {
+    "code": "56127",
+    "name": "Gezielter Angriff",
+    "text": "<b>Sobald aufgedeckt</b>: Das gegnerische Team durchsucht die obersten 5 Karten des Begegnungsdecks nach einer Karte und teilt sie dir als verdeckte Begegnungskarte zu.\n<hr />\n[star] <b>Boost</b>: Diese Karte erhält [boost] für jeden Spieler in deinem Team."
+  },
+  {
+    "code": "56128a",
+    "name": "Eine Seite wählen",
+    "text": "Dauerhaft.\nDer gegnerische Anführer kann nicht mehr als 2 Schaden durch jeden Angriff nehmen.\n<b>Erzwungene Reaktion</b>: Nachdem die letzte Bedrohung von dieser Karte entfernt worden ist, durchsucht das gegnerische Team die obersten 5 Karten des Begegnungsdecks nach 1[per_hero] Begegnungskarte und teilt jedem Spieler eine davon als verdeckte Begegnungskarte zu. Drehe diese Karte um."
+  },
+  {
+    "code": "56128b",
+    "name": "Jetzt wird's persönlich",
+    "text": "<b><i>Gib diese Karte dem Startspieler.</i></b>\n<b>Aktion</b>: Entferne diese Karte aus dem Spiel → jeder Spieler in deinem Team wählt 2 der beiseitegelegten Spielerkarten deines Anführers und nimmt sie auf seine Hand."
+  },
+  {
+    "code": "56137",
+    "name": "Captain America",
+    "text": "<b>Spielaufbau</b>: Das gegnerische Team findet Caps Schild und hängt ihn an Captain America an.\n<b>Erzwungene Reaktion</b>: Nachdem Caps Schild an Captain America angehängt worden ist, gib ihm eine Zäh-Statuskarte.",
+    "traits": "Avenger.",
+    "flavor": "„Nur weil es Gesetz ist, bedeutet das nicht, dass es richtig ist.\""
+  },
+  {
+    "code": "56138",
+    "name": "Captain America",
+    "text": "Standhaft.\n<b>Sobald aufgedeckt</b>: Teile jedem Spieler eine Begegnungskarte zu. Captain America kann in dieser Phase keinen Schaden nehmen.\n<b>Erzwungene Reaktion</b>: Nachdem Caps Schild an Captain America angehängt worden ist, gib ihm eine Zäh-Statuskarte.",
+    "traits": "Avenger."
+  },
+  {
+    "code": "56139",
+    "name": "Captain America",
+    "text": "<b>Spielaufbau</b>: Das gegnerische Team findet Caps Schild und hängt ihn an Captain America an.\n<b>Erzwungene Reaktion</b>: Nachdem Caps Schild an Captain America angehängt worden ist, gib ihm eine Zäh-Statuskarte.",
+    "traits": "Avenger.",
+    "flavor": "„Nur weil es Gesetz ist, bedeutet das nicht, dass es richtig ist.\""
+  },
+  {
+    "code": "56140",
+    "name": "Captain America",
+    "text": "Standhaft.\n<b>Sobald aufgedeckt</b>: Teile jedem Spieler eine Begegnungskarte zu. Captain America kann in dieser Phase keinen Schaden nehmen.\n<b>Erzwungene Reaktion</b>: Nachdem Caps Schild an Captain America angehängt worden ist, gib ihm eine Zäh-Statuskarte.",
+    "traits": "Avenger."
+  },
+  {
+    "code": "56143",
+    "name": "Caps Schild",
+    "text": "Dauerhaft. Hänge diese Karte an Captain America an.\nDer Charakter mit diesem Anhang erhält Vergeltung 1 und Angriffe gegen ihn verlieren Durchdringend.\n<b>Erzwungene Reaktion</b>: Nachdem ein Held oder der „Captain America\"-Anführer seinen ANG-Wert verwendet hat, um den Charakter mit diesem Anhang anzugreifen und ihm Schaden zuzufügen, hänge Caps Schild an den Angreifer an.",
+    "traits": "Gegenstand."
+  },
+  {
+    "code": "56144",
+    "name": "Caps Helm",
+    "text": "Hänge diese Karte an Captain America an.\nCaptain America erhält Gestählt.\n<b>Held - Reaktion</b>: Nachdem du einen Basisangriff gegen Captain America durchgeführt hast, gib 3 gleiche Ressourcen aus → lege diese Karte ab.\n<hr />\n[star] <b>Boost</b>: Decke diese Karte auf.",
+    "traits": "Rüstung."
+  },
+  {
+    "code": "56145",
+    "name": "Supersoldaten-Serum",
+    "text": "Hänge diese Karte an Captain America an.\n[star] <b>Erzwungene Unterbrechung</b>: Sobald Captain America angreift, erhält dieser Angriff Overkill. Lege diese Karte am Ende des Angriffs ab.\n<hr />\n[star] <b>Boost</b>: Decke diese Karte auf.",
+    "traits": "Gegenstand."
+  },
+  {
+    "code": "56141a",
+    "name": "Superhelden im Untergrund",
+    "text": "<b>Inhalt</b>: Gewählter Anführer (I) und (II) <i>(stattdessen (III) und (IV) im Expertenmodus)</i>. Set des gewählten Anführers, Standard-Begegnungsset und 3-4 modulare Sets.\n<b>Spielaufbau</b>: Im kompetitiven Modus findet das gegnerische Team den Nebenplan Eine Seite wählen und dein Team deckt ihn auf. Finde im kooperativen Modus auf dem Nebenplan des gewählten Anführers und decke ihn auf."
+  },
+  {
+    "code": "56142a",
+    "name": "Untergrund-Taktiken",
+    "flavor": "Captain America und seine Avengers verweigern ihre Registrierung bei S.H.I.E.L.D. und sind gezwungen, in den Untergrund zu gehen, um nicht verhaftet zu werden. Als Iron Man und Captain Marvel beginnen, ihre Superhelden-Freunde einzusperren, beschließen die Helden im Untergrund, Widerstand zu leisten."
+  },
+  {
+    "code": "56146",
+    "name": "Schildblock",
+    "text": "<b>Sobald aufgedeckt</b>: Falls Caps Schild an Captain America angehängt ist, gib ihm eine Zäh-Statuskarte und eine verdeckte Boost-Karte. Hänge ansonsten Caps Schild an ihn an und gib ihm eine verdeckte Boost-Karte.",
+    "flavor": "„Dann zeig mal, was du kannst!\" -Captain America"
+  },
+  {
+    "code": "56147",
+    "name": "Schildwurf",
+    "text": "<b>Sobald aufgedeckt (Alter Ego)</b>: Captain America treibt den Plan voran.\n<b>Sobald aufgedeckt (Held)</b>: Falls Caps Schild an Captain America angehängt ist, füge jedem Charakter unter deiner Kontrolle 2 Schaden zu. Hänge ansonsten Caps Schild an Captain America an."
+  },
+  {
+    "code": "56148",
+    "name": "Heldenhafter Angriff",
+    "text": "<b>Sobald aufgedeckt (Alter Ego)</b>: Lege einen Verbündeten oder ein Upgrade unter deiner Kontrolle ab.\n<b>Sobald aufgedeckt (Held)</b>: Captain America greift dich an. Falls dieser Angriff einem Charakter Schaden zufügt, betäube den Charakter."
+  },
+  {
+    "code": "56149",
+    "name": "Furchtlose Entschlossenheit",
+    "text": "<b>Sobald besiegt</b>: Hänge Caps Schild an Captain America an. Er wird gegen den Spieler aktiviert, der diesen Plan besiegt hat.",
+    "flavor": "Captain Americas Widerstand gegen das Superhelden-Registrierungsgesetz inspiriert andere Helden, ihm zu folgen."
+  },
+  {
+    "code": "56141b",
+    "name": "Unterstützung sammeln",
+    "text": "Falls in deinem Team mehr als 1 Spieler ist, erhält dieser Abschnitt Hindernis 2[per_hero].\n<b>Sobald aufgedeckt</b>: Das gegnerische Team durchsucht das Begegnungsdeck nach 1[per_hero] Schergen und teilt jedem Spieler in deinem Team einen davon als verdeckte Begegnungskarte zu."
+  },
+  {
+    "code": "56142b",
+    "name": "Secret Avengers",
+    "text": "Der gegnerische Anführer bekommt +1 ANG, solange er angreift <i>(+2 ANG stattdessen, falls der Angriff unverteidigt ist)</i>.\n<b>Falls dieser Abschnitt vollendet ist, verlieren die Spieler das Spiel.</b>",
+    "flavor": "Captain Americas Avengers kämpfen von ihrem geheimen Versteck aus weiter gegen das Verbrechen."
+  },
+  {
+    "code": "56150",
+    "name": "Falcon",
+    "text": "Zusammenarbeit (<i>Avenger</i>).\n<b>Sobald besiegt</b>: Gib diese Karte dem gegnerischen Anführer als verdeckte Boost-Karte.\n<hr />\n[star] <b>Boost</b>: Du wirst verwirrt. Falls du bereits verwirrt bist, erhält diese Karte [boost][boost].",
+    "traits": "Avenger. Fliegend."
+  },
+  {
+    "code": "56151",
+    "name": "Hercules",
+    "text": "Zusammenarbeit (<i>Avenger</i>).\n<b>Sobald besiegt</b>: Gib diese Karte dem gegnerischen Anführer als verdeckte Boost-Karte.\n<hr />\n[star] <b>Boost</b>: Du wirst betäubt. Falls du bereits betäubt bist, erhält diese Karte [boost][boost].",
+    "traits": "Avenger."
+  },
+  {
+    "code": "56152",
+    "name": "Goliath",
+    "text": "Zusammenarbeit (<i>Avenger</i>).\n<b>Sobald besiegt</b>: Gib diese Karte dem gegnerischen Anführer als verdeckte Boost-Karte.\n<hr />\n[star] <b>Boost</b>: Gib dem gegnerischen Anführer eine Zäh-Statuskarte. Falls er bereits zäh ist, erhält diese Karte [boost][boost].",
+    "traits": "Avenger. Riesig."
+  },
+  {
+    "code": "56153",
+    "name": "Freiheitskämpfer",
+    "text": "<b>Sobald aufgedeckt</b>: Handle die „<b>Boost</b>\"-Fähigkeit auf jedem Schergen im Spiel ab. Falls auf diese Weise keine „<b>Boost</b>\"-Fähigkeit abgehandelt wurde, erhält diese Karte Nachrüsten.\n<hr />\n[star] <b>Boost</b>: Handle die „<b>Boost</b>\"-Fähigkeit auf jedem Schergen im Kampf mit dir ab."
+  },
+  {
+    "code": "56154",
+    "name": "New Avengers",
+    "text": "Hindernis 1[per_hero].\n<b>Sobald besiegt</b>: Mische jeden Schergen im Begegnungs-Ablagestapel in das Begegnungsdeck.",
+    "flavor": "„Auf Tonys Team wartet eine große Überraschung!\" -Captain America"
+  },
+  {
+    "code": "56155",
+    "name": "Black Panther",
+    "text": "Zusammenarbeit (<i>Avenger</i>).\n<b>Sobald besiegt</b>: Gib diese Karte dem gegnerischen Anführer als verdeckte Boost-Karte.\n<hr />\n[star] <b>Boost</b>: Erschöpfe jedes Upgrade unter deiner Kontrolle.",
+    "traits": "Avenger."
+  },
+  {
+    "code": "56156",
+    "name": "Spectrum",
+    "text": "Zusammenarbeit (<i>Avenger</i>).\n<b>Sobald besiegt</b>: Gib diese Karte dem gegnerischen Anführer als verdeckte Boost-Karte.\n<hr />\n[star] <b>Boost</b>: Erschöpfe einen Charakter unter deiner Kontrolle.",
+    "traits": "Avenger. Fliegend."
+  },
+  {
+    "code": "56157",
+    "name": "Freiheitskämpfer",
+    "text": "<b>Sobald aufgedeckt</b>: Handle die „<b>Boost</b>\"-Fähigkeit auf jedem Schergen im Spiel ab. Falls auf diese Weise keine „<b>Boost</b>\"-Fähigkeit abgehandelt wurde, erhält diese Karte Nachrüsten.\n<hr />\n[star] <b>Boost</b>: Handle die „<b>Boost</b>\"-Fähigkeit auf jedem Schergen im Kampf mit dir ab."
+  },
+  {
+    "code": "56158",
+    "name": "Seitenwechsel",
+    "text": "<b>Sobald aufgedeckt</b>: Lege einen Verbündeten unter deiner Kontrolle ab. Im kompetitiven Modus darf ein beliebiger Spieler aus dem gegnerischen Team Ressourcen in Höhe der Kosten des Verbündeten ausgeben, um ihn unter seiner Kontrolle ins Spiel zu bringen. Falls auf diese Weise kein Verbündeter das Spiel verlassen hat, erhält diese Karte Nachrüsten."
+  },
+  {
+    "code": "56159",
+    "name": "Secret Avengers",
+    "text": "Hindernis 1[per_hero].\n<b>Sobald besiegt</b>: Das gegnerische Team durchsucht die obersten 5 Karten des Begegnungsdecks nach einer Karte. Gib die Karte dem gegnerischen Anführer als verdeckte Boost-Karte."
+  },
+  {
+    "code": "56160",
+    "name": "Namor",
+    "text": "Gestählt. Schurkisch. Zähigkeit.\n<b>Sobald aufgedeckt</b>: Namor wird gegen dich aktiviert.",
+    "traits": "Atlantis. Elite.",
+    "flavor": "„Einmal mehr hat der Krieg der Oberflächenbewohner meine Atlanter verletzt und der Sub-Mariner muss dafür Rache nehmen.\""
+  },
+  {
+    "code": "56161",
+    "name": "Neptuns Dreizack",
+    "text": "Hänge diese Karte an Namor an. Hänge sie ansonsten an den gegnerischen Anführer an.\n[star] Die Angriffe des Charakters mit diesem Anhang erhalten Durchdringend.\n<b>Held - Aktion</b>: Gib [physical] [energy]-Ressourcen aus → lege diese Karte ab.",
+    "traits": "Waffe."
+  },
+  {
+    "code": "56162",
+    "name": "Horn des Proteus",
+    "text": "Hänge diese Karte an Namor an. Hänge sie ansonsten an den gegnerischen Anführer an.\n[star] <b>Erzwungene Unterbrechung</b>: Sobald der Charakter mit diesem Anhang den Plan vorangetrieben hat, gib ihm eine Zäh-Statuskarte.\n<b>Held - Aktion</b>: Gib [physical] [mental]-Ressourcen aus → lege diese Karte ab.",
+    "traits": "Gegenstand."
+  },
+  {
+    "code": "56163",
+    "name": "„Imperius Rex!\"",
+    "text": "<b>Sobald aufgedeckt</b>: Falls Namor im Spiel ist, wird er gegen dich aktiviert. Ansonsten wird der gegnerische Anführer gegen dich aktiviert.\n<hr />\n[star] <b>Boost</b>: Gib dem aktivierten Gegner eine zusätzliche Boost-Karte."
+  },
+  {
+    "code": "56164",
+    "name": "Herrscher von Atlantis",
+    "text": "Hindernis 1[per_hero].\nJeder <i>Atlantis</i>-Scherge kann keinen Schaden nehmen.",
+    "flavor": "„Es gibt nichts, was Namor nicht wagen oder tun würde, um sein Volk zu verteidigen.\" -Namor"
+  },
+  {
+    "code": "56165",
+    "name": "Atlanter-Wache",
+    "text": "Wache.\n<b>Sobald aufgedeckt</b>: Lege die obersten 3 Karten deines Decks ab.",
+    "traits": "Atlantis.",
+    "flavor": "„Für Namor und zum Ruhme von Atlantis!\""
+  },
+  {
+    "code": "56166",
+    "name": "Atlanter",
+    "text": "<b>Sobald aufgedeckt</b>: Lege die obersten 3 Karten deines Decks ab. Falls du in deiner:\n• Alter-Ego-Gestalt bist, platziere für jeden unterschiedlichen Kartentyp, der auf diese Weise abgelegt wurde, 1 Bedrohung auf dem Hauptplan.\n• Heldengestalt bist, nimm für jeden unterschiedlichen Kartentyp, der auf diese Weise abgelegt wurde, 1 indirekten Schaden."
+  },
+  {
+    "code": "56167",
+    "name": "Atlantis greift an",
+    "text": "Hindernis 1[per_hero].\n<b>Sobald aufgedeckt</b>: Lege die oberste 1[per_hero] Karte deines Decks ab. Platziere hier für jeden unterschiedlichen Kartentyp, der auf diese Weise abgelegt wurde, 1 Beschleunigungsmarker.",
+    "flavor": "Das Volk von Atlantis hegt ein tiefes Misstrauen gegen die Oberflächenbewohner und verabscheut die Verschmutzung seiner Gewässer."
+  },
+  {
+    "code": "56168",
+    "name": "Spider-Woman",
+    "text": "<b>Spielaufbau</b>: Das gegnerische Team findet den Anhang Gewandtheit und hängt ihn an Spider-Woman an.\n[star] <b>Erzwungene Unterbrechung</b>: Sobald Spider-Woman angreift, bekommt sie für diesen Angriff für jeden Fertigkeitsmarker auf Gewandtheit +1 ANG. Entferne alle Fertigkeitsmarker von Gewandtheit.",
+    "traits": "Avenger."
+  },
+  {
+    "code": "56169",
+    "name": "Spider-Woman",
+    "text": "Standhaft.\n<b>Sobald aufgedeckt</b>: Teile jedem Spieler eine Begegnungskarte zu. Spider-Woman kann in dieser Phase keinen Schaden nehmen.\n[star] <b>Erzwungene Unterbrechung</b>: Sobald Spider-Woman angreift, bekommt sie für diesen Angriff für jeden Fertigkeitsmarker auf Gewandtheit +1 ANG. Entferne alle Fertigkeitsmarker von Gewandtheit.",
+    "traits": "Avenger."
+  },
+  {
+    "code": "56170",
+    "name": "Spider-Woman",
+    "text": "<b>Spielaufbau</b>: Das gegnerische Team findet den Anhang Gewandtheit und hängt ihn an Spider-Woman an.\n[star] <b>Erzwungene Unterbrechung</b>: Sobald Spider-Woman angreift, bekommt sie für diesen Angriff für jeden Fertigkeitsmarker auf Gewandtheit +1 ANG. Entferne alle Fertigkeitsmarker von Gewandtheit.",
+    "traits": "Avenger."
+  },
+  {
+    "code": "56171",
+    "name": "Spider-Woman",
+    "text": "Standhaft.\n<b>Sobald aufgedeckt</b>: Teile jedem Spieler eine Begegnungskarte zu. Spider-Woman kann in dieser Phase keinen Schaden nehmen.\n[star] <b>Erzwungene Unterbrechung</b>: Sobald Spider-Woman angreift, bekommt sie für diesen Angriff für jeden Fertigkeitsmarker auf Gewandtheit +1 ANG. Entferne alle Fertigkeitsmarker von Gewandtheit.",
+    "traits": "Avenger."
+  },
+  {
+    "code": "56172a",
+    "name": "Superhelden im Untergrund",
+    "text": "<b>Inhalt</b>: Gewählter Anführer (I) und (II) <i>(stattdessen (III) und (IV) im Expertenmodus)</i>. Set des gewählten Anführers, Standard-Begegnungsset und 3-4 modulare Sets.\n<b>Spielaufbau</b>: Im kompetitiven Modus findet das gegnerische Team den Nebenplan Eine Seite wählen und dein Team deckt ihn auf. Finde im kooperativen Modus auf dem Nebenplan des gewählten Anführers und decke ihn auf."
+  },
+  {
+    "code": "56173a",
+    "name": "Untergrund-Taktiken",
+    "flavor": "Captain America und seine Avengers verweigern ihre Registrierung bei S.H.I.E.L.D. und sind gezwungen, in den Untergrund zu gehen, um nicht verhaftet zu werden. Als Iron Man und Captain Marvel beginnen, ihre Superhelden-Freunde einzusperren, beschließen die Helden im Untergrund, Widerstand zu leisten."
+  },
+  {
+    "code": "56174",
+    "name": "Gewandtheit",
+    "text": "Dauerhaft.\nMax. 3 Fertigkeitsmarker auf dieser Karte.\n<b>Erzwungene Unterbrechung</b>: Sobald ein Verrat aufgedeckt wird, platziere hier 1 Fertigkeitsmarker.",
+    "traits": "Superkraft."
+  },
+  {
+    "code": "56175",
+    "name": "Giftimmunität",
+    "text": "Hänge diese Karte an Spider-Woman an.\n<b>Erzwungene Unterbrechung</b>: Sobald Spider-Woman betäubt oder verwirrt werden würde, lege stattdessen diese Karte ab. Gib ihr eine Zäh-Statuskarte.\n<hr />\n[star] <b>Boost</b>: Decke diese Karte auf.",
+    "traits": "Superkraft."
+  },
+  {
+    "code": "56176",
+    "name": "Pheromone",
+    "text": "<b>Sobald aufgedeckt</b>: Du wirst betäubt und verwirrt. Platziere 1 Fertigkeitsmarker auf Gewandtheit.\n<hr />\n[star] <b>Boost</b>: Du wirst betäubt. Ansonsten wirst du verwirrt."
+  },
+  {
+    "code": "56177",
+    "name": "Giftstoss",
+    "text": "<b>Sobald aufgedeckt (Alter Ego)</b>: Diese Karte erhält Nachrüsten.\n<b>Sobald aufgedeckt (Held)</b>: Spider-Woman greift dich an. Falls dieser Angriff mindestens so viele Fertigkeitsmarker von Gewandtheit entfernt hat:\n• 1 - Der Angriff erhält Fernkampf.\n• 2 - Der Angriff erhält Durchdringend.\n• 3 - Der Angriff erhält Overkill."
+  },
+  {
+    "code": "56172b",
+    "name": "Offene Rebellion",
+    "text": "Falls in deinem Team mehr als 1 Spieler ist, erhält dieser Abschnitt Hindernis 2[per_hero].\n<b>Erzwungene Unterbrechung</b>: Sobald ein Spieler einen Verrat aufdeckt, platziere hier 1 Bedrohung. <i>(Nur ein Mal pro Phase pro Spieler.)</i>",
+    "flavor": "„Warum verfolgt ihr nicht die ECHTEN Bösewichter?\" -Hulkling"
+  },
+  {
+    "code": "56173b",
+    "name": "Beschützer der Nachbarschaft",
+    "text": "<b>Sobald aufgedeckt</b>: Das gegnerische Team durchsucht das Begegnungsdeck und den Ablagestapel nach 1[per_hero] Nebenplan und teilt jedem Spieler in deinem Team einen davon als verdeckte Begegnungskarte zu.\n<b>Falls dieser Abschnitt vollendet ist, verlieren die Spieler das Spiel.</b>",
+    "flavor": "„Sieht keiner die Ironie darin, dass geächtete Helden das Verbrechen bekämpfen?\" -Polizeichef"
+  },
+  {
+    "code": "56178",
+    "name": "Unauffällig",
+    "text": "<b>Sobald aufgedeckt</b>: Wähle eines:\n• Lege die Karte mit den höchsten Kosten unter deiner Kontrolle ab.\n• Spider-Woman treibt den Plan voran.\n<hr />\n[star] <b>Boost</b>: Diese Karte erhält [boost] für jede Statuskarte auf deiner Identität."
+  },
+  {
+    "code": "56179",
+    "name": "Gleitflug",
+    "text": "<b>Erzwungene Unterbrechung</b>: Sobald Spider-Woman durch einen Angriff Schaden nehmen würde, senke die Menge an Schaden für jeden Fertigkeitsmarker auf Gewandtheit um 1.",
+    "flavor": "„Meine ganze Karriere basiert darauf, S.H.I.E.L.D. immer einen Schritt voraus zu sein.\" -Spider-Woman"
+  },
+  {
+    "code": "56180",
+    "name": "Spider-Man",
+    "text": "<b>Sobald aufgedeckt</b>: Spider-Man greift jeden Charakter mit dem Anhang Eingeschnürt an. Falls auf diese Weise kein Angriff durchgeführt wurde, durchsucht das gegnerische Team das Begegnungsdeck und den Ablagestapel nach einem Exemplar von Eingeschnürt und gibt es dir als verdeckte Begegnungskarte.",
+    "traits": "Avenger. Elite."
+  },
+  {
+    "code": "56181",
+    "name": "Eingeschnürt",
+    "text": "Hänge diese Karte an deinen Anführer an. Hänge sie ansonsten an deinen Helden an.\n<b>Erzwungene Unterbrechung</b>: Sobald der Charakter mit diesem Anhang den Plan vorantreiben, Widerstand leisten oder angreifen würde, lege stattdessen diese Karte ab.\n<hr />\n[star] <b>Boost</b>: Falls der Scherge Spider-Man im Spiel ist, decke diese Karte auf.",
+    "traits": "Zustand."
+  },
+  {
+    "code": "56182",
+    "name": "Spektakulär!",
+    "text": "<b>Sobald aufgedeckt</b>: Platziere 2 Bedrohung auf dem Hauptplan. Entferne im kompetitiven Modus 2 Bedrohung vom Hauptplan deines Anführers.",
+    "flavor": "„Der freundliche Spider-Man aus der Nachbarschaft schwingt hier schnell mal durch!\" -Spider-Man"
+  },
+  {
+    "code": "56183",
+    "name": "Held aus der Nachbarschaft",
+    "text": "<b>Sobald aufgedeckt</b>: Verschiebe im kompetitiven Modus 2 Bedrohung vom Hauptplan deines Anführers auf diesen Plan. Platziere hier ansonsten 2[per_hero] Bedrohung.",
+    "flavor": "„Es geht hier nicht um Politik, sondern darum, Leben zu retten!\" -Spider-Man"
+  },
+  {
+    "code": "56184",
+    "name": "Luke Cage",
+    "text": "<b>Sobald aufgedeckt</b>: Betäube deinen Anführer. Ansonsten wirst du betäubt.\n<hr />\n[star] <b>Boost</b>: Betäube deinen Anführer. Ansonsten wirst du betäubt.",
+    "traits": "Defender.",
+    "flavor": "„Ihr S.H.I.E.L.D.-Leute geht mir besser aus dem Weg.\""
+  },
+  {
+    "code": "56185",
+    "name": "Jessica Jones",
+    "text": "<b>Sobald aufgedeckt</b>: Verwirre deinen Anführer. Ansonsten wirst du verwirrt.\n<hr />\n[star] <b>Boost</b>: Verwirre deinen Anführer. Ansonsten wirst du verwirrt.",
+    "traits": "Defender.",
+    "flavor": "„Ich dachte, ich wäre durch mit diesem ganzen Superhelden-Mist.\""
+  },
+  {
+    "code": "56186",
+    "name": "Die Unschuldigen beschützen",
+    "text": "<b>Sobald aufgedeckt</b>: Gib dem gegnerischen Anführer und jedem Schergen eine Zäh-Statuskarte. Falls der gegnerische Anführer bereits zäh ist, erhält diese Karte Nachrüsten.",
+    "flavor": "„Seit wann ist es illegal, Leben zu retten?\" -Daredevil"
+  },
+  {
+    "code": "56187",
+    "name": "Verteidiger der Strasse",
+    "text": "<b>Sobald aufgedeckt</b>: Jeder Scherge wird gegen den Spieler aktiviert, mit dem er im Kampf ist. Ansonsten wird der gegnerische Anführer gegen dich aktiviert. Gib ihm für diese Aktivierung keine Boost-Karte."
+  },
+  {
+    "code": "56188",
+    "name": "Die Defenders",
+    "text": "Hindernis 1[per_hero].\nJeder Scherge erhält Wache.",
+    "flavor": "Die Defenders wurden gegründet, um Menschen zu schützen, die von den Avengers oft übersehen werden."
+  },
+  {
+    "code": "56189",
+    "name": "Daredevil",
+    "text": "<b>Sobald aufgedeckt</b>: Das gegnerische Team erschöpft einen Charakter unter deiner Kontrolle.\n<hr />\n[star] <b>Boost</b>: Erschöpfe einen Charakter unter deiner Kontrolle.",
+    "traits": "Defender.",
+    "flavor": "„Mein Respekt vor dem Gesetz verblendet nicht meinen Sinn für Recht und Unrecht.\""
+  },
+  {
+    "code": "56190",
+    "name": "Iron Fist",
+    "text": "<b>Sobald aufgedeckt</b>: Iron Fist greift deinen Anführer an. Ansonsten wird Iron Fist gegen dich aktiviert.\n<hr />\n[star] <b>Boost</b>: Der gegnerische Anführer greift deinen Anführer an <i>(nach dieser Aktivierung)</i>. Gib ihm für diesen Angriff keine Boost-Karte.",
+    "traits": "Defender."
+  },
+  {
+    "code": "56191",
+    "name": "Untergrundkämpfer",
+    "text": "Hänge diese Karte an einen Schergen nach Wahl des gegnerischen Teams an. Ansonsten erhält diese Karte Nachrüsten.\nDer Scherge mit diesem Anhang bekommt +4 Lebenspunkte und erhält Gestählt.\n<hr />\n[star] <b>Boost</b>: Hänge diese Karte an einen Schergen im Kampf mit dir an.",
+    "traits": "Zustand."
+  },
+  {
+    "code": "56192",
+    "name": "Verteidiger der Strasse",
+    "text": "<b>Sobald aufgedeckt</b>: Jeder Scherge wird gegen den Spieler aktiviert, mit dem er im Kampf ist. Ansonsten wird der gegnerische Anführer gegen dich aktiviert. Gib ihm für diese Aktivierung keine Boost-Karte."
+  },
+  {
+    "code": "56193",
+    "name": "Verteidigt Hell's Kitchen",
+    "text": "Hindernis 1[per_hero].\nSolange ein <i>Defender</i>-Scherge im Spiel ist, kann von diesem Plan keine Bedrohung entfernt werden.",
+    "flavor": "„S.H.I.E.L.D. soll sich zurückziehen. Diese Stadt steht unter unserem Schutz.\" -Daredevil"
+  },
+  {
+    "code": "56194",
+    "name": "Cloak",
+    "text": "<b>Sobald aufgedeckt</b>: Platziere 2 Bedrohung auf einem Plan. Entferne im kompetitiven Modus 2 Bedrohung vom Hauptplan deines Anführers.\n<hr />\n[star] <b>Boost</b>: Falls Dagger im Spiel ist, decke Cloak auf. Platziere ansonsten 1 Bedrohung auf einem Plan.",
+    "traits": "Defender."
+  },
+  {
+    "code": "56195",
+    "name": "Dagger",
+    "text": "<b>Sobald aufgedeckt</b>: Heile 2 Schaden vom gegnerischen Anführer. Füge einem Charakter unter deiner Kontrolle 2 Schaden zu.\n<hr />\n[star] <b>Boost</b>: Falls Cloak im Spiel ist, decke Dagger auf. Füge ansonsten einem Charakter unter deiner Kontrolle 1 Schaden zu.",
+    "traits": "Defender."
+  },
+  {
+    "code": "56196",
+    "name": "Darkforce",
+    "text": "Hänge diese Karte an den gegnerischen Anführer an und gib ihm eine Zäh-Statuskarte.\n[star] <b>Erzwungene Reaktion</b>: Nachdem der Anführer mit diesem Anhang den Plan vorangetrieben und Bedrohung auf dem Hauptplan platziert hat, entferne die gleiche Menge an Bedrohung vom Hauptplan deines Anführers. Lege diese Karte ab."
+  },
+  {
+    "code": "56197",
+    "name": "Lightforce",
+    "text": "<b>Sobald aufgedeckt</b>: Heile 3 Schaden vom gegnerischen Anführer. Nimm 3 indirekten Schaden.",
+    "flavor": "„Vielleicht werden ihnen meine Dolche helfen, das Licht zu sehen!\" -Dagger"
+  },
+  {
+    "code": "56198",
+    "name": "Cloak & Dagger",
+    "text": "Hindernis 1[per_hero].\n<b>Sobald besiegt</b>: Heile 3 Schaden vom gegnerischen Anführer und gib ihm eine Zäh-Statuskarte.",
+    "flavor": "Cloak und Dagger waren unter den Ersten, die sich Captain Americas Superhelden-Widerstandsbewegung anschlossen."
+  },
+  {
+    "code": "56199a",
+    "name": "Superhelden im Untergrund",
+    "text": "<b>Inhalt</b>: Gewählter Anführer (I) und (II) <i>(stattdessen (III) und (IV) im Expertenmodus)</i>. Set des gewählten Anführers, Standard-Begegnungsset und 3-4 modulare Sets.\n<b>Spielaufbau</b>: Im kompetitiven Modus findet das gegnerische Team den Nebenplan Eine Seite wählen und dein Team deckt ihn auf. Finde im kooperativen Modus auf dem Nebenplan des gewählten Anführers und decke ihn auf."
+  },
+  {
+    "code": "56200a",
+    "name": "Superhelden im Untergrund",
+    "text": "<b>Inhalt</b>: Gewählter Anführer (I) und (II) <i>(stattdessen (III) und (IV) im Expertenmodus)</i>. Set des gewählten Anführers, Standard-Begegnungsset und 3-4 modulare Sets.\n<b>Spielaufbau</b>: Im kompetitiven Modus findet das gegnerische Team den Nebenplan Eine Seite wählen und dein Team deckt ihn auf. Finde im kooperativen Modus auf dem Nebenplan des gewählten Anführers und decke ihn auf."
+  },
+  {
+    "code": "56201a",
+    "name": "Untergrund-Taktiken",
+    "flavor": "Captain America und seine Avengers verweigern ihre Registrierung bei S.H.I.E.L.D. und sind gezwungen, in den Untergrund zu gehen, um nicht verhaftet zu werden. Als Iron Man und Captain Marvel beginnen, ihre Superhelden-Freunde einzusperren, beschließen die Helden im Untergrund, Widerstand zu leisten."
+  },
+  {
+    "code": "56202a",
+    "name": "Untergrund-Taktiken",
+    "flavor": "Captain America und seine Avengers verweigern ihre Registrierung bei S.H.I.E.L.D. und sind gezwungen, in den Untergrund zu gehen, um nicht verhaftet zu werden. Als Iron Man und Captain Marvel beginnen, ihre Superhelden-Freunde einzusperren, beschließen die Helden im Untergrund, Widerstand zu leisten."
+  },
+  {
+    "code": "56203",
+    "name": "Gerechte Sache",
+    "text": "<b>Sobald aufgedeckt</b>: Der gegnerische Anführer treibt den Plan voran. Falls in deinem Team mehr als 1 Spieler ist, gib dem gegnerischen Anführer für diese Aktivierung eine zusätzliche Boost-Karte.",
+    "flavor": "„Ich war jahrelang Doppelagentin. Für eine gerechte Sache würde ich fast alles tun.\" -Spider-Woman"
+  },
+  {
+    "code": "56204",
+    "name": "Was immer nötig ist",
+    "text": "<b>Sobald aufgedeckt (Alter Ego)</b>: Der gegnerische Anführer greift deinen Anführer an.\n<b>Sobald aufgedeckt (Held)</b>: Der gegnerische Anführer greift dich an.",
+    "flavor": "„Ziel im Visier. Angriff einleiten.\" -Captain Marvel"
+  },
+  {
+    "code": "56199b",
+    "name": "Sammelruf",
+    "text": "Falls in deinem Team mehr als 1 Spieler ist, erhält dieser Abschnitt Hindernis 2[per_hero].\nJeder Scherge erhält Wache.",
+    "flavor": "Captain Americas öffentliche Ablehnung des Superhelden-Registrierungsgesetzes hat viele Verbündete auf seine Seite gezogen."
+  },
+  {
+    "code": "56200b",
+    "name": "In den Untergrund gehen",
+    "text": "Falls in deinem Team mehr als 1 Spieler ist, erhält dieser Abschnitt Hindernis 2[per_hero].\nDer gegnerische Anführer erhält Standhaft.",
+    "flavor": "„Ich hatte ganz vergessen, wie anstrengend es ist, undercover zu sein!\" -Spider-Woman"
+  },
+  {
+    "code": "56201b",
+    "name": "Guerilla-Kriegsführung",
+    "text": "<b>Erzwungene Reaktion</b>: Nachdem eine Statuskarte auf dem gegnerischen Anführer platziert worden ist, platziere hier 1 Bedrohung.\n<b>Falls dieser Abschnitt vollendet ist, verlieren die Spieler das Spiel.</b>",
+    "flavor": "Das Ziel des Widerstands im Untergrund ist es, S.H.I.E.L.D. so lange zu zermürben, bis das Superhelden-Registrierungsgesetz wieder abgeschafft wird."
+  },
+  {
+    "code": "56202b",
+    "name": "Superhelden-Gefängnisausbruch",
+    "text": "[star] <b>Erzwungene Reaktion</b>: Nachdem Schritt 1 der Schurkenphase abgehandelt worden ist, legt jeder Spieler die oberste Karte des Begegnungsdecks ab. Jeder Spieler, der auf diese Weise einen Schergen abgelegt hat, bringt ihn mit sich im Kampf ins Spiel.\n<b>Falls dieser Abschnitt vollendet ist, verlieren die Spieler das Spiel.</b>"
+  },
+  {
+    "code": "56205",
+    "name": "Gezielter Angriff",
+    "text": "<b>Sobald aufgedeckt</b>: Das gegnerische Team durchsucht die obersten 5 Karten des Begegnungsdecks nach einer Karte und teilt sie dir als verdeckte Begegnungskarte zu.\n<hr />\n[star] <b>Boost</b>: Diese Karte erhält [boost] für jeden Spieler in deinem Team."
+  },
+  {
+    "code": "56206a",
+    "name": "Eine Seite wählen",
+    "text": "Dauerhaft.\nDer gegnerische Anführer kann nicht mehr als 2 Schaden durch jeden Angriff nehmen.\n<b>Erzwungene Reaktion</b>: Nachdem die letzte Bedrohung von dieser Karte entfernt worden ist, durchsucht das gegnerische Team die obersten 5 Karten des Begegnungsdecks nach 1[per_hero] Begegnungskarte und teilt jedem Spieler eine davon als verdeckte Begegnungskarte zu. Drehe diese Karte um."
+  },
+  {
+    "code": "56206b",
+    "name": "Jetzt wird's persönlich",
+    "text": "<b><i>Gib diese Karte dem Startspieler.</i></b>\n<b>Aktion</b>: Entferne diese Karte aus dem Spiel → jeder Spieler in deinem Team wählt 2 der beiseitegelegten Spielerkarten deines Anführers und nimmt sie auf seine Hand."
+  }
+]

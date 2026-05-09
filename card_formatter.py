@@ -53,7 +53,7 @@ TYPE_LABELS = {
     "ally":        "Verbündeter",
     "event":       "Ereignis",
     "resource":    "Ressource",
-    "support":     "Unterstützung",
+    "support":     "Vorteil",
     "upgrade":     "Upgrade",
     "villain":     "Schurke",
     "main_scheme": "Hauptplan",

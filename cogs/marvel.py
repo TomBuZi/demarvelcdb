@@ -1,8 +1,10 @@
 import re
 import asyncio
+import aiohttp
 import discord
 from discord.ext import commands
 from card_formatter import build_embed, TYPE_LABELS, search_cards
+from deck_formatter import fetch_deck, build_deck_summary_embed, build_deck_list_embed
 from rulebook_search import search_rules
 
 PAGE_SIZE = 20
@@ -306,6 +308,67 @@ class CardView(discord.ui.View):
                 pass
 
 
+class DeckConfirmView(discord.ui.View):
+    """Im Kanal angezeigte Bestätigung, ob ein per Link erkanntes Deck
+    gepostet werden soll. Sichtbar für alle, Buttons nur für den Linker.
+    „Ja" → Summary + Liste im Kanal, Prompt wird zu Bestätigung. „Nein" →
+    Prompt wird gelöscht. Timeout → nur Buttons verschwinden."""
+
+    def __init__(
+        self,
+        summary: discord.Embed,
+        list_embed: discord.Embed,
+        requester_id: int,
+        channel: discord.abc.Messageable,
+    ):
+        super().__init__(timeout=300)
+        self.summary      = summary
+        self.list_embed   = list_embed
+        self.requester_id = requester_id
+        self.channel      = channel
+        self.message: discord.Message | None = None
+
+        yes = discord.ui.Button(label="Ja, anzeigen", style=discord.ButtonStyle.success)
+        yes.callback = self._yes
+        self.add_item(yes)
+
+        no = discord.ui.Button(label="Nein", style=discord.ButtonStyle.danger)
+        no.callback = self._no
+        self.add_item(no)
+
+    async def interaction_check(self, interaction: discord.Interaction) -> bool:
+        if interaction.user.id != self.requester_id:
+            await interaction.response.send_message(
+                "Nur die Person, die den Link gepostet hat, darf entscheiden.",
+                ephemeral=True,
+            )
+            return False
+        return True
+
+    async def _yes(self, interaction: discord.Interaction):
+        await interaction.response.edit_message(
+            content="✓ Deck wird angezeigt.", embed=None, view=None,
+        )
+        await self.channel.send(embed=self.summary)
+        await self.channel.send(embed=self.list_embed)
+        self.stop()
+
+    async def _no(self, interaction: discord.Interaction):
+        await interaction.response.defer()
+        try:
+            await interaction.message.delete()
+        except discord.HTTPException:
+            pass
+        self.stop()
+
+    async def on_timeout(self):
+        if self.message is not None:
+            try:
+                await self.message.edit(view=None)
+            except discord.HTTPException:
+                pass
+
+
 async def _send_card(
     send,
     card: dict,
@@ -484,7 +547,25 @@ class Marvel(commands.Cog):
                 await self._handle_rule(message, query.strip())
             return
 
-        queries = re.findall(r'\[\[(.+?)]]', message.content)
+        deck_queries = re.findall(r'\[\[deck:(\d+)]]', message.content, re.IGNORECASE)
+        url_deck_ids = re.findall(
+            r'https?://(?:[a-z0-9-]+\.)?marvelcdb\.com/(?:deck|decklist)/view/(\d+)',
+            message.content,
+            re.IGNORECASE,
+        )
+        seen_decks: set[str] = set()
+        for deck_id in deck_queries:
+            if deck_id in seen_decks:
+                continue
+            seen_decks.add(deck_id)
+            await self._handle_deck(message, deck_id, ask=False)
+        for deck_id in url_deck_ids:
+            if deck_id in seen_decks:
+                continue
+            seen_decks.add(deck_id)
+            await self._handle_deck(message, deck_id, ask=True)
+
+        queries = re.findall(r'\[\[(?!deck:)(.+?)]]', message.content, re.IGNORECASE)
         if not queries:
             return
 
@@ -525,6 +606,53 @@ class Marvel(commands.Cog):
             prompt = f'**{len(matches)} Treffer** für „{query}" – bitte eine Regel wählen:'
         view = RuleSelectView(matches, requester_id=message.author.id, custom_emojis=emojis)
         await message.channel.send(prompt, view=view)
+
+    async def _handle_deck(self, message: discord.Message, deck_id: str, *, ask: bool):
+        """`ask=False` (Bracket-Form): Deck direkt im Kanal posten.
+        `ask=True` (marvelcdb-Link): User per DM fragen, ob das Deck im Kanal
+        angezeigt werden soll."""
+        async with message.channel.typing():
+            try:
+                async with aiohttp.ClientSession() as session:
+                    deck = await fetch_deck(session, deck_id)
+            except Exception as e:
+                await message.channel.send(f"Fehler beim Laden des Decks {deck_id}: {e}")
+                return
+
+            if deck is None:
+                await message.channel.send(
+                    f"Deck {deck_id} nicht gefunden oder nicht öffentlich."
+                )
+                return
+
+            try:
+                cards = await self.bot.get_de_cards()
+            except Exception as e:
+                await message.channel.send(f"Fehler beim Laden der Karten: {e}")
+                return
+
+        cards_by_code = {c["code"]: c for c in cards}
+        emojis = self._custom_emojis()
+        summary = build_deck_summary_embed(deck, emojis)
+        list_embed = build_deck_list_embed(deck, cards_by_code, emojis)
+
+        if not ask:
+            await message.channel.send(embed=summary)
+            await message.channel.send(embed=list_embed)
+            return
+
+        view = DeckConfirmView(
+            summary=summary,
+            list_embed=list_embed,
+            requester_id=message.author.id,
+            channel=message.channel,
+        )
+        deck_name = deck.get("name") or "Deck"
+        prompt = (
+            f"{message.author.mention} Soll das verlinkte Deck (**{deck_name}**) "
+            f"im Kanal angezeigt werden?"
+        )
+        view.message = await message.channel.send(prompt, view=view)
 
     async def _handle_single(self, message: discord.Message, cards: list, query: str):
         if len(query) < 3:
